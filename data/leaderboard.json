@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:02:15.791Z",
+  "updatedAt": "2025-08-24T14:07:15.356Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1318,
-      "battles": 102,
-      "wins": 64,
+      "rating": 1330,
+      "battles": 104,
+      "wins": 66,
       "ties": 19,
-      "win_rate_percentage": 72.06,
+      "win_rate_percentage": 72.6,
       "rank": 3
     },
     {
@@ -92,21 +92,21 @@
       "rank": 10
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1232,
-      "battles": 184,
-      "wins": 76,
-      "ties": 26,
-      "win_rate_percentage": 48.37,
-      "rank": 11
-    },
-    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1230,
       "battles": 181,
       "wins": 93,
       "ties": 18,
       "win_rate_percentage": 56.35,
+      "rank": 11
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1220,
+      "battles": 186,
+      "wins": 76,
+      "ties": 26,
+      "win_rate_percentage": 47.85,
       "rank": 12
     },
     {
@@ -138,11 +138,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1190,
-      "battles": 128,
+      "rating": 1189,
+      "battles": 129,
       "wins": 59,
-      "ties": 17,
-      "win_rate_percentage": 52.73,
+      "ties": 18,
+      "win_rate_percentage": 52.71,
       "rank": 16
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "GLM 4.5 FP8",
-      "rating": 1164,
-      "battles": 45,
+      "rating": 1165,
+      "battles": 46,
       "wins": 18,
-      "ties": 5,
-      "win_rate_percentage": 45.56,
+      "ties": 6,
+      "win_rate_percentage": 45.65,
       "rank": 20
     },
     {
