@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T13:31:26.203Z",
+  "updatedAt": "2025-08-24T13:37:34.746Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -29,21 +29,21 @@
       "rank": 3
     },
     {
-      "model_name": "Claude Opus 4",
-      "rating": 1306,
-      "battles": 47,
-      "wins": 28,
-      "ties": 9,
-      "win_rate_percentage": 69.15,
-      "rank": 4
-    },
-    {
       "model_name": "Grok 3",
       "rating": 1303,
       "battles": 208,
       "wins": 113,
       "ties": 29,
       "win_rate_percentage": 61.3,
+      "rank": 4
+    },
+    {
+      "model_name": "Claude Opus 4",
+      "rating": 1297,
+      "battles": 48,
+      "wins": 28,
+      "ties": 9,
+      "win_rate_percentage": 67.71,
       "rank": 5
     },
     {
@@ -75,11 +75,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1262,
+      "rating": 1271,
       "battles": 123,
-      "wins": 69,
+      "wins": 70,
       "ties": 19,
-      "win_rate_percentage": 63.82,
+      "win_rate_percentage": 64.63,
       "rank": 9
     },
     {
@@ -184,10 +184,10 @@
     {
       "model_name": "DeepSeek R1 0528",
       "rating": 1136,
-      "battles": 119,
+      "battles": 118,
       "wins": 56,
       "ties": 22,
-      "win_rate_percentage": 56.3,
+      "win_rate_percentage": 56.78,
       "rank": 21
     },
     {
