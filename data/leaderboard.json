@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:32:14.046Z",
+  "updatedAt": "2025-08-24T23:37:15.327Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1343,
-      "battles": 139,
-      "wins": 93,
+      "rating": 1349,
+      "battles": 140,
+      "wins": 94,
       "ties": 25,
-      "win_rate_percentage": 75.9,
+      "win_rate_percentage": 76.07,
       "rank": 2
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1275,
-      "battles": 234,
+      "rating": 1274,
+      "battles": 235,
       "wins": 127,
-      "ties": 30,
-      "win_rate_percentage": 60.68,
+      "ties": 31,
+      "win_rate_percentage": 60.64,
       "rank": 6
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1256,
-      "battles": 264,
-      "wins": 126,
-      "ties": 40,
-      "win_rate_percentage": 55.3,
-      "rank": 8
-    },
-    {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1254,
       "battles": 172,
       "wins": 98,
       "ties": 29,
       "win_rate_percentage": 65.41,
+      "rank": 8
+    },
+    {
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1250,
+      "battles": 265,
+      "wins": 126,
+      "ties": 40,
+      "win_rate_percentage": 55.09,
       "rank": 9
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1237,
-      "battles": 174,
+      "rating": 1238,
+      "battles": 175,
       "wins": 83,
-      "ties": 24,
-      "win_rate_percentage": 54.6,
+      "ties": 25,
+      "win_rate_percentage": 54.57,
       "rank": 12
     },
     {
