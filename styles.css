@@ -1,0 +1,129 @@
+:root {
+  --bg: #0b0f19;
+  --card: #121829;
+  --text: #e6e8ef;
+  --muted: #8b92a6;
+  --accent: #5b8cff;
+  --accent-2: #64d2ff;
+  --border: #20273a;
+  --success: #2ecc71;
+  --warning: #f1c40f;
+  --danger: #e74c3c;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: radial-gradient(1200px 800px at 10% -10%, rgba(100,210,255,0.08), transparent),
+              radial-gradient(1000px 700px at 90% 10%, rgba(91,140,255,0.10), transparent),
+              var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: saturate(140%) blur(10px);
+  background: rgba(11,15,25,0.7);
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  margin: 20px 0 4px;
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.subtitle {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 24px 0 12px;
+}
+
+.input {
+  width: 260px;
+  max-width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0e1424;
+  color: var(--text);
+  outline: none;
+}
+
+.input::placeholder { color: var(--muted); }
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent), var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.table-wrapper { overflow: auto; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.table th { text-align: left; color: var(--muted); font-weight: 600; }
+
+.center { text-align: center; }
+.muted { color: var(--muted); }
+
+.footer {
+  margin: 36px 0;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--border);
+  background: #0e1424;
+}
+
+.table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.table th.sortable[aria-sort="asc"],
+.table th.sortable[aria-sort="desc"] {
+  color: var(--text);
+}
+
+.link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.link:hover { text-decoration: underline; }

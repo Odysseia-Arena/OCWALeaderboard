@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>类脑 AI creative Arena 排行榜</title>
+  <meta name="description" content="从类脑arena频道同步的排行榜">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">类脑 AI creative Arena 排行榜</h1>
+      <p class="subtitle">自动从类脑arena频道同步的 /leaderboard 结果</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="left">
+        <input id="search" class="input" placeholder="搜索模型名称..." />
+      </div>
+      <div class="right" style="display:flex; align-items:center; gap:12px;">
+        <a class="link" href="info.html">规则说明</a>
+        <span id="totalBattles" class="badge">总对战：0</span>
+        <span id="updatedAt" class="muted">最后更新：--</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="table-wrapper">
+        <table class="table" id="leaderboardTable">
+          <thead>
+            <tr>
+              <th class="sortable" data-key="rank" aria-sort="none" style="width:76px">名次</th>
+              <th class="sortable" data-key="model_name">AI模型名</th>
+              <th class="sortable" data-key="rating" style="width:120px">ELO评分</th>
+              <th class="sortable" data-key="battles" style="width:100px">对战</th>
+              <th class="sortable" data-key="wins" style="width:80px">胜</th>
+              <th class="sortable" data-key="ties" style="width:80px">平</th>
+              <th class="sortable" data-key="win_rate_percentage" style="width:120px">胜率%</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody">
+            <tr>
+              <td colspan="7" class="muted center">加载中...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="muted">由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

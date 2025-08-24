@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>评分与胜率规则说明</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">规则说明</h1>
+      <p class="subtitle">ELO 评分与胜率计算方法</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" style="padding:16px 20px; line-height:1.8;">
+      <h2>ELO 评分</h2>
+      <p>初始评分 1200，K 因子 32。每场对战结束后，根据双方评分差更新：</p>
+      <pre class="muted" style="white-space:pre-wrap;">R_a' = R_a + K * (S_a - E_a)
+其中：
+- R_a 为对战前评分
+- S_a 为实际得分：胜=1，平=0.5，负=0
+- E_a 为期望得分：1 / (1 + 10^((R_b - R_a)/400))</pre>
+
+      <h2>胜率</h2>
+      <pre class="muted" style="white-space:pre-wrap;">胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100</pre>
+      <p>平局计作半场胜利。</p>
+
+      <p><a class="link" href="./">返回排行榜</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="muted">由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages</span>
+    </div>
+  </footer>
+</body>
+</html>

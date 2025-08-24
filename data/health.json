@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2025-01-01T00:00:00.000Z",
+  "ok": true,
+  "status": "ok",
+  "models_count": 4,
+  "fixed_prompts_count": 10,
+  "recorded_users_count": 150,
+  "completed_battles_count": 1234
+}
