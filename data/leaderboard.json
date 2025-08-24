@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:37:17.198Z",
+  "updatedAt": "2025-08-24T14:42:13.204Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -164,21 +164,21 @@
       "rank": 18
     },
     {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1162,
+      "battles": 159,
+      "wins": 65,
+      "ties": 24,
+      "win_rate_percentage": 48.43,
+      "rank": 19
+    },
+    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1162,
       "battles": 51,
       "wins": 20,
       "ties": 6,
       "win_rate_percentage": 45.1,
-      "rank": 19
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1156,
-      "battles": 158,
-      "wins": 64,
-      "ties": 24,
-      "win_rate_percentage": 48.1,
       "rank": 20
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1084,
-      "battles": 56,
+      "rating": 1078,
+      "battles": 57,
       "wins": 13,
       "ties": 13,
-      "win_rate_percentage": 34.82,
+      "win_rate_percentage": 34.21,
       "rank": 24
     },
     {
