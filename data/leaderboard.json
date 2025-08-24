@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T20:12:14.740Z",
+  "updatedAt": "2025-08-24T20:17:14.524Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -22,10 +22,10 @@
     {
       "model_name": "Doubao 1.6",
       "rating": 1305,
-      "battles": 127,
+      "battles": 126,
       "wins": 81,
       "ties": 21,
-      "win_rate_percentage": 72.05,
+      "win_rate_percentage": 72.62,
       "rank": 3
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1258,
+      "battles": 169,
+      "wins": 96,
+      "ties": 29,
+      "win_rate_percentage": 65.38,
+      "rank": 8
+    },
+    {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1256,
       "battles": 263,
       "wins": 126,
       "ties": 39,
       "win_rate_percentage": 55.32,
-      "rank": 8
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1251,
-      "battles": 168,
-      "wins": 95,
-      "ties": 29,
-      "win_rate_percentage": 65.18,
       "rank": 9
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1229,
-      "battles": 166,
+      "rating": 1222,
+      "battles": 167,
       "wins": 80,
       "ties": 21,
-      "win_rate_percentage": 54.52,
+      "win_rate_percentage": 54.19,
       "rank": 14
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1177,
+      "battles": 238,
+      "wins": 95,
+      "ties": 32,
+      "win_rate_percentage": 46.64,
+      "rank": 17
+    },
+    {
       "model_name": "Claude Sonnet 4",
       "rating": 1175,
       "battles": 201,
       "wins": 80,
       "ties": 31,
       "win_rate_percentage": 47.51,
-      "rank": 17
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1170,
-      "battles": 237,
-      "wins": 94,
-      "ties": 32,
-      "win_rate_percentage": 46.41,
       "rank": 18
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1147,
+      "rating": 1140,
       "battles": 142,
       "wins": 68,
       "ties": 24,
