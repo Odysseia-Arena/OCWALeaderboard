@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T19:32:56.456Z",
+  "updatedAt": "2025-08-24T19:37:16.001Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1336,
-      "battles": 137,
-      "wins": 91,
+      "rating": 1340,
+      "battles": 138,
+      "wins": 92,
       "ties": 24,
-      "win_rate_percentage": 75.18,
+      "win_rate_percentage": 75.36,
       "rank": 2
     },
     {
@@ -83,13 +83,22 @@
       "rank": 9
     },
     {
+      "model_name": "Step 3",
+      "rating": 1242,
+      "battles": 164,
+      "wins": 80,
+      "ties": 21,
+      "win_rate_percentage": 55.18,
+      "rank": 10
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1241,
       "battles": 201,
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.72,
-      "rank": 10
+      "rank": 11
     },
     {
       "model_name": "Kimi K2",
@@ -98,7 +107,7 @@
       "wins": 110,
       "ties": 39,
       "win_rate_percentage": 52.01,
-      "rank": 11
+      "rank": 12
     },
     {
       "model_name": "GPT 4o Latest",
@@ -107,15 +116,6 @@
       "wins": 92,
       "ties": 31,
       "win_rate_percentage": 56.58,
-      "rank": 12
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1235,
-      "battles": 163,
-      "wins": 79,
-      "ties": 21,
-      "win_rate_percentage": 54.91,
       "rank": 13
     },
     {
@@ -147,20 +147,20 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1185,
-      "battles": 235,
+      "rating": 1178,
+      "battles": 236,
       "wins": 94,
       "ties": 32,
-      "win_rate_percentage": 46.81,
+      "win_rate_percentage": 46.61,
       "rank": 17
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1171,
-      "battles": 199,
+      "rating": 1167,
+      "battles": 200,
       "wins": 79,
       "ties": 31,
-      "win_rate_percentage": 47.49,
+      "win_rate_percentage": 47.25,
       "rank": 18
     },
     {
