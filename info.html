@@ -7,6 +7,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function(){
+      try {
+        var theme = localStorage.getItem('theme') || 'light';
+        var root = document.documentElement;
+        if (theme === 'dark') root.setAttribute('data-theme', 'dark');
+        else root.removeAttribute('data-theme');
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,7 +30,7 @@
   <main class="container">
     <section class="card" style="padding:16px 20px; line-height:1.8;">
       <h2>ELO 评分</h2>
-      <p>初始评分 1200，K 因子 32。每场对战结束后，根据双方评分差更新：</p>
+      <p>初始评分 1200。每场对战结束后，根据双方评分差更新：</p>
       <pre class="muted" style="white-space:pre-wrap;">R_a' = R_a + K * (S_a - E_a)
 其中：
 - R_a 为对战前评分

@@ -160,38 +160,27 @@ function applyTheme(theme) {
   if (theme === 'dark') root.setAttribute('data-theme', 'dark');
   else root.removeAttribute('data-theme');
   localStorage.setItem('theme', theme);
-}
-
-function applyStyle(style) {
-  const root = document.documentElement;
-  if (style === 'xp') root.setAttribute('data-style', 'xp');
-  else root.removeAttribute('data-style');
-  localStorage.setItem('style', style);
-  const btn = document.getElementById('styleToggle');
+  const btn = document.getElementById('themeToggle');
   if (btn) {
-    const xp = style === 'xp';
-    btn.textContent = xp ? '现代风格' : 'XP 风格';
-    btn.title = xp ? '切换为现代风格' : '切换为千禧年风格';
+    const isDark = theme === 'dark';
+    const targetText = isDark ? '亮色模式' : '暗色模式';
+    btn.textContent = targetText;
+    btn.classList.remove('light-target', 'dark-target');
+    btn.classList.add(isDark ? 'light-target' : 'dark-target');
   }
 }
 
+// 已移除 XP 风格相关逻辑
+
 function setupToggles() {
   const themeBtn = document.getElementById('themeToggle');
-  const styleBtn = document.getElementById('styleToggle');
 
   const savedTheme = localStorage.getItem('theme') || 'light';
-  const savedStyle = localStorage.getItem('style') || 'modern';
   applyTheme(savedTheme);
-  applyStyle(savedStyle);
 
   themeBtn.addEventListener('click', () => {
     const next = (localStorage.getItem('theme') || 'light') === 'dark' ? 'light' : 'dark';
     applyTheme(next);
-  });
-
-  styleBtn.addEventListener('click', () => {
-    const next = (localStorage.getItem('style') || 'modern') === 'xp' ? 'modern' : 'xp';
-    applyStyle(next);
   });
 }
 
