@@ -6,6 +6,7 @@ on:
       - main
   workflow_dispatch:
   repository_dispatch:
+    types: [cronhub-trigger]
   schedule:
     - cron: '*/5 * * * *'
 
