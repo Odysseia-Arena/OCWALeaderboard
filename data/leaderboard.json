@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T16:28:30.272Z",
+  "updatedAt": "2025-08-24T16:32:12.244Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -83,22 +83,13 @@
       "rank": 9
     },
     {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1246,
-      "battles": 68,
-      "wins": 30,
-      "ties": 14,
-      "win_rate_percentage": 54.41,
-      "rank": 10
-    },
-    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1242,
       "battles": 183,
       "wins": 94,
       "ties": 19,
       "win_rate_percentage": 56.56,
-      "rank": 11
+      "rank": 10
     },
     {
       "model_name": "Kimi K2",
@@ -107,15 +98,24 @@
       "wins": 100,
       "ties": 37,
       "win_rate_percentage": 51.52,
+      "rank": 11
+    },
+    {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1234,
+      "battles": 69,
+      "wins": 30,
+      "ties": 14,
+      "win_rate_percentage": 53.62,
       "rank": 12
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1220,
-      "battles": 170,
-      "wins": 81,
+      "rating": 1224,
+      "battles": 171,
+      "wins": 82,
       "ties": 28,
-      "win_rate_percentage": 55.88,
+      "win_rate_percentage": 56.14,
       "rank": 13
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1157,
-      "battles": 201,
+      "rating": 1154,
+      "battles": 202,
       "wins": 79,
-      "ties": 27,
-      "win_rate_percentage": 46.02,
+      "ties": 28,
+      "win_rate_percentage": 46.04,
       "rank": 20
     },
     {
@@ -201,11 +201,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1098,
-      "battles": 242,
+      "rating": 1088,
+      "battles": 243,
       "wins": 68,
       "ties": 46,
-      "win_rate_percentage": 37.6,
+      "win_rate_percentage": 37.45,
       "rank": 23
     },
     {
@@ -219,11 +219,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1025,
-      "battles": 216,
-      "wins": 50,
-      "ties": 41,
-      "win_rate_percentage": 32.64,
+      "rating": 1046,
+      "battles": 220,
+      "wins": 52,
+      "ties": 42,
+      "win_rate_percentage": 33.18,
       "rank": 25
     }
   ]
