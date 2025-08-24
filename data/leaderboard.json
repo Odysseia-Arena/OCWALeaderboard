@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T13:37:34.746Z",
+  "updatedAt": "2025-08-24T13:42:20.347Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -75,20 +75,20 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1271,
-      "battles": 123,
-      "wins": 70,
+      "rating": 1269,
+      "battles": 125,
+      "wins": 71,
       "ties": 19,
-      "win_rate_percentage": 64.63,
+      "win_rate_percentage": 64.4,
       "rank": 9
     },
     {
       "model_name": "Claude Opus 4.1",
-      "rating": 1238,
-      "battles": 58,
-      "wins": 25,
+      "rating": 1247,
+      "battles": 59,
+      "wins": 26,
       "ties": 13,
-      "win_rate_percentage": 54.31,
+      "win_rate_percentage": 55.08,
       "rank": 10
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1220,
-      "battles": 182,
-      "wins": 74,
+      "rating": 1225,
+      "battles": 183,
+      "wins": 75,
       "ties": 26,
-      "win_rate_percentage": 47.8,
+      "win_rate_percentage": 48.09,
       "rank": 12
     },
     {
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
-      "model_name": "Step 3",
-      "rating": 1199,
-      "battles": 125,
-      "wins": 58,
-      "ties": 17,
-      "win_rate_percentage": 53.2,
-      "rank": 15
-    },
-    {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1192,
       "battles": 186,
       "wins": 85,
       "ties": 28,
       "win_rate_percentage": 53.23,
+      "rank": 15
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1192,
+      "battles": 126,
+      "wins": 58,
+      "ties": 17,
+      "win_rate_percentage": 52.78,
       "rank": 16
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1099,
-      "battles": 53,
+      "rating": 1094,
+      "battles": 54,
       "wins": 13,
       "ties": 13,
-      "win_rate_percentage": 36.79,
+      "win_rate_percentage": 36.11,
       "rank": 24
     },
     {
