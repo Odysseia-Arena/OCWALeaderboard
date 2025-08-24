@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-24T16:22:15.199Z",
+  "updatedAt": "2025-08-24T16:27:12.500Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1431,
-      "battles": 184,
-      "wins": 146,
+      "rating": 1434,
+      "battles": 185,
+      "wins": 147,
       "ties": 15,
-      "win_rate_percentage": 83.42,
+      "win_rate_percentage": 83.51,
       "rank": 1
     },
     {
@@ -21,20 +21,20 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1314,
-      "battles": 114,
-      "wins": 72,
+      "rating": 1324,
+      "battles": 116,
+      "wins": 74,
       "ties": 21,
-      "win_rate_percentage": 72.37,
+      "win_rate_percentage": 72.84,
       "rank": 3
     },
     {
       "model_name": "Grok 3",
-      "rating": 1305,
-      "battles": 217,
-      "wins": 119,
+      "rating": 1309,
+      "battles": 218,
+      "wins": 120,
       "ties": 29,
-      "win_rate_percentage": 61.52,
+      "win_rate_percentage": 61.7,
       "rank": 4
     },
     {
@@ -47,13 +47,22 @@
       "rank": 5
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1290,
+      "battles": 141,
+      "wins": 83,
+      "ties": 21,
+      "win_rate_percentage": 66.31,
+      "rank": 6
+    },
+    {
       "model_name": "V0 1.5 LG",
       "rating": 1287,
       "battles": 77,
       "wins": 49,
       "ties": 14,
       "win_rate_percentage": 72.73,
-      "rank": 6
+      "rank": 7
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
@@ -62,24 +71,15 @@
       "wins": 128,
       "ties": 36,
       "win_rate_percentage": 62.66,
-      "rank": 7
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1284,
-      "battles": 140,
-      "wins": 82,
-      "ties": 21,
-      "win_rate_percentage": 66.07,
       "rank": 8
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1252,
-      "battles": 241,
-      "wins": 115,
+      "rating": 1266,
+      "battles": 243,
+      "wins": 117,
       "ties": 36,
-      "win_rate_percentage": 55.19,
+      "win_rate_percentage": 55.56,
       "rank": 9
     },
     {
@@ -120,47 +120,47 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1212,
-      "battles": 139,
-      "wins": 66,
+      "rating": 1205,
+      "battles": 142,
+      "wins": 67,
       "ties": 18,
-      "win_rate_percentage": 53.96,
+      "win_rate_percentage": 53.52,
       "rank": 14
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1197,
-      "battles": 187,
+      "rating": 1192,
+      "battles": 188,
       "wins": 86,
       "ties": 28,
-      "win_rate_percentage": 53.48,
+      "win_rate_percentage": 53.19,
       "rank": 15
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1187,
-      "battles": 175,
-      "wins": 71,
-      "ties": 27,
-      "win_rate_percentage": 48.29,
+      "model_name": "Grok 4",
+      "rating": 1191,
+      "battles": 243,
+      "wins": 74,
+      "ties": 43,
+      "win_rate_percentage": 39.3,
       "rank": 16
     },
     {
-      "model_name": "Grok 4",
-      "rating": 1186,
-      "battles": 242,
-      "wins": 73,
-      "ties": 43,
-      "win_rate_percentage": 39.05,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1180,
+      "battles": 176,
+      "wins": 71,
+      "ties": 27,
+      "win_rate_percentage": 48.01,
       "rank": 17
     },
     {
       "model_name": "catalina",
-      "rating": 1181,
-      "battles": 213,
+      "rating": 1178,
+      "battles": 214,
       "wins": 73,
       "ties": 45,
-      "win_rate_percentage": 44.84,
+      "win_rate_percentage": 44.63,
       "rank": 18
     },
     {
@@ -174,20 +174,20 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1162,
-      "battles": 200,
+      "rating": 1157,
+      "battles": 201,
       "wins": 79,
       "ties": 27,
-      "win_rate_percentage": 46.25,
+      "win_rate_percentage": 46.02,
       "rank": 20
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1142,
-      "battles": 125,
+      "rating": 1138,
+      "battles": 126,
       "wins": 60,
       "ties": 23,
-      "win_rate_percentage": 57.2,
+      "win_rate_percentage": 56.75,
       "rank": 21
     },
     {
@@ -201,11 +201,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1104,
-      "battles": 241,
+      "rating": 1098,
+      "battles": 242,
       "wins": 68,
       "ties": 46,
-      "win_rate_percentage": 37.76,
+      "win_rate_percentage": 37.6,
       "rank": 23
     },
     {
@@ -219,11 +219,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1030,
-      "battles": 215,
+      "rating": 1025,
+      "battles": 216,
       "wins": 50,
       "ties": 41,
-      "win_rate_percentage": 32.79,
+      "win_rate_percentage": 32.64,
       "rank": 25
     }
   ]
