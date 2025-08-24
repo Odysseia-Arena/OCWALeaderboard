@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:47:17.330Z",
+  "updatedAt": "2025-08-24T23:52:16.022Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1349,
-      "battles": 140,
-      "wins": 94,
+      "rating": 1355,
+      "battles": 141,
+      "wins": 95,
       "ties": 25,
-      "win_rate_percentage": 76.07,
+      "win_rate_percentage": 76.24,
       "rank": 2
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1281,
-      "battles": 236,
+      "rating": 1275,
+      "battles": 237,
       "wins": 128,
       "ties": 31,
-      "win_rate_percentage": 60.81,
+      "win_rate_percentage": 60.55,
       "rank": 6
     },
     {
