@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2025-08-24T16:42:12.664Z",
+  "updatedAt": "2025-08-24T16:45:22.213Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1447,
-      "battles": 188,
-      "wins": 150,
+      "rating": 1450,
+      "battles": 189,
+      "wins": 151,
       "ties": 15,
-      "win_rate_percentage": 83.78,
+      "win_rate_percentage": 83.86,
       "rank": 1
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1337,
-      "battles": 124,
+      "rating": 1325,
+      "battles": 126,
       "wins": 81,
-      "ties": 22,
-      "win_rate_percentage": 74.19,
+      "ties": 23,
+      "win_rate_percentage": 73.41,
       "rank": 2
     },
     {
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1304,
-      "battles": 60,
+      "rating": 1305,
+      "battles": 61,
       "wins": 35,
-      "ties": 12,
-      "win_rate_percentage": 68.33,
+      "ties": 13,
+      "win_rate_percentage": 68.03,
       "rank": 4
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1280,
-      "battles": 142,
+      "rating": 1271,
+      "battles": 143,
       "wins": 83,
       "ties": 21,
-      "win_rate_percentage": 65.85,
+      "win_rate_percentage": 65.38,
       "rank": 8
     },
     {
@@ -84,11 +84,11 @@
     },
     {
       "model_name": "Kimi K2",
-      "rating": 1244,
-      "battles": 232,
-      "wins": 101,
+      "rating": 1253,
+      "battles": 233,
+      "wins": 102,
       "ties": 37,
-      "win_rate_percentage": 51.51,
+      "win_rate_percentage": 51.72,
       "rank": 10
     },
     {
@@ -128,30 +128,30 @@
       "rank": 14
     },
     {
-      "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1207,
-      "battles": 189,
-      "wins": 88,
-      "ties": 28,
-      "win_rate_percentage": 53.97,
+      "model_name": "Grok 4",
+      "rating": 1208,
+      "battles": 248,
+      "wins": 77,
+      "ties": 43,
+      "win_rate_percentage": 39.72,
       "rank": 15
     },
     {
-      "model_name": "Grok 4",
-      "rating": 1197,
-      "battles": 245,
-      "wins": 75,
-      "ties": 43,
-      "win_rate_percentage": 39.39,
+      "model_name": "DeepSeek V3.1 thinking",
+      "rating": 1199,
+      "battles": 190,
+      "wins": 88,
+      "ties": 28,
+      "win_rate_percentage": 53.68,
       "rank": 16
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1180,
-      "battles": 176,
-      "wins": 71,
-      "ties": 27,
-      "win_rate_percentage": 48.01,
+      "rating": 1191,
+      "battles": 178,
+      "wins": 72,
+      "ties": 28,
+      "win_rate_percentage": 48.31,
       "rank": 17
     },
     {
@@ -166,10 +166,10 @@
     {
       "model_name": "catalina",
       "rating": 1171,
-      "battles": 215,
+      "battles": 216,
       "wins": 73,
-      "ties": 45,
-      "win_rate_percentage": 44.42,
+      "ties": 46,
+      "win_rate_percentage": 44.44,
       "rank": 19
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1132,
-      "battles": 127,
+      "rating": 1126,
+      "battles": 128,
       "wins": 60,
       "ties": 23,
-      "win_rate_percentage": 56.3,
+      "win_rate_percentage": 55.86,
       "rank": 21
     },
     {
