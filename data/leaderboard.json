@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T18:47:15.422Z",
+  "updatedAt": "2025-08-24T18:51:55.904Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1260,
-      "battles": 162,
-      "wins": 92,
+      "rating": 1257,
+      "battles": 164,
+      "wins": 93,
       "ties": 28,
-      "win_rate_percentage": 65.43,
+      "win_rate_percentage": 65.24,
       "rank": 8
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1219,
-      "battles": 161,
-      "wins": 77,
+      "rating": 1228,
+      "battles": 162,
+      "wins": 78,
       "ties": 21,
-      "win_rate_percentage": 54.35,
+      "win_rate_percentage": 54.63,
       "rank": 14
     },
     {
@@ -147,11 +147,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1184,
-      "battles": 196,
+      "rating": 1178,
+      "battles": 197,
       "wins": 79,
       "ties": 30,
-      "win_rate_percentage": 47.96,
+      "win_rate_percentage": 47.72,
       "rank": 17
     },
     {
