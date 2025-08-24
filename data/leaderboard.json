@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:27:13.669Z",
+  "updatedAt": "2025-08-24T14:29:52.672Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1337,
-      "battles": 106,
-      "wins": 69,
+      "rating": 1343,
+      "battles": 107,
+      "wins": 70,
       "ties": 19,
-      "win_rate_percentage": 74.06,
+      "win_rate_percentage": 74.3,
       "rank": 2
     },
     {
@@ -84,11 +84,11 @@
     },
     {
       "model_name": "Claude Opus 4.1",
-      "rating": 1254,
-      "battles": 61,
+      "rating": 1248,
+      "battles": 62,
       "wins": 27,
       "ties": 14,
-      "win_rate_percentage": 55.74,
+      "win_rate_percentage": 54.84,
       "rank": 10
     },
     {
