@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T13:53:07.452Z",
+  "updatedAt": "2025-08-24T13:57:18.257Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1327,
-      "battles": 103,
-      "wins": 67,
+      "rating": 1332,
+      "battles": 104,
+      "wins": 68,
       "ties": 18,
-      "win_rate_percentage": 73.79,
+      "win_rate_percentage": 74.04,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1313,
-      "battles": 101,
-      "wins": 63,
+      "rating": 1318,
+      "battles": 102,
+      "wins": 64,
       "ties": 19,
-      "win_rate_percentage": 71.78,
+      "win_rate_percentage": 72.06,
       "rank": 3
     },
     {
@@ -138,21 +138,12 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1187,
-      "battles": 127,
-      "wins": 58,
+      "rating": 1190,
+      "battles": 129,
+      "wins": 59,
       "ties": 17,
-      "win_rate_percentage": 52.36,
+      "win_rate_percentage": 52.33,
       "rank": 16
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1181,
-      "battles": 153,
-      "wins": 64,
-      "ties": 23,
-      "win_rate_percentage": 49.35,
-      "rank": 17
     },
     {
       "model_name": "catalina",
@@ -161,16 +152,16 @@
       "wins": 70,
       "ties": 43,
       "win_rate_percentage": 44.85,
-      "rank": 18
+      "rank": 17
     },
     {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1167,
-      "battles": 43,
-      "wins": 18,
-      "ties": 4,
-      "win_rate_percentage": 46.51,
-      "rank": 19
+      "model_name": "Claude Sonnet 4",
+      "rating": 1173,
+      "battles": 154,
+      "wins": 64,
+      "ties": 23,
+      "win_rate_percentage": 49.03,
+      "rank": 18
     },
     {
       "model_name": "Grok 4",
@@ -179,6 +170,15 @@
       "wins": 70,
       "ties": 40,
       "win_rate_percentage": 38.46,
+      "rank": 19
+    },
+    {
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1162,
+      "battles": 44,
+      "wins": 18,
+      "ties": 4,
+      "win_rate_percentage": 45.45,
       "rank": 20
     },
     {
