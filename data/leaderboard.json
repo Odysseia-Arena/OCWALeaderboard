@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T19:42:09.283Z",
+  "updatedAt": "2025-08-24T19:47:14.330Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1340,
-      "battles": 138,
-      "wins": 92,
+      "rating": 1346,
+      "battles": 139,
+      "wins": 93,
       "ties": 24,
-      "win_rate_percentage": 75.36,
+      "win_rate_percentage": 75.54,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1307,
-      "battles": 125,
+      "rating": 1298,
+      "battles": 126,
       "wins": 80,
       "ties": 21,
-      "win_rate_percentage": 72.4,
+      "win_rate_percentage": 71.83,
       "rank": 3
     },
     {
@@ -74,22 +74,13 @@
       "rank": 8
     },
     {
-      "model_name": "Step 3",
-      "rating": 1242,
-      "battles": 164,
-      "wins": 80,
-      "ties": 21,
-      "win_rate_percentage": 55.18,
-      "rank": 9
-    },
-    {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1242,
-      "battles": 167,
-      "wins": 94,
+      "rating": 1251,
+      "battles": 168,
+      "wins": 95,
       "ties": 29,
-      "win_rate_percentage": 64.97,
-      "rank": 10
+      "win_rate_percentage": 65.18,
+      "rank": 9
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -98,7 +89,7 @@
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.72,
-      "rank": 11
+      "rank": 10
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -107,7 +98,7 @@
       "wins": 37,
       "ties": 14,
       "win_rate_percentage": 53.66,
-      "rank": 12
+      "rank": 11
     },
     {
       "model_name": "Kimi K2",
@@ -116,7 +107,7 @@
       "wins": 110,
       "ties": 39,
       "win_rate_percentage": 52.01,
-      "rank": 13
+      "rank": 12
     },
     {
       "model_name": "GPT 4o Latest",
@@ -125,6 +116,15 @@
       "wins": 92,
       "ties": 31,
       "win_rate_percentage": 56.58,
+      "rank": 13
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1236,
+      "battles": 165,
+      "wins": 80,
+      "ties": 21,
+      "win_rate_percentage": 54.85,
       "rank": 14
     },
     {
