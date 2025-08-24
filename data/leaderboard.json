@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T11:24:22.070Z",
+  "updatedAt": "2025-08-24T11:25:26.257Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "GLM 4.5 FP8",
-      "rating": 1149,
-      "battles": 28,
+      "rating": 1147,
+      "battles": 29,
       "wins": 11,
-      "ties": 2,
-      "win_rate_percentage": 42.86,
+      "ties": 3,
+      "win_rate_percentage": 43.1,
       "rank": 21
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1068,
-      "battles": 222,
+      "rating": 1070,
+      "battles": 223,
       "wins": 62,
-      "ties": 41,
-      "win_rate_percentage": 37.16,
+      "ties": 42,
+      "win_rate_percentage": 37.22,
       "rank": 24
     },
     {
