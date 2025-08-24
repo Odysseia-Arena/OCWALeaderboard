@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T16:45:22.213Z",
+  "updatedAt": "2025-08-24T16:47:11.618Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -39,11 +39,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1301,
-      "battles": 219,
+      "rating": 1291,
+      "battles": 220,
       "wins": 120,
       "ties": 29,
-      "win_rate_percentage": 61.42,
+      "win_rate_percentage": 61.14,
       "rank": 5
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1271,
-      "battles": 143,
-      "wins": 83,
-      "ties": 21,
-      "win_rate_percentage": 65.38,
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1264,
+      "battles": 246,
+      "wins": 118,
+      "ties": 37,
+      "win_rate_percentage": 55.49,
       "rank": 8
     },
     {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1265,
-      "battles": 245,
-      "wins": 118,
-      "ties": 36,
-      "win_rate_percentage": 55.51,
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1262,
+      "battles": 144,
+      "wins": 83,
+      "ties": 21,
+      "win_rate_percentage": 64.93,
       "rank": 9
     },
     {
@@ -92,13 +92,22 @@
       "rank": 10
     },
     {
+      "model_name": "Gemini 2.5 Flash",
+      "rating": 1242,
+      "battles": 188,
+      "wins": 96,
+      "ties": 20,
+      "win_rate_percentage": 56.38,
+      "rank": 11
+    },
+    {
       "model_name": "Claude Opus 4.1",
       "rating": 1233,
       "battles": 71,
       "wins": 31,
       "ties": 14,
       "win_rate_percentage": 53.52,
-      "rank": 11
+      "rank": 12
     },
     {
       "model_name": "GPT 4o Latest",
@@ -107,16 +116,16 @@
       "wins": 84,
       "ties": 28,
       "win_rate_percentage": 56.65,
-      "rank": 12
+      "rank": 13
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "rating": 1231,
-      "battles": 186,
-      "wins": 95,
-      "ties": 19,
-      "win_rate_percentage": 56.18,
-      "rank": 13
+      "model_name": "Grok 4",
+      "rating": 1217,
+      "battles": 249,
+      "wins": 78,
+      "ties": 43,
+      "win_rate_percentage": 39.96,
+      "rank": 14
     },
     {
       "model_name": "Step 3",
@@ -125,15 +134,6 @@
       "wins": 68,
       "ties": 18,
       "win_rate_percentage": 53.85,
-      "rank": 14
-    },
-    {
-      "model_name": "Grok 4",
-      "rating": 1208,
-      "battles": 248,
-      "wins": 77,
-      "ties": 43,
-      "win_rate_percentage": 39.72,
       "rank": 15
     },
     {
