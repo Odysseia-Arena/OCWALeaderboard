@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:42:16.177Z",
+  "updatedAt": "2025-08-24T23:42:48.309Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -101,13 +101,22 @@
       "rank": 11
     },
     {
+      "model_name": "GPT 4o Latest",
+      "rating": 1235,
+      "battles": 193,
+      "wins": 93,
+      "ties": 32,
+      "win_rate_percentage": 56.48,
+      "rank": 12
+    },
+    {
       "model_name": "Kimi K2",
       "rating": 1235,
       "battles": 250,
       "wins": 110,
       "ties": 40,
       "win_rate_percentage": 52,
-      "rank": 12
+      "rank": 13
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -116,15 +125,6 @@
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.44,
-      "rank": 13
-    },
-    {
-      "model_name": "GPT 4o Latest",
-      "rating": 1228,
-      "battles": 192,
-      "wins": 92,
-      "ties": 32,
-      "win_rate_percentage": 56.25,
       "rank": 14
     },
     {
@@ -164,21 +164,21 @@
       "rank": 18
     },
     {
-      "model_name": "catalina",
-      "rating": 1163,
-      "battles": 236,
-      "wins": 80,
-      "ties": 51,
-      "win_rate_percentage": 44.7,
-      "rank": 19
-    },
-    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1160,
       "battles": 74,
       "wins": 29,
       "ties": 7,
       "win_rate_percentage": 43.92,
+      "rank": 19
+    },
+    {
+      "model_name": "catalina",
+      "rating": 1156,
+      "battles": 237,
+      "wins": 80,
+      "ties": 51,
+      "win_rate_percentage": 44.51,
       "rank": 20
     },
     {
