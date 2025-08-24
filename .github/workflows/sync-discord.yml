@@ -27,6 +27,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Echo Time
+        run: echo "定时触发，当前时间：$(date)"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -38,6 +41,7 @@ jobs:
           ARENA_API_BASE: ${{ secrets.ARENA_API_BASE }}
           ARENA_API_TOKEN: ${{ secrets.ARENA_API_TOKEN }}
         run: node scripts/fetch_api_leaderboard.mjs
+        
 
       - name: Fallback to Discord scraping
         if: ${{ env.ARENA_API_BASE == '' }}
