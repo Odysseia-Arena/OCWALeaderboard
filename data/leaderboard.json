@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T18:57:15.157Z",
+  "updatedAt": "2025-08-24T19:02:16.289Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1325,
-      "battles": 136,
-      "wins": 89,
+      "rating": 1330,
+      "battles": 137,
+      "wins": 90,
       "ties": 24,
-      "win_rate_percentage": 74.26,
+      "win_rate_percentage": 74.45,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1318,
-      "battles": 124,
+      "rating": 1307,
+      "battles": 125,
       "wins": 80,
       "ties": 21,
-      "win_rate_percentage": 72.98,
+      "win_rate_percentage": 72.4,
       "rank": 3
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1263,
-      "battles": 165,
+      "rating": 1261,
+      "battles": 166,
       "wins": 94,
-      "ties": 28,
-      "win_rate_percentage": 65.45,
+      "ties": 29,
+      "win_rate_percentage": 65.36,
       "rank": 8
     },
     {
@@ -101,21 +101,21 @@
       "rank": 11
     },
     {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1237,
+      "battles": 80,
+      "wins": 36,
+      "ties": 14,
+      "win_rate_percentage": 53.75,
+      "rank": 12
+    },
+    {
       "model_name": "GPT 4o Latest",
       "rating": 1236,
       "battles": 190,
       "wins": 92,
       "ties": 31,
       "win_rate_percentage": 56.58,
-      "rank": 12
-    },
-    {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1229,
-      "battles": 78,
-      "wins": 34,
-      "ties": 14,
-      "win_rate_percentage": 52.56,
       "rank": 13
     },
     {
@@ -137,30 +137,30 @@
       "rank": 15
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1193,
+      "battles": 234,
+      "wins": 94,
+      "ties": 31,
+      "win_rate_percentage": 46.79,
+      "rank": 16
+    },
+    {
       "model_name": "Grok 4",
       "rating": 1192,
       "battles": 261,
       "wins": 81,
       "ties": 46,
       "win_rate_percentage": 39.85,
-      "rank": 16
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1178,
-      "battles": 197,
-      "wins": 79,
-      "ties": 30,
-      "win_rate_percentage": 47.72,
       "rank": 17
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1177,
-      "battles": 230,
-      "wins": 92,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1170,
+      "battles": 198,
+      "wins": 79,
       "ties": 30,
-      "win_rate_percentage": 46.52,
+      "win_rate_percentage": 47.47,
       "rank": 18
     },
     {
@@ -219,11 +219,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1043,
-      "battles": 76,
+      "rating": 1035,
+      "battles": 78,
       "wins": 15,
       "ties": 17,
-      "win_rate_percentage": 30.92,
+      "win_rate_percentage": 30.13,
       "rank": 25
     }
   ]
