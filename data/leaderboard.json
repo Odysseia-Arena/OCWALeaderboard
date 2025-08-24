@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T15:17:12.372Z",
+  "updatedAt": "2025-08-24T15:22:16.001Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1362,
-      "battles": 110,
-      "wins": 74,
-      "ties": 19,
-      "win_rate_percentage": 75.91,
+      "rating": 1353,
+      "battles": 113,
+      "wins": 75,
+      "ties": 20,
+      "win_rate_percentage": 75.22,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1329,
-      "battles": 106,
+      "rating": 1330,
+      "battles": 107,
       "wins": 68,
-      "ties": 20,
-      "win_rate_percentage": 73.58,
+      "ties": 21,
+      "win_rate_percentage": 73.36,
       "rank": 3
     },
     {
@@ -121,11 +121,20 @@
     {
       "model_name": "Step 3",
       "rating": 1193,
-      "battles": 135,
+      "battles": 134,
       "wins": 62,
       "ties": 18,
-      "win_rate_percentage": 52.59,
+      "win_rate_percentage": 52.99,
       "rank": 14
+    },
+    {
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1193,
+      "battles": 59,
+      "wins": 25,
+      "ties": 6,
+      "win_rate_percentage": 47.46,
+      "rank": 15
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
@@ -134,24 +143,15 @@
       "wins": 85,
       "ties": 28,
       "win_rate_percentage": 53.23,
-      "rank": 15
+      "rank": 16
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1186,
+      "rating": 1182,
       "battles": 194,
       "wins": 78,
       "ties": 27,
       "win_rate_percentage": 47.16,
-      "rank": 16
-    },
-    {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1181,
-      "battles": 58,
-      "wins": 24,
-      "ties": 6,
-      "win_rate_percentage": 46.55,
       "rank": 17
     },
     {
