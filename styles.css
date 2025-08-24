@@ -85,6 +85,7 @@ body {
 }
 
 .toolbar-row { display: none; margin-top: 8px; }
+.mobile-sort { display: none; }
 
 .input {
   width: 260px;
@@ -157,11 +158,12 @@ body {
   white-space: normal;
   overflow-wrap: anywhere;
   margin-left: 0 !important;
+  line-height: 1; /* ensure baseline consistency with emoji */
 }
 
-#healthStatus .label { font-weight: 600; }
-#healthStatus .counts { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 0; list-style: none; }
-#healthStatus .counts li { white-space: nowrap; }
+#healthStatus .label { font-weight: bold; display: inline-flex; align-items: center; line-height: 1; }
+#healthStatus .counts { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 0; list-style: none; line-height: 1; }
+#healthStatus .counts li { white-space: nowrap; display: inline-flex; align-items: center; line-height: 1; }
 
 [data-theme="dark"] #healthStatus {
   background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent), var(--card);
@@ -275,7 +277,12 @@ body {
   background-position: right 10px center;
 }
 
-[data-theme="dark"] .select { background: #0e1424; }
+[data-theme="dark"] .select {
+  background-color: #0e1424;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23e6e8ef' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
 
 /* Fix dark mode selected option contrast */
 select option { color: var(--text); background: #fffdf5; }
@@ -285,7 +292,7 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
 
 /* Custom select for language */
 .select-hidden { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
-.custom-select { display: inline-flex; align-items: center; border: 1px solid var(--border); background: #fffdf5; color: var(--text); border-radius: 8px; padding: 8px 10px; font-size: 12px; position: relative; }
+.custom-select { display: inline-flex; align-items: center; border: 1px solid var(--border); background: #fffdf5; color: var(--text); border-radius: 8px; padding: 8px 10px 8px 40px; font-size: 12px; position: relative; }
 [data-theme="dark"] .custom-select { background: #0e1424; }
 .custom-select .label { padding-right: 18px; }
 .custom-select .arrow { position: absolute; right: 8px; width: 12px; height: 12px; pointer-events: none; opacity: 0.7; }
@@ -297,6 +304,18 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
 .custom-select.open .menu { opacity: 1; transform: translateY(0) scale(1); pointer-events: auto; }
 .custom-select:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
 
+/* i18n icon for custom select */
+.custom-select::before {
+  content: '';
+  position: absolute; left: 8px; top: 50%; transform: translateY(-50%);
+  width: 22px; height: 22px; border-radius: 6px;
+  background-color: rgba(99,140,255,0.10);
+  border: 1px solid var(--border);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%235b8cff'><path d='M12.87 15.07l-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z'></path></svg>");
+  background-repeat: no-repeat; background-position: center; background-size: 16px 16px;
+}
+[data-theme="dark"] .custom-select::before { background-color: rgba(91,140,255,0.12); }
+
 /* Responsive */
 @media (max-width: 768px) {
   .title { font-size: 26px; }
@@ -306,7 +325,7 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .toolbar .right { flex: 1 1 100%; justify-content: flex-start; flex-wrap: wrap; gap: 8px; }
   .input { width: 100%; }
   .container { padding: 0 14px; }
-  .toolbar-row { display: block; }
+  /* keep toolbar-row hidden at this width; it will show only at <= 480px */
   /* table mode on medium screens: keep model name single line */
   .table td:nth-child(2) {
     max-width: 360px;
@@ -322,16 +341,25 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .badge { font-size: 11px; padding: 2px 6px; }
   .btn { padding: 6px 8px; font-size: 11px; }
   .select { padding: 6px 26px 6px 8px; font-size: 11px; }
+  .toolbar-row { display: block; }
   .mobile-sort { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
   .mobile-sort label { font-size: 12px; }
   /* footer: stack vertically on small screens */
   .footer { margin: 28px 0 16px; }
-  .footer .container { flex-direction: column; align-items: stretch; gap: 8px; }
-  #healthStatus { width: 100%; text-align: left; padding: 8px 12px; border-radius: 10px; line-height: 1.6; }
-  #healthStatus { display: block; }
-  #healthStatus .label { display: block; margin-bottom: 4px; }
-  #healthStatus .counts { display: block; }
-  #healthStatus .counts li + li { margin-top: 4px; }
+  .footer .container { flex-direction: column; align-items: center; gap: 8px; }
+  /* Mobile: card style */
+  #healthStatus {
+    display: block; width: min(100%, 560px); text-align: left;
+    padding: 12px 14px; border-radius: 12px; line-height: 1.6;
+    border: 1px solid var(--border);
+    background: linear-gradient(180deg, rgba(255,255,255,0.75), transparent), var(--card);
+  }
+  [data-theme="dark"] #healthStatus { background: linear-gradient(180deg, rgba(255,255,255,0.08), transparent), var(--card); }
+  #healthStatus .label { display: block; margin-bottom: 6px; }
+  #healthStatus .counts { display: grid; grid-template-columns: 112px 1fr; gap: 6px 10px; }
+  #healthStatus .counts li { display: contents; }
+  #healthStatus .counts li .k { color: var(--muted); font-weight: 600; }
+  #healthStatus .counts li .v { text-align: right; font-weight: 700; }
   /* ensure metric stays on the header line in card layout */
   .table tr .cell-elo,
   .table tr .cell-metric { white-space: nowrap; }
@@ -355,7 +383,11 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .table tr .cell-elo,
   .table tr .cell-metric { border: 0; padding: 4px 6px; }
   .table tr .cell-rank { flex: 0 0 36px; font-weight: 700; color: var(--muted); }
-  .table tr .cell-name { flex: 1 1 auto; min-width: 0; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .table tr .cell-name {
+    flex: 1 1 auto; min-width: 0; font-weight: 600;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    padding-left: 6px; /* small gap after rank */
+  }
   .table tr .cell-elo,
   .table tr .cell-metric { flex: 0 0 auto; margin-left: auto; text-align: right; font-weight: 700; }
   .table tr .cell-rank::before,
@@ -372,9 +404,13 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
     display: grid;
     grid-template-columns: 112px 1fr;
     gap: 8px;
-    padding: 6px 4px;
+    padding: 8px 6px 8px 42px; /* align with name after rank (36px + 6px gap) */
     flex: 0 0 100%;
     animation: detailFade 320ms cubic-bezier(0.22, 0.61, 0.36, 1);
+    align-items: center;
+    text-align: right; /* make value column right-aligned */
+    box-sizing: border-box;
   }
+  .table tr.expanded .detail-cell::before { justify-self: start; text-align: left; }
   .table tr.expanded .detail-cell:first-of-type { margin-top: 6px; padding-top: 10px; border-top: 1px dashed var(--border); }
 }

@@ -88,7 +88,7 @@ const I18N_TEXT = {
       battles: 'Battles',
       wins: 'Wins',
       ties: 'Ties',
-      win_rate_percentage: 'Win %'
+      win_rate_percentage: 'Win Rate %'
     },
     sortBy: {
       label: 'Sort by',
@@ -97,7 +97,7 @@ const I18N_TEXT = {
       battles: 'Battles',
       wins: 'Wins',
       ties: 'Ties',
-      win_rate_percentage: 'Win %'
+      win_rate_percentage: 'Win Rate %'
     },
     health: {
       prefix: 'Backend',
@@ -155,6 +155,9 @@ const I18N_TEXT = {
     footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ'
   },
 };
+
+// Breakpoints (single source of truth)
+const BREAKPOINT_TABLE = 480;   // stacked-card table threshold
 
 let __lastUpdatedISO = null;
 
@@ -411,6 +414,7 @@ function renderTable(rows, state) {
   const lang = getLang();
   const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
   const map = conf.headers;
+  const isMobile = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches;
   const displayKey = (state && state.sortKey && state.sortKey !== 'rank') ? state.sortKey : 'rating';
   for (const item of rows) {
     const tr = document.createElement('tr');
@@ -427,64 +431,86 @@ function renderTable(rows, state) {
     tdName.setAttribute('data-label', map.model_name);
     tr.appendChild(tdName);
 
-    // metric cell (ELO or current sort field)
-    const tdMetric = document.createElement('td');
-    let metricVal = '';
-    if (displayKey === 'rating') {
-      metricVal = item.rating ?? item.score ?? '';
-      tdMetric.setAttribute('data-label', map.rating);
-    } else if (displayKey === 'win_rate_percentage') {
-      const wr2 = item.win_rate_percentage;
-      metricVal = (wr2 !== undefined && wr2 !== null) ? Number(wr2).toFixed(2) : '';
-      tdMetric.setAttribute('data-label', map.win_rate_percentage);
+    if (!isMobile) {
+      // Desktop: always render fixed 7 columns to match headers
+      const tdRating = document.createElement('td');
+      tdRating.textContent = item.rating ?? item.score ?? '';
+      tr.appendChild(tdRating);
+
+      const tdBattles = document.createElement('td');
+      tdBattles.textContent = item.battles ?? '';
+      tr.appendChild(tdBattles);
+
+      const tdWins = document.createElement('td');
+      tdWins.textContent = item.wins ?? '';
+      tr.appendChild(tdWins);
+
+      const tdTies = document.createElement('td');
+      tdTies.textContent = item.ties ?? '';
+      tr.appendChild(tdTies);
+
+      const tdWinRate = document.createElement('td');
+      const wr = item.win_rate_percentage;
+      tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
+      tr.appendChild(tdWinRate);
     } else {
-      metricVal = item[displayKey] ?? '';
-      tdMetric.setAttribute('data-label', map[displayKey] || '');
-    }
-    tdMetric.textContent = metricVal;
-    tdMetric.className = 'cell-metric';
-    tr.appendChild(tdMetric);
-
-    const tdBattles = document.createElement('td');
-    tdBattles.textContent = item.battles ?? '';
-    tdBattles.className = 'cell-battles detail-cell';
-    tdBattles.setAttribute('data-label', map.battles);
-    tr.appendChild(tdBattles);
-
-    const tdWins = document.createElement('td');
-    tdWins.textContent = item.wins ?? '';
-    tdWins.className = 'cell-wins detail-cell';
-    tdWins.setAttribute('data-label', map.wins);
-    tr.appendChild(tdWins);
-
-    const tdTies = document.createElement('td');
-    tdTies.textContent = item.ties ?? '';
-    tdTies.className = 'cell-ties detail-cell';
-    tdTies.setAttribute('data-label', map.ties);
-    tr.appendChild(tdTies);
-
-    const tdWinRate = document.createElement('td');
-    const wr = item.win_rate_percentage;
-    tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
-    tdWinRate.className = 'cell-winrate detail-cell';
-    tdWinRate.setAttribute('data-label', map.win_rate_percentage);
-    tr.appendChild(tdWinRate);
-
-    // When metric is not rating, include rating as detail as well
-    if (displayKey !== 'rating') {
-      const tdRatingDetail = document.createElement('td');
-      tdRatingDetail.textContent = item.rating ?? item.score ?? '';
-      tdRatingDetail.className = 'cell-elo detail-cell';
-      tdRatingDetail.setAttribute('data-label', map.rating);
-      tr.appendChild(tdRatingDetail);
-    }
-
-    // tap-to-expand for mobile
-    tr.addEventListener('click', () => {
-      if (window.matchMedia('(max-width: 480px)').matches) {
-        tr.classList.toggle('expanded');
+      // Mobile: compact header line with dynamic metric column
+      const tdMetric = document.createElement('td');
+      let metricVal = '';
+      if (displayKey === 'rating') {
+        metricVal = item.rating ?? item.score ?? '';
+        tdMetric.setAttribute('data-label', map.rating);
+      } else if (displayKey === 'win_rate_percentage') {
+        const wr2 = item.win_rate_percentage;
+        metricVal = (wr2 !== undefined && wr2 !== null) ? Number(wr2).toFixed(2) : '';
+        tdMetric.setAttribute('data-label', map.win_rate_percentage);
+      } else {
+        metricVal = item[displayKey] ?? '';
+        tdMetric.setAttribute('data-label', map[displayKey] || '');
       }
-    });
+      tdMetric.textContent = metricVal;
+      tdMetric.className = 'cell-metric';
+      tr.appendChild(tdMetric);
+
+      const tdBattles = document.createElement('td');
+      tdBattles.textContent = item.battles ?? '';
+      tdBattles.className = 'cell-battles detail-cell';
+      tdBattles.setAttribute('data-label', map.battles);
+      tr.appendChild(tdBattles);
+
+      const tdWins = document.createElement('td');
+      tdWins.textContent = item.wins ?? '';
+      tdWins.className = 'cell-wins detail-cell';
+      tdWins.setAttribute('data-label', map.wins);
+      tr.appendChild(tdWins);
+
+      const tdTies = document.createElement('td');
+      tdTies.textContent = item.ties ?? '';
+      tdTies.className = 'cell-ties detail-cell';
+      tdTies.setAttribute('data-label', map.ties);
+      tr.appendChild(tdTies);
+
+      const tdWinRate = document.createElement('td');
+      const wr = item.win_rate_percentage;
+      tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
+      tdWinRate.className = 'cell-winrate detail-cell';
+      tdWinRate.setAttribute('data-label', map.win_rate_percentage);
+      tr.appendChild(tdWinRate);
+
+      if (displayKey !== 'rating') {
+        const tdRatingDetail = document.createElement('td');
+        tdRatingDetail.textContent = item.rating ?? item.score ?? '';
+        tdRatingDetail.className = 'cell-elo detail-cell';
+        tdRatingDetail.setAttribute('data-label', map.rating);
+        tr.appendChild(tdRatingDetail);
+      }
+
+      tr.addEventListener('click', () => {
+        if (window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches) {
+          tr.classList.toggle('expanded');
+        }
+      });
+    }
 
     tbody.appendChild(tr);
   }
@@ -580,10 +606,10 @@ function renderHealth(health) {
   const lang = getLang();
   const T = (I18N_TEXT[lang] || I18N_TEXT.zh).health;
   const countItems = [
-    health.models_count != null ? `${T.models}:${health.models_count}` : null,
-    health.fixed_prompts_count != null ? `${T.fixed_prompts}:${health.fixed_prompts_count}` : null,
-    health.recorded_users_count != null ? `${T.users}:${health.recorded_users_count}` : null,
-    health.completed_battles_count != null ? `${T.completed_battles}:${health.completed_battles_count}` : null,
+    health.models_count != null ? { k: T.models, v: String(health.models_count) } : null,
+    health.fixed_prompts_count != null ? { k: T.fixed_prompts, v: String(health.fixed_prompts_count) } : null,
+    health.recorded_users_count != null ? { k: T.users, v: String(health.recorded_users_count) } : null,
+    health.completed_battles_count != null ? { k: T.completed_battles, v: String(health.completed_battles_count) } : null,
   ].filter(Boolean);
 
   let root = document.getElementById('healthStatus');
@@ -603,9 +629,13 @@ function renderHealth(health) {
   if (countItems.length) {
     const ul = document.createElement('ul');
     ul.className = 'counts';
-    countItems.forEach(txt => {
+    const colon = (lang === 'en') ? ': ' : '：';
+    countItems.forEach(item => {
       const li = document.createElement('li');
-      li.textContent = txt;
+      const sk = document.createElement('span'); sk.className = 'k'; sk.textContent = item.k + colon;
+      const sv = document.createElement('span'); sv.className = 'v'; sv.textContent = item.v;
+      li.appendChild(sk);
+      li.appendChild(sv);
       ul.appendChild(li);
     });
     root.appendChild(ul);
@@ -643,6 +673,22 @@ function setupToggles() {
   });
 }
 
+// 当跨越移动端/桌面端断点时自动刷新，避免残留移动端控件
+function setupResponsiveReload() {
+  try {
+    const mql = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`);
+    const handler = (e) => {
+      try { location.reload(); } catch (_) {}
+    };
+    if (typeof mql.addEventListener === 'function') {
+      mql.addEventListener('change', handler);
+    } else if (typeof mql.addListener === 'function') {
+      // 兼容旧浏览器
+      mql.addListener(handler);
+    }
+  } catch (_) {}
+}
+
 (async function init() {
   const [data, health] = await Promise.all([fetchLeaderboard(), fetchHealth()]);
   const rows = Array.isArray(data.leaderboard)
@@ -651,6 +697,7 @@ function setupToggles() {
 
   setupToggles();
   setupLanguage();
+  setupResponsiveReload();
 
   const state = {
     rowsRaw: rows,
