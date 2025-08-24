@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:52:16.022Z",
+  "updatedAt": "2025-08-24T23:57:14.258Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -92,22 +92,13 @@
       "rank": 10
     },
     {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1240,
-      "battles": 84,
-      "wins": 38,
-      "ties": 14,
-      "win_rate_percentage": 53.57,
-      "rank": 11
-    },
-    {
       "model_name": "Step 3",
       "rating": 1238,
       "battles": 175,
       "wins": 83,
       "ties": 25,
       "win_rate_percentage": 54.57,
-      "rank": 12
+      "rank": 11
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -116,6 +107,15 @@
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.44,
+      "rank": 12
+    },
+    {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1230,
+      "battles": 85,
+      "wins": 38,
+      "ties": 14,
+      "win_rate_percentage": 52.94,
       "rank": 13
     },
     {
@@ -138,21 +138,30 @@
     },
     {
       "model_name": "Grok 4",
-      "rating": 1192,
-      "battles": 261,
+      "rating": 1183,
+      "battles": 262,
       "wins": 81,
       "ties": 46,
-      "win_rate_percentage": 39.85,
+      "win_rate_percentage": 39.69,
       "rank": 16
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1169,
-      "battles": 200,
-      "wins": 80,
+      "rating": 1178,
+      "battles": 201,
+      "wins": 81,
       "ties": 31,
-      "win_rate_percentage": 47.75,
+      "win_rate_percentage": 48.01,
       "rank": 17
+    },
+    {
+      "model_name": "catalina",
+      "rating": 1166,
+      "battles": 238,
+      "wins": 81,
+      "ties": 51,
+      "win_rate_percentage": 44.75,
+      "rank": 18
     },
     {
       "model_name": "Gemini 1.5 Pro",
@@ -161,7 +170,7 @@
       "wins": 95,
       "ties": 32,
       "win_rate_percentage": 46.25,
-      "rank": 18
+      "rank": 19
     },
     {
       "model_name": "GLM 4.5 FP8",
@@ -170,15 +179,6 @@
       "wins": 29,
       "ties": 7,
       "win_rate_percentage": 43.92,
-      "rank": 19
-    },
-    {
-      "model_name": "catalina",
-      "rating": 1156,
-      "battles": 237,
-      "wins": 80,
-      "ties": 51,
-      "win_rate_percentage": 44.51,
       "rank": 20
     },
     {
