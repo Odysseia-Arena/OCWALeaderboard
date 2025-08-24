@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T15:07:14.762Z",
+  "updatedAt": "2025-08-24T15:08:34.259Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1358,
-      "battles": 110,
-      "wins": 73,
+      "rating": 1362,
+      "battles": 111,
+      "wins": 74,
       "ties": 19,
-      "win_rate_percentage": 75,
+      "win_rate_percentage": 75.23,
       "rank": 2
     },
     {
@@ -76,10 +76,10 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1281,
-      "battles": 129,
+      "battles": 128,
       "wins": 75,
       "ties": 19,
-      "win_rate_percentage": 65.5,
+      "win_rate_percentage": 66.02,
       "rank": 9
     },
     {
@@ -156,11 +156,11 @@
     },
     {
       "model_name": "GLM 4.5 FP8",
-      "rating": 1176,
-      "battles": 56,
+      "rating": 1172,
+      "battles": 57,
       "wins": 23,
       "ties": 6,
-      "win_rate_percentage": 46.43,
+      "win_rate_percentage": 45.61,
       "rank": 18
     },
     {
@@ -184,10 +184,10 @@
     {
       "model_name": "DeepSeek R1 0528",
       "rating": 1133,
-      "battles": 120,
+      "battles": 119,
       "wins": 57,
       "ties": 22,
-      "win_rate_percentage": 56.67,
+      "win_rate_percentage": 57.14,
       "rank": 21
     },
     {
