@@ -317,7 +317,7 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
 [data-theme="dark"] .custom-select::before { background-color: rgba(91,140,255,0.12); }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .title { font-size: 26px; }
   .subtitle { font-size: 14px; }
   .toolbar { flex-wrap: wrap; gap: 10px; }
