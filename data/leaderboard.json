@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T22:47:14.908Z",
+  "updatedAt": "2025-08-24T22:52:13.119Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1293,
-      "battles": 65,
-      "wins": 37,
+      "rating": 1300,
+      "battles": 66,
+      "wins": 38,
       "ties": 13,
-      "win_rate_percentage": 66.92,
+      "win_rate_percentage": 67.42,
       "rank": 4
     },
     {
@@ -83,22 +83,13 @@
       "rank": 9
     },
     {
-      "model_name": "Step 3",
-      "rating": 1244,
-      "battles": 173,
-      "wins": 83,
-      "ties": 24,
-      "win_rate_percentage": 54.91,
-      "rank": 10
-    },
-    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1241,
       "battles": 201,
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.72,
-      "rank": 11
+      "rank": 10
     },
     {
       "model_name": "Kimi K2",
@@ -107,6 +98,15 @@
       "wins": 110,
       "ties": 39,
       "win_rate_percentage": 52.01,
+      "rank": 11
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1237,
+      "battles": 174,
+      "wins": 83,
+      "ties": 24,
+      "win_rate_percentage": 54.6,
       "rank": 12
     },
     {
