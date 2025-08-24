@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T21:17:15.375Z",
+  "updatedAt": "2025-08-24T21:22:15.003Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -83,21 +83,21 @@
       "rank": 9
     },
     {
+      "model_name": "Step 3",
+      "rating": 1246,
+      "battles": 172,
+      "wins": 83,
+      "ties": 23,
+      "win_rate_percentage": 54.94,
+      "rank": 10
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1241,
       "battles": 201,
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.72,
-      "rank": 10
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1240,
-      "battles": 171,
-      "wins": 82,
-      "ties": 23,
-      "win_rate_percentage": 54.68,
       "rank": 11
     },
     {
@@ -156,11 +156,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1171,
-      "battles": 239,
+      "rating": 1165,
+      "battles": 240,
       "wins": 95,
       "ties": 32,
-      "win_rate_percentage": 46.44,
+      "win_rate_percentage": 46.25,
       "rank": 18
     },
     {
