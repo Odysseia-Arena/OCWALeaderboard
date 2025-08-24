@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:22:18.106Z",
+  "updatedAt": "2025-08-24T23:27:15.764Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1305,
-      "battles": 126,
-      "wins": 81,
+      "rating": 1311,
+      "battles": 127,
+      "wins": 82,
       "ties": 21,
-      "win_rate_percentage": 72.62,
+      "win_rate_percentage": 72.83,
       "rank": 3
     },
     {
@@ -58,19 +58,19 @@
     {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1269,
-      "battles": 249,
+      "battles": 250,
       "wins": 135,
-      "ties": 37,
-      "win_rate_percentage": 61.65,
+      "ties": 38,
+      "win_rate_percentage": 61.6,
       "rank": 7
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1256,
-      "battles": 263,
+      "battles": 264,
       "wins": 126,
-      "ties": 39,
-      "win_rate_percentage": 55.32,
+      "ties": 40,
+      "win_rate_percentage": 55.3,
       "rank": 8
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1234,
-      "battles": 191,
+      "rating": 1228,
+      "battles": 192,
       "wins": 92,
       "ties": 32,
-      "win_rate_percentage": 56.54,
+      "win_rate_percentage": 56.25,
       "rank": 14
     },
     {
