@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-24T18:22:14.621Z",
+  "updatedAt": "2025-08-24T18:27:14.451Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1476,
-      "battles": 194,
-      "wins": 159,
+      "rating": 1479,
+      "battles": 195,
+      "wins": 160,
       "ties": 15,
-      "win_rate_percentage": 85.82,
+      "win_rate_percentage": 85.9,
       "rank": 1
     },
     {
@@ -57,39 +57,30 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1261,
-      "battles": 229,
-      "wins": 123,
+      "rating": 1269,
+      "battles": 230,
+      "wins": 124,
       "ties": 30,
-      "win_rate_percentage": 60.26,
+      "win_rate_percentage": 60.43,
       "rank": 7
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1255,
-      "battles": 243,
-      "wins": 131,
+      "battles": 245,
+      "wins": 132,
       "ties": 37,
-      "win_rate_percentage": 61.52,
+      "win_rate_percentage": 61.43,
       "rank": 8
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "rating": 1252,
-      "battles": 196,
-      "wins": 101,
-      "ties": 22,
-      "win_rate_percentage": 57.14,
-      "rank": 9
-    },
-    {
       "model_name": "Kimi K2",
-      "rating": 1248,
-      "battles": 247,
-      "wins": 109,
+      "rating": 1254,
+      "battles": 248,
+      "wins": 110,
       "ties": 39,
-      "win_rate_percentage": 52.02,
-      "rank": 10
+      "win_rate_percentage": 52.22,
+      "rank": 9
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
@@ -98,15 +89,24 @@
       "wins": 122,
       "ties": 39,
       "win_rate_percentage": 55.06,
+      "rank": 10
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "rating": 1235,
+      "battles": 198,
+      "wins": 101,
+      "ties": 22,
+      "win_rate_percentage": 56.57,
       "rank": 11
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1236,
-      "battles": 186,
+      "rating": 1233,
+      "battles": 187,
       "wins": 90,
       "ties": 31,
-      "win_rate_percentage": 56.72,
+      "win_rate_percentage": 56.42,
       "rank": 12
     },
     {
@@ -138,29 +138,29 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1196,
-      "battles": 157,
-      "wins": 74,
-      "ties": 19,
-      "win_rate_percentage": 53.18,
+      "rating": 1204,
+      "battles": 158,
+      "wins": 75,
+      "ties": 20,
+      "win_rate_percentage": 53.8,
       "rank": 16
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1187,
-      "battles": 211,
-      "wins": 94,
+      "rating": 1193,
+      "battles": 212,
+      "wins": 95,
       "ties": 34,
-      "win_rate_percentage": 52.61,
+      "win_rate_percentage": 52.83,
       "rank": 17
     },
     {
       "model_name": "catalina",
-      "rating": 1161,
-      "battles": 230,
-      "wins": 78,
-      "ties": 49,
-      "win_rate_percentage": 44.57,
+      "rating": 1167,
+      "battles": 231,
+      "wins": 79,
+      "ties": 50,
+      "win_rate_percentage": 45.02,
       "rank": 18
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1148,
-      "battles": 219,
+      "rating": 1142,
+      "battles": 220,
       "wins": 86,
       "ties": 29,
-      "win_rate_percentage": 45.89,
+      "win_rate_percentage": 45.68,
       "rank": 20
     },
     {
@@ -200,30 +200,30 @@
       "rank": 22
     },
     {
-      "model_name": "GPT 5 chat",
-      "rating": 1112,
-      "battles": 261,
-      "wins": 76,
-      "ties": 46,
-      "win_rate_percentage": 37.93,
-      "rank": 23
-    },
-    {
       "model_name": "V0 1.5 MD",
       "rating": 1107,
       "battles": 64,
       "wins": 17,
       "ties": 7,
       "win_rate_percentage": 32.03,
+      "rank": 23
+    },
+    {
+      "model_name": "GPT 5 chat",
+      "rating": 1106,
+      "battles": 262,
+      "wins": 76,
+      "ties": 46,
+      "win_rate_percentage": 37.79,
       "rank": 24
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1044,
-      "battles": 69,
+      "rating": 1039,
+      "battles": 70,
       "wins": 14,
       "ties": 15,
-      "win_rate_percentage": 31.16,
+      "win_rate_percentage": 30.71,
       "rank": 25
     }
   ]
