@@ -136,6 +136,39 @@ body {
   text-align: center;
 }
 
+/* Footer layout & health pill */
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 12px;
+}
+
+#healthStatus {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.5), transparent), var(--card);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.4);
+  white-space: normal;
+  overflow-wrap: anywhere;
+  margin-left: 0 !important;
+}
+
+#healthStatus .label { font-weight: 600; }
+#healthStatus .counts { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 0; list-style: none; }
+#healthStatus .counts li { white-space: nowrap; }
+
+[data-theme="dark"] #healthStatus {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), transparent), var(--card);
+  border-color: rgba(255,255,255,0.06);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
 .badge {
   display: inline-block;
   padding: 2px 8px;
@@ -274,6 +307,13 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .input { width: 100%; }
   .container { padding: 0 14px; }
   .toolbar-row { display: block; }
+  /* table mode on medium screens: keep model name single line */
+  .table td:nth-child(2) {
+    max-width: 360px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 @media (max-width: 480px) {
@@ -284,6 +324,17 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .select { padding: 6px 26px 6px 8px; font-size: 11px; }
   .mobile-sort { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
   .mobile-sort label { font-size: 12px; }
+  /* footer: stack vertically on small screens */
+  .footer { margin: 28px 0 16px; }
+  .footer .container { flex-direction: column; align-items: stretch; gap: 8px; }
+  #healthStatus { width: 100%; text-align: left; padding: 8px 12px; border-radius: 10px; line-height: 1.6; }
+  #healthStatus { display: block; }
+  #healthStatus .label { display: block; margin-bottom: 4px; }
+  #healthStatus .counts { display: block; }
+  #healthStatus .counts li + li { margin-top: 4px; }
+  /* ensure metric stays on the header line in card layout */
+  .table tr .cell-elo,
+  .table tr .cell-metric { white-space: nowrap; }
   /* Long model names truncate on small screens */
   .table td:nth-child(2) {
     max-width: 220px;

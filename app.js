@@ -579,22 +579,37 @@ function renderHealth(health) {
   const emoji = ok ? '🟢' : '🔴';
   const lang = getLang();
   const T = (I18N_TEXT[lang] || I18N_TEXT.zh).health;
-  const counts = [
+  const countItems = [
     health.models_count != null ? `${T.models}:${health.models_count}` : null,
     health.fixed_prompts_count != null ? `${T.fixed_prompts}:${health.fixed_prompts_count}` : null,
     health.recorded_users_count != null ? `${T.users}:${health.recorded_users_count}` : null,
     health.completed_battles_count != null ? `${T.completed_battles}:${health.completed_battles_count}` : null,
-  ].filter(Boolean).join(' · ');
+  ].filter(Boolean);
 
-  let span = document.getElementById('healthStatus');
-  if (!span) {
-    span = document.createElement('span');
-    span.id = 'healthStatus';
-    span.className = 'muted';
-    span.style.marginLeft = '8px';
-    footer.appendChild(span);
+  let root = document.getElementById('healthStatus');
+  if (!root) {
+    root = document.createElement('span');
+    root.id = 'healthStatus';
+    root.className = 'muted';
+    root.style.marginLeft = '8px';
+    footer.appendChild(root);
   }
-  span.textContent = `${emoji} ${(I18N_TEXT[lang] || I18N_TEXT.zh).health.prefix}：${ok ? T.ok : T.error}${counts ? ' · ' + counts : ''}`;
+  // rebuild structured content for better mobile layout
+  root.innerHTML = '';
+  const label = document.createElement('span');
+  label.className = 'label';
+  label.textContent = `${emoji} ${(I18N_TEXT[lang] || I18N_TEXT.zh).health.prefix}：${ok ? T.ok : T.error}`;
+  root.appendChild(label);
+  if (countItems.length) {
+    const ul = document.createElement('ul');
+    ul.className = 'counts';
+    countItems.forEach(txt => {
+      const li = document.createElement('li');
+      li.textContent = txt;
+      ul.appendChild(li);
+    });
+    root.appendChild(ul);
+  }
 }
 
 function applyTheme(theme) {
