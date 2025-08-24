@@ -85,6 +85,9 @@ function setupSearch(state) {
 function setupSorting(state) {
   const headers = document.querySelectorAll('th.sortable');
   headers.forEach(th => {
+    th.setAttribute('aria-sort', 'none');
+  });
+  headers.forEach(th => {
     th.addEventListener('click', () => {
       const key = th.getAttribute('data-key');
       if (state.sortKey === key) {
@@ -122,8 +125,13 @@ function applyAndRender(state) {
   renderTable(rows);
 }
 
-function updateTotalBattles(rows) {
-  const total = rows.reduce((sum, r) => sum + (Number(r.battles) || 0), 0);
+function updateTotalBattles(health, rows) {
+  let total;
+  if (health && typeof health.completed_battles_count === 'number') {
+    total = health.completed_battles_count;
+  } else {
+    total = rows.reduce((sum, r) => sum + (Number(r.battles) || 0), 0);
+  }
   const el = document.getElementById('totalBattles');
   if (el) el.textContent = `总对战：${total}`;
 }
@@ -147,11 +155,53 @@ function renderHealth(health) {
   footer.appendChild(span);
 }
 
+function applyTheme(theme) {
+  const root = document.documentElement;
+  if (theme === 'dark') root.setAttribute('data-theme', 'dark');
+  else root.removeAttribute('data-theme');
+  localStorage.setItem('theme', theme);
+}
+
+function applyStyle(style) {
+  const root = document.documentElement;
+  if (style === 'xp') root.setAttribute('data-style', 'xp');
+  else root.removeAttribute('data-style');
+  localStorage.setItem('style', style);
+  const btn = document.getElementById('styleToggle');
+  if (btn) {
+    const xp = style === 'xp';
+    btn.textContent = xp ? '现代风格' : 'XP 风格';
+    btn.title = xp ? '切换为现代风格' : '切换为千禧年风格';
+  }
+}
+
+function setupToggles() {
+  const themeBtn = document.getElementById('themeToggle');
+  const styleBtn = document.getElementById('styleToggle');
+
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  const savedStyle = localStorage.getItem('style') || 'modern';
+  applyTheme(savedTheme);
+  applyStyle(savedStyle);
+
+  themeBtn.addEventListener('click', () => {
+    const next = (localStorage.getItem('theme') || 'light') === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+  });
+
+  styleBtn.addEventListener('click', () => {
+    const next = (localStorage.getItem('style') || 'modern') === 'xp' ? 'modern' : 'xp';
+    applyStyle(next);
+  });
+}
+
 (async function init() {
   const [data, health] = await Promise.all([fetchLeaderboard(), fetchHealth()]);
   const rows = Array.isArray(data.leaderboard)
     ? data.leaderboard
     : (Array.isArray(data.entries) ? data.entries.map(e => ({ rank: e.rank, model_name: e.name, rating: e.score })) : []);
+
+  setupToggles();
 
   const state = {
     rowsRaw: rows,
@@ -162,7 +212,6 @@ function renderHealth(health) {
 
   setupSearch(state);
   setupSorting(state);
-  updateTotalBattles(rows);
 
   const updated = document.getElementById('updatedAt');
   if (data.updatedAt) {
@@ -173,5 +222,6 @@ function renderHealth(health) {
   }
 
   renderHealth(health || {});
+  updateTotalBattles(health || {}, rows);
   applyAndRender(state);
 })();
