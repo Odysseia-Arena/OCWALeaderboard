@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:29:52.672Z",
+  "updatedAt": "2025-08-24T14:32:11.604Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1343,
-      "battles": 107,
-      "wins": 70,
+      "rating": 1348,
+      "battles": 108,
+      "wins": 71,
       "ties": 19,
-      "win_rate_percentage": 74.3,
+      "win_rate_percentage": 74.54,
       "rank": 2
     },
     {
@@ -103,10 +103,10 @@
     {
       "model_name": "Gemini 1.5 Pro",
       "rating": 1220,
-      "battles": 188,
-      "wins": 77,
+      "battles": 190,
+      "wins": 78,
       "ties": 27,
-      "win_rate_percentage": 48.14,
+      "win_rate_percentage": 48.16,
       "rank": 12
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1094,
-      "battles": 54,
+      "rating": 1089,
+      "battles": 55,
       "wins": 13,
       "ties": 13,
-      "win_rate_percentage": 36.11,
+      "win_rate_percentage": 35.45,
       "rank": 24
     },
     {
