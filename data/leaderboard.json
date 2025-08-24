@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T15:27:15.431Z",
+  "updatedAt": "2025-08-24T15:28:02.619Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -47,21 +47,21 @@
       "rank": 5
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1295,
+      "battles": 131,
+      "wins": 78,
+      "ties": 19,
+      "win_rate_percentage": 66.79,
+      "rank": 6
+    },
+    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1292,
       "battles": 225,
       "wins": 126,
       "ties": 34,
       "win_rate_percentage": 63.56,
-      "rank": 6
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1291,
-      "battles": 130,
-      "wins": 77,
-      "ties": 19,
-      "win_rate_percentage": 66.54,
       "rank": 7
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "model_name": "Kimi K2",
-      "rating": 1218,
-      "battles": 221,
-      "wins": 94,
+      "rating": 1225,
+      "battles": 222,
+      "wins": 95,
       "ties": 36,
-      "win_rate_percentage": 50.68,
+      "win_rate_percentage": 50.9,
       "rank": 12
     },
     {
@@ -146,22 +146,13 @@
       "rank": 16
     },
     {
-      "model_name": "catalina",
-      "rating": 1180,
-      "battles": 204,
-      "wins": 70,
-      "ties": 43,
-      "win_rate_percentage": 44.85,
-      "rank": 17
-    },
-    {
       "model_name": "Claude Sonnet 4",
       "rating": 1178,
       "battles": 167,
       "wins": 69,
       "ties": 25,
       "win_rate_percentage": 48.8,
-      "rank": 18
+      "rank": 17
     },
     {
       "model_name": "Gemini 1.5 Pro",
@@ -170,6 +161,15 @@
       "wins": 78,
       "ties": 27,
       "win_rate_percentage": 46.92,
+      "rank": 18
+    },
+    {
+      "model_name": "catalina",
+      "rating": 1173,
+      "battles": 205,
+      "wins": 70,
+      "ties": 43,
+      "win_rate_percentage": 44.63,
       "rank": 19
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1071,
-      "battles": 59,
+      "rating": 1067,
+      "battles": 60,
       "wins": 13,
       "ties": 13,
-      "win_rate_percentage": 33.05,
+      "win_rate_percentage": 32.5,
       "rank": 24
     },
     {
