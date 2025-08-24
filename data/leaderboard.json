@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T15:57:14.324Z",
+  "updatedAt": "2025-08-24T15:58:39.497Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -83,21 +83,21 @@
       "rank": 9
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1247,
+      "battles": 226,
+      "wins": 98,
+      "ties": 36,
+      "win_rate_percentage": 51.33,
+      "rank": 10
+    },
+    {
       "model_name": "Claude Opus 4.1",
       "rating": 1246,
       "battles": 68,
       "wins": 30,
       "ties": 14,
       "win_rate_percentage": 54.41,
-      "rank": 10
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1241,
-      "battles": 225,
-      "wins": 97,
-      "ties": 36,
-      "win_rate_percentage": 51.11,
       "rank": 11
     },
     {
@@ -111,11 +111,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1214,
-      "battles": 169,
-      "wins": 80,
+      "rating": 1220,
+      "battles": 170,
+      "wins": 81,
       "ties": 28,
-      "win_rate_percentage": 55.62,
+      "win_rate_percentage": 55.88,
       "rank": 13
     },
     {
@@ -146,22 +146,13 @@
       "rank": 16
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1171,
-      "battles": 172,
-      "wins": 69,
-      "ties": 27,
-      "win_rate_percentage": 47.97,
-      "rank": 17
-    },
-    {
       "model_name": "Gemini 1.5 Pro",
       "rating": 1167,
       "battles": 197,
       "wins": 78,
       "ties": 27,
       "win_rate_percentage": 46.45,
-      "rank": 18
+      "rank": 17
     },
     {
       "model_name": "Grok 4",
@@ -170,6 +161,15 @@
       "wins": 71,
       "ties": 41,
       "win_rate_percentage": 38.45,
+      "rank": 18
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1165,
+      "battles": 173,
+      "wins": 69,
+      "ties": 27,
+      "win_rate_percentage": 47.69,
       "rank": 19
     },
     {
@@ -191,21 +191,21 @@
       "rank": 21
     },
     {
-      "model_name": "GPT 5 chat",
-      "rating": 1110,
-      "battles": 237,
-      "wins": 67,
-      "ties": 46,
-      "win_rate_percentage": 37.97,
-      "rank": 22
-    },
-    {
       "model_name": "V0 1.5 MD",
       "rating": 1107,
       "battles": 64,
       "wins": 17,
       "ties": 7,
       "win_rate_percentage": 32.03,
+      "rank": 22
+    },
+    {
+      "model_name": "GPT 5 chat",
+      "rating": 1104,
+      "battles": 238,
+      "wins": 67,
+      "ties": 46,
+      "win_rate_percentage": 37.82,
       "rank": 23
     },
     {
