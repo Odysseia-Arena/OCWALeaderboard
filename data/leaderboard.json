@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:42:48.309Z",
+  "updatedAt": "2025-08-24T23:47:17.330Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -83,13 +83,22 @@
       "rank": 9
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1243,
+      "battles": 251,
+      "wins": 111,
+      "ties": 40,
+      "win_rate_percentage": 52.19,
+      "rank": 10
+    },
+    {
       "model_name": "Claude Opus 4.1",
       "rating": 1240,
       "battles": 84,
       "wins": 38,
       "ties": 14,
       "win_rate_percentage": 53.57,
-      "rank": 10
+      "rank": 11
     },
     {
       "model_name": "Step 3",
@@ -98,25 +107,7 @@
       "wins": 83,
       "ties": 25,
       "win_rate_percentage": 54.57,
-      "rank": 11
-    },
-    {
-      "model_name": "GPT 4o Latest",
-      "rating": 1235,
-      "battles": 193,
-      "wins": 93,
-      "ties": 32,
-      "win_rate_percentage": 56.48,
       "rank": 12
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1235,
-      "battles": 250,
-      "wins": 110,
-      "ties": 40,
-      "win_rate_percentage": 52,
-      "rank": 13
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -125,6 +116,15 @@
       "wins": 103,
       "ties": 22,
       "win_rate_percentage": 56.44,
+      "rank": 13
+    },
+    {
+      "model_name": "GPT 4o Latest",
+      "rating": 1227,
+      "battles": 194,
+      "wins": 93,
+      "ties": 32,
+      "win_rate_percentage": 56.19,
       "rank": 14
     },
     {
