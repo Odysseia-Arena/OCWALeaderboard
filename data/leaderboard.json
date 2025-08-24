@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-24T15:56:00.487Z",
+  "updatedAt": "2025-08-24T15:57:14.324Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1430,
-      "battles": 179,
+      "rating": 1427,
+      "battles": 180,
       "wins": 143,
-      "ties": 14,
-      "win_rate_percentage": 83.8,
+      "ties": 15,
+      "win_rate_percentage": 83.61,
       "rank": 1
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1289,
-      "battles": 228,
+      "rating": 1292,
+      "battles": 229,
       "wins": 127,
-      "ties": 34,
-      "win_rate_percentage": 63.16,
+      "ties": 35,
+      "win_rate_percentage": 63.1,
       "rank": 6
     },
     {
