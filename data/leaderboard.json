@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:52:11.749Z",
+  "updatedAt": "2025-08-24T14:57:18.039Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,20 +21,20 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1339,
-      "battles": 106,
+      "rating": 1329,
+      "battles": 107,
       "wins": 68,
       "ties": 20,
-      "win_rate_percentage": 73.58,
+      "win_rate_percentage": 72.9,
       "rank": 3
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1315,
-      "battles": 51,
+      "rating": 1311,
+      "battles": 52,
       "wins": 31,
-      "ties": 9,
-      "win_rate_percentage": 69.61,
+      "ties": 10,
+      "win_rate_percentage": 69.23,
       "rank": 4
     },
     {
@@ -75,11 +75,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1272,
-      "battles": 126,
-      "wins": 73,
+      "rating": 1282,
+      "battles": 127,
+      "wins": 74,
       "ties": 19,
-      "win_rate_percentage": 65.48,
+      "win_rate_percentage": 65.75,
       "rank": 9
     },
     {
@@ -110,22 +110,13 @@
       "rank": 12
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1213,
-      "battles": 191,
-      "wins": 78,
-      "ties": 27,
-      "win_rate_percentage": 47.91,
-      "rank": 13
-    },
-    {
       "model_name": "GPT 4o Latest",
       "rating": 1212,
       "battles": 167,
       "wins": 79,
       "ties": 28,
       "win_rate_percentage": 55.69,
-      "rank": 14
+      "rank": 13
     },
     {
       "model_name": "Step 3",
@@ -134,6 +125,15 @@
       "wins": 62,
       "ties": 18,
       "win_rate_percentage": 53.38,
+      "rank": 14
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1204,
+      "battles": 192,
+      "wins": 78,
+      "ties": 27,
+      "win_rate_percentage": 47.66,
       "rank": 15
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1183,
+      "battles": 55,
+      "wins": 23,
+      "ties": 6,
+      "win_rate_percentage": 47.27,
+      "rank": 17
+    },
+    {
       "model_name": "catalina",
       "rating": 1180,
       "battles": 204,
       "wins": 70,
       "ties": 43,
       "win_rate_percentage": 44.85,
-      "rank": 17
-    },
-    {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1166,
-      "battles": 53,
-      "wins": 21,
-      "ties": 6,
-      "win_rate_percentage": 45.28,
       "rank": 18
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1154,
-      "battles": 160,
+      "rating": 1150,
+      "battles": 162,
       "wins": 65,
-      "ties": 24,
-      "win_rate_percentage": 48.12,
+      "ties": 25,
+      "win_rate_percentage": 47.84,
       "rank": 20
     },
     {
