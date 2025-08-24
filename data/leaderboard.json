@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T22:37:24.019Z",
+  "updatedAt": "2025-08-24T22:42:13.464Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -111,11 +111,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1236,
-      "battles": 190,
+      "rating": 1234,
+      "battles": 191,
       "wins": 92,
-      "ties": 31,
-      "win_rate_percentage": 56.58,
+      "ties": 32,
+      "win_rate_percentage": 56.54,
       "rank": 13
     },
     {
@@ -192,11 +192,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1129,
-      "battles": 243,
+      "rating": 1131,
+      "battles": 244,
       "wins": 62,
-      "ties": 47,
-      "win_rate_percentage": 35.19,
+      "ties": 48,
+      "win_rate_percentage": 35.25,
       "rank": 22
     },
     {
