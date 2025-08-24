@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T17:52:14.587Z",
+  "updatedAt": "2025-08-24T17:57:18.272Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -65,31 +65,22 @@
       "rank": 7
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1257,
+      "battles": 245,
+      "wins": 108,
+      "ties": 39,
+      "win_rate_percentage": 52.04,
+      "rank": 8
+    },
+    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1255,
       "battles": 243,
       "wins": 131,
       "ties": 37,
       "win_rate_percentage": 61.52,
-      "rank": 8
-    },
-    {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1253,
-      "battles": 254,
-      "wins": 121,
-      "ties": 39,
-      "win_rate_percentage": 55.31,
       "rank": 9
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1249,
-      "battles": 244,
-      "wins": 107,
-      "ties": 39,
-      "win_rate_percentage": 51.84,
-      "rank": 10
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -98,6 +89,15 @@
       "wins": 100,
       "ties": 21,
       "win_rate_percentage": 56.96,
+      "rank": 10
+    },
+    {
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1245,
+      "battles": 255,
+      "wins": 121,
+      "ties": 39,
+      "win_rate_percentage": 55.1,
       "rank": 11
     },
     {
@@ -110,31 +110,22 @@
       "rank": 12
     },
     {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1213,
+      "battles": 186,
+      "wins": 76,
+      "ties": 30,
+      "win_rate_percentage": 48.92,
+      "rank": 13
+    },
+    {
       "model_name": "Claude Opus 4.1",
       "rating": 1212,
       "battles": 76,
       "wins": 32,
       "ties": 14,
       "win_rate_percentage": 51.32,
-      "rank": 13
-    },
-    {
-      "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1210,
-      "battles": 204,
-      "wins": 93,
-      "ties": 32,
-      "win_rate_percentage": 53.43,
       "rank": 14
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1205,
-      "battles": 185,
-      "wins": 75,
-      "ties": 30,
-      "win_rate_percentage": 48.65,
-      "rank": 15
     },
     {
       "model_name": "Grok 4",
@@ -143,6 +134,15 @@
       "wins": 80,
       "ties": 46,
       "win_rate_percentage": 39.92,
+      "rank": 15
+    },
+    {
+      "model_name": "DeepSeek V3.1 thinking",
+      "rating": 1201,
+      "battles": 206,
+      "wins": 93,
+      "ties": 33,
+      "win_rate_percentage": 53.16,
       "rank": 16
     },
     {
@@ -156,11 +156,11 @@
     },
     {
       "model_name": "catalina",
-      "rating": 1169,
-      "battles": 225,
+      "rating": 1170,
+      "battles": 226,
       "wins": 77,
-      "ties": 48,
-      "win_rate_percentage": 44.89,
+      "ties": 49,
+      "win_rate_percentage": 44.91,
       "rank": 18
     },
     {
