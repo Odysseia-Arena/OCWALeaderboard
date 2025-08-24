@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:47:15.423Z",
+  "updatedAt": "2025-08-24T14:52:01.050Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1335,
-      "battles": 105,
-      "wins": 67,
+      "rating": 1339,
+      "battles": 106,
+      "wins": 68,
       "ties": 20,
-      "win_rate_percentage": 73.33,
+      "win_rate_percentage": 73.58,
       "rank": 3
     },
     {
@@ -156,11 +156,11 @@
     },
     {
       "model_name": "GLM 4.5 FP8",
-      "rating": 1170,
-      "battles": 52,
+      "rating": 1166,
+      "battles": 53,
       "wins": 21,
       "ties": 6,
-      "win_rate_percentage": 46.15,
+      "win_rate_percentage": 45.28,
       "rank": 18
     },
     {
