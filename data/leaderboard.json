@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T15:49:36.535Z",
+  "updatedAt": "2025-08-24T15:52:12.881Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -129,11 +129,11 @@
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1192,
-      "battles": 186,
-      "wins": 85,
+      "rating": 1197,
+      "battles": 187,
+      "wins": 86,
       "ties": 28,
-      "win_rate_percentage": 53.23,
+      "win_rate_percentage": 53.48,
       "rank": 15
     },
     {
@@ -157,19 +157,19 @@
     {
       "model_name": "Claude Sonnet 4",
       "rating": 1171,
-      "battles": 171,
+      "battles": 172,
       "wins": 69,
-      "ties": 26,
-      "win_rate_percentage": 47.95,
+      "ties": 27,
+      "win_rate_percentage": 47.97,
       "rank": 18
     },
     {
       "model_name": "catalina",
-      "rating": 1162,
-      "battles": 208,
-      "wins": 70,
-      "ties": 44,
-      "win_rate_percentage": 44.23,
+      "rating": 1169,
+      "battles": 210,
+      "wins": 71,
+      "ties": 45,
+      "win_rate_percentage": 44.52,
       "rank": 19
     },
     {
@@ -192,11 +192,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1117,
-      "battles": 236,
+      "rating": 1110,
+      "battles": 237,
       "wins": 67,
       "ties": 46,
-      "win_rate_percentage": 38.14,
+      "win_rate_percentage": 37.97,
       "rank": 22
     },
     {
@@ -219,11 +219,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1060,
-      "battles": 208,
+      "rating": 1055,
+      "battles": 209,
       "wins": 50,
       "ties": 41,
-      "win_rate_percentage": 33.89,
+      "win_rate_percentage": 33.73,
       "rank": 25
     }
   ]
