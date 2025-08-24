@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T23:18:29.217Z",
+  "updatedAt": "2025-08-24T23:22:18.106Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -101,21 +101,21 @@
       "rank": 11
     },
     {
-      "model_name": "Kimi K2",
-      "rating": 1238,
-      "battles": 249,
-      "wins": 110,
-      "ties": 39,
-      "win_rate_percentage": 52.01,
-      "rank": 12
-    },
-    {
       "model_name": "Step 3",
       "rating": 1237,
       "battles": 174,
       "wins": 83,
       "ties": 24,
       "win_rate_percentage": 54.6,
+      "rank": 12
+    },
+    {
+      "model_name": "Kimi K2",
+      "rating": 1235,
+      "battles": 250,
+      "wins": 110,
+      "ties": 40,
+      "win_rate_percentage": 52,
       "rank": 13
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1096,
-      "battles": 264,
+      "rating": 1099,
+      "battles": 265,
       "wins": 76,
-      "ties": 46,
-      "win_rate_percentage": 37.5,
+      "ties": 47,
+      "win_rate_percentage": 37.55,
       "rank": 24
     },
     {
