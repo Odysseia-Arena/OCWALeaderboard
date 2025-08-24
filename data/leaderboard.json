@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:22:14.432Z",
+  "updatedAt": "2025-08-24T14:27:13.669Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -13,19 +13,19 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1337,
-      "battles": 105,
+      "battles": 106,
       "wins": 69,
-      "ties": 18,
-      "win_rate_percentage": 74.29,
+      "ties": 19,
+      "win_rate_percentage": 74.06,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1330,
-      "battles": 103,
-      "wins": 66,
-      "ties": 19,
-      "win_rate_percentage": 73.3,
+      "rating": 1335,
+      "battles": 105,
+      "wins": 67,
+      "ties": 20,
+      "win_rate_percentage": 73.33,
       "rank": 3
     },
     {
@@ -39,11 +39,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1297,
-      "battles": 48,
-      "wins": 28,
+      "rating": 1303,
+      "battles": 49,
+      "wins": 29,
       "ties": 9,
-      "win_rate_percentage": 67.71,
+      "win_rate_percentage": 68.37,
       "rank": 5
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1226,
-      "battles": 187,
+      "rating": 1220,
+      "battles": 188,
       "wins": 77,
       "ties": 27,
-      "win_rate_percentage": 48.4,
+      "win_rate_percentage": 48.14,
       "rank": 12
     },
     {
@@ -129,11 +129,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1196,
-      "battles": 130,
-      "wins": 60,
+      "rating": 1198,
+      "battles": 132,
+      "wins": 61,
       "ties": 18,
-      "win_rate_percentage": 53.08,
+      "win_rate_percentage": 53.03,
       "rank": 15
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "GLM 4.5 FP8",
-      "rating": 1158,
-      "battles": 47,
+      "rating": 1151,
+      "battles": 48,
       "wins": 18,
       "ties": 6,
-      "win_rate_percentage": 44.68,
+      "win_rate_percentage": 43.75,
       "rank": 20
     },
     {
