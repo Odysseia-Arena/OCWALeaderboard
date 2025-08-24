@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T19:17:19.844Z",
+  "updatedAt": "2025-08-24T19:22:12.548Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -137,30 +137,30 @@
       "rank": 15
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1193,
-      "battles": 234,
-      "wins": 94,
-      "ties": 31,
-      "win_rate_percentage": 46.79,
-      "rank": 16
-    },
-    {
       "model_name": "Grok 4",
       "rating": 1192,
       "battles": 261,
       "wins": 81,
       "ties": 46,
       "win_rate_percentage": 39.85,
+      "rank": 16
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1192,
+      "battles": 235,
+      "wins": 94,
+      "ties": 32,
+      "win_rate_percentage": 46.81,
       "rank": 17
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1170,
-      "battles": 198,
+      "rating": 1171,
+      "battles": 199,
       "wins": 79,
-      "ties": 30,
-      "win_rate_percentage": 47.47,
+      "ties": 31,
+      "win_rate_percentage": 47.49,
       "rank": 18
     },
     {
