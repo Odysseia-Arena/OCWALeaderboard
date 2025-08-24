@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2025-08-24T15:42:16.693Z",
+  "updatedAt": "2025-08-24T15:47:15.922Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1420,
-      "battles": 176,
-      "wins": 140,
+      "rating": 1423,
+      "battles": 177,
+      "wins": 141,
       "ties": 14,
-      "win_rate_percentage": 83.52,
+      "win_rate_percentage": 83.62,
       "rank": 1
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1355,
+      "rating": 1345,
       "battles": 120,
       "wins": 79,
       "ties": 22,
@@ -21,20 +21,20 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1335,
-      "battles": 111,
-      "wins": 71,
+      "rating": 1339,
+      "battles": 112,
+      "wins": 72,
       "ties": 21,
-      "win_rate_percentage": 73.42,
+      "win_rate_percentage": 73.66,
       "rank": 3
     },
     {
       "model_name": "Grok 3",
-      "rating": 1323,
-      "battles": 212,
+      "rating": 1314,
+      "battles": 213,
       "wins": 117,
       "ties": 29,
-      "win_rate_percentage": 62.03,
+      "win_rate_percentage": 61.74,
       "rank": 4
     },
     {
@@ -47,13 +47,22 @@
       "rank": 5
     },
     {
+      "model_name": "DeepSeek V3.1 nothinking",
+      "rating": 1289,
+      "battles": 228,
+      "wins": 127,
+      "ties": 34,
+      "win_rate_percentage": 63.16,
+      "rank": 6
+    },
+    {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1298,
-      "battles": 132,
+      "rating": 1289,
+      "battles": 133,
       "wins": 79,
       "ties": 19,
-      "win_rate_percentage": 67.05,
-      "rank": 6
+      "win_rate_percentage": 66.54,
+      "rank": 7
     },
     {
       "model_name": "V0 1.5 LG",
@@ -62,25 +71,25 @@
       "wins": 49,
       "ties": 14,
       "win_rate_percentage": 72.73,
-      "rank": 7
-    },
-    {
-      "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1280,
-      "battles": 227,
-      "wins": 126,
-      "ties": 34,
-      "win_rate_percentage": 63,
       "rank": 8
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1255,
-      "battles": 236,
-      "wins": 113,
+      "rating": 1265,
+      "battles": 237,
+      "wins": 114,
       "ties": 36,
-      "win_rate_percentage": 55.51,
+      "win_rate_percentage": 55.7,
       "rank": 9
+    },
+    {
+      "model_name": "Kimi K2",
+      "rating": 1245,
+      "battles": 224,
+      "wins": 97,
+      "ties": 36,
+      "win_rate_percentage": 51.34,
+      "rank": 10
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -89,15 +98,6 @@
       "wins": 29,
       "ties": 14,
       "win_rate_percentage": 53.73,
-      "rank": 10
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1236,
-      "battles": 223,
-      "wins": 96,
-      "ties": 36,
-      "win_rate_percentage": 51.12,
       "rank": 11
     },
     {
@@ -146,30 +146,30 @@
       "rank": 16
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1174,
-      "battles": 170,
-      "wins": 69,
-      "ties": 26,
-      "win_rate_percentage": 48.24,
-      "rank": 17
-    },
-    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1173,
       "battles": 67,
       "wins": 27,
       "ties": 6,
       "win_rate_percentage": 44.78,
+      "rank": 17
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1171,
+      "battles": 171,
+      "wins": 69,
+      "ties": 26,
+      "win_rate_percentage": 47.95,
       "rank": 18
     },
     {
       "model_name": "catalina",
-      "rating": 1166,
-      "battles": 207,
+      "rating": 1162,
+      "battles": 208,
       "wins": 70,
       "ties": 44,
-      "win_rate_percentage": 44.44,
+      "win_rate_percentage": 44.23,
       "rank": 19
     },
     {
@@ -211,10 +211,10 @@
     {
       "model_name": "GPT Oss 120b",
       "rating": 1065,
-      "battles": 64,
+      "battles": 63,
       "wins": 13,
       "ties": 15,
-      "win_rate_percentage": 32.03,
+      "win_rate_percentage": 32.54,
       "rank": 24
     },
     {
