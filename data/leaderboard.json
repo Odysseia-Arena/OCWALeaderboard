@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:42:53.579Z",
+  "updatedAt": "2025-08-24T14:47:15.423Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -75,11 +75,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1265,
-      "battles": 125,
-      "wins": 72,
+      "rating": 1272,
+      "battles": 126,
+      "wins": 73,
       "ties": 19,
-      "win_rate_percentage": 65.2,
+      "win_rate_percentage": 65.48,
       "rank": 9
     },
     {
@@ -101,21 +101,21 @@
       "rank": 11
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1220,
-      "battles": 190,
-      "wins": 78,
-      "ties": 27,
-      "win_rate_percentage": 48.16,
-      "rank": 12
-    },
-    {
       "model_name": "Kimi K2",
       "rating": 1218,
       "battles": 221,
       "wins": 94,
       "ties": 36,
       "win_rate_percentage": 50.68,
+      "rank": 12
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1213,
+      "battles": 191,
+      "wins": 78,
+      "ties": 27,
+      "win_rate_percentage": 47.91,
       "rank": 13
     },
     {
@@ -155,30 +155,30 @@
       "rank": 17
     },
     {
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1170,
+      "battles": 52,
+      "wins": 21,
+      "ties": 6,
+      "win_rate_percentage": 46.15,
+      "rank": 18
+    },
+    {
       "model_name": "Grok 4",
       "rating": 1165,
       "battles": 234,
       "wins": 70,
       "ties": 40,
       "win_rate_percentage": 38.46,
-      "rank": 18
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1162,
-      "battles": 159,
-      "wins": 65,
-      "ties": 24,
-      "win_rate_percentage": 48.43,
       "rank": 19
     },
     {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1162,
-      "battles": 51,
-      "wins": 20,
-      "ties": 6,
-      "win_rate_percentage": 45.1,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1154,
+      "battles": 160,
+      "wins": 65,
+      "ties": 24,
+      "win_rate_percentage": 48.12,
       "rank": 20
     },
     {
