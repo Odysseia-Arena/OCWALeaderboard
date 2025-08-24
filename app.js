@@ -22,6 +22,197 @@ async function fetchHealth() {
   }
 }
 
+// 多语言：控制页面标题/副标题及各处文案
+const I18N_TEXT = {
+  zh: {
+    htmlLang: 'zh-CN',
+    title: '类脑AI创意写作竞技场',
+    subtitle: 'Odysseia AI Creative Writing Arena',
+    rulesLink: '规则说明',
+    searchPlaceholder: '搜索模型名称...',
+    totalBattles: '总对战',
+    lastUpdated: '最后更新',
+    loading: '加载中...',
+    noData: '暂无数据',
+    themeToLight: '亮色模式',
+    themeToDark: '暗色模式',
+    themeTitle: '切换明暗主题',
+    langTitle: '切换语言',
+    headers: {
+      rank: '名次',
+      model_name: 'AI模型名',
+      rating: 'ELO评分',
+      battles: '对战',
+      wins: '胜',
+      ties: '平',
+      win_rate_percentage: '胜率%'
+    },
+    health: {
+      prefix: '后端状态',
+      ok: '正常',
+      error: '异常',
+      models: '模型',
+      fixed_prompts: '固定题',
+      users: '用户',
+      completed_battles: '完成对战'
+    },
+    footer: '由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages'
+  },
+  en: {
+    htmlLang: 'en',
+    title: 'Odysseia AI Creative Writing Arena',
+    subtitle: '类脑AI创意写作竞技场',
+    rulesLink: 'Rules',
+    searchPlaceholder: 'Search model name...',
+    totalBattles: 'Total Battles',
+    lastUpdated: 'Last Updated',
+    loading: 'Loading...',
+    noData: 'No data',
+    themeToLight: 'Light Mode',
+    themeToDark: 'Dark Mode',
+    themeTitle: 'Toggle theme',
+    langTitle: 'Change language',
+    headers: {
+      rank: 'Rank',
+      model_name: 'Model',
+      rating: 'ELO',
+      battles: 'Battles',
+      wins: 'Wins',
+      ties: 'Ties',
+      win_rate_percentage: 'Win %'
+    },
+    health: {
+      prefix: 'Backend',
+      ok: 'OK',
+      error: 'Error',
+      models: 'Models',
+      fixed_prompts: 'Fixed Prompts',
+      users: 'Users',
+      completed_battles: 'Completed'
+    },
+    footer: 'Synced by GitHub Actions · Deployed on GitHub Pages'
+  },
+  ja: {
+    htmlLang: 'ja',
+    // 類脳 带假名注音
+    title: '<ruby><rb>類脳</rb><rt>オデュッセイア</rt></ruby>AI創作競技場',
+    subtitle: '类脑AI创意写作竞技场',
+    rulesLink: 'ルール',
+    searchPlaceholder: 'モデル名を検索...',
+    totalBattles: '総対戦数',
+    lastUpdated: '最終更新',
+    loading: '読み込み中...',
+    noData: 'データなし',
+    themeToLight: 'ライトモード',
+    themeToDark: 'ダークモード',
+    themeTitle: 'テーマを切り替え',
+    langTitle: '言語を切り替え',
+    headers: {
+      rank: '順位',
+      model_name: 'モデル',
+      rating: 'ELO',
+      battles: '対戦',
+      wins: '勝',
+      ties: '分',
+      win_rate_percentage: '勝率%'
+    },
+    health: {
+      prefix: 'バックエンド',
+      ok: '正常',
+      error: '異常',
+      models: 'モデル',
+      fixed_prompts: '固定課題',
+      users: 'ユーザー',
+      completed_battles: '完了対戦'
+    },
+    footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ'
+  },
+};
+
+let __lastUpdatedISO = null;
+
+function getLang() {
+  try { return localStorage.getItem('lang') || 'zh'; } catch (_) { return 'zh'; }
+}
+
+function applyLanguage(lang) {
+  const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
+  try { localStorage.setItem('lang', lang); } catch (_) {}
+  try { document.documentElement.lang = conf.htmlLang; } catch (_) {}
+
+  const titleEl = document.querySelector('.header .title');
+  const subEl = document.querySelector('.header .subtitle');
+  if (titleEl) {
+    if (lang === 'ja') titleEl.innerHTML = conf.title; else titleEl.textContent = conf.title;
+  }
+  if (subEl) subEl.textContent = conf.subtitle;
+
+  const rulesLink = document.querySelector('.toolbar .right .link');
+  if (rulesLink) rulesLink.textContent = conf.rulesLink;
+
+  const searchInput = document.getElementById('search');
+  if (searchInput) searchInput.placeholder = conf.searchPlaceholder;
+
+  const updated = document.getElementById('updatedAt');
+  if (updated) {
+    const label = conf.lastUpdated;
+    if (__lastUpdatedISO) {
+      const d = new Date(__lastUpdatedISO);
+      updated.textContent = `${label}：${d.toLocaleString()}`;
+    } else {
+      updated.textContent = `${label}：--`;
+    }
+  }
+
+  const themeBtn = document.getElementById('themeToggle');
+  if (themeBtn) themeBtn.title = conf.themeTitle;
+
+  const langSelect = document.getElementById('langSelect');
+  if (langSelect) langSelect.title = conf.langTitle;
+
+  updateTableHeaders(lang);
+  // Footer
+  const footerSpan = document.querySelector('.footer .container .muted');
+  if (footerSpan) footerSpan.textContent = conf.footer;
+
+  // total battles label refresh
+  try {
+    const health = window.__lastHealth || {};
+    const rows = window.__lastRows || [];
+    updateTotalBattles(health, rows);
+  } catch (_) {}
+
+  // refresh theme button text with localized label
+  try { applyTheme(localStorage.getItem('theme') || 'light'); } catch (_) {}
+
+  const select = document.getElementById('langSelect');
+  if (select && select.value !== lang) select.value = lang;
+}
+
+function setupLanguage() {
+  const select = document.getElementById('langSelect');
+  const saved = getLang();
+
+  if (select) {
+    select.value = saved;
+    select.addEventListener('change', (e) => {
+      const next = e.target && e.target.value ? String(e.target.value) : 'zh';
+      applyLanguage(next);
+    });
+  }
+  applyLanguage(saved);
+}
+
+function updateTableHeaders(lang) {
+  const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const map = conf.headers;
+  const keys = ['rank','model_name','rating','battles','wins','ties','win_rate_percentage'];
+  keys.forEach((k) => {
+    const th = document.querySelector(`th.sortable[data-key="${k}"]`);
+    if (th) th.textContent = map[k];
+  });
+}
+
 function renderTable(rows) {
   const tbody = document.getElementById('leaderboardBody');
   tbody.innerHTML = '';
@@ -31,7 +222,8 @@ function renderTable(rows) {
     const td = document.createElement('td');
     td.colSpan = 7;
     td.className = 'muted center';
-    td.textContent = '暂无数据';
+    const lang = getLang();
+    td.textContent = (I18N_TEXT[lang] || I18N_TEXT.zh).noData;
     tr.appendChild(td);
     tbody.appendChild(tr);
     return;
@@ -133,7 +325,11 @@ function updateTotalBattles(health, rows) {
     total = rows.reduce((sum, r) => sum + (Number(r.battles) || 0), 0);
   }
   const el = document.getElementById('totalBattles');
-  if (el) el.textContent = `总对战：${total}`;
+  if (el) {
+    const lang = getLang();
+    const label = (I18N_TEXT[lang] || I18N_TEXT.zh).totalBattles;
+    el.textContent = `${label}：${total}`;
+  }
 }
 
 function renderHealth(health) {
@@ -141,17 +337,19 @@ function renderHealth(health) {
   if (!footer) return;
   const ok = !!health.ok && String(health.status || '').toLowerCase() === 'ok';
   const emoji = ok ? '🟢' : '🔴';
+  const lang = getLang();
+  const T = (I18N_TEXT[lang] || I18N_TEXT.zh).health;
   const counts = [
-    health.models_count != null ? `模型:${health.models_count}` : null,
-    health.fixed_prompts_count != null ? `固定题:${health.fixed_prompts_count}` : null,
-    health.recorded_users_count != null ? `用户:${health.recorded_users_count}` : null,
-    health.completed_battles_count != null ? `完成对战:${health.completed_battles_count}` : null,
+    health.models_count != null ? `${T.models}:${health.models_count}` : null,
+    health.fixed_prompts_count != null ? `${T.fixed_prompts}:${health.fixed_prompts_count}` : null,
+    health.recorded_users_count != null ? `${T.users}:${health.recorded_users_count}` : null,
+    health.completed_battles_count != null ? `${T.completed_battles}:${health.completed_battles_count}` : null,
   ].filter(Boolean).join(' · ');
 
   const span = document.createElement('span');
   span.className = 'muted';
   span.style.marginLeft = '8px';
-  span.textContent = `${emoji} 后端状态：${ok ? '正常' : '异常'}${counts ? ' · ' + counts : ''}`;
+  span.textContent = `${emoji} ${(I18N_TEXT[lang] || I18N_TEXT.zh).health.prefix}：${ok ? T.ok : T.error}${counts ? ' · ' + counts : ''}`;
   footer.appendChild(span);
 }
 
@@ -163,7 +361,9 @@ function applyTheme(theme) {
   const btn = document.getElementById('themeToggle');
   if (btn) {
     const isDark = theme === 'dark';
-    const targetText = isDark ? '亮色模式' : '暗色模式';
+    const lang = getLang();
+    const T = I18N_TEXT[lang] || I18N_TEXT.zh;
+    const targetText = isDark ? T.themeToLight : T.themeToDark;
     btn.textContent = targetText;
     btn.classList.remove('light-target', 'dark-target');
     btn.classList.add(isDark ? 'light-target' : 'dark-target');
@@ -191,6 +391,7 @@ function setupToggles() {
     : (Array.isArray(data.entries) ? data.entries.map(e => ({ rank: e.rank, model_name: e.name, rating: e.score })) : []);
 
   setupToggles();
+  setupLanguage();
 
   const state = {
     rowsRaw: rows,
@@ -204,13 +405,18 @@ function setupToggles() {
 
   const updated = document.getElementById('updatedAt');
   if (data.updatedAt) {
-    const d = new Date(data.updatedAt);
-    updated.textContent = `最后更新：${d.toLocaleString()}`;
+    __lastUpdatedISO = data.updatedAt;
   } else {
-    updated.textContent = '最后更新：--';
+    __lastUpdatedISO = null;
   }
+
+  // 缓存最近一次数据以便在语言切换时重绘相关文案
+  window.__lastHealth = health || {};
+  window.__lastRows = rows;
 
   renderHealth(health || {});
   updateTotalBattles(health || {}, rows);
   applyAndRender(state);
+  // 依据当前语言刷新所有静态文案
+  applyLanguage(getLang());
 })();

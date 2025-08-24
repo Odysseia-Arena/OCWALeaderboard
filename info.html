@@ -22,33 +22,115 @@
 <body>
   <header class="header">
     <div class="container">
-      <h1 class="title">规则说明</h1>
-      <p class="subtitle">ELO 评分与胜率计算方法</p>
+      <h1 class="title" id="infoTitle">规则说明</h1>
+      <p class="subtitle" id="infoSubtitle">ELO 评分与胜率计算方法</p>
+      <div style="margin-bottom:12px; display:flex; justify-content:flex-end">
+        <select id="langSelect" class="select" title="切换语言">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+        </select>
+      </div>
     </div>
   </header>
 
   <main class="container">
     <section class="card" style="padding:16px 20px; line-height:1.8;">
-      <h2>ELO 评分</h2>
-      <p>初始评分 1200。每场对战结束后，根据双方评分差更新：</p>
-      <pre class="muted" style="white-space:pre-wrap;">R_a' = R_a + K * (S_a - E_a)
+      <h2 id="eloTitle">ELO 评分</h2>
+      <p id="eloIntro">初始评分 1200。每场对战结束后，根据双方评分差更新：</p>
+      <pre class="muted" id="eloFormula" style="white-space:pre-wrap;">R_a' = R_a + K * (S_a - E_a)
 其中：
 - R_a 为对战前评分
 - S_a 为实际得分：胜=1，平=0.5，负=0
 - E_a 为期望得分：1 / (1 + 10^((R_b - R_a)/400))</pre>
 
-      <h2>胜率</h2>
-      <pre class="muted" style="white-space:pre-wrap;">胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100</pre>
-      <p>平局计作半场胜利。</p>
+      <h2 id="wrTitle">胜率</h2>
+      <pre class="muted" id="wrFormula" style="white-space:pre-wrap;">胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100</pre>
+      <p id="wrNote">平局计作半场胜利。</p>
 
-      <p><a class="link" href="./">返回排行榜</a></p>
+      <p><a class="link" id="backLink" href="./">返回排行榜</a></p>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <span class="muted">由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages</span>
+      <span class="muted" id="infoFooter">由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages</span>
     </div>
   </footer>
+  <script>
+    (function(){
+      var I18N = {
+        zh: {
+          htmlLang: 'zh-CN',
+          title: '规则说明',
+          subtitle: 'ELO 评分与胜率计算方法',
+          eloTitle: 'ELO 评分',
+          eloIntro: '初始评分 1200。每场对战结束后，根据双方评分差更新：',
+          eloFormula: "R_a' = R_a + K * (S_a - E_a)\n其中：\n- R_a 为对战前评分\n- S_a 为实际得分：胜=1，平=0.5，负=0\n- E_a 为期望得分：1 / (1 + 10^((R_b - R_a)/400))",
+          wrTitle: '胜率',
+          wrFormula: '胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100',
+          wrNote: '平局计作半场胜利。',
+          back: '返回排行榜',
+          footer: '由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages',
+          langTitle: '切换语言'
+        },
+        en: {
+          htmlLang: 'en',
+          title: 'Rules',
+          subtitle: 'ELO rating and win rate',
+          eloTitle: 'ELO Rating',
+          eloIntro: 'Initial rating is 1200. After each battle, ratings are updated by the gap:',
+          eloFormula: "R_a' = R_a + K * (S_a - E_a)\nWhere:\n- R_a: rating before match\n- S_a: actual score (win=1, draw=0.5, loss=0)\n- E_a: expected score = 1 / (1 + 10^((R_b - R_a)/400))",
+          wrTitle: 'Win Rate',
+          wrFormula: 'WinRate(%) = (Wins + 0.5 * Draws) / Total * 100',
+          wrNote: 'A draw counts as half a win.',
+          back: 'Back to leaderboard',
+          footer: 'Synced by GitHub Actions · Deployed on GitHub Pages',
+          langTitle: 'Change language'
+        },
+        ja: {
+          htmlLang: 'ja',
+          title: 'ルール',
+          subtitle: 'ELO レーティングと勝率の計算',
+          eloTitle: 'ELO レーティング',
+          eloIntro: '初期レートは1200。各対戦後、レート差に応じて更新します：',
+          eloFormula: "R_a' = R_a + K * (S_a - E_a)\n内訳：\n- R_a：対戦前のレート\n- S_a：実スコア（勝=1、引分=0.5、負=0）\n- E_a：期待スコア = 1 / (1 + 10^((R_b - R_a)/400))",
+          wrTitle: '勝率',
+          wrFormula: '勝率(%) = (勝 + 0.5 * 引分) / 総対戦数 * 100',
+          wrNote: '引き分けは半勝として計算します。',
+          back: 'ランキングへ戻る',
+          footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ',
+          langTitle: '言語を切り替え'
+        }
+      };
+
+      function getLang(){
+        try { return localStorage.getItem('lang') || 'zh'; } catch(_) { return 'zh'; }
+      }
+      function apply(lang){
+        var T = I18N[lang] || I18N.zh;
+        try { document.documentElement.lang = T.htmlLang; } catch(e) {}
+        try { localStorage.setItem('lang', lang); } catch(e) {}
+        var s = function(id, val){ var el = document.getElementById(id); if(!el) return; if(id === 'infoTitle') el.textContent = val; else el.textContent = val; };
+        s('infoTitle', T.title);
+        s('infoSubtitle', T.subtitle);
+        s('eloTitle', T.eloTitle);
+        s('eloIntro', T.eloIntro);
+        var ef = document.getElementById('eloFormula'); if (ef) ef.textContent = T.eloFormula;
+        s('wrTitle', T.wrTitle);
+        var wf = document.getElementById('wrFormula'); if (wf) wf.textContent = T.wrFormula;
+        s('wrNote', T.wrNote);
+        var back = document.getElementById('backLink'); if (back) back.textContent = T.back;
+        var footer = document.getElementById('infoFooter'); if (footer) footer.textContent = T.footer;
+        var sel = document.getElementById('langSelect'); if (sel) sel.title = T.langTitle;
+        var select = document.getElementById('langSelect'); if (select && select.value !== lang) select.value = lang;
+      }
+      document.addEventListener('DOMContentLoaded', function(){
+        var sel = document.getElementById('langSelect');
+        if (sel) sel.addEventListener('change', function(e){ apply(e.target && e.target.value ? e.target.value : 'zh'); });
+        apply(getLang());
+      });
+    })();
+  </script>
 </body>
 </html>

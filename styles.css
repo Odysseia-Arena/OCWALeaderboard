@@ -222,3 +222,22 @@ body {
   font-size: 16px;
 }
 
+/* Modern select matching button/input style */
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid var(--border);
+  background: #fffdf5;
+  color: var(--text);
+  border-radius: 8px;
+  padding: 8px 28px 8px 10px;
+  font-size: 12px;
+  line-height: 1.2;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b92a6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+[data-theme="dark"] .select { background: #0e1424; }
+
