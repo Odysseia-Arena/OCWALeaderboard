@@ -25,14 +25,25 @@
       </div>
       <div class="right" style="display:flex; align-items:center; gap:12px;">
         <a class="link" href="info.html">规则说明</a>
-        <select id="langSelect" class="select" title="切换语言">
+        <select id="langSelect" class="select select-hidden" title="切换语言">
           <option value="zh">中文</option>
           <option value="en">English</option>
           <option value="ja">日本語</option>
         </select>
+        <div id="langCustom" class="custom-select" role="button" aria-haspopup="listbox" aria-expanded="false" title="切换语言">
+          <span class="label">中文</span>
+          <svg class="arrow" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+          <ul class="menu" role="listbox"></ul>
+        </div>
         <button id="themeToggle" class="btn theme-toggle" title="切换明暗主题">暗色模式</button>
         <span id="totalBattles" class="badge">总对战：0</span>
         <span id="updatedAt" class="muted">最后更新：--</span>
+      </div>
+      <div class="toolbar-row">
+        <div class="mobile-sort">
+          <label for="sortSelect" id="sortByLabel" class="muted">排序</label>
+          <select id="sortSelect" class="select" title="排序"></select>
+        </div>
       </div>
     </section>
 

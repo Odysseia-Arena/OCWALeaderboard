@@ -47,6 +47,15 @@ const I18N_TEXT = {
       ties: '平',
       win_rate_percentage: '胜率%'
     },
+    sortBy: {
+      label: '排序',
+      rank: '名次',
+      rating: 'ELO评分',
+      battles: '对战',
+      wins: '胜',
+      ties: '平',
+      win_rate_percentage: '胜率%'
+    },
     health: {
       prefix: '后端状态',
       ok: '正常',
@@ -75,6 +84,15 @@ const I18N_TEXT = {
     headers: {
       rank: 'Rank',
       model_name: 'Model',
+      rating: 'ELO',
+      battles: 'Battles',
+      wins: 'Wins',
+      ties: 'Ties',
+      win_rate_percentage: 'Win %'
+    },
+    sortBy: {
+      label: 'Sort by',
+      rank: 'Rank',
       rating: 'ELO',
       battles: 'Battles',
       wins: 'Wins',
@@ -110,6 +128,15 @@ const I18N_TEXT = {
     headers: {
       rank: '順位',
       model_name: 'モデル',
+      rating: 'ELO',
+      battles: '対戦',
+      wins: '勝',
+      ties: '分',
+      win_rate_percentage: '勝率%'
+    },
+    sortBy: {
+      label: 'ソート',
+      rank: '順位',
       rating: 'ELO',
       battles: '対戦',
       wins: '勝',
@@ -170,6 +197,51 @@ function applyLanguage(lang) {
   const langSelect = document.getElementById('langSelect');
   if (langSelect) langSelect.title = conf.langTitle;
 
+  // sync custom language select
+  try {
+    const root = document.getElementById('langCustom');
+    if (root) {
+      const menu = root.querySelector('.menu');
+      const label = root.querySelector('.label');
+      const opts = [
+        { v: 'zh', label: '中文' },
+        { v: 'en', label: 'English' },
+        { v: 'ja', label: '日本語' },
+      ];
+      menu.innerHTML = '';
+      opts.forEach(o => {
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option');
+        li.dataset.value = o.v;
+        li.textContent = o.label;
+        if (o.v === lang) li.classList.add('active');
+        menu.appendChild(li);
+      });
+      label.textContent = opts.find(o => o.v === lang)?.label || '中文';
+    }
+  } catch (_) {}
+
+  // mobile sort select localization
+  const sortSelect = document.getElementById('sortSelect');
+  const sortLabel = document.getElementById('sortByLabel');
+  if (sortLabel) sortLabel.textContent = (I18N_TEXT[lang] || I18N_TEXT.zh).sortBy.label;
+  if (sortSelect) {
+    const sortConf = (I18N_TEXT[lang] || I18N_TEXT.zh).sortBy;
+    const options = [
+      { value: 'rank', label: sortConf.rank },
+      { value: 'rating', label: sortConf.rating },
+      { value: 'battles', label: sortConf.battles },
+      { value: 'wins', label: sortConf.wins },
+      { value: 'ties', label: sortConf.ties },
+      { value: 'win_rate_percentage', label: sortConf.win_rate_percentage },
+    ];
+    sortSelect.innerHTML = '';
+    options.forEach(opt => {
+      const o = document.createElement('option');
+      o.value = opt.value; o.textContent = opt.label; sortSelect.appendChild(o);
+    });
+  }
+
   updateTableHeaders(lang);
   // Footer
   const footerSpan = document.querySelector('.footer .container .muted');
@@ -181,6 +253,14 @@ function applyLanguage(lang) {
     const rows = window.__lastRows || [];
     updateTotalBattles(health, rows);
   } catch (_) {}
+
+  // health status re-render with current language
+  try {
+    renderHealth(window.__lastHealth || {});
+  } catch (_) {}
+
+  // refresh responsive labels for current language
+  try { applyResponsiveLabels(lang); } catch (_) {}
 
   // refresh theme button text with localized label
   try { applyTheme(localStorage.getItem('theme') || 'light'); } catch (_) {}
@@ -200,6 +280,89 @@ function setupLanguage() {
       applyLanguage(next);
     });
   }
+  // custom select interactions
+  const custom = document.getElementById('langCustom');
+  if (custom) {
+    // 可聚焦以便键盘操作
+    try { custom.setAttribute('tabindex', '0'); } catch (_) {}
+
+    const menu = custom.querySelector('.menu');
+
+    const getItems = () => Array.from(menu.querySelectorAll('li'));
+    const getActiveIndex = () => getItems().findIndex(n => n.classList.contains('active'));
+    const setActiveIndex = (idx) => {
+      const items = getItems();
+      if (items.length === 0) return;
+      const bounded = Math.max(0, Math.min(items.length - 1, idx));
+      items.forEach(n => n.classList.remove('active'));
+      const el = items[bounded];
+      el.classList.add('active');
+      try { el.scrollIntoView({ block: 'nearest' }); } catch (_) {}
+    };
+    const openMenu = () => {
+      custom.classList.add('open');
+      custom.setAttribute('aria-expanded', 'true');
+    };
+    const closeMenu = () => {
+      custom.classList.remove('open');
+      custom.setAttribute('aria-expanded', 'false');
+    };
+
+    custom.addEventListener('click', (e) => {
+      const target = e.target;
+      // 点击容器标签区 -> 切换展开
+      if (!target.closest('li')) {
+        if (custom.classList.contains('open')) closeMenu(); else openMenu();
+      }
+      // choose option
+      if (target && target.closest('li')) {
+        const li = target.closest('li');
+        const v = li?.dataset.value || 'zh';
+        custom.querySelectorAll('li').forEach(n => n.classList.remove('active'));
+        li.classList.add('active');
+        const label = custom.querySelector('.label');
+        label.textContent = li.textContent || '中文';
+        applyLanguage(v);
+        closeMenu();
+      }
+    });
+    // 键盘交互：Enter/Space 打开或选中；↑↓导航；Esc 关闭
+    custom.addEventListener('keydown', (e) => {
+      const key = e.key;
+      if (key === 'ArrowDown' || key === 'ArrowUp') {
+        e.preventDefault();
+        if (!custom.classList.contains('open')) openMenu();
+        const cur = getActiveIndex();
+        setActiveIndex((key === 'ArrowDown' ? cur + 1 : cur - 1));
+      } else if (key === 'Enter' || key === ' ') {
+        e.preventDefault();
+        if (!custom.classList.contains('open')) {
+          openMenu();
+        } else {
+          const items = getItems();
+          const idx = getActiveIndex();
+          const sel = items[idx] || items[0];
+          if (sel) {
+            const v = sel.dataset.value || 'zh';
+            const label = custom.querySelector('.label');
+            label.textContent = sel.textContent || '中文';
+            applyLanguage(v);
+          }
+          closeMenu();
+        }
+      } else if (key === 'Escape') {
+        closeMenu();
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!custom.contains(e.target)) {
+        closeMenu();
+      }
+    });
+    // 滚动/窗口变化时收起，避免错位渲染
+    window.addEventListener('scroll', closeMenu, { passive: true });
+    window.addEventListener('resize', closeMenu);
+  }
   applyLanguage(saved);
 }
 
@@ -213,7 +376,23 @@ function updateTableHeaders(lang) {
   });
 }
 
-function renderTable(rows) {
+function applyResponsiveLabels(lang) {
+  const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const map = conf.headers;
+  const keys = ['rank','model_name','rating','battles','wins','ties','win_rate_percentage'];
+  const tbody = document.getElementById('leaderboardBody');
+  if (!tbody) return;
+  const rows = tbody.querySelectorAll('tr');
+  rows.forEach(tr => {
+    const tds = tr.querySelectorAll('td');
+    tds.forEach((td, idx) => {
+      const key = keys[idx];
+      if (key && map[key]) td.setAttribute('data-label', map[key]);
+    });
+  });
+}
+
+function renderTable(rows, state) {
   const tbody = document.getElementById('leaderboardBody');
   tbody.innerHTML = '';
 
@@ -229,37 +408,83 @@ function renderTable(rows) {
     return;
   }
 
+  const lang = getLang();
+  const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const map = conf.headers;
+  const displayKey = (state && state.sortKey && state.sortKey !== 'rank') ? state.sortKey : 'rating';
   for (const item of rows) {
     const tr = document.createElement('tr');
 
     const tdRank = document.createElement('td');
     tdRank.textContent = item.rank ?? '';
+    tdRank.className = 'cell-rank';
+    tdRank.setAttribute('data-label', map.rank);
     tr.appendChild(tdRank);
 
     const tdName = document.createElement('td');
     tdName.textContent = item.model_name ?? item.name ?? '';
+    tdName.className = 'cell-name';
+    tdName.setAttribute('data-label', map.model_name);
     tr.appendChild(tdName);
 
-    const tdRating = document.createElement('td');
-    tdRating.textContent = item.rating ?? item.score ?? '';
-    tr.appendChild(tdRating);
+    // metric cell (ELO or current sort field)
+    const tdMetric = document.createElement('td');
+    let metricVal = '';
+    if (displayKey === 'rating') {
+      metricVal = item.rating ?? item.score ?? '';
+      tdMetric.setAttribute('data-label', map.rating);
+    } else if (displayKey === 'win_rate_percentage') {
+      const wr2 = item.win_rate_percentage;
+      metricVal = (wr2 !== undefined && wr2 !== null) ? Number(wr2).toFixed(2) : '';
+      tdMetric.setAttribute('data-label', map.win_rate_percentage);
+    } else {
+      metricVal = item[displayKey] ?? '';
+      tdMetric.setAttribute('data-label', map[displayKey] || '');
+    }
+    tdMetric.textContent = metricVal;
+    tdMetric.className = 'cell-metric';
+    tr.appendChild(tdMetric);
 
     const tdBattles = document.createElement('td');
     tdBattles.textContent = item.battles ?? '';
+    tdBattles.className = 'cell-battles detail-cell';
+    tdBattles.setAttribute('data-label', map.battles);
     tr.appendChild(tdBattles);
 
     const tdWins = document.createElement('td');
     tdWins.textContent = item.wins ?? '';
+    tdWins.className = 'cell-wins detail-cell';
+    tdWins.setAttribute('data-label', map.wins);
     tr.appendChild(tdWins);
 
     const tdTies = document.createElement('td');
     tdTies.textContent = item.ties ?? '';
+    tdTies.className = 'cell-ties detail-cell';
+    tdTies.setAttribute('data-label', map.ties);
     tr.appendChild(tdTies);
 
     const tdWinRate = document.createElement('td');
     const wr = item.win_rate_percentage;
     tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
+    tdWinRate.className = 'cell-winrate detail-cell';
+    tdWinRate.setAttribute('data-label', map.win_rate_percentage);
     tr.appendChild(tdWinRate);
+
+    // When metric is not rating, include rating as detail as well
+    if (displayKey !== 'rating') {
+      const tdRatingDetail = document.createElement('td');
+      tdRatingDetail.textContent = item.rating ?? item.score ?? '';
+      tdRatingDetail.className = 'cell-elo detail-cell';
+      tdRatingDetail.setAttribute('data-label', map.rating);
+      tr.appendChild(tdRatingDetail);
+    }
+
+    // tap-to-expand for mobile
+    tr.addEventListener('click', () => {
+      if (window.matchMedia('(max-width: 480px)').matches) {
+        tr.classList.toggle('expanded');
+      }
+    });
 
     tbody.appendChild(tr);
   }
@@ -293,6 +518,21 @@ function setupSorting(state) {
       applyAndRender(state);
     });
   });
+
+  // mobile sort select
+  const sortSelect = document.getElementById('sortSelect');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => {
+      const key = sortSelect.value || 'rank';
+      if (state.sortKey === key) {
+        state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        state.sortKey = key;
+        state.sortDir = key === 'rank' ? 'asc' : 'desc';
+      }
+      applyAndRender(state);
+    });
+  }
 }
 
 function applyAndRender(state) {
@@ -314,7 +554,7 @@ function applyAndRender(state) {
     return (va - vb) * factor;
   });
 
-  renderTable(rows);
+  renderTable(rows, state);
 }
 
 function updateTotalBattles(health, rows) {
@@ -346,11 +586,15 @@ function renderHealth(health) {
     health.completed_battles_count != null ? `${T.completed_battles}:${health.completed_battles_count}` : null,
   ].filter(Boolean).join(' · ');
 
-  const span = document.createElement('span');
-  span.className = 'muted';
-  span.style.marginLeft = '8px';
+  let span = document.getElementById('healthStatus');
+  if (!span) {
+    span = document.createElement('span');
+    span.id = 'healthStatus';
+    span.className = 'muted';
+    span.style.marginLeft = '8px';
+    footer.appendChild(span);
+  }
   span.textContent = `${emoji} ${(I18N_TEXT[lang] || I18N_TEXT.zh).health.prefix}：${ok ? T.ok : T.error}${counts ? ' · ' + counts : ''}`;
-  footer.appendChild(span);
 }
 
 function applyTheme(theme) {
