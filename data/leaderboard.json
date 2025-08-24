@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T14:10:05.089Z",
+  "updatedAt": "2025-08-24T14:12:15.104Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
+      "model_name": "Step 3",
+      "rating": 1196,
+      "battles": 130,
+      "wins": 60,
+      "ties": 18,
+      "win_rate_percentage": 53.08,
+      "rank": 15
+    },
+    {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1192,
       "battles": 186,
       "wins": 85,
       "ties": 28,
       "win_rate_percentage": 53.23,
-      "rank": 15
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1189,
-      "battles": 129,
-      "wins": 59,
-      "ties": 18,
-      "win_rate_percentage": 52.71,
       "rank": 16
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1131,
-      "battles": 119,
+      "rating": 1124,
+      "battles": 120,
       "wins": 56,
       "ties": 22,
-      "win_rate_percentage": 56.3,
+      "win_rate_percentage": 55.83,
       "rank": 21
     },
     {
