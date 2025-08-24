@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-24T17:17:15.422Z",
+  "updatedAt": "2025-08-24T17:22:15.289Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1334,
-      "battles": 128,
-      "wins": 83,
+      "rating": 1339,
+      "battles": 129,
+      "wins": 84,
       "ties": 24,
-      "win_rate_percentage": 74.22,
+      "win_rate_percentage": 74.42,
       "rank": 2
     },
     {
@@ -39,11 +39,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1300,
-      "battles": 221,
+      "rating": 1289,
+      "battles": 222,
       "wins": 121,
       "ties": 29,
-      "win_rate_percentage": 61.31,
+      "win_rate_percentage": 61.04,
       "rank": 5
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1256,
+      "battles": 252,
+      "wins": 120,
+      "ties": 39,
+      "win_rate_percentage": 55.36,
+      "rank": 8
+    },
+    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1254,
       "battles": 237,
       "wins": 128,
       "ties": 36,
       "win_rate_percentage": 61.6,
-      "rank": 8
-    },
-    {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1251,
-      "battles": 251,
-      "wins": 119,
-      "ties": 39,
-      "win_rate_percentage": 55.18,
       "rank": 9
     },
     {
@@ -94,19 +94,19 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1232,
-      "battles": 191,
+      "battles": 190,
       "wins": 97,
       "ties": 20,
-      "win_rate_percentage": 56.02,
+      "win_rate_percentage": 56.32,
       "rank": 11
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1223,
+      "rating": 1222,
       "battles": 182,
       "wins": 87,
-      "ties": 30,
-      "win_rate_percentage": 56.04,
+      "ties": 31,
+      "win_rate_percentage": 56.32,
       "rank": 12
     },
     {
@@ -129,38 +129,38 @@
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1199,
-      "battles": 198,
-      "wins": 91,
+      "rating": 1201,
+      "battles": 200,
+      "wins": 92,
       "ties": 29,
-      "win_rate_percentage": 53.28,
+      "win_rate_percentage": 53.25,
       "rank": 15
     },
     {
       "model_name": "Step 3",
-      "rating": 1193,
-      "battles": 148,
-      "wins": 70,
+      "rating": 1199,
+      "battles": 149,
+      "wins": 71,
       "ties": 18,
-      "win_rate_percentage": 53.38,
+      "win_rate_percentage": 53.69,
       "rank": 16
     },
     {
       "model_name": "Grok 4",
-      "rating": 1191,
-      "battles": 252,
+      "rating": 1192,
+      "battles": 253,
       "wins": 78,
-      "ties": 43,
-      "win_rate_percentage": 39.48,
+      "ties": 44,
+      "win_rate_percentage": 39.53,
       "rank": 17
     },
     {
       "model_name": "catalina",
-      "rating": 1179,
-      "battles": 219,
-      "wins": 75,
+      "rating": 1190,
+      "battles": 220,
+      "wins": 76,
       "ties": 48,
-      "win_rate_percentage": 45.21,
+      "win_rate_percentage": 45.45,
       "rank": 18
     },
     {
@@ -174,20 +174,20 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1153,
-      "battles": 209,
+      "rating": 1138,
+      "battles": 211,
       "wins": 82,
       "ties": 29,
-      "win_rate_percentage": 46.17,
+      "win_rate_percentage": 45.73,
       "rank": 20
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1126,
-      "battles": 131,
-      "wins": 61,
+      "rating": 1129,
+      "battles": 133,
+      "wins": 62,
       "ties": 24,
-      "win_rate_percentage": 55.73,
+      "win_rate_percentage": 55.64,
       "rank": 21
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1084,
-      "battles": 231,
+      "rating": 1078,
+      "battles": 232,
       "wins": 56,
       "ties": 45,
-      "win_rate_percentage": 33.98,
+      "win_rate_percentage": 33.84,
       "rank": 24
     },
     {
