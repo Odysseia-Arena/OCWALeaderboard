@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T00:52:15.160Z",
+  "updatedAt": "2025-08-25T00:54:06.660Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -94,10 +94,10 @@
     {
       "model_name": "Step 3",
       "rating": 1238,
-      "battles": 175,
+      "battles": 174,
       "wins": 83,
       "ties": 25,
-      "win_rate_percentage": 54.57,
+      "win_rate_percentage": 54.89,
       "rank": 11
     },
     {
@@ -202,10 +202,10 @@
     {
       "model_name": "V0 1.5 MD",
       "rating": 1118,
-      "battles": 65,
+      "battles": 64,
       "wins": 18,
       "ties": 7,
-      "win_rate_percentage": 33.08,
+      "win_rate_percentage": 33.59,
       "rank": 23
     },
     {
