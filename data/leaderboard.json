@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T03:12:13.429Z",
+  "updatedAt": "2025-08-25T03:17:16.817Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -57,11 +57,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1254,
-      "battles": 240,
-      "wins": 129,
+      "rating": 1261,
+      "battles": 241,
+      "wins": 130,
       "ties": 32,
-      "win_rate_percentage": 60.42,
+      "win_rate_percentage": 60.58,
       "rank": 7
     },
     {
@@ -76,19 +76,19 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1243,
-      "battles": 178,
+      "battles": 179,
       "wins": 100,
-      "ties": 30,
-      "win_rate_percentage": 64.61,
+      "ties": 31,
+      "win_rate_percentage": 64.53,
       "rank": 9
     },
     {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1238,
-      "battles": 209,
+      "battles": 210,
       "wins": 107,
-      "ties": 23,
-      "win_rate_percentage": 56.7,
+      "ties": 24,
+      "win_rate_percentage": 56.67,
       "rank": 10
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1220,
-      "battles": 200,
+      "rating": 1213,
+      "battles": 201,
       "wins": 96,
       "ties": 32,
-      "win_rate_percentage": 56,
+      "win_rate_percentage": 55.72,
       "rank": 14
     },
     {
