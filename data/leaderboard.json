@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:22:17.005Z",
+  "updatedAt": "2025-08-25T09:27:18.816Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1293,
-      "battles": 157,
-      "wins": 102,
+      "rating": 1301,
+      "battles": 158,
+      "wins": 103,
       "ties": 26,
-      "win_rate_percentage": 73.25,
+      "win_rate_percentage": 73.42,
       "rank": 4
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1280,
-      "battles": 82,
+      "rating": 1272,
+      "battles": 83,
       "wins": 45,
       "ties": 17,
-      "win_rate_percentage": 65.24,
+      "win_rate_percentage": 64.46,
       "rank": 6
     },
     {
@@ -83,21 +83,21 @@
       "rank": 9
     },
     {
+      "model_name": "Step 3",
+      "rating": 1240,
+      "battles": 208,
+      "wins": 99,
+      "ties": 32,
+      "win_rate_percentage": 55.29,
+      "rank": 10
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1238,
       "battles": 210,
       "wins": 107,
       "ties": 24,
       "win_rate_percentage": 56.67,
-      "rank": 10
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1232,
-      "battles": 207,
-      "wins": 98,
-      "ties": 32,
-      "win_rate_percentage": 55.07,
       "rank": 11
     },
     {
@@ -110,21 +110,21 @@
       "rank": 12
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1225,
-      "battles": 257,
-      "wins": 107,
-      "ties": 40,
-      "win_rate_percentage": 49.42,
-      "rank": 13
-    },
-    {
       "model_name": "Claude Opus 4.1",
       "rating": 1225,
       "battles": 101,
       "wins": 45,
       "ties": 15,
       "win_rate_percentage": 51.98,
+      "rank": 13
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1217,
+      "battles": 258,
+      "wins": 107,
+      "ties": 40,
+      "win_rate_percentage": 49.22,
       "rank": 14
     },
     {
