@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:12:17.115Z",
+  "updatedAt": "2025-08-25T13:17:16.305Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -11,30 +11,30 @@
       "rank": 1
     },
     {
+      "model_name": "Doubao 1.6",
+      "rating": 1316,
+      "battles": 170,
+      "wins": 113,
+      "ties": 27,
+      "win_rate_percentage": 74.41,
+      "rank": 2
+    },
+    {
       "model_name": "V0 1.5 LG",
       "rating": 1309,
       "battles": 125,
       "wins": 81,
       "ties": 21,
       "win_rate_percentage": 73.2,
-      "rank": 2
-    },
-    {
-      "model_name": "Doubao 1.6",
-      "rating": 1308,
-      "battles": 169,
-      "wins": 112,
-      "ties": 27,
-      "win_rate_percentage": 74.26,
       "rank": 3
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1300,
-      "battles": 275,
-      "wins": 151,
+      "rating": 1304,
+      "battles": 276,
+      "wins": 152,
       "ties": 43,
-      "win_rate_percentage": 62.73,
+      "win_rate_percentage": 62.86,
       "rank": 4
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1292,
-      "battles": 232,
+      "rating": 1284,
+      "battles": 233,
       "wins": 133,
       "ties": 36,
-      "win_rate_percentage": 65.09,
+      "win_rate_percentage": 64.81,
       "rank": 6
     },
     {
@@ -101,13 +101,22 @@
       "rank": 11
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1228,
+      "battles": 276,
+      "wins": 123,
+      "ties": 42,
+      "win_rate_percentage": 52.17,
+      "rank": 12
+    },
+    {
       "model_name": "Claude Sonnet 4",
       "rating": 1228,
       "battles": 279,
       "wins": 117,
       "ties": 43,
       "win_rate_percentage": 49.64,
-      "rank": 12
+      "rank": 13
     },
     {
       "model_name": "GLM 4.5 FP8",
@@ -116,15 +125,6 @@
       "wins": 40,
       "ties": 7,
       "win_rate_percentage": 48.33,
-      "rank": 13
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1221,
-      "battles": 275,
-      "wins": 122,
-      "ties": 42,
-      "win_rate_percentage": 52,
       "rank": 14
     },
     {
@@ -165,11 +165,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1174,
-      "battles": 228,
+      "rating": 1167,
+      "battles": 229,
       "wins": 103,
       "ties": 37,
-      "win_rate_percentage": 53.29,
+      "win_rate_percentage": 53.06,
       "rank": 19
     },
     {
@@ -191,21 +191,21 @@
       "rank": 21
     },
     {
-      "model_name": "GPT 5 chat",
-      "rating": 1133,
-      "battles": 305,
-      "wins": 91,
-      "ties": 50,
-      "win_rate_percentage": 38.03,
-      "rank": 22
-    },
-    {
       "model_name": "V0 1.5 MD",
       "rating": 1131,
       "battles": 117,
       "wins": 32,
       "ties": 16,
       "win_rate_percentage": 34.19,
+      "rank": 22
+    },
+    {
+      "model_name": "GPT 5 chat",
+      "rating": 1129,
+      "battles": 306,
+      "wins": 91,
+      "ties": 50,
+      "win_rate_percentage": 37.91,
       "rank": 23
     },
     {
