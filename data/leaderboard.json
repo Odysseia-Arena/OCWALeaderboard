@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T08:25:54.524Z",
+  "updatedAt": "2025-08-25T08:27:20.538Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1313,
-      "battles": 78,
+      "rating": 1312,
+      "battles": 79,
       "wins": 45,
-      "ties": 15,
-      "win_rate_percentage": 67.31,
+      "ties": 16,
+      "win_rate_percentage": 67.09,
       "rank": 3
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1278,
-      "battles": 108,
+      "rating": 1279,
+      "battles": 109,
       "wins": 70,
-      "ties": 18,
-      "win_rate_percentage": 73.15,
+      "ties": 19,
+      "win_rate_percentage": 72.94,
       "rank": 6
     },
     {
