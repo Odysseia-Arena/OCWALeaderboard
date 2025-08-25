@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:46:27.223Z",
+  "updatedAt": "2025-08-25T13:47:12.348Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -92,13 +92,22 @@
       "rank": 10
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1230,
+      "battles": 280,
+      "wins": 125,
+      "ties": 42,
+      "win_rate_percentage": 52.14,
+      "rank": 11
+    },
+    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1224,
       "battles": 89,
       "wins": 40,
       "ties": 7,
       "win_rate_percentage": 48.88,
-      "rank": 11
+      "rank": 12
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
@@ -107,15 +116,6 @@
       "wins": 132,
       "ties": 40,
       "win_rate_percentage": 54.48,
-      "rank": 12
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1223,
-      "battles": 279,
-      "wins": 124,
-      "ties": 42,
-      "win_rate_percentage": 51.97,
       "rank": 13
     },
     {
@@ -146,22 +146,13 @@
       "rank": 16
     },
     {
-      "model_name": "GPT 4o Latest",
-      "rating": 1185,
-      "battles": 231,
-      "wins": 105,
-      "ties": 37,
-      "win_rate_percentage": 53.46,
-      "rank": 17
-    },
-    {
       "model_name": "Grok 4",
       "rating": 1182,
       "battles": 297,
       "wins": 96,
       "ties": 48,
       "win_rate_percentage": 40.4,
-      "rank": 18
+      "rank": 17
     },
     {
       "model_name": "Gemini 1.5 Pro",
@@ -170,6 +161,15 @@
       "wins": 116,
       "ties": 41,
       "win_rate_percentage": 46.43,
+      "rank": 18
+    },
+    {
+      "model_name": "GPT 4o Latest",
+      "rating": 1178,
+      "battles": 232,
+      "wins": 105,
+      "ties": 37,
+      "win_rate_percentage": 53.23,
       "rank": 19
     },
     {
