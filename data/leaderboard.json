@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T00:27:16.340Z",
+  "updatedAt": "2025-08-25T00:32:16.635Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -38,22 +38,13 @@
       "rank": 4
     },
     {
-      "model_name": "Grok 3",
-      "rating": 1281,
-      "battles": 238,
-      "wins": 129,
-      "ties": 31,
-      "win_rate_percentage": 60.71,
-      "rank": 5
-    },
-    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1279,
       "battles": 252,
       "wins": 137,
       "ties": 38,
       "win_rate_percentage": 61.9,
-      "rank": 6
+      "rank": 5
     },
     {
       "model_name": "V0 1.5 LG",
@@ -62,6 +53,15 @@
       "wins": 49,
       "ties": 14,
       "win_rate_percentage": 71.79,
+      "rank": 6
+    },
+    {
+      "model_name": "Grok 3",
+      "rating": 1271,
+      "battles": 239,
+      "wins": 129,
+      "ties": 31,
+      "win_rate_percentage": 60.46,
       "rank": 7
     },
     {
@@ -129,11 +129,11 @@
     },
     {
       "model_name": "Grok 4",
-      "rating": 1183,
-      "battles": 262,
-      "wins": 81,
+      "rating": 1193,
+      "battles": 263,
+      "wins": 82,
       "ties": 46,
-      "win_rate_percentage": 39.69,
+      "win_rate_percentage": 39.92,
       "rank": 15
     },
     {
