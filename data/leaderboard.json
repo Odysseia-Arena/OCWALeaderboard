@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T05:32:14.335Z",
+  "updatedAt": "2025-08-25T05:34:37.977Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1319,
-      "battles": 141,
-      "wins": 90,
+      "rating": 1326,
+      "battles": 142,
+      "wins": 91,
       "ties": 25,
-      "win_rate_percentage": 72.7,
+      "win_rate_percentage": 72.89,
       "rank": 3
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1284,
-      "battles": 94,
+      "rating": 1275,
+      "battles": 96,
       "wins": 60,
-      "ties": 16,
-      "win_rate_percentage": 72.34,
+      "ties": 17,
+      "win_rate_percentage": 71.35,
       "rank": 6
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1208,
-      "battles": 189,
+      "rating": 1210,
+      "battles": 190,
       "wins": 88,
-      "ties": 28,
-      "win_rate_percentage": 53.97,
+      "ties": 29,
+      "win_rate_percentage": 53.95,
       "rank": 14
     },
     {
