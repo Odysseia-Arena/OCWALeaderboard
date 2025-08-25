@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T06:17:13.681Z",
+  "updatedAt": "2025-08-25T06:22:19.031Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1356,
-      "battles": 158,
+      "rating": 1352,
+      "battles": 159,
       "wins": 108,
-      "ties": 26,
-      "win_rate_percentage": 76.58,
+      "ties": 27,
+      "win_rate_percentage": 76.42,
       "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1321,
-      "battles": 143,
-      "wins": 92,
+      "rating": 1329,
+      "battles": 145,
+      "wins": 94,
       "ties": 25,
-      "win_rate_percentage": 73.08,
+      "win_rate_percentage": 73.45,
       "rank": 3
     },
     {
@@ -111,11 +111,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1226,
-      "battles": 191,
+      "rating": 1217,
+      "battles": 192,
       "wins": 90,
       "ties": 30,
-      "win_rate_percentage": 54.97,
+      "win_rate_percentage": 54.69,
       "rank": 13
     },
     {
@@ -137,30 +137,30 @@
       "rank": 15
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1175,
+      "battles": 262,
+      "wins": 103,
+      "ties": 37,
+      "win_rate_percentage": 46.37,
+      "rank": 16
+    },
+    {
       "model_name": "Grok 4",
       "rating": 1173,
       "battles": 268,
       "wins": 83,
       "ties": 46,
       "win_rate_percentage": 39.55,
-      "rank": 16
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1171,
-      "battles": 261,
-      "wins": 103,
-      "ties": 36,
-      "win_rate_percentage": 46.36,
       "rank": 17
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1169,
-      "battles": 232,
-      "wins": 92,
+      "rating": 1173,
+      "battles": 234,
+      "wins": 93,
       "ties": 36,
-      "win_rate_percentage": 47.41,
+      "win_rate_percentage": 47.44,
       "rank": 18
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1078,
-      "battles": 83,
+      "rating": 1075,
+      "battles": 84,
       "wins": 20,
       "ties": 10,
-      "win_rate_percentage": 30.12,
+      "win_rate_percentage": 29.76,
       "rank": 24
     },
     {
