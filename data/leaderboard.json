@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T02:47:14.566Z",
+  "updatedAt": "2025-08-25T02:52:15.774Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -13,10 +13,10 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1353,
-      "battles": 147,
+      "battles": 146,
       "wins": 99,
       "ties": 25,
-      "win_rate_percentage": 75.85,
+      "win_rate_percentage": 76.37,
       "rank": 2
     },
     {
@@ -83,22 +83,13 @@
       "rank": 9
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "rating": 1236,
-      "battles": 207,
-      "wins": 106,
-      "ties": 23,
-      "win_rate_percentage": 56.76,
-      "rank": 10
-    },
-    {
       "model_name": "Claude Opus 4.1",
       "rating": 1236,
       "battles": 89,
       "wins": 40,
       "ties": 14,
       "win_rate_percentage": 52.81,
-      "rank": 11
+      "rank": 10
     },
     {
       "model_name": "Step 3",
@@ -107,15 +98,24 @@
       "wins": 86,
       "ties": 26,
       "win_rate_percentage": 54.7,
+      "rank": 11
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "rating": 1227,
+      "battles": 208,
+      "wins": 106,
+      "ties": 23,
+      "win_rate_percentage": 56.49,
       "rank": 12
     },
     {
       "model_name": "Kimi K2",
       "rating": 1226,
-      "battles": 259,
+      "battles": 258,
       "wins": 114,
       "ties": 40,
-      "win_rate_percentage": 51.74,
+      "win_rate_percentage": 51.94,
       "rank": 13
     },
     {
@@ -129,11 +129,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1184,
-      "battles": 207,
-      "wins": 83,
+      "rating": 1193,
+      "battles": 208,
+      "wins": 84,
       "ties": 33,
-      "win_rate_percentage": 48.07,
+      "win_rate_percentage": 48.32,
       "rank": 15
     },
     {
