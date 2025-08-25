@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T03:37:15.169Z",
+  "updatedAt": "2025-08-25T03:38:19.833Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1285,
-      "battles": 85,
-      "wins": 54,
+      "rating": 1279,
+      "battles": 87,
+      "wins": 55,
       "ties": 15,
-      "win_rate_percentage": 72.35,
+      "win_rate_percentage": 71.84,
       "rank": 6
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1180,
+      "battles": 252,
+      "wins": 100,
+      "ties": 34,
+      "win_rate_percentage": 46.43,
+      "rank": 17
+    },
+    {
       "model_name": "Grok 4",
       "rating": 1173,
       "battles": 268,
       "wins": 83,
       "ties": 46,
       "win_rate_percentage": 39.55,
-      "rank": 17
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1169,
-      "battles": 251,
-      "wins": 99,
-      "ties": 34,
-      "win_rate_percentage": 46.22,
       "rank": 18
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1154,
-      "battles": 149,
+      "rating": 1149,
+      "battles": 150,
       "wins": 71,
       "ties": 27,
-      "win_rate_percentage": 56.71,
+      "win_rate_percentage": 56.33,
       "rank": 21
     },
     {
