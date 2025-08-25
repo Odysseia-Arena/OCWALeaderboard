@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T04:52:15.457Z",
+  "updatedAt": "2025-08-25T04:57:15.243Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1332,
-      "battles": 138,
+      "rating": 1321,
+      "battles": 139,
       "wins": 90,
       "ties": 23,
-      "win_rate_percentage": 73.55,
+      "win_rate_percentage": 73.02,
       "rank": 3
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1283,
+      "rating": 1274,
       "battles": 92,
       "wins": 58,
       "ties": 16,
@@ -92,22 +92,13 @@
       "rank": 10
     },
     {
-      "model_name": "Step 3",
-      "rating": 1231,
-      "battles": 185,
-      "wins": 88,
-      "ties": 27,
-      "win_rate_percentage": 54.86,
-      "rank": 11
-    },
-    {
       "model_name": "Claude Opus 4.1",
-      "rating": 1229,
-      "battles": 89,
-      "wins": 40,
+      "rating": 1238,
+      "battles": 90,
+      "wins": 41,
       "ties": 14,
-      "win_rate_percentage": 52.81,
-      "rank": 12
+      "win_rate_percentage": 53.33,
+      "rank": 11
     },
     {
       "model_name": "Kimi K2",
@@ -116,6 +107,15 @@
       "wins": 114,
       "ties": 40,
       "win_rate_percentage": 51.94,
+      "rank": 12
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1222,
+      "battles": 186,
+      "wins": 88,
+      "ties": 27,
+      "win_rate_percentage": 54.57,
       "rank": 13
     },
     {
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1193,
-      "battles": 255,
-      "wins": 102,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1209,
+      "battles": 219,
+      "wins": 90,
       "ties": 35,
-      "win_rate_percentage": 46.86,
+      "win_rate_percentage": 49.09,
       "rank": 15
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1189,
-      "battles": 217,
-      "wins": 88,
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1193,
+      "battles": 254,
+      "wins": 102,
       "ties": 35,
-      "win_rate_percentage": 48.62,
+      "win_rate_percentage": 47.05,
       "rank": 16
     },
     {
