@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T14:22:16.243Z",
+  "updatedAt": "2025-08-25T14:27:18.749Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -84,11 +84,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1244,
-      "battles": 223,
-      "wins": 107,
+      "rating": 1250,
+      "battles": 224,
+      "wins": 108,
       "ties": 33,
-      "win_rate_percentage": 55.38,
+      "win_rate_percentage": 55.58,
       "rank": 10
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1160,
-      "battles": 296,
+      "rating": 1154,
+      "battles": 297,
       "wins": 116,
       "ties": 41,
-      "win_rate_percentage": 46.11,
+      "win_rate_percentage": 45.96,
       "rank": 20
     },
     {
@@ -201,20 +201,20 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1103,
-      "battles": 310,
-      "wins": 91,
+      "rating": 1111,
+      "battles": 311,
+      "wins": 92,
       "ties": 50,
-      "win_rate_percentage": 37.42,
+      "win_rate_percentage": 37.62,
       "rank": 23
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1083,
-      "battles": 273,
+      "rating": 1075,
+      "battles": 274,
       "wins": 68,
       "ties": 50,
-      "win_rate_percentage": 34.07,
+      "win_rate_percentage": 33.94,
       "rank": 24
     },
     {
