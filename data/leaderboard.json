@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:56:21.841Z",
+  "updatedAt": "2025-08-25T13:57:18.799Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -92,13 +92,22 @@
       "rank": 10
     },
     {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1227,
+      "battles": 281,
+      "wins": 118,
+      "ties": 43,
+      "win_rate_percentage": 49.64,
+      "rank": 11
+    },
+    {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1223,
       "battles": 279,
       "wins": 132,
       "ties": 40,
       "win_rate_percentage": 54.48,
-      "rank": 11
+      "rank": 12
     },
     {
       "model_name": "GLM 4.5 FP8",
@@ -107,15 +116,6 @@
       "wins": 40,
       "ties": 8,
       "win_rate_percentage": 48.89,
-      "rank": 12
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1221,
-      "battles": 281,
-      "wins": 125,
-      "ties": 42,
-      "win_rate_percentage": 51.96,
       "rank": 13
     },
     {
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1219,
-      "battles": 280,
-      "wins": 117,
-      "ties": 43,
-      "win_rate_percentage": 49.46,
-      "rank": 15
-    },
-    {
       "model_name": "Grok 3",
       "rating": 1217,
       "battles": 261,
       "wins": 137,
       "ties": 37,
       "win_rate_percentage": 59.58,
+      "rank": 15
+    },
+    {
+      "model_name": "Kimi K2",
+      "rating": 1213,
+      "battles": 282,
+      "wins": 125,
+      "ties": 42,
+      "win_rate_percentage": 51.77,
       "rank": 16
     },
     {
