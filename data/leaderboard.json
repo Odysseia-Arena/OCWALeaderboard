@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:27:18.422Z",
+  "updatedAt": "2025-08-25T13:32:14.320Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -75,11 +75,11 @@
     },
     {
       "model_name": "Step 3",
-      "rating": 1245,
-      "battles": 222,
+      "rating": 1244,
+      "battles": 223,
       "wins": 107,
-      "ties": 32,
-      "win_rate_percentage": 55.41,
+      "ties": 33,
+      "win_rate_percentage": 55.38,
       "rank": 9
     },
     {
@@ -138,11 +138,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1210,
-      "battles": 259,
+      "rating": 1211,
+      "battles": 260,
       "wins": 136,
-      "ties": 36,
-      "win_rate_percentage": 59.46,
+      "ties": 37,
+      "win_rate_percentage": 59.42,
       "rank": 16
     },
     {
