@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:22:15.966Z",
+  "updatedAt": "2025-08-25T13:24:46.882Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -94,10 +94,10 @@
     {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1229,
-      "battles": 238,
+      "battles": 237,
       "wins": 110,
       "ties": 38,
-      "win_rate_percentage": 54.2,
+      "win_rate_percentage": 54.43,
       "rank": 11
     },
     {
@@ -110,21 +110,21 @@
       "rank": 12
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1228,
-      "battles": 279,
-      "wins": 117,
-      "ties": 43,
-      "win_rate_percentage": 49.64,
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1224,
+      "battles": 89,
+      "wins": 40,
+      "ties": 7,
+      "win_rate_percentage": 48.88,
       "rank": 13
     },
     {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1224,
-      "battles": 90,
-      "wins": 40,
-      "ties": 7,
-      "win_rate_percentage": 48.33,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1219,
+      "battles": 280,
+      "wins": 117,
+      "ties": 43,
+      "win_rate_percentage": 49.46,
       "rank": 14
     },
     {
@@ -165,11 +165,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1167,
-      "battles": 229,
-      "wins": 103,
+      "rating": 1176,
+      "battles": 230,
+      "wins": 104,
       "ties": 37,
-      "win_rate_percentage": 53.06,
+      "win_rate_percentage": 53.26,
       "rank": 19
     },
     {
