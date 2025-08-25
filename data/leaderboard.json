@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T00:54:06.660Z",
+  "updatedAt": "2025-08-25T00:57:15.309Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1361,
-      "battles": 142,
+      "rating": 1348,
+      "battles": 143,
       "wins": 96,
       "ties": 25,
-      "win_rate_percentage": 76.41,
+      "win_rate_percentage": 75.87,
       "rank": 2
     },
     {
@@ -156,11 +156,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1164,
-      "battles": 203,
+      "rating": 1162,
+      "battles": 204,
       "wins": 81,
-      "ties": 31,
-      "win_rate_percentage": 47.54,
+      "ties": 32,
+      "win_rate_percentage": 47.55,
       "rank": 18
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1098,
-      "battles": 268,
-      "wins": 77,
-      "ties": 47,
-      "win_rate_percentage": 37.5,
+      "rating": 1113,
+      "battles": 270,
+      "wins": 78,
+      "ties": 48,
+      "win_rate_percentage": 37.78,
       "rank": 24
     },
     {
