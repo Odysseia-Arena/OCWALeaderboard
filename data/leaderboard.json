@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T04:32:16.060Z",
+  "updatedAt": "2025-08-25T04:36:31.663Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1347,
-      "battles": 148,
-      "wins": 100,
+      "rating": 1351,
+      "battles": 149,
+      "wins": 101,
       "ties": 25,
-      "win_rate_percentage": 76.01,
+      "win_rate_percentage": 76.17,
       "rank": 2
     },
     {
@@ -85,19 +85,19 @@
     {
       "model_name": "Claude Opus 4.1",
       "rating": 1229,
-      "battles": 90,
+      "battles": 89,
       "wins": 40,
       "ties": 14,
-      "win_rate_percentage": 52.22,
+      "win_rate_percentage": 52.81,
       "rank": 10
     },
     {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1227,
-      "battles": 183,
+      "battles": 182,
       "wins": 101,
       "ties": 33,
-      "win_rate_percentage": 64.21,
+      "win_rate_percentage": 64.56,
       "rank": 11
     },
     {
@@ -139,10 +139,10 @@
     {
       "model_name": "Gemini 1.5 Pro",
       "rating": 1193,
-      "battles": 256,
+      "battles": 255,
       "wins": 102,
       "ties": 35,
-      "win_rate_percentage": 46.68,
+      "win_rate_percentage": 46.86,
       "rank": 16
     },
     {
@@ -192,11 +192,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1142,
-      "battles": 153,
+      "rating": 1138,
+      "battles": 154,
       "wins": 72,
       "ties": 27,
-      "win_rate_percentage": 55.88,
+      "win_rate_percentage": 55.52,
       "rank": 22
     },
     {
@@ -211,10 +211,10 @@
     {
       "model_name": "V0 1.5 MD",
       "rating": 1088,
-      "battles": 77,
+      "battles": 76,
       "wins": 19,
       "ties": 9,
-      "win_rate_percentage": 30.52,
+      "win_rate_percentage": 30.92,
       "rank": 24
     },
     {
