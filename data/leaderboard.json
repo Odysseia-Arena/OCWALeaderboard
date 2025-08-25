@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T08:47:15.749Z",
+  "updatedAt": "2025-08-25T08:49:54.020Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -11,21 +11,21 @@
       "rank": 1
     },
     {
+      "model_name": "Doubao 1.6",
+      "rating": 1325,
+      "battles": 153,
+      "wins": 101,
+      "ties": 26,
+      "win_rate_percentage": 74.51,
+      "rank": 2
+    },
+    {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1318,
       "battles": 169,
       "wins": 114,
       "ties": 27,
       "win_rate_percentage": 75.44,
-      "rank": 2
-    },
-    {
-      "model_name": "Doubao 1.6",
-      "rating": 1312,
-      "battles": 151,
-      "wins": 99,
-      "ties": 26,
-      "win_rate_percentage": 74.17,
       "rank": 3
     },
     {
@@ -74,22 +74,13 @@
       "rank": 8
     },
     {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1253,
-      "battles": 200,
-      "wins": 113,
-      "ties": 35,
-      "win_rate_percentage": 65.25,
-      "rank": 9
-    },
-    {
       "model_name": "Claude Opus 4.1",
       "rating": 1248,
       "battles": 98,
       "wins": 45,
       "ties": 15,
       "win_rate_percentage": 53.57,
-      "rank": 10
+      "rank": 9
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
@@ -98,6 +89,15 @@
       "wins": 127,
       "ties": 40,
       "win_rate_percentage": 55.06,
+      "rank": 10
+    },
+    {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1240,
+      "battles": 202,
+      "wins": 113,
+      "ties": 35,
+      "win_rate_percentage": 64.6,
       "rank": 11
     },
     {
