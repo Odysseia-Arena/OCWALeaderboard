@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T08:49:54.020Z",
+  "updatedAt": "2025-08-25T08:52:16.965Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -11,21 +11,21 @@
       "rank": 1
     },
     {
-      "model_name": "Doubao 1.6",
-      "rating": 1325,
-      "battles": 153,
-      "wins": 101,
-      "ties": 26,
-      "win_rate_percentage": 74.51,
-      "rank": 2
-    },
-    {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1318,
       "battles": 169,
       "wins": 114,
       "ties": 27,
       "win_rate_percentage": 75.44,
+      "rank": 2
+    },
+    {
+      "model_name": "Doubao 1.6",
+      "rating": 1315,
+      "battles": 154,
+      "wins": 101,
+      "ties": 26,
+      "win_rate_percentage": 74.03,
       "rank": 3
     },
     {
@@ -66,20 +66,20 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1258,
-      "battles": 251,
+      "rating": 1254,
+      "battles": 252,
       "wins": 106,
-      "ties": 39,
+      "ties": 40,
       "win_rate_percentage": 50,
       "rank": 8
     },
     {
-      "model_name": "Claude Opus 4.1",
+      "model_name": "Claude 3.7 Sonnet",
       "rating": 1248,
-      "battles": 98,
-      "wins": 45,
-      "ties": 15,
-      "win_rate_percentage": 53.57,
+      "battles": 203,
+      "wins": 114,
+      "ties": 35,
+      "win_rate_percentage": 64.78,
       "rank": 9
     },
     {
@@ -92,12 +92,12 @@
       "rank": 10
     },
     {
-      "model_name": "Claude 3.7 Sonnet",
+      "model_name": "Claude Opus 4.1",
       "rating": 1240,
-      "battles": 202,
-      "wins": 113,
-      "ties": 35,
-      "win_rate_percentage": 64.6,
+      "battles": 99,
+      "wins": 45,
+      "ties": 15,
+      "win_rate_percentage": 53.03,
       "rank": 11
     },
     {
@@ -110,21 +110,21 @@
       "rank": 12
     },
     {
+      "model_name": "Step 3",
+      "rating": 1230,
+      "battles": 203,
+      "wins": 96,
+      "ties": 31,
+      "win_rate_percentage": 54.93,
+      "rank": 13
+    },
+    {
       "model_name": "Kimi K2",
       "rating": 1226,
       "battles": 258,
       "wins": 114,
       "ties": 40,
       "win_rate_percentage": 51.94,
-      "rank": 13
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1220,
-      "battles": 202,
-      "wins": 95,
-      "ties": 31,
-      "win_rate_percentage": 54.7,
       "rank": 14
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1082,
-      "battles": 93,
+      "rating": 1086,
+      "battles": 94,
       "wins": 23,
-      "ties": 12,
-      "win_rate_percentage": 31.18,
+      "ties": 13,
+      "win_rate_percentage": 31.38,
       "rank": 24
     },
     {
