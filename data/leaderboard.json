@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T08:27:20.538Z",
+  "updatedAt": "2025-08-25T08:32:11.902Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -11,22 +11,13 @@
       "rank": 1
     },
     {
-      "model_name": "Doubao 1.6",
-      "rating": 1318,
-      "battles": 147,
-      "wins": 97,
-      "ties": 26,
-      "win_rate_percentage": 74.83,
-      "rank": 2
-    },
-    {
       "model_name": "Claude Opus 4",
       "rating": 1312,
       "battles": 79,
       "wins": 45,
       "ties": 16,
       "win_rate_percentage": 67.09,
-      "rank": 3
+      "rank": 2
     },
     {
       "model_name": "Doubao 1.6 Thinking",
@@ -35,6 +26,15 @@
       "wins": 113,
       "ties": 27,
       "win_rate_percentage": 74.85,
+      "rank": 3
+    },
+    {
+      "model_name": "Doubao 1.6",
+      "rating": 1308,
+      "battles": 148,
+      "wins": 97,
+      "ties": 26,
+      "win_rate_percentage": 74.32,
       "rank": 4
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1261,
+      "battles": 199,
+      "wins": 113,
+      "ties": 35,
+      "win_rate_percentage": 65.58,
+      "rank": 8
+    },
+    {
       "model_name": "Claude Opus 4.1",
       "rating": 1255,
       "battles": 97,
       "wins": 45,
       "ties": 15,
       "win_rate_percentage": 54.12,
-      "rank": 8
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1251,
-      "battles": 198,
-      "wins": 112,
-      "ties": 35,
-      "win_rate_percentage": 65.4,
       "rank": 9
     },
     {
@@ -175,10 +175,10 @@
     {
       "model_name": "DeepSeek R1 0528",
       "rating": 1159,
-      "battles": 158,
+      "battles": 157,
       "wins": 75,
       "ties": 29,
-      "win_rate_percentage": 56.65,
+      "win_rate_percentage": 57.01,
       "rank": 20
     },
     {
@@ -211,10 +211,10 @@
     {
       "model_name": "V0 1.5 MD",
       "rating": 1086,
-      "battles": 93,
+      "battles": 92,
       "wins": 23,
       "ties": 12,
-      "win_rate_percentage": 31.18,
+      "win_rate_percentage": 31.52,
       "rank": 24
     },
     {
