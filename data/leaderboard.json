@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T06:07:15.195Z",
+  "updatedAt": "2025-08-25T06:12:17.581Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1306,
-      "battles": 74,
-      "wins": 42,
+      "rating": 1311,
+      "battles": 75,
+      "wins": 43,
       "ties": 15,
-      "win_rate_percentage": 66.89,
+      "win_rate_percentage": 67.33,
       "rank": 4
     },
     {
@@ -57,11 +57,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1263,
-      "battles": 191,
-      "wins": 108,
+      "rating": 1269,
+      "battles": 192,
+      "wins": 109,
       "ties": 33,
-      "win_rate_percentage": 65.18,
+      "win_rate_percentage": 65.36,
       "rank": 7
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1180,
-      "battles": 230,
-      "wins": 92,
-      "ties": 36,
-      "win_rate_percentage": 47.83,
-      "rank": 17
-    },
-    {
       "model_name": "Grok 4",
       "rating": 1173,
       "battles": 268,
       "wins": 83,
       "ties": 46,
       "win_rate_percentage": 39.55,
+      "rank": 17
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1169,
+      "battles": 232,
+      "wins": 92,
+      "ties": 36,
+      "win_rate_percentage": 47.41,
       "rank": 18
     },
     {
