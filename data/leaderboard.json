@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T07:22:11.568Z",
+  "updatedAt": "2025-08-25T07:27:16.011Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1319,
-      "battles": 76,
+      "rating": 1309,
+      "battles": 77,
       "wins": 44,
       "ties": 15,
-      "win_rate_percentage": 67.76,
+      "win_rate_percentage": 66.88,
       "rank": 4
     },
     {
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1282,
-      "battles": 101,
-      "wins": 66,
+      "rating": 1286,
+      "battles": 102,
+      "wins": 67,
       "ties": 17,
-      "win_rate_percentage": 73.76,
+      "win_rate_percentage": 74.02,
       "rank": 6
     },
     {
@@ -111,11 +111,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1215,
-      "battles": 242,
-      "wins": 99,
+      "rating": 1225,
+      "battles": 243,
+      "wins": 100,
       "ties": 37,
-      "win_rate_percentage": 48.55,
+      "win_rate_percentage": 48.77,
       "rank": 13
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1092,
-      "battles": 87,
+      "rating": 1088,
+      "battles": 88,
       "wins": 22,
       "ties": 11,
-      "win_rate_percentage": 31.61,
+      "win_rate_percentage": 31.25,
       "rank": 24
     },
     {
