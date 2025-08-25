@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:42:16.502Z",
+  "updatedAt": "2025-08-25T13:46:27.223Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1254,
-      "battles": 98,
-      "wins": 52,
+      "rating": 1261,
+      "battles": 99,
+      "wins": 53,
       "ties": 18,
-      "win_rate_percentage": 62.24,
+      "win_rate_percentage": 62.63,
       "rank": 8
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
-      "model_name": "Grok 4",
-      "rating": 1189,
-      "battles": 296,
-      "wins": 96,
-      "ties": 48,
-      "win_rate_percentage": 40.54,
-      "rank": 17
-    },
-    {
       "model_name": "GPT 4o Latest",
       "rating": 1185,
       "battles": 231,
       "wins": 105,
       "ties": 37,
       "win_rate_percentage": 53.46,
+      "rank": 17
+    },
+    {
+      "model_name": "Grok 4",
+      "rating": 1182,
+      "battles": 297,
+      "wins": 96,
+      "ties": 48,
+      "win_rate_percentage": 40.4,
       "rank": 18
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1156,
-      "battles": 172,
-      "wins": 82,
+      "rating": 1163,
+      "battles": 173,
+      "wins": 83,
       "ties": 32,
-      "win_rate_percentage": 56.98,
+      "win_rate_percentage": 57.23,
       "rank": 20
     },
     {
@@ -201,11 +201,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1120,
-      "battles": 307,
+      "rating": 1113,
+      "battles": 308,
       "wins": 91,
       "ties": 50,
-      "win_rate_percentage": 37.79,
+      "win_rate_percentage": 37.66,
       "rank": 23
     },
     {
