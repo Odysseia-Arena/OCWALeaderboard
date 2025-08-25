@@ -29,6 +29,7 @@ const I18N_TEXT = {
     title: '类脑AI创意写作竞技场',
     subtitle: 'Odysseia AI Creative Writing Arena',
     rulesLink: '规则说明',
+    heatmapLink: '热力图',
     searchPlaceholder: '搜索模型名称...',
     totalBattles: '总对战',
     lastUpdated: '最后更新',
@@ -72,6 +73,7 @@ const I18N_TEXT = {
     title: 'Odysseia AI Creative Writing Arena',
     subtitle: '类脑AI创意写作竞技场',
     rulesLink: 'Rules',
+    heatmapLink: 'Heatmap',
     searchPlaceholder: 'Search model name...',
     totalBattles: 'Total Battles',
     lastUpdated: 'Last Updated',
@@ -116,6 +118,7 @@ const I18N_TEXT = {
     title: '<ruby><rb>類脳</rb><rt>オデュッセイア</rt></ruby>AI創作競技場',
     subtitle: '类脑AI创意写作竞技场',
     rulesLink: 'ルール',
+    heatmapLink: 'ヒートマップ',
     searchPlaceholder: 'モデル名を検索...',
     totalBattles: '総対戦数',
     lastUpdated: '最終更新',
@@ -177,8 +180,10 @@ function applyLanguage(lang) {
   }
   if (subEl) subEl.textContent = conf.subtitle;
 
-  const rulesLink = document.querySelector('.toolbar .right .link');
+  const rulesLink = document.getElementById('rulesLink');
   if (rulesLink) rulesLink.textContent = conf.rulesLink;
+  const heatmapLink = document.getElementById('heatmapLink');
+  if (heatmapLink) heatmapLink.textContent = conf.heatmapLink;
 
   const searchInput = document.getElementById('search');
   if (searchInput) searchInput.placeholder = conf.searchPlaceholder;
