@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:45:16.362Z",
+  "updatedAt": "2025-08-25T09:47:16.382Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -47,13 +47,22 @@
       "rank": 5
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1262,
+      "battles": 213,
+      "wins": 120,
+      "ties": 36,
+      "win_rate_percentage": 64.79,
+      "rank": 6
+    },
+    {
       "model_name": "Grok 3",
       "rating": 1261,
       "battles": 240,
       "wins": 130,
       "ties": 32,
       "win_rate_percentage": 60.83,
-      "rank": 6
+      "rank": 7
     },
     {
       "model_name": "Claude Opus 4",
@@ -62,15 +71,6 @@
       "wins": 47,
       "ties": 17,
       "win_rate_percentage": 63.07,
-      "rank": 7
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1256,
-      "battles": 212,
-      "wins": 119,
-      "ties": 36,
-      "win_rate_percentage": 64.62,
       "rank": 8
     },
     {
@@ -164,21 +164,21 @@
       "rank": 18
     },
     {
-      "model_name": "DeepSeek R1 0528",
-      "rating": 1171,
-      "battles": 160,
-      "wins": 77,
-      "ties": 31,
-      "win_rate_percentage": 57.81,
-      "rank": 19
-    },
-    {
       "model_name": "catalina",
       "rating": 1168,
       "battles": 249,
       "wins": 85,
       "ties": 53,
       "win_rate_percentage": 44.78,
+      "rank": 19
+    },
+    {
+      "model_name": "DeepSeek R1 0528",
+      "rating": 1165,
+      "battles": 161,
+      "wins": 77,
+      "ties": 31,
+      "win_rate_percentage": 57.45,
       "rank": 20
     },
     {
