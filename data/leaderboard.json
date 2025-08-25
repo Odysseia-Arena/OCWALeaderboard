@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T15:32:16.269Z",
+  "updatedAt": "2025-08-25T15:33:26.871Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
       "rating": 1406,
-      "battles": 220,
+      "battles": 219,
       "wins": 177,
       "ties": 18,
-      "win_rate_percentage": 84.55,
+      "win_rate_percentage": 84.93,
       "rank": 1
     },
     {
@@ -49,10 +49,10 @@
     {
       "model_name": "Claude Opus 4",
       "rating": 1286,
-      "battles": 103,
+      "battles": 102,
       "wins": 57,
       "ties": 18,
-      "win_rate_percentage": 64.08,
+      "win_rate_percentage": 64.71,
       "rank": 6
     },
     {
@@ -85,10 +85,10 @@
     {
       "model_name": "Grok 3",
       "rating": 1255,
-      "battles": 266,
+      "battles": 265,
       "wins": 142,
       "ties": 37,
-      "win_rate_percentage": 60.34,
+      "win_rate_percentage": 60.57,
       "rank": 10
     },
     {
@@ -193,10 +193,10 @@
     {
       "model_name": "catalina",
       "rating": 1124,
-      "battles": 276,
+      "battles": 275,
       "wins": 93,
       "ties": 56,
-      "win_rate_percentage": 43.84,
+      "win_rate_percentage": 44,
       "rank": 22
     },
     {
