@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T07:55:28.642Z",
+  "updatedAt": "2025-08-25T07:57:12.877Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -65,22 +65,13 @@
       "rank": 7
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1252,
-      "battles": 248,
-      "wins": 104,
-      "ties": 38,
-      "win_rate_percentage": 49.6,
-      "rank": 8
-    },
-    {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1249,
       "battles": 196,
       "wins": 112,
       "ties": 33,
       "win_rate_percentage": 65.56,
-      "rank": 9
+      "rank": 8
     },
     {
       "model_name": "Qwen 235b 2507 nothinking",
@@ -89,7 +80,7 @@
       "wins": 127,
       "ties": 40,
       "win_rate_percentage": 55.06,
-      "rank": 10
+      "rank": 9
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -98,6 +89,15 @@
       "wins": 44,
       "ties": 14,
       "win_rate_percentage": 53.68,
+      "rank": 10
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1243,
+      "battles": 249,
+      "wins": 104,
+      "ties": 38,
+      "win_rate_percentage": 49.4,
       "rank": 11
     },
     {
@@ -119,21 +119,21 @@
       "rank": 13
     },
     {
+      "model_name": "Step 3",
+      "rating": 1217,
+      "battles": 200,
+      "wins": 94,
+      "ties": 31,
+      "win_rate_percentage": 54.75,
+      "rank": 14
+    },
+    {
       "model_name": "GPT 4o Latest",
       "rating": 1213,
       "battles": 201,
       "wins": 96,
       "ties": 32,
       "win_rate_percentage": 55.72,
-      "rank": 14
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1209,
-      "battles": 198,
-      "wins": 93,
-      "ties": 30,
-      "win_rate_percentage": 54.55,
       "rank": 15
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1157,
-      "battles": 270,
+      "rating": 1158,
+      "battles": 271,
       "wins": 106,
-      "ties": 37,
-      "win_rate_percentage": 46.11,
+      "ties": 38,
+      "win_rate_percentage": 46.13,
       "rank": 21
     },
     {
