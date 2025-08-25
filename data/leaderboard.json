@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T06:56:08.442Z",
+  "updatedAt": "2025-08-25T06:57:13.875Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -57,11 +57,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1268,
-      "battles": 97,
-      "wins": 63,
+      "rating": 1275,
+      "battles": 98,
+      "wins": 64,
       "ties": 17,
-      "win_rate_percentage": 73.71,
+      "win_rate_percentage": 73.98,
       "rank": 7
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1206,
-      "battles": 238,
+      "rating": 1199,
+      "battles": 239,
       "wins": 97,
       "ties": 36,
-      "win_rate_percentage": 48.32,
+      "win_rate_percentage": 48.12,
       "rank": 14
     },
     {
