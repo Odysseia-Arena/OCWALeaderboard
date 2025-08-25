@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T01:12:12.042Z",
+  "updatedAt": "2025-08-25T01:17:16.195Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -11,21 +11,21 @@
       "rank": 1
     },
     {
+      "model_name": "Doubao 1.6",
+      "rating": 1349,
+      "battles": 132,
+      "wins": 87,
+      "ties": 21,
+      "win_rate_percentage": 73.86,
+      "rank": 2
+    },
+    {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1348,
       "battles": 143,
       "wins": 96,
       "ties": 25,
       "win_rate_percentage": 75.87,
-      "rank": 2
-    },
-    {
-      "model_name": "Doubao 1.6",
-      "rating": 1344,
-      "battles": 131,
-      "wins": 86,
-      "ties": 21,
-      "win_rate_percentage": 73.66,
       "rank": 3
     },
     {
@@ -39,21 +39,12 @@
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1279,
-      "battles": 252,
-      "wins": 137,
+      "rating": 1290,
+      "battles": 254,
+      "wins": 139,
       "ties": 38,
-      "win_rate_percentage": 61.9,
+      "win_rate_percentage": 62.2,
       "rank": 5
-    },
-    {
-      "model_name": "V0 1.5 LG",
-      "rating": 1276,
-      "battles": 78,
-      "wins": 49,
-      "ties": 14,
-      "win_rate_percentage": 71.79,
-      "rank": 6
     },
     {
       "model_name": "Grok 3",
@@ -62,6 +53,15 @@
       "wins": 129,
       "ties": 31,
       "win_rate_percentage": 60.46,
+      "rank": 6
+    },
+    {
+      "model_name": "V0 1.5 LG",
+      "rating": 1263,
+      "battles": 80,
+      "wins": 49,
+      "ties": 15,
+      "win_rate_percentage": 70.62,
       "rank": 7
     },
     {
@@ -102,20 +102,20 @@
     },
     {
       "model_name": "Kimi K2",
-      "rating": 1237,
-      "battles": 252,
+      "rating": 1227,
+      "battles": 253,
       "wins": 111,
       "ties": 40,
-      "win_rate_percentage": 51.98,
+      "win_rate_percentage": 51.78,
       "rank": 12
     },
     {
       "model_name": "Claude Opus 4.1",
-      "rating": 1230,
-      "battles": 85,
+      "rating": 1218,
+      "battles": 87,
       "wins": 38,
       "ties": 14,
-      "win_rate_percentage": 52.94,
+      "win_rate_percentage": 51.72,
       "rank": 13
     },
     {
@@ -147,20 +147,20 @@
     },
     {
       "model_name": "catalina",
-      "rating": 1175,
-      "battles": 241,
+      "rating": 1177,
+      "battles": 242,
       "wins": 83,
-      "ties": 51,
-      "win_rate_percentage": 45.02,
+      "ties": 52,
+      "win_rate_percentage": 45.04,
       "rank": 17
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1162,
-      "battles": 204,
-      "wins": 81,
+      "rating": 1172,
+      "battles": 205,
+      "wins": 82,
       "ties": 32,
-      "win_rate_percentage": 47.55,
+      "win_rate_percentage": 47.8,
       "rank": 18
     },
     {
@@ -173,21 +173,21 @@
       "rank": 19
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1157,
+      "battles": 244,
+      "wins": 96,
+      "ties": 32,
+      "win_rate_percentage": 45.9,
+      "rank": 20
+    },
+    {
       "model_name": "DeepSeek V3",
       "rating": 1150,
       "battles": 246,
       "wins": 64,
       "ties": 48,
       "win_rate_percentage": 35.77,
-      "rank": 20
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1146,
-      "battles": 243,
-      "wins": 95,
-      "ties": 32,
-      "win_rate_percentage": 45.68,
       "rank": 21
     },
     {
@@ -200,21 +200,21 @@
       "rank": 22
     },
     {
-      "model_name": "V0 1.5 MD",
-      "rating": 1118,
-      "battles": 64,
-      "wins": 18,
-      "ties": 7,
-      "win_rate_percentage": 33.59,
-      "rank": 23
-    },
-    {
       "model_name": "GPT 5 chat",
       "rating": 1117,
       "battles": 272,
       "wins": 79,
       "ties": 48,
       "win_rate_percentage": 37.87,
+      "rank": 23
+    },
+    {
+      "model_name": "V0 1.5 MD",
+      "rating": 1114,
+      "battles": 65,
+      "wins": 18,
+      "ties": 7,
+      "win_rate_percentage": 33.08,
       "rank": 24
     },
     {
