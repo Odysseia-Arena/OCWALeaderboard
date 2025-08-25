@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T02:22:13.512Z",
+  "updatedAt": "2025-08-25T02:27:15.079Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -49,19 +49,19 @@
     {
       "model_name": "V0 1.5 LG",
       "rating": 1273,
-      "battles": 84,
+      "battles": 83,
       "wins": 52,
       "ties": 15,
-      "win_rate_percentage": 70.83,
+      "win_rate_percentage": 71.69,
       "rank": 6
     },
     {
       "model_name": "Grok 3",
       "rating": 1254,
-      "battles": 241,
+      "battles": 240,
       "wins": 129,
       "ties": 32,
-      "win_rate_percentage": 60.17,
+      "win_rate_percentage": 60.42,
       "rank": 7
     },
     {
