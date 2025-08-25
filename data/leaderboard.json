@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2025-08-25T11:09:35.733Z",
+  "updatedAt": "2025-08-25T11:12:12.619Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1421,
-      "battles": 209,
-      "wins": 168,
+      "rating": 1423,
+      "battles": 210,
+      "wins": 169,
       "ties": 17,
-      "win_rate_percentage": 84.45,
+      "win_rate_percentage": 84.52,
       "rank": 1
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1309,
-      "battles": 261,
-      "wins": 144,
+      "rating": 1316,
+      "battles": 262,
+      "wins": 145,
       "ties": 40,
-      "win_rate_percentage": 62.84,
+      "win_rate_percentage": 62.98,
       "rank": 2
     },
     {
@@ -92,21 +92,21 @@
       "rank": 10
     },
     {
-      "model_name": "Grok 3",
-      "rating": 1247,
-      "battles": 247,
-      "wins": 132,
-      "ties": 34,
-      "win_rate_percentage": 60.32,
-      "rank": 11
-    },
-    {
       "model_name": "Step 3",
       "rating": 1246,
       "battles": 215,
       "wins": 103,
       "ties": 32,
       "win_rate_percentage": 55.35,
+      "rank": 11
+    },
+    {
+      "model_name": "Grok 3",
+      "rating": 1240,
+      "battles": 248,
+      "wins": 132,
+      "ties": 34,
+      "win_rate_percentage": 60.08,
       "rank": 12
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1114,
-      "battles": 254,
+      "rating": 1112,
+      "battles": 255,
       "wins": 65,
       "ties": 48,
-      "win_rate_percentage": 35.04,
+      "win_rate_percentage": 34.9,
       "rank": 24
     },
     {
