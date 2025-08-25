@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T00:02:17.172Z",
+  "updatedAt": "2025-08-25T00:07:21.380Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -47,21 +47,21 @@
       "rank": 5
     },
     {
+      "model_name": "Grok 3",
+      "rating": 1281,
+      "battles": 238,
+      "wins": 129,
+      "ties": 31,
+      "win_rate_percentage": 60.71,
+      "rank": 6
+    },
+    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1279,
       "battles": 252,
       "wins": 137,
       "ties": 38,
       "win_rate_percentage": 61.9,
-      "rank": 6
-    },
-    {
-      "model_name": "Grok 3",
-      "rating": 1275,
-      "battles": 237,
-      "wins": 128,
-      "ties": 31,
-      "win_rate_percentage": 60.55,
       "rank": 7
     },
     {
@@ -92,21 +92,21 @@
       "rank": 10
     },
     {
+      "model_name": "Gemini 2.5 Flash",
+      "rating": 1240,
+      "battles": 203,
+      "wins": 104,
+      "ties": 22,
+      "win_rate_percentage": 56.65,
+      "rank": 11
+    },
+    {
       "model_name": "Step 3",
       "rating": 1238,
       "battles": 175,
       "wins": 83,
       "ties": 25,
       "win_rate_percentage": 54.57,
-      "rank": 11
-    },
-    {
-      "model_name": "Gemini 2.5 Flash",
-      "rating": 1234,
-      "battles": 202,
-      "wins": 103,
-      "ties": 22,
-      "win_rate_percentage": 56.44,
       "rank": 12
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1178,
-      "battles": 201,
-      "wins": 81,
-      "ties": 31,
-      "win_rate_percentage": 48.01,
+      "model_name": "catalina",
+      "rating": 1168,
+      "battles": 240,
+      "wins": 82,
+      "ties": 51,
+      "win_rate_percentage": 44.79,
       "rank": 17
     },
     {
-      "model_name": "catalina",
-      "rating": 1166,
-      "battles": 238,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1164,
+      "battles": 203,
       "wins": 81,
-      "ties": 51,
-      "win_rate_percentage": 44.75,
+      "ties": 31,
+      "win_rate_percentage": 47.54,
       "rank": 18
     },
     {
