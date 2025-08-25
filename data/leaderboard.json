@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T03:17:16.817Z",
+  "updatedAt": "2025-08-25T03:22:14.436Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1248,
+      "battles": 180,
+      "wins": 101,
+      "ties": 31,
+      "win_rate_percentage": 64.72,
+      "rank": 8
+    },
+    {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1247,
       "battles": 267,
       "wins": 127,
       "ties": 40,
       "win_rate_percentage": 55.06,
-      "rank": 8
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1243,
-      "battles": 179,
-      "wins": 100,
-      "ties": 31,
-      "win_rate_percentage": 64.53,
       "rank": 9
     },
     {
@@ -139,10 +139,10 @@
     {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1187,
-      "battles": 218,
+      "battles": 217,
       "wins": 98,
       "ties": 34,
-      "win_rate_percentage": 52.75,
+      "win_rate_percentage": 53,
       "rank": 16
     },
     {
@@ -157,10 +157,10 @@
     {
       "model_name": "Gemini 1.5 Pro",
       "rating": 1169,
-      "battles": 252,
+      "battles": 251,
       "wins": 99,
       "ties": 34,
-      "win_rate_percentage": 46.03,
+      "win_rate_percentage": 46.22,
       "rank": 18
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1104,
-      "battles": 69,
+      "rating": 1099,
+      "battles": 70,
       "wins": 18,
       "ties": 8,
-      "win_rate_percentage": 31.88,
+      "win_rate_percentage": 31.43,
       "rank": 24
     },
     {
