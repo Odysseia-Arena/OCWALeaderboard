@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:12:13.413Z",
+  "updatedAt": "2025-08-25T09:17:14.847Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,30 +12,21 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1320,
-      "battles": 171,
-      "wins": 115,
-      "ties": 28,
-      "win_rate_percentage": 75.44,
+      "rating": 1323,
+      "battles": 173,
+      "wins": 116,
+      "ties": 29,
+      "win_rate_percentage": 75.43,
       "rank": 2
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1304,
-      "battles": 113,
-      "wins": 74,
+      "rating": 1308,
+      "battles": 114,
+      "wins": 75,
       "ties": 19,
-      "win_rate_percentage": 73.89,
+      "win_rate_percentage": 74.12,
       "rank": 3
-    },
-    {
-      "model_name": "Doubao 1.6",
-      "rating": 1295,
-      "battles": 156,
-      "wins": 101,
-      "ties": 26,
-      "win_rate_percentage": 73.08,
-      "rank": 4
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
@@ -44,6 +35,15 @@
       "wins": 140,
       "ties": 40,
       "win_rate_percentage": 62.5,
+      "rank": 4
+    },
+    {
+      "model_name": "Doubao 1.6",
+      "rating": 1288,
+      "battles": 157,
+      "wins": 101,
+      "ties": 26,
+      "win_rate_percentage": 72.61,
       "rank": 5
     },
     {
@@ -101,22 +101,13 @@
       "rank": 11
     },
     {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1236,
-      "battles": 256,
-      "wins": 107,
-      "ties": 40,
-      "win_rate_percentage": 49.61,
-      "rank": 12
-    },
-    {
       "model_name": "Claude Opus 4.1",
       "rating": 1233,
       "battles": 100,
       "wins": 45,
       "ties": 15,
       "win_rate_percentage": 52.5,
-      "rank": 13
+      "rank": 12
     },
     {
       "model_name": "Kimi K2",
@@ -125,6 +116,15 @@
       "wins": 114,
       "ties": 40,
       "win_rate_percentage": 51.94,
+      "rank": 13
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1225,
+      "battles": 257,
+      "wins": 107,
+      "ties": 40,
+      "win_rate_percentage": 49.42,
       "rank": 14
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1150,
-      "battles": 157,
+      "rating": 1154,
+      "battles": 158,
       "wins": 75,
-      "ties": 29,
-      "win_rate_percentage": 57.01,
+      "ties": 30,
+      "win_rate_percentage": 56.96,
       "rank": 21
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1106,
-      "battles": 98,
-      "wins": 25,
+      "rating": 1113,
+      "battles": 100,
+      "wins": 26,
       "ties": 14,
-      "win_rate_percentage": 32.65,
+      "win_rate_percentage": 33,
       "rank": 24
     },
     {
