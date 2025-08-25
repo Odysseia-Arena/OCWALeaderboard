@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:07:16.992Z",
+  "updatedAt": "2025-08-25T09:12:13.413Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1289,
-      "battles": 81,
+      "rating": 1280,
+      "battles": 82,
       "wins": 45,
       "ties": 17,
-      "win_rate_percentage": 66.05,
+      "win_rate_percentage": 65.24,
       "rank": 6
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1260,
-      "battles": 208,
+      "rating": 1250,
+      "battles": 209,
       "wins": 117,
       "ties": 36,
-      "win_rate_percentage": 64.9,
+      "win_rate_percentage": 64.59,
       "rank": 8
     },
     {
@@ -83,30 +83,30 @@
       "rank": 9
     },
     {
+      "model_name": "Step 3",
+      "rating": 1243,
+      "battles": 206,
+      "wins": 98,
+      "ties": 32,
+      "win_rate_percentage": 55.34,
+      "rank": 10
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1238,
       "battles": 210,
       "wins": 107,
       "ties": 24,
       "win_rate_percentage": 56.67,
-      "rank": 10
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1235,
-      "battles": 254,
-      "wins": 106,
-      "ties": 40,
-      "win_rate_percentage": 49.61,
       "rank": 11
     },
     {
-      "model_name": "Step 3",
-      "rating": 1235,
-      "battles": 205,
-      "wins": 97,
-      "ties": 32,
-      "win_rate_percentage": 55.12,
+      "model_name": "Claude Sonnet 4",
+      "rating": 1236,
+      "battles": 256,
+      "wins": 107,
+      "ties": 40,
+      "win_rate_percentage": 49.61,
       "rank": 12
     },
     {
@@ -155,21 +155,21 @@
       "rank": 17
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1171,
+      "battles": 275,
+      "wins": 108,
+      "ties": 39,
+      "win_rate_percentage": 46.36,
+      "rank": 18
+    },
+    {
       "model_name": "catalina",
       "rating": 1168,
       "battles": 249,
       "wins": 85,
       "ties": 53,
       "win_rate_percentage": 44.78,
-      "rank": 18
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1161,
-      "battles": 274,
-      "wins": 107,
-      "ties": 39,
-      "win_rate_percentage": 46.17,
       "rank": 19
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1159,
-      "battles": 156,
+      "rating": 1150,
+      "battles": 157,
       "wins": 75,
       "ties": 29,
-      "win_rate_percentage": 57.37,
+      "win_rate_percentage": 57.01,
       "rank": 21
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1097,
-      "battles": 97,
-      "wins": 24,
+      "rating": 1106,
+      "battles": 98,
+      "wins": 25,
       "ties": 14,
-      "win_rate_percentage": 31.96,
+      "win_rate_percentage": 32.65,
       "rank": 24
     },
     {
