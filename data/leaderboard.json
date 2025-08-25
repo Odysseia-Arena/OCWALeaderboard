@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T10:41:15.943Z",
+  "updatedAt": "2025-08-25T10:42:17.424Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -110,30 +110,30 @@
       "rank": 12
     },
     {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1233,
+      "battles": 102,
+      "wins": 46,
+      "ties": 15,
+      "win_rate_percentage": 52.45,
+      "rank": 13
+    },
+    {
       "model_name": "Claude Sonnet 4",
       "rating": 1228,
       "battles": 264,
       "wins": 110,
       "ties": 41,
       "win_rate_percentage": 49.43,
-      "rank": 13
-    },
-    {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1225,
-      "battles": 101,
-      "wins": 45,
-      "ties": 15,
-      "win_rate_percentage": 51.98,
       "rank": 14
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1214,
-      "battles": 205,
+      "rating": 1206,
+      "battles": 206,
       "wins": 98,
       "ties": 32,
-      "win_rate_percentage": 55.61,
+      "win_rate_percentage": 55.34,
       "rank": 15
     },
     {
