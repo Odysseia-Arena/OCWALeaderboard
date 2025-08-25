@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T01:32:15.042Z",
+  "updatedAt": "2025-08-25T01:37:18.103Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1440,
-      "battles": 199,
-      "wins": 161,
+      "rating": 1443,
+      "battles": 200,
+      "wins": 162,
       "ties": 16,
-      "win_rate_percentage": 84.92,
+      "win_rate_percentage": 85,
       "rank": 1
     },
     {
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1300,
-      "battles": 66,
-      "wins": 38,
+      "rating": 1307,
+      "battles": 67,
+      "wins": 39,
       "ties": 13,
-      "win_rate_percentage": 67.42,
+      "win_rate_percentage": 67.91,
       "rank": 4
     },
     {
@@ -84,20 +84,20 @@
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1247,
-      "battles": 173,
+      "rating": 1245,
+      "battles": 174,
       "wins": 98,
-      "ties": 29,
-      "win_rate_percentage": 65.03,
+      "ties": 30,
+      "win_rate_percentage": 64.94,
       "rank": 10
     },
     {
       "model_name": "Gemini 2.5 Flash",
-      "rating": 1240,
-      "battles": 203,
+      "rating": 1233,
+      "battles": 204,
       "wins": 104,
       "ties": 22,
-      "win_rate_percentage": 56.65,
+      "win_rate_percentage": 56.37,
       "rank": 11
     },
     {
@@ -147,11 +147,11 @@
     },
     {
       "model_name": "catalina",
-      "rating": 1183,
-      "battles": 244,
+      "rating": 1180,
+      "battles": 245,
       "wins": 84,
       "ties": 53,
-      "win_rate_percentage": 45.29,
+      "win_rate_percentage": 45.1,
       "rank": 17
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1153,
-      "battles": 245,
+      "rating": 1155,
+      "battles": 246,
       "wins": 96,
-      "ties": 32,
-      "win_rate_percentage": 45.71,
+      "ties": 33,
+      "win_rate_percentage": 45.73,
       "rank": 20
     },
     {
