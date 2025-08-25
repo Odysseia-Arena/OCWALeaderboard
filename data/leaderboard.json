@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T10:22:12.716Z",
+  "updatedAt": "2025-08-25T10:27:18.342Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1315,
-      "battles": 119,
+      "rating": 1305,
+      "battles": 120,
       "wins": 78,
       "ties": 20,
-      "win_rate_percentage": 73.95,
+      "win_rate_percentage": 73.33,
       "rank": 2
     },
     {
@@ -39,20 +39,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1293,
-      "battles": 175,
-      "wins": 116,
+      "rating": 1290,
+      "battles": 177,
+      "wins": 117,
       "ties": 29,
-      "win_rate_percentage": 74.57,
+      "win_rate_percentage": 74.29,
       "rank": 5
     },
     {
       "model_name": "Claude 3.7 Sonnet",
-      "rating": 1263,
-      "battles": 218,
-      "wins": 123,
+      "rating": 1272,
+      "battles": 219,
+      "wins": 124,
       "ties": 36,
-      "win_rate_percentage": 64.68,
+      "win_rate_percentage": 64.84,
       "rank": 6
     },
     {
@@ -65,30 +65,30 @@
       "rank": 7
     },
     {
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1252,
+      "battles": 270,
+      "wins": 129,
+      "ties": 40,
+      "win_rate_percentage": 55.19,
+      "rank": 8
+    },
+    {
+      "model_name": "Grok 3",
+      "rating": 1251,
+      "battles": 243,
+      "wins": 131,
+      "ties": 32,
+      "win_rate_percentage": 60.49,
+      "rank": 9
+    },
+    {
       "model_name": "Claude Opus 4",
       "rating": 1249,
       "battles": 89,
       "wins": 47,
       "ties": 17,
       "win_rate_percentage": 62.36,
-      "rank": 8
-    },
-    {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1247,
-      "battles": 267,
-      "wins": 127,
-      "ties": 40,
-      "win_rate_percentage": 55.06,
-      "rank": 9
-    },
-    {
-      "model_name": "Grok 3",
-      "rating": 1244,
-      "battles": 242,
-      "wins": 130,
-      "ties": 32,
-      "win_rate_percentage": 60.33,
       "rank": 10
     },
     {
@@ -101,21 +101,21 @@
       "rank": 11
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1240,
+      "battles": 261,
+      "wins": 116,
+      "ties": 40,
+      "win_rate_percentage": 52.11,
+      "rank": 12
+    },
+    {
       "model_name": "Claude Sonnet 4",
       "rating": 1236,
       "battles": 262,
       "wins": 110,
       "ties": 40,
       "win_rate_percentage": 49.62,
-      "rank": 12
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1234,
-      "battles": 260,
-      "wins": 115,
-      "ties": 40,
-      "win_rate_percentage": 51.92,
       "rank": 13
     },
     {
@@ -138,21 +138,12 @@
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1196,
-      "battles": 220,
+      "rating": 1189,
+      "battles": 221,
       "wins": 100,
       "ties": 34,
-      "win_rate_percentage": 53.18,
+      "win_rate_percentage": 52.94,
       "rank": 16
-    },
-    {
-      "model_name": "Grok 4",
-      "rating": 1175,
-      "battles": 272,
-      "wins": 85,
-      "ties": 46,
-      "win_rate_percentage": 39.71,
-      "rank": 17
     },
     {
       "model_name": "catalina",
@@ -161,6 +152,15 @@
       "wins": 87,
       "ties": 53,
       "win_rate_percentage": 44.86,
+      "rank": 17
+    },
+    {
+      "model_name": "Grok 4",
+      "rating": 1169,
+      "battles": 273,
+      "wins": 85,
+      "ties": 46,
+      "win_rate_percentage": 39.56,
       "rank": 18
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1168,
-      "battles": 163,
+      "rating": 1162,
+      "battles": 164,
       "wins": 78,
       "ties": 31,
-      "win_rate_percentage": 57.36,
+      "win_rate_percentage": 57.01,
       "rank": 20
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1122,
-      "battles": 111,
-      "wins": 30,
+      "rating": 1127,
+      "battles": 113,
+      "wins": 31,
       "ties": 15,
-      "win_rate_percentage": 33.78,
+      "win_rate_percentage": 34.07,
       "rank": 24
     },
     {
