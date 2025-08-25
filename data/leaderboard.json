@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T05:34:37.977Z",
+  "updatedAt": "2025-08-25T05:37:17.409Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -110,30 +110,30 @@
       "rank": 12
     },
     {
+      "model_name": "Step 3",
+      "rating": 1218,
+      "battles": 191,
+      "wins": 89,
+      "ties": 29,
+      "win_rate_percentage": 54.19,
+      "rank": 13
+    },
+    {
       "model_name": "GPT 4o Latest",
       "rating": 1213,
       "battles": 201,
       "wins": 96,
       "ties": 32,
       "win_rate_percentage": 55.72,
-      "rank": 13
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1210,
-      "battles": 190,
-      "wins": 88,
-      "ties": 29,
-      "win_rate_percentage": 53.95,
       "rank": 14
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1201,
-      "battles": 255,
+      "rating": 1193,
+      "battles": 256,
       "wins": 103,
       "ties": 35,
-      "win_rate_percentage": 47.25,
+      "win_rate_percentage": 47.07,
       "rank": 15
     },
     {
