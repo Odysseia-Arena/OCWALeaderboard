@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T14:32:18.626Z",
+  "updatedAt": "2025-08-25T14:37:13.698Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -13,10 +13,10 @@
     {
       "model_name": "Doubao 1.6",
       "rating": 1327,
-      "battles": 172,
+      "battles": 171,
       "wins": 116,
       "ties": 27,
-      "win_rate_percentage": 75.29,
+      "win_rate_percentage": 75.73,
       "rank": 2
     },
     {
@@ -31,10 +31,10 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1300,
-      "battles": 197,
+      "battles": 196,
       "wins": 130,
       "ties": 30,
-      "win_rate_percentage": 73.6,
+      "win_rate_percentage": 73.98,
       "rank": 4
     },
     {
@@ -66,11 +66,11 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1261,
-      "battles": 99,
-      "wins": 53,
+      "rating": 1267,
+      "battles": 100,
+      "wins": 54,
       "ties": 18,
-      "win_rate_percentage": 62.63,
+      "win_rate_percentage": 63,
       "rank": 8
     },
     {
@@ -128,30 +128,30 @@
       "rank": 14
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1219,
+      "battles": 284,
+      "wins": 126,
+      "ties": 43,
+      "win_rate_percentage": 51.94,
+      "rank": 15
+    },
+    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1217,
       "battles": 91,
       "wins": 40,
       "ties": 8,
       "win_rate_percentage": 48.35,
-      "rank": 15
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1213,
-      "battles": 282,
-      "wins": 125,
-      "ties": 42,
-      "win_rate_percentage": 51.77,
       "rank": 16
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1188,
-      "battles": 233,
+      "rating": 1182,
+      "battles": 235,
       "wins": 106,
-      "ties": 38,
-      "win_rate_percentage": 53.65,
+      "ties": 39,
+      "win_rate_percentage": 53.4,
       "rank": 17
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "catalina",
-      "rating": 1149,
-      "battles": 272,
+      "rating": 1143,
+      "battles": 273,
       "wins": 93,
       "ties": 56,
-      "win_rate_percentage": 44.49,
+      "win_rate_percentage": 44.32,
       "rank": 21
     },
     {
