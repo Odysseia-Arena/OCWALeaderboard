@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T11:17:15.195Z",
+  "updatedAt": "2025-08-25T11:22:16.582Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -20,48 +20,48 @@
       "rank": 2
     },
     {
+      "model_name": "Doubao 1.6",
+      "rating": 1307,
+      "battles": 162,
+      "wins": 107,
+      "ties": 26,
+      "win_rate_percentage": 74.07,
+      "rank": 3
+    },
+    {
       "model_name": "V0 1.5 LG",
       "rating": 1305,
       "battles": 123,
       "wins": 80,
       "ties": 20,
       "win_rate_percentage": 73.17,
-      "rank": 3
-    },
-    {
-      "model_name": "Doubao 1.6",
-      "rating": 1303,
-      "battles": 161,
-      "wins": 106,
-      "ties": 26,
-      "win_rate_percentage": 73.91,
       "rank": 4
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1291,
-      "battles": 180,
-      "wins": 119,
+      "rating": 1296,
+      "battles": 181,
+      "wins": 120,
       "ties": 29,
-      "win_rate_percentage": 74.17,
+      "win_rate_percentage": 74.31,
       "rank": 5
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "rating": 1272,
-      "battles": 217,
-      "wins": 112,
-      "ties": 26,
-      "win_rate_percentage": 57.6,
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1279,
+      "battles": 222,
+      "wins": 126,
+      "ties": 36,
+      "win_rate_percentage": 64.86,
       "rank": 6
     },
     {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1272,
-      "battles": 221,
-      "wins": 125,
-      "ties": 36,
-      "win_rate_percentage": 64.71,
+      "model_name": "Gemini 2.5 Flash",
+      "rating": 1262,
+      "battles": 218,
+      "wins": 112,
+      "ties": 26,
+      "win_rate_percentage": 57.34,
       "rank": 7
     },
     {
@@ -74,31 +74,22 @@
       "rank": 8
     },
     {
+      "model_name": "Step 3",
+      "rating": 1252,
+      "battles": 216,
+      "wins": 104,
+      "ties": 32,
+      "win_rate_percentage": 55.56,
+      "rank": 9
+    },
+    {
       "model_name": "Kimi K2",
       "rating": 1250,
       "battles": 266,
       "wins": 119,
       "ties": 40,
       "win_rate_percentage": 52.26,
-      "rank": 9
-    },
-    {
-      "model_name": "Claude Opus 4",
-      "rating": 1249,
-      "battles": 89,
-      "wins": 47,
-      "ties": 17,
-      "win_rate_percentage": 62.36,
       "rank": 10
-    },
-    {
-      "model_name": "Step 3",
-      "rating": 1246,
-      "battles": 215,
-      "wins": 103,
-      "ties": 32,
-      "win_rate_percentage": 55.35,
-      "rank": 11
     },
     {
       "model_name": "Grok 3",
@@ -107,7 +98,7 @@
       "wins": 132,
       "ties": 34,
       "win_rate_percentage": 60.08,
-      "rank": 12
+      "rank": 11
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -116,15 +107,24 @@
       "wins": 47,
       "ties": 15,
       "win_rate_percentage": 52.91,
+      "rank": 12
+    },
+    {
+      "model_name": "Claude Opus 4",
+      "rating": 1239,
+      "battles": 91,
+      "wins": 47,
+      "ties": 18,
+      "win_rate_percentage": 61.54,
       "rank": 13
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1215,
-      "battles": 266,
-      "wins": 110,
+      "rating": 1221,
+      "battles": 267,
+      "wins": 111,
       "ties": 41,
-      "win_rate_percentage": 49.06,
+      "win_rate_percentage": 49.25,
       "rank": 14
     },
     {
@@ -138,48 +138,39 @@
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1190,
-      "battles": 221,
+      "rating": 1180,
+      "battles": 222,
       "wins": 100,
       "ties": 35,
-      "win_rate_percentage": 53.17,
+      "win_rate_percentage": 52.93,
       "rank": 16
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1172,
-      "battles": 285,
-      "wins": 112,
+      "rating": 1180,
+      "battles": 286,
+      "wins": 113,
       "ties": 40,
-      "win_rate_percentage": 46.32,
+      "win_rate_percentage": 46.5,
       "rank": 17
     },
     {
-      "model_name": "DeepSeek R1 0528",
-      "rating": 1170,
-      "battles": 164,
-      "wins": 79,
-      "ties": 31,
-      "win_rate_percentage": 57.62,
+      "model_name": "Grok 4",
+      "rating": 1172,
+      "battles": 279,
+      "wins": 87,
+      "ties": 47,
+      "win_rate_percentage": 39.61,
       "rank": 18
     },
     {
-      "model_name": "Grok 4",
-      "rating": 1167,
-      "battles": 277,
-      "wins": 86,
-      "ties": 47,
-      "win_rate_percentage": 39.53,
+      "model_name": "DeepSeek R1 0528",
+      "rating": 1162,
+      "battles": 165,
+      "wins": 79,
+      "ties": 31,
+      "win_rate_percentage": 57.27,
       "rank": 19
-    },
-    {
-      "model_name": "catalina",
-      "rating": 1164,
-      "battles": 254,
-      "wins": 87,
-      "ties": 53,
-      "win_rate_percentage": 44.69,
-      "rank": 20
     },
     {
       "model_name": "GLM 4.5 FP8",
@@ -188,33 +179,42 @@
       "wins": 29,
       "ties": 7,
       "win_rate_percentage": 43.92,
+      "rank": 20
+    },
+    {
+      "model_name": "catalina",
+      "rating": 1158,
+      "battles": 255,
+      "wins": 87,
+      "ties": 53,
+      "win_rate_percentage": 44.51,
       "rank": 21
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1128,
-      "battles": 283,
-      "wins": 83,
+      "rating": 1134,
+      "battles": 285,
+      "wins": 84,
       "ties": 49,
-      "win_rate_percentage": 37.99,
+      "win_rate_percentage": 38.07,
       "rank": 22
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1121,
-      "battles": 114,
+      "rating": 1124,
+      "battles": 115,
       "wins": 31,
-      "ties": 15,
-      "win_rate_percentage": 33.77,
+      "ties": 16,
+      "win_rate_percentage": 33.91,
       "rank": 23
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1112,
-      "battles": 255,
+      "rating": 1106,
+      "battles": 256,
       "wins": 65,
       "ties": 48,
-      "win_rate_percentage": 34.9,
+      "win_rate_percentage": 34.77,
       "rank": 24
     },
     {
