@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T05:52:14.356Z",
+  "updatedAt": "2025-08-25T05:57:16.934Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -48,11 +48,11 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1275,
-      "battles": 95,
-      "wins": 60,
+      "rating": 1287,
+      "battles": 97,
+      "wins": 62,
       "ties": 17,
-      "win_rate_percentage": 72.11,
+      "win_rate_percentage": 72.68,
       "rank": 6
     },
     {
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1193,
-      "battles": 256,
-      "wins": 103,
-      "ties": 35,
-      "win_rate_percentage": 47.07,
-      "rank": 15
-    },
-    {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1187,
       "battles": 217,
       "wins": 98,
       "ties": 34,
       "win_rate_percentage": 53,
+      "rank": 15
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1181,
+      "battles": 258,
+      "wins": 103,
+      "ties": 35,
+      "win_rate_percentage": 46.71,
       "rank": 16
     },
     {
