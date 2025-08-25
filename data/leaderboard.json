@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T12:27:13.382Z",
+  "updatedAt": "2025-08-25T12:32:26.432Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
       "rating": 1422,
-      "battles": 214,
+      "battles": 213,
       "wins": 172,
       "ties": 17,
-      "win_rate_percentage": 84.35,
+      "win_rate_percentage": 84.74,
       "rank": 1
     },
     {
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1302,
-      "battles": 270,
-      "wins": 148,
+      "rating": 1305,
+      "battles": 271,
+      "wins": 149,
       "ties": 43,
-      "win_rate_percentage": 62.78,
+      "win_rate_percentage": 62.92,
       "rank": 4
     },
     {
@@ -58,20 +58,11 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1279,
-      "battles": 229,
+      "battles": 228,
       "wins": 119,
       "ties": 27,
-      "win_rate_percentage": 57.86,
+      "win_rate_percentage": 58.11,
       "rank": 7
-    },
-    {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1249,
-      "battles": 111,
-      "wins": 52,
-      "ties": 15,
-      "win_rate_percentage": 53.6,
-      "rank": 8
     },
     {
       "model_name": "Claude Opus 4",
@@ -80,7 +71,7 @@
       "wins": 50,
       "ties": 18,
       "win_rate_percentage": 62.11,
-      "rank": 9
+      "rank": 8
     },
     {
       "model_name": "Step 3",
@@ -89,6 +80,15 @@
       "wins": 105,
       "ties": 32,
       "win_rate_percentage": 55.25,
+      "rank": 9
+    },
+    {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1240,
+      "battles": 112,
+      "wins": 52,
+      "ties": 15,
+      "win_rate_percentage": 53.12,
       "rank": 10
     },
     {
@@ -119,12 +119,12 @@
       "rank": 13
     },
     {
-      "model_name": "Grok 3",
-      "rating": 1208,
-      "battles": 258,
-      "wins": 135,
-      "ties": 36,
-      "win_rate_percentage": 59.3,
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1211,
+      "battles": 83,
+      "wins": 36,
+      "ties": 7,
+      "win_rate_percentage": 47.59,
       "rank": 14
     },
     {
@@ -146,21 +146,21 @@
       "rank": 16
     },
     {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1202,
-      "battles": 82,
-      "wins": 35,
-      "ties": 7,
-      "win_rate_percentage": 46.95,
+      "model_name": "Grok 3",
+      "rating": 1199,
+      "battles": 258,
+      "wins": 135,
+      "ties": 36,
+      "win_rate_percentage": 59.3,
       "rank": 17
     },
     {
       "model_name": "Grok 4",
-      "rating": 1169,
+      "rating": 1178,
       "battles": 293,
-      "wins": 93,
+      "wins": 94,
       "ties": 48,
-      "win_rate_percentage": 39.93,
+      "win_rate_percentage": 40.27,
       "rank": 18
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "DeepSeek V3",
-      "rating": 1078,
-      "battles": 265,
+      "rating": 1075,
+      "battles": 266,
       "wins": 65,
       "ties": 50,
-      "win_rate_percentage": 33.96,
+      "win_rate_percentage": 33.83,
       "rank": 24
     },
     {
