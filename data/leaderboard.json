@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T03:42:15.204Z",
+  "updatedAt": "2025-08-25T03:47:14.876Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -129,12 +129,21 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1199,
-      "battles": 209,
+      "rating": 1191,
+      "battles": 210,
       "wins": 85,
       "ties": 33,
-      "win_rate_percentage": 48.56,
+      "win_rate_percentage": 48.33,
       "rank": 15
+    },
+    {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1188,
+      "battles": 253,
+      "wins": 101,
+      "ties": 34,
+      "win_rate_percentage": 46.64,
+      "rank": 16
     },
     {
       "model_name": "DeepSeek V3.1 thinking",
@@ -143,15 +152,6 @@
       "wins": 98,
       "ties": 34,
       "win_rate_percentage": 53,
-      "rank": 16
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1180,
-      "battles": 252,
-      "wins": 100,
-      "ties": 34,
-      "win_rate_percentage": 46.43,
       "rank": 17
     },
     {
