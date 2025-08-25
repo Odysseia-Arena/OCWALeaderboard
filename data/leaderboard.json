@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T08:12:19.110Z",
+  "updatedAt": "2025-08-25T08:17:12.055Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -22,19 +22,19 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1320,
-      "battles": 169,
+      "battles": 168,
       "wins": 113,
       "ties": 27,
-      "win_rate_percentage": 74.85,
+      "win_rate_percentage": 75.3,
       "rank": 3
     },
     {
       "model_name": "Claude Opus 4",
-      "rating": 1309,
-      "battles": 77,
-      "wins": 44,
+      "rating": 1313,
+      "battles": 78,
+      "wins": 45,
       "ties": 15,
-      "win_rate_percentage": 66.88,
+      "win_rate_percentage": 67.31,
       "rank": 4
     },
     {
@@ -94,10 +94,10 @@
     {
       "model_name": "Claude Sonnet 4",
       "rating": 1243,
-      "battles": 250,
+      "battles": 249,
       "wins": 104,
       "ties": 39,
-      "win_rate_percentage": 49.4,
+      "win_rate_percentage": 49.6,
       "rank": 11
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1090,
-      "battles": 92,
+      "rating": 1086,
+      "battles": 93,
       "wins": 23,
       "ties": 12,
-      "win_rate_percentage": 31.52,
+      "win_rate_percentage": 31.18,
       "rank": 24
     },
     {
