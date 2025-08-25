@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T11:49:15.629Z",
+  "updatedAt": "2025-08-25T11:52:14.968Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1423,
-      "battles": 210,
+      "rating": 1410,
+      "battles": 211,
       "wins": 169,
       "ties": 17,
-      "win_rate_percentage": 84.52,
+      "win_rate_percentage": 84.12,
       "rank": 1
     },
     {
@@ -128,21 +128,21 @@
       "rank": 14
     },
     {
+      "model_name": "GPT 4o Latest",
+      "rating": 1209,
+      "battles": 216,
+      "wins": 101,
+      "ties": 35,
+      "win_rate_percentage": 54.86,
+      "rank": 15
+    },
+    {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1199,
       "battles": 225,
       "wins": 102,
       "ties": 36,
       "win_rate_percentage": 53.33,
-      "rank": 15
-    },
-    {
-      "model_name": "GPT 4o Latest",
-      "rating": 1196,
-      "battles": 215,
-      "wins": 100,
-      "ties": 35,
-      "win_rate_percentage": 54.65,
       "rank": 16
     },
     {
