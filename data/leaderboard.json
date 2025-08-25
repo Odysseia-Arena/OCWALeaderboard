@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T06:42:13.528Z",
+  "updatedAt": "2025-08-25T06:47:13.582Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1346,
-      "battles": 161,
-      "wins": 109,
+      "rating": 1351,
+      "battles": 162,
+      "wins": 110,
       "ties": 27,
-      "win_rate_percentage": 76.09,
+      "win_rate_percentage": 76.23,
       "rank": 2
     },
     {
@@ -49,10 +49,10 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1285,
-      "battles": 193,
+      "battles": 192,
       "wins": 111,
       "ties": 33,
-      "win_rate_percentage": 66.06,
+      "win_rate_percentage": 66.41,
       "rank": 6
     },
     {
@@ -110,21 +110,21 @@
       "rank": 12
     },
     {
-      "model_name": "Step 3",
-      "rating": 1217,
-      "battles": 191,
-      "wins": 90,
-      "ties": 30,
-      "win_rate_percentage": 54.97,
-      "rank": 13
-    },
-    {
       "model_name": "GPT 4o Latest",
       "rating": 1213,
       "battles": 201,
       "wins": 96,
       "ties": 32,
       "win_rate_percentage": 55.72,
+      "rank": 13
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1212,
+      "battles": 192,
+      "wins": 90,
+      "ties": 30,
+      "win_rate_percentage": 54.69,
       "rank": 14
     },
     {
@@ -211,10 +211,10 @@
     {
       "model_name": "V0 1.5 MD",
       "rating": 1085,
-      "battles": 85,
+      "battles": 84,
       "wins": 21,
       "ties": 10,
-      "win_rate_percentage": 30.59,
+      "win_rate_percentage": 30.95,
       "rank": 24
     },
     {
