@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T02:52:15.774Z",
+  "updatedAt": "2025-08-25T02:57:15.781Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1436,
-      "battles": 203,
-      "wins": 164,
+      "rating": 1440,
+      "battles": 204,
+      "wins": 165,
       "ties": 16,
-      "win_rate_percentage": 84.73,
+      "win_rate_percentage": 84.8,
       "rank": 1
     },
     {
@@ -65,21 +65,21 @@
       "rank": 7
     },
     {
+      "model_name": "Qwen 235b 2507 nothinking",
+      "rating": 1247,
+      "battles": 267,
+      "wins": 127,
+      "ties": 40,
+      "win_rate_percentage": 55.06,
+      "rank": 8
+    },
+    {
       "model_name": "Claude 3.7 Sonnet",
       "rating": 1243,
       "battles": 178,
       "wins": 100,
       "ties": 30,
       "win_rate_percentage": 64.61,
-      "rank": 8
-    },
-    {
-      "model_name": "Qwen 235b 2507 nothinking",
-      "rating": 1241,
-      "battles": 266,
-      "wins": 126,
-      "ties": 40,
-      "win_rate_percentage": 54.89,
       "rank": 9
     },
     {
@@ -92,21 +92,21 @@
       "rank": 10
     },
     {
-      "model_name": "Step 3",
-      "rating": 1231,
-      "battles": 181,
-      "wins": 86,
-      "ties": 26,
-      "win_rate_percentage": 54.7,
-      "rank": 11
-    },
-    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1227,
       "battles": 208,
       "wins": 106,
       "ties": 23,
       "win_rate_percentage": 56.49,
+      "rank": 11
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1227,
+      "battles": 182,
+      "wins": 86,
+      "ties": 26,
+      "win_rate_percentage": 54.4,
       "rank": 12
     },
     {
@@ -146,22 +146,13 @@
       "rank": 16
     },
     {
-      "model_name": "catalina",
-      "rating": 1174,
-      "battles": 248,
-      "wins": 85,
-      "ties": 53,
-      "win_rate_percentage": 44.96,
-      "rank": 17
-    },
-    {
       "model_name": "Grok 4",
       "rating": 1173,
       "battles": 268,
       "wins": 83,
       "ties": 46,
       "win_rate_percentage": 39.55,
-      "rank": 18
+      "rank": 17
     },
     {
       "model_name": "Gemini 1.5 Pro",
@@ -170,6 +161,15 @@
       "wins": 99,
       "ties": 34,
       "win_rate_percentage": 46.03,
+      "rank": 18
+    },
+    {
+      "model_name": "catalina",
+      "rating": 1168,
+      "battles": 249,
+      "wins": 85,
+      "ties": 53,
+      "win_rate_percentage": 44.78,
       "rank": 19
     },
     {
