@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:32:14.320Z",
+  "updatedAt": "2025-08-25T13:37:14.822Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,11 +12,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1316,
-      "battles": 170,
-      "wins": 113,
+      "rating": 1321,
+      "battles": 172,
+      "wins": 115,
       "ties": 27,
-      "win_rate_percentage": 74.41,
+      "win_rate_percentage": 74.71,
       "rank": 2
     },
     {
@@ -30,11 +30,11 @@
     },
     {
       "model_name": "Gemini 2.5 Flash",
-      "rating": 1308,
-      "battles": 233,
-      "wins": 123,
+      "rating": 1305,
+      "battles": 235,
+      "wins": 124,
       "ties": 28,
-      "win_rate_percentage": 58.8,
+      "win_rate_percentage": 58.72,
       "rank": 4
     },
     {
@@ -92,21 +92,21 @@
       "rank": 10
     },
     {
+      "model_name": "Kimi K2",
+      "rating": 1231,
+      "battles": 278,
+      "wins": 124,
+      "ties": 42,
+      "win_rate_percentage": 52.16,
+      "rank": 11
+    },
+    {
       "model_name": "DeepSeek V3.1 thinking",
       "rating": 1229,
       "battles": 237,
       "wins": 110,
       "ties": 38,
       "win_rate_percentage": 54.43,
-      "rank": 11
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1228,
-      "battles": 276,
-      "wins": 123,
-      "ties": 42,
-      "win_rate_percentage": 52.17,
       "rank": 12
     },
     {
@@ -219,11 +219,11 @@
     },
     {
       "model_name": "GPT Oss 120b",
-      "rating": 1027,
-      "battles": 91,
+      "rating": 1022,
+      "battles": 93,
       "wins": 17,
       "ties": 20,
-      "win_rate_percentage": 29.67,
+      "win_rate_percentage": 29.03,
       "rank": 25
     }
   ]
