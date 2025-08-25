@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:27:18.816Z",
+  "updatedAt": "2025-08-25T09:30:43.500Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -12,20 +12,20 @@
     },
     {
       "model_name": "Doubao 1.6 Thinking",
-      "rating": 1323,
-      "battles": 172,
+      "rating": 1312,
+      "battles": 173,
       "wins": 116,
       "ties": 29,
-      "win_rate_percentage": 75.87,
+      "win_rate_percentage": 75.43,
       "rank": 2
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1312,
-      "battles": 115,
+      "rating": 1303,
+      "battles": 116,
       "wins": 76,
       "ties": 19,
-      "win_rate_percentage": 74.35,
+      "win_rate_percentage": 73.71,
       "rank": 3
     },
     {
@@ -56,21 +56,21 @@
       "rank": 6
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "rating": 1267,
+      "battles": 211,
+      "wins": 119,
+      "ties": 36,
+      "win_rate_percentage": 64.93,
+      "rank": 7
+    },
+    {
       "model_name": "Grok 3",
       "rating": 1261,
       "battles": 240,
       "wins": 130,
       "ties": 32,
       "win_rate_percentage": 60.83,
-      "rank": 7
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "rating": 1258,
-      "battles": 210,
-      "wins": 118,
-      "ties": 36,
-      "win_rate_percentage": 64.76,
       "rank": 8
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1217,
-      "battles": 258,
-      "wins": 107,
+      "rating": 1224,
+      "battles": 259,
+      "wins": 108,
       "ties": 40,
-      "win_rate_percentage": 49.22,
+      "win_rate_percentage": 49.42,
       "rank": 14
     },
     {
@@ -165,11 +165,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1162,
-      "battles": 275,
-      "wins": 108,
+      "rating": 1166,
+      "battles": 277,
+      "wins": 109,
       "ties": 39,
-      "win_rate_percentage": 46.36,
+      "win_rate_percentage": 46.39,
       "rank": 19
     },
     {
