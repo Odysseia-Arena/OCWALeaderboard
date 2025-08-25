@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-25T00:32:16.635Z",
+  "updatedAt": "2025-08-25T00:37:15.399Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
-      "rating": 1462,
-      "battles": 198,
+      "rating": 1451,
+      "battles": 199,
       "wins": 161,
       "ties": 16,
-      "win_rate_percentage": 85.35,
+      "win_rate_percentage": 84.92,
       "rank": 1
     },
     {
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1318,
-      "battles": 128,
-      "wins": 83,
+      "rating": 1329,
+      "battles": 129,
+      "wins": 84,
       "ties": 21,
-      "win_rate_percentage": 73.05,
+      "win_rate_percentage": 73.26,
       "rank": 3
     },
     {
@@ -120,11 +120,11 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1227,
-      "battles": 194,
+      "rating": 1216,
+      "battles": 195,
       "wins": 93,
       "ties": 32,
-      "win_rate_percentage": 56.19,
+      "win_rate_percentage": 55.9,
       "rank": 14
     },
     {
@@ -201,11 +201,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1107,
-      "battles": 64,
-      "wins": 17,
+      "rating": 1118,
+      "battles": 65,
+      "wins": 18,
       "ties": 7,
-      "win_rate_percentage": 32.03,
+      "win_rate_percentage": 33.08,
       "rank": 23
     },
     {
