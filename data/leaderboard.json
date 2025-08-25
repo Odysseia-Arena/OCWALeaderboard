@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T13:52:17.748Z",
+  "updatedAt": "2025-08-25T13:56:21.841Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -92,30 +92,30 @@
       "rank": 10
     },
     {
-      "model_name": "Kimi K2",
-      "rating": 1230,
-      "battles": 280,
-      "wins": 125,
-      "ties": 42,
-      "win_rate_percentage": 52.14,
-      "rank": 11
-    },
-    {
-      "model_name": "GLM 4.5 FP8",
-      "rating": 1224,
-      "battles": 89,
-      "wins": 40,
-      "ties": 7,
-      "win_rate_percentage": 48.88,
-      "rank": 12
-    },
-    {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1223,
       "battles": 279,
       "wins": 132,
       "ties": 40,
       "win_rate_percentage": 54.48,
+      "rank": 11
+    },
+    {
+      "model_name": "GLM 4.5 FP8",
+      "rating": 1223,
+      "battles": 90,
+      "wins": 40,
+      "ties": 8,
+      "win_rate_percentage": 48.89,
+      "rank": 12
+    },
+    {
+      "model_name": "Kimi K2",
+      "rating": 1221,
+      "battles": 281,
+      "wins": 125,
+      "ties": 42,
+      "win_rate_percentage": 51.96,
       "rank": 13
     },
     {
@@ -138,12 +138,21 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1211,
-      "battles": 260,
-      "wins": 136,
+      "rating": 1217,
+      "battles": 261,
+      "wins": 137,
       "ties": 37,
-      "win_rate_percentage": 59.42,
+      "win_rate_percentage": 59.58,
       "rank": 16
+    },
+    {
+      "model_name": "GPT 4o Latest",
+      "rating": 1188,
+      "battles": 234,
+      "wins": 106,
+      "ties": 38,
+      "win_rate_percentage": 53.42,
+      "rank": 17
     },
     {
       "model_name": "Grok 4",
@@ -152,15 +161,6 @@
       "wins": 96,
       "ties": 48,
       "win_rate_percentage": 40.4,
-      "rank": 17
-    },
-    {
-      "model_name": "GPT 4o Latest",
-      "rating": 1178,
-      "battles": 232,
-      "wins": 105,
-      "ties": 37,
-      "win_rate_percentage": 53.23,
       "rank": 18
     },
     {
@@ -201,11 +201,11 @@
     },
     {
       "model_name": "GPT 5 chat",
-      "rating": 1109,
-      "battles": 309,
+      "rating": 1103,
+      "battles": 310,
       "wins": 91,
       "ties": 50,
-      "win_rate_percentage": 37.54,
+      "win_rate_percentage": 37.42,
       "rank": 23
     },
     {
