@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T12:32:26.432Z",
+  "updatedAt": "2025-08-25T12:37:14.833Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -13,10 +13,10 @@
     {
       "model_name": "Doubao 1.6",
       "rating": 1324,
-      "battles": 168,
+      "battles": 167,
       "wins": 112,
       "ties": 27,
-      "win_rate_percentage": 74.7,
+      "win_rate_percentage": 75.15,
       "rank": 2
     },
     {
@@ -92,58 +92,49 @@
       "rank": 10
     },
     {
+      "model_name": "DeepSeek V3.1 thinking",
+      "rating": 1236,
+      "battles": 233,
+      "wins": 108,
+      "ties": 37,
+      "win_rate_percentage": 54.29,
+      "rank": 11
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1235,
+      "battles": 276,
+      "wins": 116,
+      "ties": 42,
+      "win_rate_percentage": 49.64,
+      "rank": 12
+    },
+    {
       "model_name": "Kimi K2",
       "rating": 1233,
       "battles": 273,
       "wins": 122,
       "ties": 42,
       "win_rate_percentage": 52.38,
-      "rank": 11
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1227,
-      "battles": 275,
-      "wins": 115,
-      "ties": 42,
-      "win_rate_percentage": 49.45,
-      "rank": 12
-    },
-    {
-      "model_name": "DeepSeek V3.1 thinking",
-      "rating": 1217,
-      "battles": 230,
-      "wins": 105,
-      "ties": 37,
-      "win_rate_percentage": 53.7,
       "rank": 13
     },
     {
-      "model_name": "GLM 4.5 FP8",
+      "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1211,
-      "battles": 83,
-      "wins": 36,
-      "ties": 7,
-      "win_rate_percentage": 47.59,
+      "battles": 277,
+      "wins": 130,
+      "ties": 40,
+      "win_rate_percentage": 54.15,
       "rank": 14
     },
     {
-      "model_name": "GPT 4o Latest",
-      "rating": 1206,
-      "battles": 218,
-      "wins": 101,
-      "ties": 36,
-      "win_rate_percentage": 54.59,
-      "rank": 15
-    },
-    {
-      "model_name": "Qwen 235b 2507 nothinking",
+      "model_name": "GLM 4.5 FP8",
       "rating": 1203,
-      "battles": 276,
-      "wins": 129,
-      "ties": 40,
-      "win_rate_percentage": 53.99,
-      "rank": 16
+      "battles": 84,
+      "wins": 36,
+      "ties": 7,
+      "win_rate_percentage": 47.02,
+      "rank": 15
     },
     {
       "model_name": "Grok 3",
@@ -152,6 +143,15 @@
       "wins": 135,
       "ties": 36,
       "win_rate_percentage": 59.3,
+      "rank": 16
+    },
+    {
+      "model_name": "GPT 4o Latest",
+      "rating": 1198,
+      "battles": 219,
+      "wins": 101,
+      "ties": 36,
+      "win_rate_percentage": 54.34,
       "rank": 17
     },
     {
@@ -173,22 +173,13 @@
       "rank": 19
     },
     {
-      "model_name": "DeepSeek R1 0528",
-      "rating": 1165,
-      "battles": 168,
-      "wins": 81,
-      "ties": 31,
-      "win_rate_percentage": 57.44,
-      "rank": 20
-    },
-    {
       "model_name": "catalina",
-      "rating": 1163,
-      "battles": 269,
+      "rating": 1157,
+      "battles": 270,
       "wins": 93,
       "ties": 55,
-      "win_rate_percentage": 44.8,
-      "rank": 21
+      "win_rate_percentage": 44.63,
+      "rank": 20
     },
     {
       "model_name": "GPT 5 chat",
@@ -197,6 +188,15 @@
       "wins": 89,
       "ties": 49,
       "win_rate_percentage": 38.22,
+      "rank": 21
+    },
+    {
+      "model_name": "DeepSeek R1 0528",
+      "rating": 1152,
+      "battles": 169,
+      "wins": 81,
+      "ties": 31,
+      "win_rate_percentage": 57.1,
       "rank": 22
     },
     {
