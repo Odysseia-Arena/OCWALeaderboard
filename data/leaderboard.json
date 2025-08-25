@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T05:57:16.934Z",
+  "updatedAt": "2025-08-25T06:02:18.020Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -13,10 +13,10 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "rating": 1352,
-      "battles": 158,
+      "battles": 157,
       "wins": 107,
       "ties": 26,
-      "win_rate_percentage": 75.95,
+      "win_rate_percentage": 76.43,
       "rank": 2
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "model_name": "V0 1.5 LG",
-      "rating": 1287,
+      "rating": 1276,
       "battles": 97,
       "wins": 62,
       "ties": 17,
@@ -74,21 +74,21 @@
       "rank": 8
     },
     {
+      "model_name": "Claude Opus 4.1",
+      "rating": 1253,
+      "battles": 94,
+      "wins": 44,
+      "ties": 14,
+      "win_rate_percentage": 54.26,
+      "rank": 9
+    },
+    {
       "model_name": "Qwen 235b 2507 nothinking",
       "rating": 1247,
       "battles": 267,
       "wins": 127,
       "ties": 40,
       "win_rate_percentage": 55.06,
-      "rank": 9
-    },
-    {
-      "model_name": "Claude Opus 4.1",
-      "rating": 1241,
-      "battles": 92,
-      "wins": 42,
-      "ties": 14,
-      "win_rate_percentage": 53.26,
       "rank": 10
     },
     {
@@ -138,20 +138,20 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1181,
-      "battles": 258,
+      "rating": 1180,
+      "battles": 259,
       "wins": 103,
-      "ties": 35,
-      "win_rate_percentage": 46.71,
+      "ties": 36,
+      "win_rate_percentage": 46.72,
       "rank": 16
     },
     {
       "model_name": "Claude Sonnet 4",
-      "rating": 1176,
-      "battles": 228,
-      "wins": 91,
+      "rating": 1180,
+      "battles": 230,
+      "wins": 92,
       "ties": 36,
-      "win_rate_percentage": 47.81,
+      "win_rate_percentage": 47.83,
       "rank": 17
     },
     {
@@ -183,11 +183,11 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "rating": 1153,
-      "battles": 157,
+      "rating": 1154,
+      "battles": 158,
       "wins": 74,
-      "ties": 28,
-      "win_rate_percentage": 56.05,
+      "ties": 29,
+      "win_rate_percentage": 56.01,
       "rank": 21
     },
     {
@@ -210,11 +210,11 @@
     },
     {
       "model_name": "V0 1.5 MD",
-      "rating": 1095,
-      "battles": 80,
+      "rating": 1090,
+      "battles": 81,
       "wins": 20,
       "ties": 10,
-      "win_rate_percentage": 31.25,
+      "win_rate_percentage": 30.86,
       "rank": 24
     },
     {
