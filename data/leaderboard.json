@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T09:30:43.500Z",
+  "updatedAt": "2025-08-25T09:32:17.782Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -29,21 +29,21 @@
       "rank": 3
     },
     {
-      "model_name": "Doubao 1.6",
-      "rating": 1301,
-      "battles": 158,
-      "wins": 103,
-      "ties": 26,
-      "win_rate_percentage": 73.42,
-      "rank": 4
-    },
-    {
       "model_name": "DeepSeek V3.1 nothinking",
       "rating": 1292,
       "battles": 256,
       "wins": 140,
       "ties": 40,
       "win_rate_percentage": 62.5,
+      "rank": 4
+    },
+    {
+      "model_name": "Doubao 1.6",
+      "rating": 1291,
+      "battles": 159,
+      "wins": 103,
+      "ties": 26,
+      "win_rate_percentage": 72.96,
       "rank": 5
     },
     {
@@ -101,13 +101,22 @@
       "rank": 11
     },
     {
+      "model_name": "Claude Sonnet 4",
+      "rating": 1234,
+      "battles": 260,
+      "wins": 109,
+      "ties": 40,
+      "win_rate_percentage": 49.62,
+      "rank": 12
+    },
+    {
       "model_name": "Kimi K2",
       "rating": 1226,
       "battles": 258,
       "wins": 114,
       "ties": 40,
       "win_rate_percentage": 51.94,
-      "rank": 12
+      "rank": 13
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -116,15 +125,6 @@
       "wins": 45,
       "ties": 15,
       "win_rate_percentage": 51.98,
-      "rank": 13
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "rating": 1224,
-      "battles": 259,
-      "wins": 108,
-      "ties": 40,
-      "win_rate_percentage": 49.42,
       "rank": 14
     },
     {
