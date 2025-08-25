@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T10:37:14.412Z",
+  "updatedAt": "2025-08-25T10:41:15.943Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -84,11 +84,11 @@
     },
     {
       "model_name": "Grok 3",
-      "rating": 1244,
-      "battles": 245,
+      "rating": 1242,
+      "battles": 246,
       "wins": 131,
-      "ties": 33,
-      "win_rate_percentage": 60.2,
+      "ties": 34,
+      "win_rate_percentage": 60.16,
       "rank": 10
     },
     {
@@ -146,13 +146,22 @@
       "rank": 16
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1178,
+      "battles": 284,
+      "wins": 112,
+      "ties": 40,
+      "win_rate_percentage": 46.48,
+      "rank": 17
+    },
+    {
       "model_name": "Grok 4",
-      "rating": 1181,
-      "battles": 275,
+      "rating": 1173,
+      "battles": 276,
       "wins": 86,
       "ties": 47,
-      "win_rate_percentage": 39.82,
-      "rank": 17
+      "win_rate_percentage": 39.67,
+      "rank": 18
     },
     {
       "model_name": "catalina",
@@ -161,15 +170,6 @@
       "wins": 87,
       "ties": 53,
       "win_rate_percentage": 44.86,
-      "rank": 18
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1168,
-      "battles": 282,
-      "wins": 111,
-      "ties": 39,
-      "win_rate_percentage": 46.28,
       "rank": 19
     },
     {
