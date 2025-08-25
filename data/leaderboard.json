@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T00:42:21.384Z",
+  "updatedAt": "2025-08-25T00:47:12.444Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -21,11 +21,11 @@
     },
     {
       "model_name": "Doubao 1.6",
-      "rating": 1329,
-      "battles": 129,
-      "wins": 84,
+      "rating": 1333,
+      "battles": 130,
+      "wins": 85,
       "ties": 21,
-      "win_rate_percentage": 73.26,
+      "win_rate_percentage": 73.46,
       "rank": 3
     },
     {
@@ -174,11 +174,11 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "rating": 1159,
-      "battles": 241,
+      "rating": 1155,
+      "battles": 242,
       "wins": 95,
       "ties": 32,
-      "win_rate_percentage": 46.06,
+      "win_rate_percentage": 45.87,
       "rank": 20
     },
     {
