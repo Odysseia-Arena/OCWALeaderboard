@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-25T02:32:16.705Z",
+  "updatedAt": "2025-08-25T02:37:14.601Z",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro",
@@ -39,11 +39,11 @@
     },
     {
       "model_name": "DeepSeek V3.1 nothinking",
-      "rating": 1295,
-      "battles": 256,
+      "rating": 1292,
+      "battles": 257,
       "wins": 140,
-      "ties": 39,
-      "win_rate_percentage": 62.3,
+      "ties": 40,
+      "win_rate_percentage": 62.26,
       "rank": 5
     },
     {
@@ -74,31 +74,13 @@
       "rank": 8
     },
     {
-      "model_name": "Step 3",
-      "rating": 1240,
-      "battles": 181,
-      "wins": 86,
-      "ties": 26,
-      "win_rate_percentage": 54.7,
-      "rank": 9
-    },
-    {
       "model_name": "Gemini 2.5 Flash",
       "rating": 1236,
-      "battles": 208,
+      "battles": 207,
       "wins": 106,
       "ties": 23,
-      "win_rate_percentage": 56.49,
-      "rank": 10
-    },
-    {
-      "model_name": "Kimi K2",
-      "rating": 1236,
-      "battles": 258,
-      "wins": 114,
-      "ties": 40,
-      "win_rate_percentage": 51.94,
-      "rank": 11
+      "win_rate_percentage": 56.76,
+      "rank": 9
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -107,7 +89,7 @@
       "wins": 40,
       "ties": 14,
       "win_rate_percentage": 52.81,
-      "rank": 12
+      "rank": 10
     },
     {
       "model_name": "Claude 3.7 Sonnet",
@@ -116,15 +98,33 @@
       "wins": 99,
       "ties": 30,
       "win_rate_percentage": 64.41,
+      "rank": 11
+    },
+    {
+      "model_name": "Step 3",
+      "rating": 1231,
+      "battles": 181,
+      "wins": 86,
+      "ties": 26,
+      "win_rate_percentage": 54.7,
+      "rank": 12
+    },
+    {
+      "model_name": "Kimi K2",
+      "rating": 1226,
+      "battles": 259,
+      "wins": 114,
+      "ties": 40,
+      "win_rate_percentage": 51.74,
       "rank": 13
     },
     {
       "model_name": "GPT 4o Latest",
-      "rating": 1211,
-      "battles": 199,
-      "wins": 95,
+      "rating": 1220,
+      "battles": 200,
+      "wins": 96,
       "ties": 32,
-      "win_rate_percentage": 55.78,
+      "win_rate_percentage": 56,
       "rank": 14
     },
     {
@@ -164,21 +164,21 @@
       "rank": 18
     },
     {
+      "model_name": "Gemini 1.5 Pro",
+      "rating": 1169,
+      "battles": 253,
+      "wins": 99,
+      "ties": 34,
+      "win_rate_percentage": 45.85,
+      "rank": 19
+    },
+    {
       "model_name": "GLM 4.5 FP8",
       "rating": 1160,
       "battles": 74,
       "wins": 29,
       "ties": 7,
       "win_rate_percentage": 43.92,
-      "rank": 19
-    },
-    {
-      "model_name": "Gemini 1.5 Pro",
-      "rating": 1156,
-      "battles": 251,
-      "wins": 98,
-      "ties": 33,
-      "win_rate_percentage": 45.62,
       "rank": 20
     },
     {
