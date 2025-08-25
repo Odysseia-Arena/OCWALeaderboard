@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>对战热力图</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    (function(){
+      try {
+        var theme = localStorage.getItem('theme') || 'light';
+        var root = document.documentElement;
+        if (theme === 'dark') root.setAttribute('data-theme', 'dark');
+        else root.removeAttribute('data-theme');
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="no-responsive">
+  <header class="header">
+    <div class="container">
+      <h1 class="title" id="pageTitle">对战热力图</h1>
+      <p class="subtitle" id="pageSubtitle">Win Rate & Matches Heatmap</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar" style="margin-top: 20px;">
+      <div class="left">
+        <a class="link" href="./" id="backLink">返回排行榜</a>
+      </div>
+      <div class="right" style="display:flex; align-items:center; gap:12px;">
+        <a class="link" href="info.html" id="rulesLink">规则说明</a>
+        <select id="langSelect" class="select" title="切换语言">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+          <option value="ja">日本語</option>
+        </select>
+        <button id="themeToggle" class="btn theme-toggle" title="切换明暗主题">暗色模式</button>
+      </div>
+    </section>
+
+    <section class="card" style="padding: 16px 20px; margin-bottom: 16px;">
+      <h2 id="wrTitle" style="margin: 6px 0 10px;">胜率热力图(%)</h2>
+      <div id="heatmapWinrate" class="chart"></div>
+    </section>
+
+    <section class="card" style="padding: 16px 20px;">
+      <h2 id="mcTitle" style="margin: 6px 0 10px;">对战场次热力图</h2>
+      <div id="heatmapMatches" class="chart"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="muted" id="footerText">由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <script src="heatmap.js" type="module"></script>
+</body>
+</html>

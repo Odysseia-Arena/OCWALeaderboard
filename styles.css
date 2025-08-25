@@ -414,3 +414,13 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   .table tr.expanded .detail-cell::before { justify-self: start; text-align: left; }
   .table tr.expanded .detail-cell:first-of-type { margin-top: 6px; padding-top: 10px; border-top: 1px dashed var(--border); }
 }
+
+/* Charts */
+.chart {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Opt-out responsive layout for heatmap page */
+body.no-responsive { min-width: 1080px; overflow-x: auto; }
