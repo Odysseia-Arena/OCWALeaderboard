@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T18:59:12.257Z",
+  "updatedAt": "2025-08-26T19:04:09.551Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1096,6 +1096,55 @@
       }
     },
     {
+      "prompt": "你是一位拥有敏锐直觉的星际考古学家，性格沉稳内敛，正独自在已废弃的巨型太空城“奥德赛”中进行探索。突然，你的探测器接收到一个前所未有的异常能量信号，它来自太空城最深处，被厚重的金属门封锁。\n\n**情节目标：** 成功打开这扇大门，揭开异常能量信号的来源。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 19,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 4,
+        "Qwen 235B A22B Instruct 2507": 3,
+        "Kimi K2": 4,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 2,
+        "Command A Reasoning 08 2025": 1,
+        "Mistral Medium 2508": 2,
+        "Gemini 2.5 Pro Max": 2,
+        "Doubao 1.6": 3,
+        "GPT 4o Latest": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "GPT 4.1": 1,
+        "GLM 4.5": 1,
+        "Step 3": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Grok 3": 1,
+        "DeepSeek R1 0528": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Kimi K2": 0.25,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 1,
+        "Command A Reasoning 08 2025": 0,
+        "Mistral Medium 2508": 1,
+        "Gemini 2.5 Pro Max": 0.5,
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+        "GPT 4.1": 0,
+        "GLM 4.5": 1,
+        "Step 3": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "Grok 3": 1,
+        "DeepSeek R1 0528": 0,
+        "Claude 3.7 Sonnet": 0,
+        "Anon": 0
+      }
+    },
+    {
       "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 19,
@@ -1344,55 +1393,6 @@
         "GPT Oss 120B": 1,
         "Llama 4 Maverick": 1,
         "Claude Opus 4": 0
-      }
-    },
-    {
-      "prompt": "你是一位拥有敏锐直觉的星际考古学家，性格沉稳内敛，正独自在已废弃的巨型太空城“奥德赛”中进行探索。突然，你的探测器接收到一个前所未有的异常能量信号，它来自太空城最深处，被厚重的金属门封锁。\n\n**情节目标：** 成功打开这扇大门，揭开异常能量信号的来源。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 18,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 4,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Kimi K2": 4,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 2,
-        "Command A Reasoning 08 2025": 1,
-        "Mistral Medium 2508": 2,
-        "Gemini 2.5 Pro Max": 2,
-        "Doubao 1.6": 2,
-        "GPT 4o Latest": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "GPT 4.1": 1,
-        "GLM 4.5": 1,
-        "Step 3": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Grok 3": 1,
-        "DeepSeek R1 0528": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Anon": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Kimi K2": 0.25,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 1,
-        "Command A Reasoning 08 2025": 0,
-        "Mistral Medium 2508": 1,
-        "Gemini 2.5 Pro Max": 0.5,
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
-        "GPT 4.1": 0,
-        "GLM 4.5": 1,
-        "Step 3": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "Grok 3": 1,
-        "DeepSeek R1 0528": 0,
-        "Claude 3.7 Sonnet": 0,
-        "Anon": 0
       }
     },
     {
