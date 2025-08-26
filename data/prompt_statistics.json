@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T05:49:40.018Z",
+  "updatedAt": "2025-08-26T05:50:29.833Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -124,6 +124,29 @@
         "Gemini 2.5 Pro": 1,
         "Grok 3": 0,
         "Claude 3.7 Sonnet": 0
+      }
+    },
+    {
+      "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Claude Sonnet 4": 1,
+        "Kimi K2": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Opus 4": 1,
+        "Claude Opus 4.1": 1,
+        "Anon": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Claude Sonnet 4": 0,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Opus 4": 0,
+        "Claude Opus 4.1": 1,
+        "Anon": 1,
+        "GPT 4.1": 0
       }
     },
     {
@@ -341,25 +364,6 @@
         "Doubao 1.6": 1,
         "GPT 4o Latest": 1,
         "GPT 4.1": 0
-      }
-    },
-    {
-      "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude Opus 4": 1,
-        "Claude Opus 4.1": 1
-      },
-      "model_win_rates": {
-        "Claude Sonnet 4": 0,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Claude Opus 4": 0,
-        "Claude Opus 4.1": 1
       }
     },
     {
@@ -1076,6 +1080,19 @@
       "model_win_rates": {
         "GPT 4o Latest": 1,
         "Qwen3 30B A3B Thinking 2507": 0
+      }
+    },
+    {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 1,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro": 0
       }
     }
   ]
