@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T08:59:04.053Z",
+  "updatedAt": "2025-08-26T09:04:10.914Z",
   "prompt_statistics": [
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -178,6 +178,47 @@
       }
     },
     {
+      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 13,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 2,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Sonnet 4": 4,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "GPT 4.1": 1,
+        "GPT 4o Latest": 2,
+        "Grok 3": 1,
+        "Claude Opus 4": 2,
+        "DeepSeek V3.1 DS": 3,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro Max": 2,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4.1": 0,
+        "GPT 4o Latest": 1,
+        "Grok 3": 0,
+        "Claude Opus 4": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro Max": 0.5,
+        "Gemini 2.5 Flash": 1
+      }
+    },
+    {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 13,
@@ -214,6 +255,43 @@
         "GLM 4.5 Air": 0,
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "GPT 4.1": 0
+      }
+    },
+    {
+      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 12,
+      "model_battle_counts": {
+        "GPT 4o Latest": 1,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 2,
+        "GPT 4.1": 3,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 3,
+        "DeepSeek V3.1 DS": 4,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Anon": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro": 2
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 0,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 0,
+        "GPT 4.1": 0.3333333333333333,
+        "Kimi K2": 0,
+        "Claude Sonnet 4": 0.6666666666666666,
+        "DeepSeek V3.1 DS": 0.25,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Anon": 0,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 2.5 Pro": 1
       }
     },
     {
@@ -255,45 +333,6 @@
         "Gemma 27B": 0,
         "DeepSeek V3": 1,
         "Anon": 0
-      }
-    },
-    {
-      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 12,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 2,
-        "Claude 3.7 Sonnet": 1,
-        "Claude Sonnet 4": 4,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "GPT 4.1": 1,
-        "GPT 4o Latest": 2,
-        "Grok 3": 1,
-        "Claude Opus 4": 2,
-        "DeepSeek V3.1 DS": 2,
-        "Gemini 1.5 Pro": 1,
-        "Doubao 1.6": 1,
-        "GPT 5 Chat": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro Max": 2
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4.1": 0,
-        "GPT 4o Latest": 1,
-        "Grok 3": 0,
-        "Claude Opus 4": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Gemini 1.5 Pro": 1,
-        "Doubao 1.6": 1,
-        "GPT 5 Chat": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro Max": 0.5
       }
     },
     {
@@ -381,43 +420,6 @@
       }
     },
     {
-      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 11,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 2,
-        "GPT 4.1": 3,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 2,
-        "DeepSeek V3.1 DS": 4,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Anon": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Pro": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 0,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 0,
-        "GPT 4.1": 0.3333333333333333,
-        "Kimi K2": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 0.25,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Anon": 0,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Gemini 2.5 Pro": 1
-      }
-    },
-    {
       "prompt": "**开场：**\n\n雨还在下，像是要把这个边睡小镇冲进河道里。\n\n这场雨已经下了好几天，从你来到这个世界开始。\n\n你觉得这个世界有些不欢迎你，这在你刚刚开始的旅途中显得有些奇怪。\n\n毕竟你的能力是**奇迹**，很少有世界不欢迎一个奇迹的到来。\n\n雨下来的这几天，镇子里来了几个新面孔。\n\n村民们看他们的眼神很奇怪。\n\n当然，你不算外来者。\n\n毕竟你的能力是**奇迹**，这不奇怪。\n\n不是吗？\n\n你现在住在村子里的教会里，这里的神官是个很好的老爷爷，看上去不像个神父，倒像个和蔼可亲的村长。\n\n他们信仰“莱拉”，唯一的神。\n\n除了神父的工作，你感觉村子里什么事情都归他管。\n\n也没见他有个什么帮手。\n\n你本来想用能力在这个世界的第一站找个住处，但是不知道为什么，老爷子和你一聊就相见如故。执意让你这个陌生人住下。\n\n现在，你负责在教会里帮忙，说是帮忙，其实就是当米虫。你也乐得开心。\n\n\n\n**紧接上文进行创作工作：**\n\n**目标：**写一个小说开场，介绍如下人物：\n\n1. 主角\n2. 女骑士\n3. 女盗贼\n4. 魔法师\n\n介绍应该发生在一个具体的事件里，抓住读者的目光。\n\n**写作要求：**\n- 剧情连贯，不得表现突发性、跳跃性\n- 剧情中不得元叙述用户设定\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 11,
@@ -454,6 +456,47 @@
         "GLM 4.5 Air": 1,
         "Llama 4 Maverick": 0,
         "Gemini 2.5 Pro Max": 0
+      }
+    },
+    {
+      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 2,
+        "Claude Sonnet 4": 2,
+        "GPT 4o Latest": 2,
+        "Claude Opus 4": 2,
+        "Doubao 1.6 Thinking": 2,
+        "Gemini 2.5 Pro": 2,
+        "GPT 4.1": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 1.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GLM 4.5": 1,
+        "Grok 4": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "GLM 4.5 Air": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 0,
+        "GPT 4o Latest": 0.5,
+        "Claude Opus 4": 0.5,
+        "Doubao 1.6 Thinking": 0,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4.1": 0,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "Gemini 1.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GLM 4.5": 0,
+        "Grok 4": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "GLM 4.5 Air": 0
       }
     },
     {
@@ -559,6 +602,43 @@
         "GPT 5 Chat": 1,
         "GLM 4.5": 0,
         "GPT 4.1": 0
+      }
+    },
+    {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 4,
+        "Doubao 1.6": 3,
+        "Grok 3": 1,
+        "GPT 4.1": 2,
+        "Step 3": 1,
+        "Anon": 1,
+        "Claude Opus 4": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4.1": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 0.75,
+        "Doubao 1.6": 0.3333333333333333,
+        "Grok 3": 0,
+        "GPT 4.1": 0.5,
+        "Step 3": 1,
+        "Anon": 0,
+        "Claude Opus 4": 0,
+        "Gemini 2.5 Pro Max": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4.1": 0
       }
     },
     {
@@ -715,78 +795,6 @@
         "Step 3": 1,
         "Grok 4": 0,
         "GLM 4.5 Air": 1
-      }
-    },
-    {
-      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 10,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 2,
-        "Claude Sonnet 4": 2,
-        "GPT 4o Latest": 2,
-        "Claude Opus 4": 2,
-        "Doubao 1.6 Thinking": 2,
-        "Gemini 2.5 Pro": 2,
-        "GPT 4.1": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 1.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GLM 4.5": 1,
-        "Grok 4": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 0,
-        "GPT 4o Latest": 0.5,
-        "Claude Opus 4": 0.5,
-        "Doubao 1.6 Thinking": 0,
-        "Gemini 2.5 Pro": 1,
-        "GPT 4.1": 0,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "Gemini 1.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GLM 4.5": 0,
-        "Grok 4": 1
-      }
-    },
-    {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 10,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 4,
-        "Doubao 1.6": 3,
-        "Grok 3": 1,
-        "GPT 4.1": 1,
-        "Step 3": 1,
-        "Anon": 1,
-        "Claude Opus 4": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Llama 4 Maverick": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 0.75,
-        "Doubao 1.6": 0.3333333333333333,
-        "Grok 3": 0,
-        "GPT 4.1": 0,
-        "Step 3": 1,
-        "Anon": 0,
-        "Claude Opus 4": 0,
-        "Gemini 2.5 Pro Max": 1,
-        "Llama 4 Maverick": 1
       }
     },
     {
@@ -1589,6 +1597,31 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 2,
+        "Claude Sonnet 4": 2,
+        "Kimi K2": 3,
+        "Anon": 2,
+        "Grok 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 0,
+        "Claude Sonnet 4": 1,
+        "Kimi K2": 0.3333333333333333,
+        "Anon": 1,
+        "Grok 3": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 寻宝猎人，性格狡猾，喜欢冒险，但内心深处隐藏着一个无法原谅的过错。\n**核心场景：** 一座布满机关的古墓，到处都是陷阱和谜题，空气中充满了尘土和腐败的气味。\n**情节目标：** 他在一座古墓中，找到了传说中的“永生之泉”，但却发现泉水被一个巨大的石像守护着。他必须破解石像下的机关，得到泉水，并借此来弥补自己过去的过错。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 7,
@@ -1806,29 +1839,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 2,
-        "Claude Sonnet 4": 2,
-        "Kimi K2": 2,
-        "Anon": 2,
-        "Grok 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 0,
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 0,
-        "Anon": 1,
-        "Grok 3": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1
-      }
-    },
-    {
       "prompt": "**作品：** 孤独摇滚\n**角色：** 后藤一里, 伊地知虹夏, 山田凉, 喜多郁代\n**情节目标：** 在一场重要的Live演出中，后藤一里的吉他突然断了一根弦。在全场观众的注视和乐队成员的即兴配合下，她必须克服恐慌，利用有限的五根弦完成一段精彩的即兴独奏，挽救这场演出。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 6,
@@ -1882,6 +1892,33 @@
         "Claude 3.7 Sonnet": 1,
         "Mistral Medium 2508": 1,
         "Grok 4": 0
+      }
+    },
+    {
+      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Pro": 2,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Pro": 0.5,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 0,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4.1": 0
       }
     },
     {
@@ -2239,29 +2276,6 @@
         "DeepSeek V3.1 Volcengine": 0,
         "Gemini 2.5 Flash": 1,
         "GPT 4.1": 1
-      }
-    },
-    {
-      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Pro": 2,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 2,
-        "Doubao 1.6": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Pro": 0.5,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 0,
-        "Doubao 1.6": 1
       }
     },
     {
