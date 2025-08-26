@@ -863,7 +863,17 @@ function applyAndRender(state) {
   const factor = dir === 'asc' ? 1 : -1;
   const get = (r) => {
     if (key === 'model_name') return (r.model_name || r.name || '').toLowerCase();
-    return Number(r[key] ?? (key === 'rating' ? r.score : undefined)) || 0;
+    // Prefer realtime fields for the three metrics
+    if (key === 'rating') {
+      return Number(r.rating_realtime ?? r.rating ?? r.score ?? 0);
+    }
+    if (key === 'rating_deviation') {
+      return Number(r.rating_deviation_realtime ?? r.rating_deviation ?? 0);
+    }
+    if (key === 'volatility') {
+      return Number(r.volatility_realtime ?? r.volatility ?? 0);
+    }
+    return Number(r[key] ?? 0) || 0;
   };
   rows.sort((a, b) => {
     const va = get(a);
