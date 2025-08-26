@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T11:29:10.716Z",
+  "updatedAt": "2025-08-26T11:34:10.152Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1070,6 +1070,49 @@
       }
     },
     {
+      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Claude Sonnet 4": 2,
+        "Gemini 1.5 Pro": 2,
+        "Kimi K2": 1,
+        "Doubao 1.6 Thinking": 1,
+        "GLM 4.5": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "DeepSeek V3.1 DS": 5,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Step 3": 1,
+        "Claude Opus 4.1": 1,
+        "Mistral Medium 2508": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 5 Chat": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Sonnet 4": 0.5,
+        "Gemini 1.5 Pro": 0.5,
+        "Kimi K2": 0,
+        "Doubao 1.6 Thinking": 1,
+        "GLM 4.5": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
+        "DeepSeek V3.1 DS": 0.4,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3": 0,
+        "Command A Reasoning 08 2025": 1,
+        "Step 3": 0,
+        "Claude Opus 4.1": 1,
+        "Mistral Medium 2508": 0,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 5 Chat": 0
+      }
+    },
+    {
       "prompt": "你是一名侦探，正在面对一起奇特的“斩首”事件。\n确实奇特——案发现场是一个奇特的纯用特殊金属制作的方形小房子；案发时间为深夜；死者被斩首时是躺在床上的，不仅他的脖颈，整个床都被切成了两段。\n你的助手告诉你，案发现场是完全的密室。你看着满屋子的血迹，看了看周围和你们一起被困在岛上的心怀鬼胎的众人，再看了眼不远处的一台攻城车；你顿了顿，缓缓说出了自己的推理：\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 14,
@@ -1110,6 +1153,51 @@
         "Qwen 235B A22B Thinking 2507": 0,
         "Doubao 1.6": 0,
         "Gemini 2.5 Flash": 0
+      }
+    },
+    {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 4,
+        "Doubao 1.6": 3,
+        "Grok 3": 1,
+        "GPT 4.1": 3,
+        "Step 3": 2,
+        "Anon": 1,
+        "Claude Opus 4": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4.1": 1,
+        "Gemini 1.5 Pro": 1,
+        "Gemma 27B": 1,
+        "Mistral Medium 2508": 1,
+        "GLM 4.5 Air": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 0.75,
+        "Doubao 1.6": 0.3333333333333333,
+        "Grok 3": 0,
+        "GPT 4.1": 0.3333333333333333,
+        "Step 3": 1,
+        "Anon": 0,
+        "Claude Opus 4": 0,
+        "Gemini 2.5 Pro Max": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4.1": 0,
+        "Gemini 1.5 Pro": 1,
+        "Gemma 27B": 0,
+        "Mistral Medium 2508": 1,
+        "GLM 4.5 Air": 0
       }
     },
     {
@@ -1338,92 +1426,6 @@
       }
     },
     {
-      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Claude Sonnet 4": 2,
-        "Gemini 1.5 Pro": 2,
-        "Kimi K2": 1,
-        "Doubao 1.6 Thinking": 1,
-        "GLM 4.5": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "DeepSeek V3.1 DS": 4,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Step 3": 1,
-        "Claude Opus 4.1": 1,
-        "Mistral Medium 2508": 1,
-        "Claude 3.7 Sonnet": 1,
-        "GPT 5 Chat": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude Sonnet 4": 0.5,
-        "Gemini 1.5 Pro": 0.5,
-        "Kimi K2": 0,
-        "Doubao 1.6 Thinking": 1,
-        "GLM 4.5": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "DeepSeek V3.1 DS": 0.5,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3": 0,
-        "Command A Reasoning 08 2025": 1,
-        "Step 3": 0,
-        "Claude Opus 4.1": 1,
-        "Mistral Medium 2508": 0,
-        "Claude 3.7 Sonnet": 1,
-        "GPT 5 Chat": 0
-      }
-    },
-    {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 4,
-        "Doubao 1.6": 3,
-        "Grok 3": 1,
-        "GPT 4.1": 3,
-        "Step 3": 1,
-        "Anon": 1,
-        "Claude Opus 4": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Llama 4 Maverick": 1,
-        "Claude Opus 4.1": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemma 27B": 1,
-        "Mistral Medium 2508": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 0.75,
-        "Doubao 1.6": 0.3333333333333333,
-        "Grok 3": 0,
-        "GPT 4.1": 0.3333333333333333,
-        "Step 3": 1,
-        "Anon": 0,
-        "Claude Opus 4": 0,
-        "Gemini 2.5 Pro Max": 1,
-        "Llama 4 Maverick": 1,
-        "Claude Opus 4.1": 0,
-        "Gemini 1.5 Pro": 1,
-        "Gemma 27B": 0,
-        "Mistral Medium 2508": 1
-      }
-    },
-    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 13,
@@ -1505,6 +1507,51 @@
         "GPT 4.1": 0,
         "Doubao 1.6 Thinking": 1,
         "Gemini 2.5 Pro Max": 1
+      }
+    },
+    {
+      "prompt": "**人物设定：** 某知名动漫中的配角，性格乐观，但一直活在主角的光环下。\n**核心场景：** 动漫中的某个场景，例如一个充满高科技的城市，或者一个魔法学院。\n**情节目标：** 他意外地发现了一个能够改变剧情的“金手指”，他必须利用这个“金手指”，改变自己的命运，并向主角证明自己的价值。\n**写作要求：** 模仿原著的文风，写出带有二次元特有梗和热血情节的片段。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 12,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 2,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Doubao 1.6 Thinking": 1,
+        "Ernie 4.5 Turbo 128k Preview": 2,
+        "GPT 4.1": 3,
+        "Gemini 2.5 Pro Max": 1,
+        "Grok 3": 1,
+        "Gemini 2.5 Flash": 1,
+        "Llama 4 Maverick": 1,
+        "Grok 4": 1,
+        "DeepSeek V3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "GLM 4.5 Air": 2,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "GPT 4.1": 0.3333333333333333,
+        "Gemini 2.5 Pro Max": 1,
+        "Grok 3": 1,
+        "Gemini 2.5 Flash": 0,
+        "Llama 4 Maverick": 0,
+        "Grok 4": 1,
+        "DeepSeek V3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 0
       }
     },
     {
@@ -1910,51 +1957,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 某知名动漫中的配角，性格乐观，但一直活在主角的光环下。\n**核心场景：** 动漫中的某个场景，例如一个充满高科技的城市，或者一个魔法学院。\n**情节目标：** 他意外地发现了一个能够改变剧情的“金手指”，他必须利用这个“金手指”，改变自己的命运，并向主角证明自己的价值。\n**写作要求：** 模仿原著的文风，写出带有二次元特有梗和热血情节的片段。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 11,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 2,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Ernie 4.5 Turbo 128k Preview": 2,
-        "GPT 4.1": 3,
-        "Gemini 2.5 Pro Max": 1,
-        "Grok 3": 1,
-        "Gemini 2.5 Flash": 1,
-        "Llama 4 Maverick": 1,
-        "Grok 4": 1,
-        "DeepSeek V3": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Doubao 1.6 Thinking": 1,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "GPT 4.1": 0.3333333333333333,
-        "Gemini 2.5 Pro Max": 1,
-        "Grok 3": 1,
-        "Gemini 2.5 Flash": 0,
-        "Llama 4 Maverick": 0,
-        "Grok 4": 1,
-        "DeepSeek V3": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 0
-      }
-    },
-    {
       "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
       "total_battles": 11,
@@ -2341,6 +2343,43 @@
       }
     },
     {
+      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 10,
+      "model_battle_counts": {
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
+        "Grok 3": 1,
+        "Kimi K2": 3,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 2,
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Grok 4": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek R1 0528": 1,
+        "Command A Reasoning 08 2025": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Grok 3": 0,
+        "Kimi K2": 0.6666666666666666,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 0.5,
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 1,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "Grok 4": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Gemini 1.5 Pro": 0,
+        "DeepSeek R1 0528": 1,
+        "Command A Reasoning 08 2025": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 情感咨询师，性格理性，却无法处理自己的感情问题，正面临着一次分手危机。\n**核心场景：** 她的咨询室，干净整洁，布置得温馨舒适，墙上挂着各种心理学证书。\n**情节目标：** 她的前男友突然成为她的新客户，并向她寻求情感帮助。她必须在为他提供专业帮助的同时，处理自己内心混乱的情绪，并找到这次咨询的真正意义。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "现代",
       "total_battles": 9,
@@ -2627,6 +2666,37 @@
       }
     },
     {
+      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 9,
+      "model_battle_counts": {
+        "Doubao 1.6": 4,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 3,
+        "DeepSeek V3.1 DS": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Step 3": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 1,
+        "Mistral Medium 2508": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+        "GPT 4o Latest": 0,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Step 3": 1,
+        "Doubao 1.6 Thinking": 0,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 0,
+        "Mistral Medium 2508": 0
+      }
+    },
+    {
       "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 9,
@@ -2661,39 +2731,6 @@
         "Gemini 2.5 Flash Lite": 0,
         "DeepSeek V3": 1,
         "Command A Reasoning 08 2025": 0
-      }
-    },
-    {
-      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 9,
-      "model_battle_counts": {
-        "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 4,
-        "Grok 3": 1,
-        "Kimi K2": 3,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 2,
-        "GPT 4.1": 1,
-        "Gemini 2.5 Pro": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Grok 4": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 1.5 Pro": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Grok 3": 0,
-        "Kimi K2": 0.6666666666666666,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 0.5,
-        "GPT 4.1": 0,
-        "Gemini 2.5 Pro": 1,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "Grok 4": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Gemini 1.5 Pro": 0
       }
     },
     {
@@ -2861,37 +2898,6 @@
         "Grok 3": 0,
         "Llama 4 Maverick": 0,
         "Step 3": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 8,
-      "model_battle_counts": {
-        "Doubao 1.6": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "GPT 4o Latest": 1,
-        "Gemini 2.5 Pro": 3,
-        "DeepSeek V3.1 DS": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Step 3": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 1,
-        "Mistral Medium 2508": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6": 0.6666666666666666,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GPT 4o Latest": 0,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Step 3": 1,
-        "Doubao 1.6 Thinking": 0,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 0,
-        "Mistral Medium 2508": 0
       }
     },
     {
