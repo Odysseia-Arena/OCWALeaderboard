@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T07:19:08.828Z",
+  "updatedAt": "2025-08-26T07:19:47.220Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -899,6 +899,31 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1,
+        "Kimi K2": 3,
+        "Claude Sonnet 4": 2,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Anon": 0,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 曾经的江湖第一杀手，现已隐姓埋名，化身为小镇的普通铁匠。他性格孤僻寡言，但内心仍有自己的坚持。\n**核心场景：** 一个远离江湖纷争的小镇，铁匠铺里火光四溅，锤子敲打铁器的声音此起彼伏，他打磨的剑刃总是锋利无比。\n**情节目标：** 一位昔日的仇家带着一份武林至宝的藏宝图找上门来，并以他身边唯一的徒弟性命相要挟，逼迫他重出江湖。他必须在月圆之夜，在铁匠铺内秘密布置机关，设法击败仇家，保护自己的徒弟，并摆脱过去的阴影。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 6,
@@ -1097,31 +1122,6 @@
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "Qwen3 30B A3B Thinking 2507": 1,
         "Gemini 1.5 Pro": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Anon": 1,
-        "Kimi K2": 2,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Gemini 2.5 Pro": 0,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Anon": 0,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 1
       }
     },
     {
@@ -1674,6 +1674,31 @@
       }
     },
     {
+      "prompt": "你是一位性格洒脱、医术高明的江湖游医，在一次为病人诊治时，你发现病人身上有一种罕见的毒素。这种毒素与你多年前失踪的师父有关。\n\n**情节目标：** 成功解毒，并根据线索找到你失踪的师父。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Kimi K2": 1,
+        "Step 3": 1,
+        "Grok 4": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Kimi K2": 1,
+        "Step 3": 1,
+        "Grok 4": 0
+      }
+    },
+    {
       "prompt": "你是一位性格活泼、充满正义感的校园记者。你正在调查一起关于学校食堂食品安全的事件。然而，你的调查遭到了学校领导的阻挠。\n\n**情节目标：** 在学校领导的阻挠下，成功揭露真相，并发表一篇引起全校关注的报道。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 4,
@@ -1919,27 +1944,6 @@
         "Doubao 1.6 Thinking": 1,
         "Grok 3": 0,
         "Step 3": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格洒脱、医术高明的江湖游医，在一次为病人诊治时，你发现病人身上有一种罕见的毒素。这种毒素与你多年前失踪的师父有关。\n\n**情节目标：** 成功解毒，并根据线索找到你失踪的师父。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Kimi K2": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Kimi K2": 1
       }
     },
     {
