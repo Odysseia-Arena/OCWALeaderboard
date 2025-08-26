@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T18:49:11.460Z",
+  "updatedAt": "2025-08-26T18:54:11.476Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3394,6 +3394,43 @@
       }
     },
     {
+      "prompt": "**场景：**一个现代化的演播厅。\n**人物：**\n-   主持人：一位西装革履、试图保持冷静的亚裔主持人，私下是二次元氪金游戏的忠实玩家。\n-   嘉宾：斯拉沃热·齐泽克，斯洛文尼亚哲学家，穿着标志性的皱巴巴Polo衫，坐姿随意。\n**情节：**在一场关于流行文化的对谈中，主持人将话题引向了二次元游戏。然而，齐泽克立刻展开了他标志性的哲学批判，频繁地做着手势、捏鼻子和擦汗，将氪金抽卡机制与资本主义的欲望陷阱、虚假的主体性选择等概念联系起来，大谈其意识形态的劣根性。主持人被说得哑口无言，满脸通红，几次想反驳都找不到切入点。\n**写作要求：**以播客节目或电视访谈的文字稿格式来呈现这段对话。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 10,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemini 1.5 Pro": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 3,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 3,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 1,
+        "Llama 4 Maverick": 1,
+        "Step 3": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
+        "Gemini 1.5 Pro": 0,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 1,
+        "Mistral Medium 2508": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 0,
+        "Llama 4 Maverick": 0,
+        "Step 3": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 9,
@@ -3459,41 +3496,6 @@
         "Qwen 235B A22B Instruct 2507": 0,
         "Ernie 4.5 Turbo 128k Preview": 1,
         "Llama 4 Maverick": 0
-      }
-    },
-    {
-      "prompt": "**场景：**一个现代化的演播厅。\n**人物：**\n-   主持人：一位西装革履、试图保持冷静的亚裔主持人，私下是二次元氪金游戏的忠实玩家。\n-   嘉宾：斯拉沃热·齐泽克，斯洛文尼亚哲学家，穿着标志性的皱巴巴Polo衫，坐姿随意。\n**情节：**在一场关于流行文化的对谈中，主持人将话题引向了二次元游戏。然而，齐泽克立刻展开了他标志性的哲学批判，频繁地做着手势、捏鼻子和擦汗，将氪金抽卡机制与资本主义的欲望陷阱、虚假的主体性选择等概念联系起来，大谈其意识形态的劣根性。主持人被说得哑口无言，满脸通红，几次想反驳都找不到切入点。\n**写作要求：**以播客节目或电视访谈的文字稿格式来呈现这段对话。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 9,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Gemini 1.5 Pro": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 3,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 3,
-        "Mistral Medium 2508": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Grok 3": 1,
-        "Llama 4 Maverick": 1,
-        "Step 3": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Gemini 1.5 Pro": 0,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 1,
-        "Mistral Medium 2508": 0,
-        "DeepSeek V3.1 DS": 1,
-        "Grok 3": 0,
-        "Llama 4 Maverick": 0,
-        "Step 3": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Claude 3.7 Sonnet": 1
       }
     },
     {
