@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T13:14:11.601Z",
+  "updatedAt": "2025-08-26T13:19:09.392Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -114,12 +114,12 @@
     {
       "prompt": "**人物设定：** 拥有绘画天赋的转校生，性格孤僻，不善与人交流，总是活在自己的世界里。\n**核心场景：** 美术教室，画板上散落着各种颜料，空气中充满了油画颜料的味道。\n**情节目标：** 他在美术教室中，发现了一幅未完成的画作。这幅画作似乎隐藏着一个秘密，他必须通过这幅画作，找到画作的主人，并帮助他解开心中的困惑。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
-      "total_battles": 20,
+      "total_battles": 21,
       "model_battle_counts": {
         "DeepSeek V3.1 Thinking Volcengine": 5,
         "Gemini 2.5 Flash": 1,
         "GLM 4.5": 1,
-        "Gemini 1.5 Pro": 3,
+        "Gemini 1.5 Pro": 4,
         "DeepSeek V3.1 DS": 4,
         "Gemini 2.5 Pro": 1,
         "Claude 3.7 Sonnet": 2,
@@ -140,13 +140,14 @@
         "Claude Sonnet 4": 1,
         "Command A Reasoning 08 2025": 1,
         "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemma 27B": 1
+        "Gemma 27B": 1,
+        "Llama 4 Maverick": 1
       },
       "model_win_rates": {
         "DeepSeek V3.1 Thinking Volcengine": 0.8,
         "Gemini 2.5 Flash": 0,
         "GLM 4.5": 0,
-        "Gemini 1.5 Pro": 0.3333333333333333,
+        "Gemini 1.5 Pro": 0.25,
         "DeepSeek V3.1 DS": 0.5,
         "Gemini 2.5 Pro": 1,
         "Claude 3.7 Sonnet": 0.5,
@@ -167,7 +168,8 @@
         "Claude Sonnet 4": 1,
         "Command A Reasoning 08 2025": 1,
         "Ernie 4.5 Turbo 128k Preview": 0,
-        "Gemma 27B": 0
+        "Gemma 27B": 0,
+        "Llama 4 Maverick": 1
       }
     },
     {
@@ -431,6 +433,59 @@
         "GPT 4o Latest": 0,
         "DeepSeek V3.1 Volcengine": 0,
         "Gemini 2.5 Flash Lite": 1
+      }
+    },
+    {
+      "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 19,
+      "model_battle_counts": {
+        "Claude Opus 4": 3,
+        "Claude 3.7 Sonnet": 5,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GPT 4o Latest": 1,
+        "Claude Sonnet 4": 4,
+        "Grok 3": 1,
+        "Doubao 1.6": 3,
+        "DeepSeek V3.1 Volcengine": 2,
+        "GPT Oss 120B": 1,
+        "GLM 4.5 Air": 1,
+        "GLM 4.5": 2,
+        "DeepSeek R1 0528": 2,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 2,
+        "DeepSeek V3": 1,
+        "Anon": 2,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Claude Opus 4": 1,
+        "Claude 3.7 Sonnet": 0.2,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GPT 4o Latest": 1,
+        "Claude Sonnet 4": 0.5,
+        "Grok 3": 1,
+        "Doubao 1.6": 0.3333333333333333,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT Oss 120B": 0,
+        "GLM 4.5 Air": 1,
+        "GLM 4.5": 0.5,
+        "DeepSeek R1 0528": 0.5,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 0,
+        "DeepSeek V3": 1,
+        "Anon": 0.5,
+        "Mistral Medium 2508": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 2.5 Flash": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 2.5 Pro Max": 1,
+        "GPT 4.1": 0
       }
     },
     {
@@ -698,59 +753,6 @@
         "Qwen 235B A22B Instruct 2507": 0.5,
         "Claude Opus 4": 0,
         "Gemini 2.5 Pro Max": 1
-      }
-    },
-    {
-      "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 18,
-      "model_battle_counts": {
-        "Claude Opus 4": 3,
-        "Claude 3.7 Sonnet": 5,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GPT 4o Latest": 1,
-        "Claude Sonnet 4": 4,
-        "Grok 3": 1,
-        "Doubao 1.6": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "GPT Oss 120B": 1,
-        "GLM 4.5 Air": 1,
-        "GLM 4.5": 2,
-        "DeepSeek R1 0528": 2,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 2,
-        "DeepSeek V3": 1,
-        "Anon": 1,
-        "Mistral Medium 2508": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "Claude Opus 4": 1,
-        "Claude 3.7 Sonnet": 0.2,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "GPT 4o Latest": 1,
-        "Claude Sonnet 4": 0.5,
-        "Grok 3": 1,
-        "Doubao 1.6": 0.5,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT Oss 120B": 0,
-        "GLM 4.5 Air": 1,
-        "GLM 4.5": 0.5,
-        "DeepSeek R1 0528": 0.5,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 0,
-        "DeepSeek V3": 1,
-        "Anon": 0,
-        "Mistral Medium 2508": 0,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 2.5 Flash": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Gemini 2.5 Pro Max": 1,
-        "GPT 4.1": 0
       }
     },
     {
@@ -1925,6 +1927,51 @@
       }
     },
     {
+      "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
+      "total_battles": 13,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 1,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 DS": 3,
+        "GLM 4.5": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 Volcengine": 3,
+        "Gemma 27B": 1,
+        "Gemini 1.5 Pro": 2,
+        "Llama 4 Maverick": 2,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "GPT 4.1": 1,
+        "Anon": 2,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash Lite": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 0,
+        "Doubao 1.6 Thinking": 0.5,
+        "DeepSeek V3.1 DS": 0.3333333333333333,
+        "GLM 4.5": 1,
+        "GLM 4.5 Air": 0,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 Volcengine": 0.6666666666666666,
+        "Gemma 27B": 1,
+        "Gemini 1.5 Pro": 0.5,
+        "Llama 4 Maverick": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "GPT 4.1": 0,
+        "Anon": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Gemini 2.5 Flash Lite": 0
+      }
+    },
+    {
       "prompt": "**作品：** 孤独摇滚\n**角色：** 后藤一里, 伊地知虹夏, 山田凉, 喜多郁代\n**情节目标：** 在一场重要的Live演出中，后藤一里的吉他突然断了一根弦。在全场观众的注视和乐队成员的即兴配合下，她必须克服恐慌，利用有限的五根弦完成一段精彩的即兴独奏，挽救这场演出。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 13,
@@ -2103,6 +2150,51 @@
       }
     },
     {
+      "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 13,
+      "model_battle_counts": {
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT Oss 120B": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Grok 3": 3,
+        "Anon": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Kimi K2": 1,
+        "Step 3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Claude Sonnet 4": 2,
+        "Claude Opus 4.1": 1,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 1.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT Oss 120B": 0,
+        "Doubao 1.6 Thinking": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Grok 3": 0.3333333333333333,
+        "Anon": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Kimi K2": 1,
+        "Step 3": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Claude Sonnet 4": 0.5,
+        "Claude Opus 4.1": 1,
+        "Qwen 235B A22B Thinking 2507": 0,
+        "Gemini 1.5 Pro": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 12,
@@ -2266,51 +2358,6 @@
         "Gemini 2.5 Pro Max": 1,
         "Kimi K2": 1,
         "Gemini 2.5 Flash": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "职场",
-      "total_battles": 12,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 1,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 DS": 2,
-        "GLM 4.5": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Gemma 27B": 1,
-        "Gemini 1.5 Pro": 2,
-        "Llama 4 Maverick": 2,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "GPT 4.1": 1,
-        "Anon": 2,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash Lite": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "DeepSeek V3.1 DS": 0.5,
-        "GLM 4.5": 1,
-        "GLM 4.5 Air": 0,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemma 27B": 1,
-        "Gemini 1.5 Pro": 0.5,
-        "Llama 4 Maverick": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "GPT 4.1": 0,
-        "Anon": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Gemini 2.5 Flash Lite": 0
       }
     },
     {
@@ -2479,47 +2526,6 @@
         "DeepSeek V3.1 DS": 0,
         "Anon": 1,
         "Claude Sonnet 4": 0.5
-      }
-    },
-    {
-      "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 12,
-      "model_battle_counts": {
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT Oss 120B": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Grok 3": 3,
-        "Anon": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Kimi K2": 1,
-        "Step 3": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Claude Sonnet 4": 2,
-        "Claude Opus 4.1": 1
-      },
-      "model_win_rates": {
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT Oss 120B": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Grok 3": 0.3333333333333333,
-        "Anon": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Kimi K2": 1,
-        "Step 3": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Claude 3.7 Sonnet": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Claude Sonnet 4": 0.5,
-        "Claude Opus 4.1": 1
       }
     },
     {
