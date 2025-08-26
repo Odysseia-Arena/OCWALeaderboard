@@ -1,6 +1,31 @@
 {
-  "updatedAt": "2025-08-26T05:58:52.503Z",
+  "updatedAt": "2025-08-26T05:59:07.158Z",
   "prompt_statistics": [
+    {
+      "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Kimi K2": 3,
+        "Gemini 1.5 Pro": 3,
+        "Claude Sonnet 4": 3,
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Llama 4 Maverick": 1,
+        "Gemini 2.5 Flash": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "Kimi K2": 0.3333333333333333,
+        "Gemini 1.5 Pro": 1,
+        "Claude Sonnet 4": 0.3333333333333333,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Llama 4 Maverick": 0,
+        "Gemini 2.5 Flash": 1,
+        "Claude 3.7 Sonnet": 0
+      }
+    },
     {
       "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
@@ -26,31 +51,6 @@
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "Kimi K2": 1,
         "Step 3": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "Kimi K2": 3,
-        "Gemini 1.5 Pro": 2,
-        "Claude Sonnet 4": 2,
-        "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Llama 4 Maverick": 1,
-        "Gemini 2.5 Flash": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "Kimi K2": 0.3333333333333333,
-        "Gemini 1.5 Pro": 1,
-        "Claude Sonnet 4": 0.5,
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Llama 4 Maverick": 0,
-        "Gemini 2.5 Flash": 1,
-        "Claude 3.7 Sonnet": 0
       }
     },
     {
@@ -477,6 +477,21 @@
       }
     },
     {
+      "prompt": "你是一位拥有敏锐直觉的星际考古学家，性格沉稳内敛，正独自在已废弃的巨型太空城“奥德赛”中进行探索。突然，你的探测器接收到一个前所未有的异常能量信号，它来自太空城最深处，被厚重的金属门封锁。\n\n**情节目标：** 成功打开这扇大门，揭开异常能量信号的来源。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 3,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Kimi K2": 2
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Kimi K2": 0
+      }
+    },
+    {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 3,
@@ -895,21 +910,6 @@
         "Kimi K2": 1,
         "Gemini 1.5 Pro": 0,
         "Doubao 1.6": 0
-      }
-    },
-    {
-      "prompt": "你是一位拥有敏锐直觉的星际考古学家，性格沉稳内敛，正独自在已废弃的巨型太空城“奥德赛”中进行探索。突然，你的探测器接收到一个前所未有的异常能量信号，它来自太空城最深处，被厚重的金属门封锁。\n\n**情节目标：** 成功打开这扇大门，揭开异常能量信号的来源。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 2,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Kimi K2": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Kimi K2": 0
       }
     },
     {

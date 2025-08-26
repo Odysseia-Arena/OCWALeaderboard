@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T05:58:51.940Z",
+  "updatedAt": "2025-08-26T05:59:06.765Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -116,12 +116,12 @@
       "Doubao 1.6": null,
       "Doubao 1.6 Thinking": 1,
       "Ernie 4.5 Turbo 128k Preview": null,
-      "Gemini 1.5 Pro": 0.4,
+      "Gemini 1.5 Pro": 0.3333333333333333,
       "Gemini 2.5 Flash Lite": null,
       "Gemini 2.5 Flash": null,
       "Gemini 2.5 Pro": null,
       "Gemma 27B": null,
-      "GLM 4.5": null,
+      "GLM 4.5": 0,
       "GLM 4.5 Air": null,
       "GPT 4o Latest": null,
       "GPT 5 Chat": null,
@@ -447,7 +447,7 @@
       "Claude 3.7 Sonnet": null,
       "Claude Opus 4": null,
       "Claude Opus 4.1": null,
-      "Claude Sonnet 4": 0.6,
+      "Claude Sonnet 4": 0.6666666666666666,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": null,
       "DeepSeek V3": null,
@@ -617,7 +617,7 @@
       "Claude 3.7 Sonnet": null,
       "Claude Opus 4": null,
       "Claude Opus 4.1": null,
-      "Claude Sonnet 4": null,
+      "Claude Sonnet 4": 1,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": null,
       "DeepSeek V3": null,
@@ -1131,13 +1131,14 @@
       "Kimi K2": 7,
       "Anon": 1,
       "DeepSeek V3.1 DS": 2,
-      "Gemini 1.5 Pro": 5,
+      "Gemini 1.5 Pro": 6,
       "GPT 4.1": 1,
       "Qwen 235B A22B Instruct 2507": 2,
       "DeepSeek V3.1 Thinking Volcengine": 4,
       "Claude 3.7 Sonnet": 3,
       "DeepSeek V3.1 Volcengine": 1,
-      "Step 3": 2
+      "Step 3": 2,
+      "GLM 4.5": 1
     },
     "Doubao 1.6 Thinking": {
       "Claude Sonnet 4": 2,
@@ -1215,13 +1216,13 @@
       "Doubao 1.6 Thinking": 1,
       "Anon": 1,
       "Doubao 1.6": 1,
-      "Gemini 2.5 Pro": 2
+      "Gemini 2.5 Pro": 3
     },
     "Gemini 1.5 Pro": {
       "Kimi K2": 2,
       "Step 3": 1,
       "DeepSeek V3.1 Thinking Volcengine": 4,
-      "Claude Sonnet 4": 5,
+      "Claude Sonnet 4": 6,
       "Llama 4 Maverick": 1,
       "GLM 4.5": 1
     },
@@ -1262,7 +1263,8 @@
     "GLM 4.5": {
       "DeepSeek V3.1 Thinking Volcengine": 1,
       "Gemini 1.5 Pro": 1,
-      "Mistral Medium 2508": 1
+      "Mistral Medium 2508": 1,
+      "Claude Sonnet 4": 1
     },
     "Anon": {
       "Gemini 2.5 Flash": 1,
@@ -1366,7 +1368,7 @@
       "Grok 3": 2,
       "DeepSeek V3.1 DS": 2,
       "GPT 4.1": 2,
-      "Kimi K2": 2,
+      "Kimi K2": 3,
       "DeepSeek V3.1 Thinking Volcengine": 1,
       "GPT 4o Latest": 1,
       "Doubao 1.6": 1,
