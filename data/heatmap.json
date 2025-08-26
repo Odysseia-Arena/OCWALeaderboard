@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2025-08-26T10:39:08.905Z",
+  "updatedAt": "2025-08-26T10:40:22.422Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
-      "Claude Opus 4": 0.5,
+      "Claude Opus 4": 0.3333333333333333,
       "Claude Opus 4.1": 0.5,
       "Claude Sonnet 4": 0.4,
       "Command A Reasoning 08 2025": null,
@@ -37,7 +37,7 @@
       "Gemini 2.5 Pro Max": null
     },
     "Claude Opus 4": {
-      "Claude 3.7 Sonnet": 0.5,
+      "Claude 3.7 Sonnet": 0.6666666666666666,
       "Claude Opus 4.1": 0,
       "Claude Sonnet 4": 0.5,
       "Command A Reasoning 08 2025": null,
@@ -475,7 +475,7 @@
       "Gemini 2.5 Pro": null,
       "Gemma 27B": 0.5,
       "GLM 4.5": 0.6666666666666666,
-      "GLM 4.5 Air": 1,
+      "GLM 4.5 Air": 0.5,
       "GPT 4o Latest": null,
       "GPT 5 Chat": 0,
       "GPT 4.1": 0.6666666666666666,
@@ -680,7 +680,7 @@
       "Doubao 1.6": null,
       "Doubao 1.6 Thinking": null,
       "Ernie 4.5 Turbo 128k Preview": 1,
-      "Gemini 1.5 Pro": 0,
+      "Gemini 1.5 Pro": 0.5,
       "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": null,
       "Gemini 2.5 Pro": null,
@@ -1361,7 +1361,7 @@
       "Gemma 27B": 2,
       "GPT 5 Chat": 2,
       "DeepSeek R1 0528": 3,
-      "GLM 4.5 Air": 1,
+      "GLM 4.5 Air": 2,
       "Mistral Medium 2508": 3,
       "Claude Opus 4": 2,
       "DeepSeek V3.1 Volcengine": 1
@@ -1413,7 +1413,7 @@
     },
     "Claude Opus 4": {
       "Claude Sonnet 4": 5,
-      "Claude 3.7 Sonnet": 2,
+      "Claude 3.7 Sonnet": 3,
       "GPT 4o Latest": 1,
       "Qwen 235B A22B Instruct 2507": 3,
       "Anon": 2,
@@ -1621,7 +1621,7 @@
       "GPT 5 Chat": 1
     },
     "Claude 3.7 Sonnet": {
-      "Claude Opus 4": 2,
+      "Claude Opus 4": 3,
       "GPT 4o Latest": 5,
       "Grok 3": 10,
       "Gemini 2.5 Pro": 2,
@@ -1651,7 +1651,7 @@
       "Grok 4": 3,
       "DeepSeek V3.1 DS": 1,
       "DeepSeek R1 0528": 2,
-      "Gemini 1.5 Pro": 1,
+      "Gemini 1.5 Pro": 2,
       "Llama 4 Maverick": 2,
       "Gemini 2.5 Flash Lite": 1,
       "Ernie 4.5 Turbo 128k Preview": 1

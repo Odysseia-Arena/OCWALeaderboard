@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T10:39:09.555Z",
+  "updatedAt": "2025-08-26T10:40:22.784Z",
   "prompt_statistics": [
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -347,6 +347,53 @@
       }
     },
     {
+      "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 16,
+      "model_battle_counts": {
+        "Claude Opus 4": 3,
+        "Claude 3.7 Sonnet": 5,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GPT 4o Latest": 1,
+        "Claude Sonnet 4": 3,
+        "Grok 3": 1,
+        "Doubao 1.6": 2,
+        "DeepSeek V3.1 Volcengine": 2,
+        "GPT Oss 120B": 1,
+        "GLM 4.5 Air": 1,
+        "GLM 4.5": 2,
+        "DeepSeek R1 0528": 2,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 2,
+        "DeepSeek V3": 1,
+        "Anon": 1,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "Claude Opus 4": 1,
+        "Claude 3.7 Sonnet": 0.2,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GPT 4o Latest": 1,
+        "Claude Sonnet 4": 0.3333333333333333,
+        "Grok 3": 1,
+        "Doubao 1.6": 0.5,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT Oss 120B": 0,
+        "GLM 4.5 Air": 1,
+        "GLM 4.5": 0.5,
+        "DeepSeek R1 0528": 0.5,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 0,
+        "DeepSeek V3": 1,
+        "Anon": 0,
+        "Mistral Medium 2508": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 2.5 Flash": 0
+      }
+    },
+    {
       "prompt": "你是一位性格坚韧、身手敏捷的废土拾荒者，在被辐射污染的城市废墟中寻找生存资源。你在一个废弃的商场里发现了一个幸存者营地，但他们对你充满警惕。\n\n**情节目标：** 通过你的诚意和行动，成功获得幸存者们的信任。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 16,
@@ -483,53 +530,6 @@
         "GPT Oss 120B": 0,
         "Gemini 1.5 Pro": 0,
         "Anon": 0.5
-      }
-    },
-    {
-      "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 15,
-      "model_battle_counts": {
-        "Claude Opus 4": 2,
-        "Claude 3.7 Sonnet": 4,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GPT 4o Latest": 1,
-        "Claude Sonnet 4": 3,
-        "Grok 3": 1,
-        "Doubao 1.6": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "GPT Oss 120B": 1,
-        "GLM 4.5 Air": 1,
-        "GLM 4.5": 2,
-        "DeepSeek R1 0528": 2,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 2,
-        "DeepSeek V3": 1,
-        "Anon": 1,
-        "Mistral Medium 2508": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "Claude Opus 4": 1,
-        "Claude 3.7 Sonnet": 0.25,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "GPT 4o Latest": 1,
-        "Claude Sonnet 4": 0.3333333333333333,
-        "Grok 3": 1,
-        "Doubao 1.6": 0.5,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT Oss 120B": 0,
-        "GLM 4.5 Air": 1,
-        "GLM 4.5": 0.5,
-        "DeepSeek R1 0528": 0.5,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 0,
-        "DeepSeek V3": 1,
-        "Anon": 0,
-        "Mistral Medium 2508": 0,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 2.5 Flash": 0
       }
     },
     {
@@ -1787,6 +1787,47 @@
       }
     },
     {
+      "prompt": "**人物设定：** 某知名动漫中的配角，性格乐观，但一直活在主角的光环下。\n**核心场景：** 动漫中的某个场景，例如一个充满高科技的城市，或者一个魔法学院。\n**情节目标：** 他意外地发现了一个能够改变剧情的“金手指”，他必须利用这个“金手指”，改变自己的命运，并向主角证明自己的价值。\n**写作要求：** 模仿原著的文风，写出带有二次元特有梗和热血情节的片段。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 10,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 2,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Ernie 4.5 Turbo 128k Preview": 2,
+        "GPT 4.1": 3,
+        "Gemini 2.5 Pro Max": 1,
+        "Grok 3": 1,
+        "Gemini 2.5 Flash": 1,
+        "Llama 4 Maverick": 1,
+        "Grok 4": 1,
+        "DeepSeek V3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 1.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "GPT 4.1": 0.3333333333333333,
+        "Gemini 2.5 Pro Max": 1,
+        "Grok 3": 1,
+        "Gemini 2.5 Flash": 0,
+        "Llama 4 Maverick": 0,
+        "Grok 4": 1,
+        "DeepSeek V3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 1.5 Pro": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "职场",
       "total_battles": 10,
@@ -2053,43 +2094,6 @@
         "Qwen 235B A22B Instruct 2507": 0,
         "Kimi K2": 0.5,
         "Anon": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 某知名动漫中的配角，性格乐观，但一直活在主角的光环下。\n**核心场景：** 动漫中的某个场景，例如一个充满高科技的城市，或者一个魔法学院。\n**情节目标：** 他意外地发现了一个能够改变剧情的“金手指”，他必须利用这个“金手指”，改变自己的命运，并向主角证明自己的价值。\n**写作要求：** 模仿原著的文风，写出带有二次元特有梗和热血情节的片段。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 9,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 2,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Ernie 4.5 Turbo 128k Preview": 2,
-        "GPT 4.1": 3,
-        "Gemini 2.5 Pro Max": 1,
-        "Grok 3": 1,
-        "Gemini 2.5 Flash": 1,
-        "Llama 4 Maverick": 1,
-        "Grok 4": 1,
-        "DeepSeek V3": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Doubao 1.6 Thinking": 1,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "GPT 4.1": 0.3333333333333333,
-        "Gemini 2.5 Pro Max": 1,
-        "Grok 3": 1,
-        "Gemini 2.5 Flash": 0,
-        "Llama 4 Maverick": 0,
-        "Grok 4": 1,
-        "DeepSeek V3": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1
       }
     },
     {
