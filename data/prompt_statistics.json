@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2025-08-26T05:56:53.179Z",
+  "updatedAt": "2025-08-26T05:58:52.503Z",
   "prompt_statistics": [
+    {
+      "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT Oss 120B": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Grok 3": 2,
+        "Anon": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Kimi K2": 1,
+        "Step 3": 1
+      },
+      "model_win_rates": {
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT Oss 120B": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Grok 3": 0.5,
+        "Anon": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Kimi K2": 1,
+        "Step 3": 1
+      }
+    },
     {
       "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
@@ -27,6 +54,37 @@
       }
     },
     {
+      "prompt": "写个小说：一个普通美国士兵突然从1941年12月5日穿越到了南北战争开始前夕。他被一个神秘声音告知一天后就会被传送回到原时空。他设法见到林肯，告诉林肯“立即对南方实施‘经济绞杀’——摧毁铁路、焚烧种植园并同步解放奴隶。此举将瓦解南方的战争后勤、切断其劳动力，并动员20万黑人加入北军，使战争缩短两年，避免60万人伤亡。”\n林肯点点头，然后告诉穿越者，日本将会偷袭珍珠港。\n请你描写美国士兵听到这句话后的反应。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Doubao 1.6": 1,
+        "Llama 4 Maverick": 1,
+        "Anon": 1,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Kimi K2": 2,
+        "Step 3": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6": 0,
+        "Llama 4 Maverick": 1,
+        "Anon": 0,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Kimi K2": 0.5,
+        "Step 3": 0
+      }
+    },
+    {
       "prompt": "**作品：** 魔女之旅\n**角色：** 伊蕾娜\n**情节目标：** 伊蕾娜来到了一个“幸福”国度，这里的国民脸上都挂着一模一样的微笑。她必须在不使用攻击性魔法的前提下，揭开这个国家幸福表象下隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 5,
@@ -47,31 +105,6 @@
         "GPT 4o Latest": 0,
         "DeepSeek V3.1 Thinking Volcengine": 1,
         "Gemini 2.5 Pro": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT Oss 120B": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Grok 3": 2,
-        "Anon": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Kimi K2": 1
-      },
-      "model_win_rates": {
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT Oss 120B": 0,
-        "Doubao 1.6 Thinking": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Grok 3": 0.5,
-        "Anon": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Kimi K2": 1
       }
     },
     {
@@ -127,32 +160,49 @@
       }
     },
     {
-      "prompt": "写个小说：一个普通美国士兵突然从1941年12月5日穿越到了南北战争开始前夕。他被一个神秘声音告知一天后就会被传送回到原时空。他设法见到林肯，告诉林肯“立即对南方实施‘经济绞杀’——摧毁铁路、焚烧种植园并同步解放奴隶。此举将瓦解南方的战争后勤、切断其劳动力，并动员20万黑人加入北军，使战争缩短两年，避免60万人伤亡。”\n林肯点点头，然后告诉穿越者，日本将会偷袭珍珠港。\n请你描写美国士兵听到这句话后的反应。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 5,
+      "prompt": "**人物设定：** 落魄的世家公子，性格风流却不失真诚，因家族蒙冤而流落街头。\n**核心场景：** 繁华的京都夜市，灯火通明，人声鼎沸，各色小吃香气扑鼻，然而他却身无分文，只能看着热闹的人群发呆。\n**情节目标：** 他在夜市上偶遇了一位神秘的富商，富商提出可以资助他，但前提是他必须在七日之内，为富商寻得一幅已经失传的画作。他必须想尽办法，利用自己对古玩的独特见解，在一众古董商中找到这幅画，并借此重振家业。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 4,
       "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "Llama 4 Maverick": 1,
-        "Anon": 1,
-        "GPT 4o Latest": 1,
+        "Claude Sonnet 4": 1,
+        "Claude Opus 4": 1,
+        "DeepSeek V3.1 DS": 2,
         "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 1,
         "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Kimi K2": 1
+        "Gemini 2.5 Flash Lite": 1
       },
       "model_win_rates": {
-        "Doubao 1.6": 0,
-        "Llama 4 Maverick": 1,
-        "Anon": 0,
-        "GPT 4o Latest": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Pro": 0,
+        "Claude Sonnet 4": 0,
+        "Claude Opus 4": 0,
         "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Doubao 1.6 Thinking": 0,
         "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Kimi K2": 0
+        "Gemini 2.5 Flash Lite": 0
+      }
+    },
+    {
+      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Gemini 2.5 Pro": 2,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 0,
+        "GPT 4o Latest": 0,
+        "Claude Opus 4": 1,
+        "Doubao 1.6 Thinking": 0,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4.1": 0
       }
     },
     {
@@ -199,6 +249,27 @@
         "Gemini 2.5 Pro": 0,
         "Mistral Medium 2508": 0,
         "Qwen 235B A22B Instruct 2507": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Claude Sonnet 4": 2,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Grok 4": 1
+      },
+      "model_win_rates": {
+        "Claude Sonnet 4": 1,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Grok 4": 0
       }
     },
     {
@@ -286,25 +357,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 落魄的世家公子，性格风流却不失真诚，因家族蒙冤而流落街头。\n**核心场景：** 繁华的京都夜市，灯火通明，人声鼎沸，各色小吃香气扑鼻，然而他却身无分文，只能看着热闹的人群发呆。\n**情节目标：** 他在夜市上偶遇了一位神秘的富商，富商提出可以资助他，但前提是他必须在七日之内，为富商寻得一幅已经失传的画作。他必须想尽办法，利用自己对古玩的独特见解，在一众古董商中找到这幅画，并借此重振家业。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Claude Sonnet 4": 1,
-        "Claude Opus 4": 1,
-        "DeepSeek V3.1 DS": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Doubao 1.6 Thinking": 1
-      },
-      "model_win_rates": {
-        "Claude Sonnet 4": 0,
-        "Claude Opus 4": 0,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Doubao 1.6 Thinking": 0
-      }
-    },
-    {
       "prompt": "**作品：** 火影忍者\n**角色：** 漩涡鸣人，宇智波佐助\n**情节目标：** 成为火影后的鸣人收到了一份来自过去的卷轴，上面记载着一种能复活亡者的禁术。他必须与在外游历的佐助联手，阻止企图利用此术扰乱和平的敌人。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 3,
@@ -340,6 +392,27 @@
         "Kimi K2": 1,
         "DeepSeek V3.1 Volcengine": 0,
         "Gemini 2.5 Flash": 1
+      }
+    },
+    {
+      "prompt": "**情景：**面试者正在进行求职面试\n**人物：**面试者\n**情节：**刁难的考官提出问题“牛奶倒入大海了，怎么把牛奶捞回来”\n**你的任务：**扮演这个面试者巧妙地回答这个刁难的问题以展现自己的应变能力和职业素养\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1,
+        "Claude Sonnet 4": 1,
+        "Step 3": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "Step 3": 0
       }
     },
     {
@@ -383,27 +456,6 @@
       }
     },
     {
-      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Gemini 2.5 Pro": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 0,
-        "GPT 4o Latest": 0,
-        "Claude Opus 4": 1,
-        "Doubao 1.6 Thinking": 0,
-        "Gemini 2.5 Pro": 1
-      }
-    },
-    {
       "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 3,
@@ -422,23 +474,6 @@
         "Gemini 1.5 Pro": 0,
         "Kimi K2": 0,
         "Doubao 1.6 Thinking": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Claude Sonnet 4": 2,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1
-      },
-      "model_win_rates": {
-        "Claude Sonnet 4": 1,
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 0
       }
     },
     {
@@ -530,6 +565,23 @@
         "DeepSeek V3.1 DS": 0,
         "Claude Sonnet 4": 1,
         "Kimi K2": 0
+      }
+    },
+    {
+      "prompt": "**人物设定：** 一位被施了“无声”诅咒的魔法师，无法念出任何咒语，只能依靠肢体语言和手势来施展魔法。\n**核心场景：** 一座古老的魔法图书馆，里面收藏着各种古老的魔法书籍和卷轴，空气中充满了灰尘和魔法的气息。\n**情节目标：** 他的导师被邪恶的巫师囚禁在了图书馆的顶层。他必须在不发出任何声音的情况下，通过破解图书馆内的魔法机关，找到通往顶层的道路，并救出他的导师。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 2,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GLM 4.5": 1,
+        "Claude Sonnet 4": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GLM 4.5": 1,
+        "Claude Sonnet 4": 0
       }
     },
     {
@@ -699,23 +751,6 @@
       }
     },
     {
-      "prompt": "**情景：**面试者正在进行求职面试\n**人物：**面试者\n**情节：**刁难的考官提出问题“牛奶倒入大海了，怎么把牛奶捞回来”\n**你的任务：**扮演这个面试者巧妙地回答这个刁难的问题以展现自己的应变能力和职业素养\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 0,
-        "Anon": 0
-      }
-    },
-    {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "历史",
       "total_battles": 2,
@@ -760,6 +795,23 @@
         "Gemma 27B": 0,
         "GPT 4.1": 0.5,
         "Doubao 1.6 Thinking": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格张扬、充满音乐才华的校园乐队主唱。在一次重要的校园音乐节比赛前夕，你的乐队吉他手突然决定退出，导致乐队面临解散危机。\n\n**情节目标：** 成功说服吉他手归队，并带领乐队完成一场精彩的演出。\n\n**写作要求：** 描写过程中可以加入一些青春期的迷茫、叛逆和友情，以及对梦想的追求。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "校园",
+      "total_battles": 2,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 1.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 1.5 Pro": 1
       }
     },
     {
@@ -938,19 +990,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一位被施了“无声”诅咒的魔法师，无法念出任何咒语，只能依靠肢体语言和手势来施展魔法。\n**核心场景：** 一座古老的魔法图书馆，里面收藏着各种古老的魔法书籍和卷轴，空气中充满了灰尘和魔法的气息。\n**情节目标：** 他的导师被邪恶的巫师囚禁在了图书馆的顶层。他必须在不发出任何声音的情况下，通过破解图书馆内的魔法机关，找到通往顶层的道路，并救出他的导师。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "DeepSeek V3.1 Volcengine": 1
-      }
-    },
-    {
       "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 1,
@@ -1039,6 +1078,19 @@
       "model_win_rates": {
         "Anon": 1,
         "Gemini 2.5 Flash": 0
+      }
+    },
+    {
+      "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 1,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Sonnet 4": 1
       }
     },
     {
@@ -1146,16 +1198,16 @@
       }
     },
     {
-      "prompt": "你是一位性格张扬、充满音乐才华的校园乐队主唱。在一次重要的校园音乐节比赛前夕，你的乐队吉他手突然决定退出，导致乐队面临解散危机。\n\n**情节目标：** 成功说服吉他手归队，并带领乐队完成一场精彩的演出。\n\n**写作要求：** 描写过程中可以加入一些青春期的迷茫、叛逆和友情，以及对梦想的追求。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "校园",
+      "prompt": "你是一名侦探，正在面对一起奇特的“斩首”事件。\n确实奇特——案发现场是一个奇特的纯用特殊金属制作的方形小房子；案发时间为深夜；死者被斩首时是躺在床上的，不仅他的脖颈，整个床都被切成了两段。\n你的助手告诉你，案发现场是完全的密室。你看着满屋子的血迹，看了看周围和你们一起被困在岛上的心怀鬼胎的众人，再看了眼不远处的一台攻城车；你顿了顿，缓缓说出了自己的推理：\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
       "total_battles": 1,
       "model_battle_counts": {
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1
+        "Step 3": 1,
+        "Claude Sonnet 4": 1
       },
       "model_win_rates": {
-        "Gemini 2.5 Pro": 0,
-        "Grok 3": 1
+        "Step 3": 1,
+        "Claude Sonnet 4": 0
       }
     },
     {
