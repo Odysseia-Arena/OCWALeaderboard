@@ -1,6 +1,43 @@
 {
-  "updatedAt": "2025-08-26T06:54:08.943Z",
+  "updatedAt": "2025-08-26T06:56:40.842Z",
   "prompt_statistics": [
+    {
+      "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "Anon": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1,
+        "Doubao 1.6": 3,
+        "GPT 4o Latest": 2,
+        "GPT 4.1": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 2,
+        "Doubao 1.6 Thinking": 2,
+        "Llama 4 Maverick": 1
+      },
+      "model_win_rates": {
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 0,
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 0.5,
+        "Doubao 1.6 Thinking": 0.5,
+        "Llama 4 Maverick": 0
+      }
+    },
     {
       "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
@@ -69,43 +106,6 @@
         "Claude Opus 4.1": 1,
         "GPT 5 Chat": 1,
         "GLM 4.5": 0
-      }
-    },
-    {
-      "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 10,
-      "model_battle_counts": {
-        "Anon": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 1,
-        "Doubao 1.6": 2,
-        "GPT 4o Latest": 2,
-        "GPT 4.1": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 2,
-        "Doubao 1.6 Thinking": 2,
-        "Llama 4 Maverick": 1
-      },
-      "model_win_rates": {
-        "Anon": 0,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 0,
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 0.5,
-        "Doubao 1.6 Thinking": 0.5,
-        "Llama 4 Maverick": 0
       }
     },
     {
@@ -209,6 +209,39 @@
         "DeepSeek V3.1 DS": 0,
         "Kimi K2": 1,
         "Gemini 2.5 Pro Max": 0
+      }
+    },
+    {
+      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 8,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 2,
+        "Claude Sonnet 4": 2,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4": 2,
+        "Doubao 1.6 Thinking": 1,
+        "Gemini 2.5 Pro": 2,
+        "GPT 4.1": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 1.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 0,
+        "GPT 4o Latest": 0,
+        "Claude Opus 4": 0.5,
+        "Doubao 1.6 Thinking": 0,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4.1": 0,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "Gemini 1.5 Pro": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
@@ -346,39 +379,6 @@
       }
     },
     {
-      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 7,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4": 2,
-        "Doubao 1.6 Thinking": 1,
-        "Gemini 2.5 Pro": 2,
-        "GPT 4.1": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 1.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 0,
-        "GPT 4o Latest": 0,
-        "Claude Opus 4": 0.5,
-        "Doubao 1.6 Thinking": 0,
-        "Gemini 2.5 Pro": 1,
-        "GPT 4.1": 0,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "Gemini 1.5 Pro": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0
-      }
-    },
-    {
       "prompt": "你是一位刚刚入职的新人，性格开朗，充满干劲，却在公司的重要提案会议上，不慎将咖啡洒在了顶头上司的文件上。这位上司以严苛和难以取悦而闻名。\n\n**情节目标：** 在上司暴怒之前，通过你的机智和应变能力，成功化解这场危机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "职场",
       "total_battles": 7,
@@ -463,6 +463,68 @@
         "Step 3": 1,
         "DeepSeek V3.1 Volcengine": 0,
         "Claude 3.7 Sonnet": 1
+      }
+    },
+    {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Opus 4": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Anon": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 1.5 Pro": 3,
+        "Gemini 2.5 Flash": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Opus 4": 1,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Anon": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Sonnet 4": 0,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Flash": 0,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "GPT 4.1": 0
+      }
+    },
+    {
+      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1,
+        "Claude Sonnet 4": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Kimi K2": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Kimi K2": 0,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 5 Chat": 0,
+        "Gemma 27B": 1
       }
     },
     {
@@ -583,35 +645,6 @@
         "Doubao 1.6": 0,
         "DeepSeek V3.1 DS": 0,
         "Mistral Medium 2508": 1
-      }
-    },
-    {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Opus 4": 1,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Anon": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 2,
-        "Gemini 2.5 Flash": 1,
-        "Qwen3 30B A3B Thinking 2507": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Opus 4": 1,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "Anon": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Claude Sonnet 4": 0,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Flash": 0,
-        "Qwen3 30B A3B Thinking 2507": 0
       }
     },
     {
@@ -773,33 +806,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1,
-        "Claude Sonnet 4": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 0,
-        "Anon": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT 5 Chat": 0,
-        "Gemma 27B": 1
-      }
-    },
-    {
       "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "职场",
       "total_battles": 5,
@@ -851,6 +857,29 @@
         "Gemini 2.5 Flash Lite": 0,
         "Grok 3": 1,
         "Gemini 2.5 Flash": 0
+      }
+    },
+    {
+      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "悬疑",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "GPT 4o Latest": 2,
+        "GPT 4.1": 2,
+        "Qwen3 30B A3B Thinking 2507": 2,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 0,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 0
       }
     },
     {
@@ -1003,6 +1032,31 @@
         "Claude Sonnet 4": 0,
         "Gemini 2.5 Flash": 0.6666666666666666,
         "Doubao 1.6": 0
+      }
+    },
+    {
+      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Anon": 0,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 1
       }
     },
     {
@@ -1159,27 +1213,6 @@
       }
     },
     {
-      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "悬疑",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 2,
-        "Qwen3 30B A3B Thinking 2507": 2,
-        "GLM 4.5 Air": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3.1 DS": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "GLM 4.5 Air": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3.1 DS": 1
-      }
-    },
-    {
       "prompt": "**场景：**一个现代化的演播厅。\n**人物：**\n-   主持人：一位西装革履、试图保持冷静的亚裔主持人，私下是二次元氪金游戏的忠实玩家。\n-   嘉宾：斯拉沃热·齐泽克，斯洛文尼亚哲学家，穿着标志性的皱巴巴Polo衫，坐姿随意。\n**情节：**在一场关于流行文化的对谈中，主持人将话题引向了二次元游戏。然而，齐泽克立刻展开了他标志性的哲学批判，频繁地做着手势、捏鼻子和擦汗，将氪金抽卡机制与资本主义的欲望陷阱、虚假的主体性选择等概念联系起来，大谈其意识形态的劣根性。主持人被说得哑口无言，满脸通红，几次想反驳都找不到切入点。\n**写作要求：**以播客节目或电视访谈的文字稿格式来呈现这段对话。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "其它",
       "total_battles": 4,
@@ -1198,6 +1231,29 @@
         "DeepSeek V3.1 Volcengine": 0,
         "Gemini 2.5 Flash": 1,
         "GPT 4.1": 1
+      }
+    },
+    {
+      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Doubao 1.6": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Pro": 0,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 0,
+        "Doubao 1.6": 1
       }
     },
     {
@@ -1423,27 +1479,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "GPT 4.1": 1,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Anon": 1,
-        "Kimi K2": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Gemini 2.5 Pro": 0,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Anon": 0,
-        "Kimi K2": 1
-      }
-    },
-    {
       "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 3,
@@ -1523,27 +1558,6 @@
         "Doubao 1.6": 1,
         "Claude 3.7 Sonnet": 0,
         "Doubao 1.6 Thinking": 1
-      }
-    },
-    {
-      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Pro": 1,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Pro": 0,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 0
       }
     },
     {
