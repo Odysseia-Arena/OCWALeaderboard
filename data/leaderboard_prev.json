@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-26T19:59:07.810Z",
-  "nextUpdateTime": "2025-08-27T04:00:00",
+  "updatedAt": "2025-08-26T20:04:05.825Z",
+  "nextUpdateTime": "2025-08-27T05:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -244,7 +244,7 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "tier": "high",
+      "tier": "low",
       "rating": 1579,
       "rating_deviation": 36,
       "volatility": 0.05991557550266698,
@@ -260,7 +260,7 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "tier": "high",
+      "tier": "low",
       "rating": 1562,
       "rating_deviation": 39,
       "volatility": 0.06012823877147771,
@@ -276,7 +276,7 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "tier": "low",
+      "tier": "high",
       "rating": 1549,
       "rating_deviation": 50,
       "volatility": 0.059966494688062796,
@@ -292,7 +292,7 @@
     },
     {
       "model_name": "GLM 4.5 Air",
-      "tier": "low",
+      "tier": "high",
       "rating": 1549,
       "rating_deviation": 47,
       "volatility": 0.06004109376527968,
@@ -308,7 +308,7 @@
     },
     {
       "model_name": "Gemini 1.5 Pro",
-      "tier": "low",
+      "tier": "high",
       "rating": 1547,
       "rating_deviation": 36,
       "volatility": 0.05990034921423671,
@@ -452,7 +452,7 @@
     },
     {
       "model_name": "GPT 4.1",
-      "tier": "high",
+      "tier": "low",
       "rating": 1466,
       "rating_deviation": 29,
       "volatility": 0.06014555242350515,
