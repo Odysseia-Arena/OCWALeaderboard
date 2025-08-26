@@ -61,9 +61,23 @@ jobs:
           ARENA_API_TOKEN: ${{ secrets.ARENA_API_TOKEN }}
         run: node scripts/fetch_api_health.mjs
 
+      - name: Battle statistics via API (if configured)
+        if: ${{ env.ARENA_API_BASE != '' }}
+        env:
+          ARENA_API_BASE: ${{ secrets.ARENA_API_BASE }}
+          ARENA_API_TOKEN: ${{ secrets.ARENA_API_TOKEN }}
+        run: node scripts/fetch_api_battle_statistics.mjs
+
+      - name: Prompt statistics via API (if configured)
+        if: ${{ env.ARENA_API_BASE != '' }}
+        env:
+          ARENA_API_BASE: ${{ secrets.ARENA_API_BASE }}
+          ARENA_API_TOKEN: ${{ secrets.ARENA_API_TOKEN }}
+        run: node scripts/fetch_api_prompt_statistics.mjs
+
       - name: Commit and push if changed
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/leaderboard.json data/health.json
+          git add data/leaderboard.json data/health.json data/heatmap.json data/prompt_statistics.json
           git diff --staged --quiet && echo "No changes" || (git commit -m "chore: update leaderboard + health [skip ci]" && git push)

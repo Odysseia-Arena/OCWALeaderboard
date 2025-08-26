@@ -53,18 +53,22 @@
         <table class="table" id="leaderboardTable">
           <thead>
             <tr>
-              <th class="sortable" data-key="rank" aria-sort="none" style="width:76px">名次</th>
-              <th class="sortable" data-key="model_name">AI模型名</th>
-              <th class="sortable" data-key="rating" style="width:120px">ELO评分</th>
-              <th class="sortable" data-key="battles" style="width:100px">对战</th>
-              <th class="sortable" data-key="wins" style="width:80px">胜</th>
-              <th class="sortable" data-key="ties" style="width:80px">平</th>
-              <th class="sortable" data-key="win_rate_percentage" style="width:120px">胜率%</th>
+              <th class="sortable" data-key="rank" aria-sort="none" style="width:76px"><span class="th-inner"><span class="th-label">名次</span><span class="th-arrow"></span></span></th>
+              <th class="sortable" data-key="model_name"><span class="th-inner"><span class="th-label">AI模型名</span><span class="th-arrow"></span></span></th>
+              <th class="sortable" data-key="rating"><span class="th-inner"><span class="th-label">评分</span><span class="th-arrow"></span></span></th>
+              <th class="sortable" data-key="tier"><span class="th-inner"><span class="th-label">段位</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="rating_deviation"><span class="th-inner"><span class="th-label">评分偏差</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="volatility"><span class="th-inner"><span class="th-label">波动率</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="battles"><span class="th-inner"><span class="th-label">对战</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="wins"><span class="th-inner"><span class="th-label">胜</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="ties"><span class="th-inner"><span class="th-label">平</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="skips"><span class="th-inner"><span class="th-label">弃权</span><span class="th-arrow"></span></span></th>
+              <th class="sortable th-sub" data-key="win_rate_percentage"><span class="th-inner"><span class="th-label">胜率%</span><span class="th-arrow"></span></span></th>
             </tr>
           </thead>
           <tbody id="leaderboardBody">
             <tr>
-              <td colspan="7" class="muted center">加载中...</td>
+              <td colspan="11" class="muted center">加载中...</td>
             </tr>
           </tbody>
         </table>
