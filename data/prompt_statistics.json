@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T19:39:12.409Z",
+  "updatedAt": "2025-08-26T19:44:12.693Z",
   "prompt_statistics": [
     {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1594,6 +1594,53 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 16,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 3,
+        "Claude Sonnet 4": 3,
+        "Kimi K2": 4,
+        "Anon": 2,
+        "Grok 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 2,
+        "Mistral Medium 2508": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 1,
+        "Claude Opus 4.1": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Flash": 1,
+        "Gemma 27B": 1,
+        "Command A Reasoning 08 2025": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 0.3333333333333333,
+        "Claude Sonnet 4": 0.6666666666666666,
+        "Kimi K2": 0.25,
+        "Anon": 1,
+        "Grok 3": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 0.5,
+        "Mistral Medium 2508": 0,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 1,
+        "Claude Opus 4.1": 1,
+        "Doubao 1.6 Thinking": 0.5,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "Gemma 27B": 0,
+        "Command A Reasoning 08 2025": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 曾经的江湖第一杀手，现已隐姓埋名，化身为小镇的普通铁匠。他性格孤僻寡言，但内心仍有自己的坚持。\n**核心场景：** 一个远离江湖纷争的小镇，铁匠铺里火光四溅，锤子敲打铁器的声音此起彼伏，他打磨的剑刃总是锋利无比。\n**情节目标：** 一位昔日的仇家带着一份武林至宝的藏宝图找上门来，并以他身边唯一的徒弟性命相要挟，逼迫他重出江湖。他必须在月圆之夜，在铁匠铺内秘密布置机关，设法击败仇家，保护自己的徒弟，并摆脱过去的阴影。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 16,
@@ -2361,49 +2408,6 @@
         "GLM 4.5 Air": 0,
         "DeepSeek R1 0528": 1,
         "DeepSeek V3.1 DS": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 15,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 3,
-        "Claude Sonnet 4": 3,
-        "Kimi K2": 4,
-        "Anon": 2,
-        "Grok 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 2,
-        "Mistral Medium 2508": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 1,
-        "Claude Opus 4.1": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 0.3333333333333333,
-        "Claude Sonnet 4": 0.6666666666666666,
-        "Kimi K2": 0.25,
-        "Anon": 1,
-        "Grok 3": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 0.5,
-        "Mistral Medium 2508": 0,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 1,
-        "Claude Opus 4.1": 1,
-        "Doubao 1.6 Thinking": 0.5,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Gemini 2.5 Flash": 1
       }
     },
     {
