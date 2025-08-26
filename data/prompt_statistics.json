@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T13:54:09.173Z",
+  "updatedAt": "2025-08-26T13:58:53.058Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2537,6 +2537,49 @@
       }
     },
     {
+      "prompt": "你是一位性格活泼、充满正义感的校园记者。你正在调查一起关于学校食堂食品安全的事件。然而，你的调查遭到了学校领导的阻挠。\n\n**情节目标：** 在学校领导的阻挠下，成功揭露真相，并发表一篇引起全校关注的报道。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "校园",
+      "total_battles": 12,
+      "model_battle_counts": {
+        "GPT Oss 120B": 1,
+        "Grok 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "Doubao 1.6": 2,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "GPT 5 Chat": 1,
+        "DeepSeek V3.1 Volcengine": 3,
+        "DeepSeek V3.1 DS": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Claude Sonnet 4": 1,
+        "Anon": 1,
+        "Claude 3.7 Sonnet": 2,
+        "Kimi K2": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "GPT 4.1": 2,
+        "Doubao 1.6 Thinking": 1
+      },
+      "model_win_rates": {
+        "GPT Oss 120B": 0,
+        "Grok 4": 1,
+        "Gemini 2.5 Pro": 0,
+        "Doubao 1.6": 0.5,
+        "Qwen 235B A22B Thinking 2507": 0,
+        "GPT 5 Chat": 1,
+        "DeepSeek V3.1 Volcengine": 0.6666666666666666,
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4o Latest": 0.5,
+        "Claude Sonnet 4": 1,
+        "Anon": 0,
+        "Claude 3.7 Sonnet": 0,
+        "Kimi K2": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "GPT 4.1": 0,
+        "Doubao 1.6 Thinking": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 11,
@@ -2801,47 +2844,6 @@
         "Gemini 2.5 Pro": 1,
         "Doubao 1.6 Thinking": 0,
         "Claude Sonnet 4": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格活泼、充满正义感的校园记者。你正在调查一起关于学校食堂食品安全的事件。然而，你的调查遭到了学校领导的阻挠。\n\n**情节目标：** 在学校领导的阻挠下，成功揭露真相，并发表一篇引起全校关注的报道。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "校园",
-      "total_battles": 11,
-      "model_battle_counts": {
-        "GPT Oss 120B": 1,
-        "Grok 4": 1,
-        "Gemini 2.5 Pro": 1,
-        "Doubao 1.6": 2,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "GPT 5 Chat": 1,
-        "DeepSeek V3.1 Volcengine": 3,
-        "DeepSeek V3.1 DS": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4o Latest": 2,
-        "Claude Sonnet 4": 1,
-        "Anon": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Kimi K2": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "GPT 4.1": 2
-      },
-      "model_win_rates": {
-        "GPT Oss 120B": 0,
-        "Grok 4": 1,
-        "Gemini 2.5 Pro": 0,
-        "Doubao 1.6": 0.5,
-        "Qwen 235B A22B Thinking 2507": 0,
-        "GPT 5 Chat": 1,
-        "DeepSeek V3.1 Volcengine": 0.6666666666666666,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4o Latest": 0.5,
-        "Claude Sonnet 4": 1,
-        "Anon": 0,
-        "Claude 3.7 Sonnet": 0,
-        "Kimi K2": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "GPT 4.1": 0
       }
     },
     {
