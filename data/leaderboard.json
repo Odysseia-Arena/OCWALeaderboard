@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T05:28:02.339Z",
+  "updatedAt": "2025-08-26T05:32:13.910Z",
   "nextUpdateTime": "2025-08-26T14:00:00",
   "leaderboard": [
     {
@@ -13,8 +13,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1702,
-      "rating_deviation_realtime": 97,
+      "rating_realtime": 1690,
+      "rating_deviation_realtime": 91,
       "volatility_realtime": 0.06,
       "rank": 1
     },
@@ -29,8 +29,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1634,
-      "rating_deviation_realtime": 97,
+      "rating_realtime": 1613,
+      "rating_deviation_realtime": 94,
       "volatility_realtime": 0.06,
       "rank": 2
     },
@@ -45,8 +45,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1676,
-      "rating_deviation_realtime": 91,
+      "rating_realtime": 1695,
+      "rating_deviation_realtime": 88,
       "volatility_realtime": 0.06,
       "rank": 3
     },
@@ -61,8 +61,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1670,
-      "rating_deviation_realtime": 94,
+      "rating_realtime": 1692,
+      "rating_deviation_realtime": 91,
       "volatility_realtime": 0.06,
       "rank": 4
     },
@@ -93,8 +93,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1539,
-      "rating_deviation_realtime": 83,
+      "rating_realtime": 1525,
+      "rating_deviation_realtime": 81,
       "volatility_realtime": 0.06,
       "rank": 6
     },
@@ -141,8 +141,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1632,
-      "rating_deviation_realtime": 91,
+      "rating_realtime": 1606,
+      "rating_deviation_realtime": 88,
       "volatility_realtime": 0.06,
       "rank": 9
     },
@@ -157,8 +157,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1594,
-      "rating_deviation_realtime": 97,
+      "rating_realtime": 1622,
+      "rating_deviation_realtime": 93,
       "volatility_realtime": 0.06,
       "rank": 10
     },
@@ -173,8 +173,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1596,
-      "rating_deviation_realtime": 100,
+      "rating_realtime": 1631,
+      "rating_deviation_realtime": 97,
       "volatility_realtime": 0.06,
       "rank": 11
     },
@@ -205,8 +205,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1607,
-      "rating_deviation_realtime": 85,
+      "rating_realtime": 1593,
+      "rating_deviation_realtime": 83,
       "volatility_realtime": 0.06,
       "rank": 13
     },
@@ -221,8 +221,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1643,
-      "rating_deviation_realtime": 90,
+      "rating_realtime": 1630,
+      "rating_deviation_realtime": 81,
       "volatility_realtime": 0.06,
       "rank": 14
     },
@@ -237,8 +237,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1495,
-      "rating_deviation_realtime": 88,
+      "rating_realtime": 1480,
+      "rating_deviation_realtime": 85,
       "volatility_realtime": 0.06,
       "rank": 15
     },
@@ -269,8 +269,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1580,
-      "rating_deviation_realtime": 96,
+      "rating_realtime": 1570,
+      "rating_deviation_realtime": 91,
       "volatility_realtime": 0.06,
       "rank": 17
     },
@@ -285,8 +285,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1569,
-      "rating_deviation_realtime": 88,
+      "rating_realtime": 1606,
+      "rating_deviation_realtime": 83,
       "volatility_realtime": 0.06,
       "rank": 18
     },
@@ -317,8 +317,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1488,
-      "rating_deviation_realtime": 88,
+      "rating_realtime": 1496,
+      "rating_deviation_realtime": 83,
       "volatility_realtime": 0.06,
       "rank": 20
     },
@@ -413,8 +413,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1473,
-      "rating_deviation_realtime": 96,
+      "rating_realtime": 1498,
+      "rating_deviation_realtime": 93,
       "volatility_realtime": 0.06,
       "rank": 26
     },
@@ -430,7 +430,7 @@
       "skips": 0,
       "win_rate_percentage": 0,
       "rating_realtime": 1537,
-      "rating_deviation_realtime": 97,
+      "rating_deviation_realtime": 91,
       "volatility_realtime": 0.06,
       "rank": 27
     },
@@ -461,8 +461,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1500,
-      "rating_deviation_realtime": 100,
+      "rating_realtime": 1489,
+      "rating_deviation_realtime": 94,
       "volatility_realtime": 0.06,
       "rank": 29
     },
@@ -477,8 +477,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1500,
-      "rating_deviation_realtime": 100,
+      "rating_realtime": 1485,
+      "rating_deviation_realtime": 97,
       "volatility_realtime": 0.06,
       "rank": 30
     },
@@ -541,8 +541,8 @@
       "ties": 0,
       "skips": 0,
       "win_rate_percentage": 0,
-      "rating_realtime": 1346,
-      "rating_deviation_realtime": 94,
+      "rating_realtime": 1330,
+      "rating_deviation_realtime": 91,
       "volatility_realtime": 0.06,
       "rank": 34
     }
