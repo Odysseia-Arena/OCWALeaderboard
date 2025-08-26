@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T06:56:40.842Z",
+  "updatedAt": "2025-08-26T06:59:10.062Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -145,6 +145,43 @@
         "Gemini 2.5 Flash": 1,
         "GPT 4.1": 0,
         "Gemini 2.5 Flash Lite": 0
+      }
+    },
+    {
+      "prompt": "**作品：** 火影忍者\n**角色：** 漩涡鸣人，宇智波佐助\n**情节目标：** 成为火影后的鸣人收到了一份来自过去的卷轴，上面记载着一种能复活亡者的禁术。他必须与在外游历的佐助联手，阻止企图利用此术扰乱和平的敌人。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 8,
+      "model_battle_counts": {
+        "Step 3": 2,
+        "Llama 4 Maverick": 2,
+        "DeepSeek R1 0528": 1,
+        "Claude Sonnet 4": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 4": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GLM 4.5": 1
+      },
+      "model_win_rates": {
+        "Step 3": 0,
+        "Llama 4 Maverick": 0.5,
+        "DeepSeek R1 0528": 1,
+        "Claude Sonnet 4": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4o Latest": 0,
+        "Gemini 2.5 Pro": 1,
+        "Grok 4": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GLM 4.5": 0
       }
     },
     {
@@ -313,6 +350,41 @@
       }
     },
     {
+      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1,
+        "Claude Sonnet 4": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Kimi K2": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 1,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Kimi K2": 0,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 0,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 0,
+        "Gemma 27B": 1
+      }
+    },
+    {
       "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 7,
@@ -343,39 +415,6 @@
         "Doubao 1.6 Thinking": 1,
         "Anon": 1,
         "Kimi K2": 0
-      }
-    },
-    {
-      "prompt": "**作品：** 火影忍者\n**角色：** 漩涡鸣人，宇智波佐助\n**情节目标：** 成为火影后的鸣人收到了一份来自过去的卷轴，上面记载着一种能复活亡者的禁术。他必须与在外游历的佐助联手，阻止企图利用此术扰乱和平的敌人。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 7,
-      "model_battle_counts": {
-        "Step 3": 2,
-        "Llama 4 Maverick": 2,
-        "DeepSeek R1 0528": 1,
-        "Claude Sonnet 4": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4o Latest": 1,
-        "Gemini 2.5 Pro": 1,
-        "Grok 4": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      },
-      "model_win_rates": {
-        "Step 3": 0,
-        "Llama 4 Maverick": 0.5,
-        "DeepSeek R1 0528": 1,
-        "Claude Sonnet 4": 0,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4o Latest": 0,
-        "Gemini 2.5 Pro": 1,
-        "Grok 4": 0,
-        "DeepSeek V3.1 Volcengine": 1
       }
     },
     {
@@ -497,34 +536,28 @@
       }
     },
     {
-      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
+      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
       "total_battles": 6,
       "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1,
-        "Claude Sonnet 4": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Kimi K2": 1,
+        "GPT 4.1": 2,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 3,
+        "GPT 4o Latest": 1,
         "Claude 3.7 Sonnet": 1,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 1
+        "DeepSeek V3.1 Volcengine": 2,
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 DS": 1
       },
       "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 0,
-        "Anon": 0,
+        "GPT 4.1": 0,
         "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Kimi K2": 0,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4o Latest": 0,
         "Claude 3.7 Sonnet": 1,
-        "GPT 5 Chat": 0,
-        "Gemma 27B": 1
+        "DeepSeek V3.1 Volcengine": 0,
+        "Doubao 1.6": 0,
+        "DeepSeek V3.1 DS": 1
       }
     },
     {
@@ -648,6 +681,29 @@
       }
     },
     {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 3,
+        "Doubao 1.6": 2,
+        "Grok 3": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 0.6666666666666666,
+        "Doubao 1.6": 0.5,
+        "Grok 3": 0
+      }
+    },
+    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 6,
@@ -701,27 +757,6 @@
         "Qwen 235B A22B Instruct 2507": 1,
         "DeepSeek R1 0528": 0,
         "Claude 3.7 Sonnet": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Pro": 3,
-        "GPT 4o Latest": 1,
-        "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 Volcengine": 2
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Pro": 1,
-        "GPT 4o Latest": 0,
-        "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 Volcengine": 0
       }
     },
     {
@@ -1014,24 +1049,28 @@
       }
     },
     {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《火影忍者》中，漩涡鸣人与宇智波佐助在终结谷的大战（第一部结尾战）。\n\n**写作风格指导：**\n-   叙事风格参考原作动画特点：战斗场面张力强烈，动作描写流畅且伴随内心独白。\n-   场景渲染强调环境（奔腾的瀑布、崩裂的石像、雷鸣与风声）与战斗节奏的呼应。\n-   角色对白情绪饱满，往往夹杂吼声、呼吸声、停顿，突出冲突的激烈。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
+      "prompt": "你是一位伪装成人类生活在城镇中的龙族后裔，性格高傲，不屑于与人类来往。突然，你的龙族血脉感应到一股强大的邪恶力量，正试图吞噬你居住的城镇。\n\n**情节目标：** 在不暴露自己真实身份的前提下，利用龙族的力量成功阻止邪恶力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
       "total_battles": 5,
       "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 3,
-        "Doubao 1.6": 1
+        "DeepSeek V3.1 DS": 3,
+        "GPT 4o Latest": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Anon": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6 Thinking": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 0.6666666666666666,
-        "Doubao 1.6": 0
+        "DeepSeek V3.1 DS": 0.6666666666666666,
+        "GPT 4o Latest": 1,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Anon": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6 Thinking": 0
       }
     },
     {
@@ -1303,27 +1342,6 @@
       }
     },
     {
-      "prompt": "你是一位伪装成人类生活在城镇中的龙族后裔，性格高傲，不屑于与人类来往。突然，你的龙族血脉感应到一股强大的邪恶力量，正试图吞噬你居住的城镇。\n\n**情节目标：** 在不暴露自己真实身份的前提下，利用龙族的力量成功阻止邪恶力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 3,
-        "GPT 4o Latest": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT 4.1": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Anon": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 0.6666666666666666,
-        "GPT 4o Latest": 1,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "GPT 4.1": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Anon": 0
-      }
-    },
-    {
       "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 4,
@@ -1561,6 +1579,25 @@
       }
     },
     {
+      "prompt": "你是一位性格乐观、行动敏捷的仿生人快递员，编号为 734。在一次前往富人区送货的路上，你目睹了一起针对仿生人的非法暴力事件。你的客户，一位年迈的工程师，正遭受一群“人类至上”主义者的围攻。\n\n**情节目标：** 在确保自身安全的前提下，成功保护客户并完成送货任务。\n\n**写作要求：** 描写过程中可以增加一些科幻感十足的细节，例如仿生人的独特感官体验、未来城市的景象等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemma 27B": 1,
+        "GPT 4.1": 2,
+        "Doubao 1.6 Thinking": 1,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 1
+      },
+      "model_win_rates": {
+        "Gemma 27B": 0,
+        "GPT 4.1": 0.5,
+        "Doubao 1.6 Thinking": 1,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 0
+      }
+    },
+    {
       "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 3,
@@ -1774,21 +1811,6 @@
         "Gemini 1.5 Pro": 1,
         "Claude 3.7 Sonnet": 1,
         "Kimi K2": 0
-      }
-    },
-    {
-      "prompt": "你是一位性格乐观、行动敏捷的仿生人快递员，编号为 734。在一次前往富人区送货的路上，你目睹了一起针对仿生人的非法暴力事件。你的客户，一位年迈的工程师，正遭受一群“人类至上”主义者的围攻。\n\n**情节目标：** 在确保自身安全的前提下，成功保护客户并完成送货任务。\n\n**写作要求：** 描写过程中可以增加一些科幻感十足的细节，例如仿生人的独特感官体验、未来城市的景象等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Gemma 27B": 1,
-        "GPT 4.1": 2,
-        "Doubao 1.6 Thinking": 1
-      },
-      "model_win_rates": {
-        "Gemma 27B": 0,
-        "GPT 4.1": 0.5,
-        "Doubao 1.6 Thinking": 1
       }
     },
     {
