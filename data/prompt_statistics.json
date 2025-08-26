@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T09:14:11.758Z",
+  "updatedAt": "2025-08-26T09:19:10.906Z",
   "prompt_statistics": [
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -102,6 +102,51 @@
       }
     },
     {
+      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 2,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Sonnet 4": 4,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "GPT 4.1": 1,
+        "GPT 4o Latest": 2,
+        "Grok 3": 1,
+        "Claude Opus 4": 2,
+        "DeepSeek V3.1 DS": 3,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro Max": 2,
+        "Gemini 2.5 Flash": 1,
+        "GLM 4.5": 1,
+        "GLM 4.5 Air": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4.1": 0,
+        "GPT 4o Latest": 1,
+        "Grok 3": 0,
+        "Claude Opus 4": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6": 1,
+        "GPT 5 Chat": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro Max": 0.5,
+        "Gemini 2.5 Flash": 1,
+        "GLM 4.5": 0,
+        "GLM 4.5 Air": 1
+      }
+    },
+    {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 14,
@@ -179,47 +224,6 @@
         "Doubao 1.6": 1,
         "GPT 4o Latest": 0,
         "Step 3": 0
-      }
-    },
-    {
-      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 2,
-        "Claude 3.7 Sonnet": 1,
-        "Claude Sonnet 4": 4,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "GPT 4.1": 1,
-        "GPT 4o Latest": 2,
-        "Grok 3": 1,
-        "Claude Opus 4": 2,
-        "DeepSeek V3.1 DS": 3,
-        "Gemini 1.5 Pro": 1,
-        "Doubao 1.6": 1,
-        "GPT 5 Chat": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro Max": 2,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4.1": 0,
-        "GPT 4o Latest": 1,
-        "Grok 3": 0,
-        "Claude Opus 4": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Gemini 1.5 Pro": 1,
-        "Doubao 1.6": 1,
-        "GPT 5 Chat": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro Max": 0.5,
-        "Gemini 2.5 Flash": 1
       }
     },
     {
@@ -1016,6 +1020,45 @@
       }
     },
     {
+      "prompt": "**情景：**面试者正在进行求职面试\n**人物：**面试者\n**情节：**刁难的考官提出问题“牛奶倒入大海了，怎么把牛奶捞回来”\n**你的任务：**扮演这个面试者巧妙地回答这个刁难的问题以展现自己的应变能力和职业素养\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 9,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1,
+        "Claude Sonnet 4": 1,
+        "Step 3": 1,
+        "Claude Opus 4": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 2,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4.1": 1,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Gemini 1.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "Step 3": 0,
+        "Claude Opus 4": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Kimi K2": 0,
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4.1": 0,
+        "GPT 4.1": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 1.5 Pro": 0
+      }
+    },
+    {
       "prompt": "你是一个落魄的股民，赌上了所有钱财，撬动着巨大倍数的杠杆押中的那一只股票正在迅速下跌，你垂头丧气的往天台走去，就在打开天台门的刹那，下跌的股票瞬间抬起，飞快上升，很快便追上历史顶峰甚至还在不断提高。操作成功引起了别人的注意，可能是某个地下操盘组织。股价的飙升是他们为了某个更大的计划而进行的市场操控，而你只是一个碰巧赶上了这次机会的路人。\n\n**情节目标：**导致股票抬升的幕后主使找到了你，你需要迅速判断形势，让自己在这幕后主使掀起的滔天巨浪中存活下来\n\n**写作要求：**以动作和对话作为主体，避免过多心里描写，依靠自身行为推动剧情。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "现代",
       "total_battles": 9,
@@ -1292,6 +1335,31 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 8,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 2,
+        "Claude Sonnet 4": 3,
+        "Kimi K2": 3,
+        "Anon": 2,
+        "Grok 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 2
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 0,
+        "Claude Sonnet 4": 0.6666666666666666,
+        "Kimi K2": 0.3333333333333333,
+        "Anon": 1,
+        "Grok 3": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 0.5
+      }
+    },
+    {
       "prompt": "**人物设定：** 拥有绘画天赋的转校生，性格孤僻，不善与人交流，总是活在自己的世界里。\n**核心场景：** 美术教室，画板上散落着各种颜料，空气中充满了油画颜料的味道。\n**情节目标：** 他在美术教室中，发现了一幅未完成的画作。这幅画作似乎隐藏着一个秘密，他必须通过这幅画作，找到画作的主人，并帮助他解开心中的困惑。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 8,
@@ -1423,43 +1491,6 @@
         "Gemma 27B": 1,
         "Claude Sonnet 4": 0,
         "Doubao 1.6": 1
-      }
-    },
-    {
-      "prompt": "**情景：**面试者正在进行求职面试\n**人物：**面试者\n**情节：**刁难的考官提出问题“牛奶倒入大海了，怎么把牛奶捞回来”\n**你的任务：**扮演这个面试者巧妙地回答这个刁难的问题以展现自己的应变能力和职业素养\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 8,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1,
-        "Claude Sonnet 4": 1,
-        "Step 3": 1,
-        "Claude Opus 4": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 2,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4.1": 1,
-        "GPT 4.1": 1,
-        "DeepSeek V3.1 DS": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 0,
-        "Anon": 0,
-        "Claude Sonnet 4": 1,
-        "Step 3": 0,
-        "Claude Opus 4": 0,
-        "Doubao 1.6 Thinking": 1,
-        "Kimi K2": 0,
-        "DeepSeek V3.1 Volcengine": 0.5,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4.1": 0,
-        "GPT 4.1": 0,
-        "DeepSeek V3.1 DS": 1
       }
     },
     {
@@ -1644,31 +1675,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 7,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 2,
-        "Claude Sonnet 4": 2,
-        "Kimi K2": 3,
-        "Anon": 2,
-        "Grok 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 0,
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 0.3333333333333333,
-        "Anon": 1,
-        "Grok 3": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 0
-      }
-    },
-    {
       "prompt": "**人物设定：** 寻宝猎人，性格狡猾，喜欢冒险，但内心深处隐藏着一个无法原谅的过错。\n**核心场景：** 一座布满机关的古墓，到处都是陷阱和谜题，空气中充满了尘土和腐败的气味。\n**情节目标：** 他在一座古墓中，找到了传说中的“永生之泉”，但却发现泉水被一个巨大的石像守护着。他必须破解石像下的机关，得到泉水，并借此来弥补自己过去的过错。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 7,
@@ -1726,6 +1732,33 @@
         "Gemini 1.5 Pro": 0,
         "Command A Reasoning 08 2025": 1,
         "Gemma 27B": 0
+      }
+    },
+    {
+      "prompt": "**场景：**一个现代化的演播厅。\n**人物：**\n-   主持人：一位西装革履、试图保持冷静的亚裔主持人，私下是二次元氪金游戏的忠实玩家。\n-   嘉宾：斯拉沃热·齐泽克，斯洛文尼亚哲学家，穿着标志性的皱巴巴Polo衫，坐姿随意。\n**情节：**在一场关于流行文化的对谈中，主持人将话题引向了二次元游戏。然而，齐泽克立刻展开了他标志性的哲学批判，频繁地做着手势、捏鼻子和擦汗，将氪金抽卡机制与资本主义的欲望陷阱、虚假的主体性选择等概念联系起来，大谈其意识形态的劣根性。主持人被说得哑口无言，满脸通红，几次想反驳都找不到切入点。\n**写作要求：**以播客节目或电视访谈的文字稿格式来呈现这段对话。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Gemini 1.5 Pro": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 3,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 3,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Gemini 1.5 Pro": 0,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 1,
+        "Mistral Medium 2508": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 0
       }
     },
     {
@@ -1888,6 +1921,35 @@
       }
     },
     {
+      "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1,
+        "Claude Opus 4": 1,
+        "GLM 4.5 Air": 2,
+        "DeepSeek R1 0528": 2,
+        "Gemini 1.5 Pro": 2,
+        "GPT 4.1": 2
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1,
+        "Claude Opus 4": 0,
+        "GLM 4.5 Air": 0,
+        "DeepSeek R1 0528": 0.5,
+        "Gemini 1.5 Pro": 1,
+        "GPT 4.1": 0.5
+      }
+    },
+    {
       "prompt": "**人物设定：** 一位失忆的私家侦探，他的记忆只停留在三天前。他性格多疑，却有着敏锐的洞察力。\n**核心场景：** 一座空旷的废弃工厂，地上散落着各种废旧的机械零件，空气中弥漫着铁锈味。\n**情节目标：** 他在工厂中醒来，身边只有一部手机和一张字条，字条上写着“找到真凶”。他必须在有限的线索中，通过手机里的通话记录和照片，拼凑出三天前发生的一切，并找到那个连他自己都不知道的“真凶”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 6,
@@ -2031,29 +2093,6 @@
       }
     },
     {
-      "prompt": "**场景：**一个现代化的演播厅。\n**人物：**\n-   主持人：一位西装革履、试图保持冷静的亚裔主持人，私下是二次元氪金游戏的忠实玩家。\n-   嘉宾：斯拉沃热·齐泽克，斯洛文尼亚哲学家，穿着标志性的皱巴巴Polo衫，坐姿随意。\n**情节：**在一场关于流行文化的对谈中，主持人将话题引向了二次元游戏。然而，齐泽克立刻展开了他标志性的哲学批判，频繁地做着手势、捏鼻子和擦汗，将氪金抽卡机制与资本主义的欲望陷阱、虚假的主体性选择等概念联系起来，大谈其意识形态的劣根性。主持人被说得哑口无言，满脸通红，几次想反驳都找不到切入点。\n**写作要求：**以播客节目或电视访谈的文字稿格式来呈现这段对话。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Gemini 1.5 Pro": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 3,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 3,
-        "Mistral Medium 2508": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Gemini 1.5 Pro": 0,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 1,
-        "Mistral Medium 2508": 0
-      }
-    },
-    {
       "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 6,
@@ -2137,6 +2176,56 @@
       }
     },
     {
+      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Doubao 1.6": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 3,
+        "DeepSeek V3.1 DS": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Step 3": 1,
+        "Doubao 1.6 Thinking": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GPT 4o Latest": 0,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Step 3": 1,
+        "Doubao 1.6 Thinking": 0
+      }
+    },
+    {
+      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
+        "Grok 3": 1,
+        "Kimi K2": 2,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 1,
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Grok 3": 0,
+        "Kimi K2": 0.5,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 1,
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 1
+      }
+    },
+    {
       "prompt": "你是一位性格张扬、充满音乐才华的校园乐队主唱。在一次重要的校园音乐节比赛前夕，你的乐队吉他手突然决定退出，导致乐队面临解散危机。\n\n**情节目标：** 成功说服吉他手归队，并带领乐队完成一场精彩的演出。\n\n**写作要求：** 描写过程中可以加入一些青春期的迷茫、叛逆和友情，以及对梦想的追求。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 6,
@@ -2194,35 +2283,6 @@
         "Grok 4": 0,
         "Command A Reasoning 08 2025": 0,
         "Llama 4 Maverick": 1
-      }
-    },
-    {
-      "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Anon": 1,
-        "Claude Opus 4": 1,
-        "GLM 4.5 Air": 2,
-        "DeepSeek R1 0528": 2,
-        "Gemini 1.5 Pro": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Claude 3.7 Sonnet": 1,
-        "Anon": 1,
-        "Claude Opus 4": 0,
-        "GLM 4.5 Air": 0,
-        "DeepSeek R1 0528": 0.5,
-        "Gemini 1.5 Pro": 1,
-        "GPT 4.1": 1
       }
     },
     {
@@ -2356,52 +2416,6 @@
         "DeepSeek V3.1 Volcengine": 0,
         "Doubao 1.6": 0,
         "Anon": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "GPT 4o Latest": 1,
-        "Gemini 2.5 Pro": 3,
-        "DeepSeek V3.1 DS": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Step 3": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GPT 4o Latest": 0,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Step 3": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 4,
-        "Grok 3": 1,
-        "Kimi K2": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Grok 3": 0,
-        "Kimi K2": 1,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 1,
-        "GPT 4.1": 0
       }
     },
     {
