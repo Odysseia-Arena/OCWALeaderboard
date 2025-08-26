@@ -10,7 +10,7 @@ if (!API_BASE) {
 }
 
 async function fetchPromptStatistics() {
-  const url = `${API_BASE.replace(/\/$/, '')}/prompt_statistics`;
+  const url = `${API_BASE.replace(/\/$/, '')}/api/prompt_statistics`;
   const headers = {};
   if (API_TOKEN) headers['Authorization'] = `Bearer ${API_TOKEN}`;
   const res = await fetch(url, { headers });

@@ -10,7 +10,7 @@ if (!API_BASE) {
 }
 
 async function fetchBattleStatistics() {
-  const url = `${API_BASE.replace(/\/$/, '')}/battle_statistics`;
+  const url = `${API_BASE.replace(/\/$/, '')}/api/battle_statistics`;
   const headers = {};
   if (API_TOKEN) headers['Authorization'] = `Bearer ${API_TOKEN}`;
   const res = await fetch(url, { headers });
