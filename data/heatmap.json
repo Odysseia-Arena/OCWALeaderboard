@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T17:29:10.906Z",
+  "updatedAt": "2025-08-26T17:31:37.244Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -11,7 +11,7 @@
       "DeepSeek V3.1 DS": 0.6666666666666666,
       "DeepSeek V3.1 Volcengine": 0.5,
       "DeepSeek V3.1 Thinking Volcengine": 0.42857142857142855,
-      "Doubao 1.6": 0.4,
+      "Doubao 1.6": 0.3333333333333333,
       "Doubao 1.6 Thinking": 0.3333333333333333,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": null,
@@ -362,7 +362,7 @@
       "Gemini 2.5 Pro Max": 0.5
     },
     "Doubao 1.6": {
-      "Claude 3.7 Sonnet": 0.6,
+      "Claude 3.7 Sonnet": 0.6666666666666666,
       "Claude Opus 4": 0.5,
       "Claude Opus 4.1": 1,
       "Claude Sonnet 4": 0.8333333333333334,
@@ -426,7 +426,7 @@
       "Kimi K2": 1,
       "Llama 4 Maverick": 1,
       "Mistral Medium 2508": null,
-      "Qwen 235B A22B Instruct 2507": 0.3,
+      "Qwen 235B A22B Instruct 2507": 0.2727272727272727,
       "Qwen 235B A22B Thinking 2507": null,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
@@ -1057,7 +1057,7 @@
       "DeepSeek V3.1 Volcengine": 0.8,
       "DeepSeek V3.1 Thinking Volcengine": 0.75,
       "Doubao 1.6": 0.2,
-      "Doubao 1.6 Thinking": 0.7,
+      "Doubao 1.6 Thinking": 0.7272727272727273,
       "Ernie 4.5 Turbo 128k Preview": 1,
       "Gemini 1.5 Pro": null,
       "Gemini 2.5 Flash Lite": null,
@@ -1291,7 +1291,7 @@
     },
     "Doubao 1.6 Thinking": {
       "Claude Sonnet 4": 6,
-      "Qwen 235B A22B Instruct 2507": 10,
+      "Qwen 235B A22B Instruct 2507": 11,
       "DeepSeek V3.1 Thinking Volcengine": 5,
       "DeepSeek V3.1 DS": 9,
       "Doubao 1.6": 4,
@@ -1568,7 +1568,7 @@
       "DeepSeek V3.1 Volcengine": 5,
       "DeepSeek V3.1 DS": 10,
       "Gemini 2.5 Flash": 7,
-      "Doubao 1.6 Thinking": 10,
+      "Doubao 1.6 Thinking": 11,
       "Gemini 2.5 Pro": 4,
       "Kimi K2": 7,
       "GPT 4o Latest": 4,
@@ -1701,7 +1701,7 @@
       "Qwen 235B A22B Instruct 2507": 5,
       "Grok 3": 6,
       "GPT 4.1": 6,
-      "Claude 3.7 Sonnet": 6,
+      "Claude 3.7 Sonnet": 7,
       "Claude Opus 4": 2,
       "Gemini 2.5 Flash Lite": 1,
       "Gemini 2.5 Pro Max": 2,
@@ -1743,7 +1743,7 @@
       "Mistral Medium 2508": 1,
       "Anon": 7,
       "Doubao 1.6 Thinking": 6,
-      "Doubao 1.6": 6,
+      "Doubao 1.6": 7,
       "Kimi K2": 7,
       "Llama 4 Maverick": 2,
       "DeepSeek V3.1 Thinking Volcengine": 8,
