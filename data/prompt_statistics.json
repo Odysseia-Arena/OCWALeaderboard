@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T09:44:07.977Z",
+  "updatedAt": "2025-08-26T09:44:52.709Z",
   "prompt_statistics": [
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2049,6 +2049,37 @@
       }
     },
     {
+      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Pro": 2,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4.1": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Pro": 0.5,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 0,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4.1": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1
+      }
+    },
+    {
       "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 7,
@@ -2313,33 +2344,6 @@
         "Gemini 2.5 Flash Lite": 1,
         "Llama 4 Maverick": 1,
         "GPT Oss 120B": 0
-      }
-    },
-    {
-      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Pro": 2,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 2,
-        "Doubao 1.6": 1,
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Pro": 0.5,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 0,
-        "Doubao 1.6": 1,
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4.1": 0
       }
     },
     {
