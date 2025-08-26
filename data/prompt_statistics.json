@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2025-08-26T05:59:07.158Z",
+  "updatedAt": "2025-08-26T06:04:08.785Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
-      "total_battles": 7,
+      "total_battles": 8,
       "model_battle_counts": {
         "Kimi K2": 3,
         "Gemini 1.5 Pro": 3,
-        "Claude Sonnet 4": 3,
+        "Claude Sonnet 4": 4,
         "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
         "Llama 4 Maverick": 1,
         "Gemini 2.5 Flash": 1,
         "Claude 3.7 Sonnet": 1
@@ -18,9 +18,9 @@
       "model_win_rates": {
         "Kimi K2": 0.3333333333333333,
         "Gemini 1.5 Pro": 1,
-        "Claude Sonnet 4": 0.3333333333333333,
+        "Claude Sonnet 4": 0.5,
         "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
         "Llama 4 Maverick": 0,
         "Gemini 2.5 Flash": 1,
         "Claude 3.7 Sonnet": 0
@@ -29,7 +29,7 @@
     {
       "prompt": "你是一位性格内向、喜欢沉浸在书本世界里的图书管理员。某天，一位你暗恋已久、阳光开朗的男生走进了图书馆，向你借一本你最喜欢的书。\n\n**情节目标：** 在帮助他找书的过程中，成功与他展开对话，并建立起友谊。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
-      "total_battles": 6,
+      "total_battles": 7,
       "model_battle_counts": {
         "Ernie 4.5 Turbo 128k Preview": 1,
         "GPT Oss 120B": 1,
@@ -39,7 +39,9 @@
         "Anon": 2,
         "DeepSeek V3.1 Thinking Volcengine": 2,
         "Kimi K2": 1,
-        "Step 3": 1
+        "Step 3": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Claude 3.7 Sonnet": 1
       },
       "model_win_rates": {
         "Ernie 4.5 Turbo 128k Preview": 1,
@@ -50,7 +52,42 @@
         "Anon": 0.5,
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "Kimi K2": 1,
-        "Step 3": 1
+        "Step 3": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Claude 3.7 Sonnet": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格坚韧、身手敏捷的废土拾荒者，在被辐射污染的城市废墟中寻找生存资源。你在一个废弃的商场里发现了一个幸存者营地，但他们对你充满警惕。\n\n**情节目标：** 通过你的诚意和行动，成功获得幸存者们的信任。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 2,
+        "DeepSeek V3.1 DS": 2,
+        "Command A Reasoning 08 2025": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Doubao 1.6": 1,
+        "DeepSeek V3": 1,
+        "Gemma 27B": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Command A Reasoning 08 2025": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 0,
+        "Claude 3.7 Sonnet": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Doubao 1.6": 1,
+        "DeepSeek V3": 0,
+        "Gemma 27B": 1
       }
     },
     {
@@ -108,28 +145,109 @@
       }
     },
     {
-      "prompt": "你是一位性格坚韧、身手敏捷的废土拾荒者，在被辐射污染的城市废墟中寻找生存资源。你在一个废弃的商场里发现了一个幸存者营地，但他们对你充满警惕。\n\n**情节目标：** 通过你的诚意和行动，成功获得幸存者们的信任。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
+      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
       "total_battles": 5,
       "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 2,
-        "DeepSeek V3.1 DS": 2,
-        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Gemini 2.5 Pro": 2,
+        "GPT 4.1": 1,
         "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
+        "Gemini 1.5 Pro": 1
       },
       "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Command A Reasoning 08 2025": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Sonnet 4": 0,
+        "GPT 4o Latest": 0,
+        "Claude Opus 4": 1,
+        "Doubao 1.6 Thinking": 0,
         "Gemini 2.5 Pro": 1,
+        "GPT 4.1": 0,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "Gemini 1.5 Pro": 1
+      }
+    },
+    {
+      "prompt": "你将扮演一个与青梅竹马久别重逢的女孩。你们曾是彼此最亲密的朋友，但一份未能说出口的暗恋，使你们的关系一直处于友谊之上，恋人未满。毕业后，他去了遥远的北方城市，你们暂时的中断了所有联系。\n\n多年后的今天，在一个湿漉漉的雨天午后，你常去的那家街角咖啡馆，推门而入的竟是他。他依然是记忆中那个清瘦的模样，只是眉宇间多了几分成熟的疲惫。他径直向你走来，在你对面的空位坐下，带着一身寒气和熟悉的味道，轻声说：“好久不见。”\n\n现在，请你以第一人称视角，描写在这一刻，你与他重逢时的内心活动、情绪波澜、以及你眼中所见的场景与他。你的回应需要捕捉那种混合着惊喜、尴尬、怀念与一丝怨怼的复杂情感。展现你们之间那种因长久的分离和未曾言明的情愫而产生的独特张力与疏离感。\n\n**写作要求：**\n- 文风细腻、偏向文艺与感性，侧重于内心独白与情景氛围的渲染，而非强烈的戏剧冲突。请着重描写人物的微表情、眼神交流、肢体语言以及被压抑的情感流动。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "Grok 3": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "Step 3": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GPT 4o Latest": 1
+      },
+      "model_win_rates": {
         "Grok 3": 0,
-        "Claude 3.7 Sonnet": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0
+        "Kimi K2": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "Step 3": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GPT 4o Latest": 0
+      }
+    },
+    {
+      "prompt": "你是一位刚刚入职的新人，性格开朗，充满干劲，却在公司的重要提案会议上，不慎将咖啡洒在了顶头上司的文件上。这位上司以严苛和难以取悦而闻名。\n\n**情节目标：** 在上司暴怒之前，通过你的机智和应变能力，成功化解这场危机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GLM 4.5": 2,
+        "Anon": 2,
+        "Gemini 2.5 Pro": 2,
+        "Mistral Medium 2508": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Opus 4": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GLM 4.5": 1,
+        "Anon": 0.5,
+        "Gemini 2.5 Pro": 0,
+        "Mistral Medium 2508": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Opus 4": 1
+      }
+    },
+    {
+      "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "Anon": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1,
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 1
+      },
+      "model_win_rates": {
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 0,
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek V3": 0
       }
     },
     {
@@ -160,6 +278,27 @@
       }
     },
     {
+      "prompt": "**人物设定：** 深宫中的小太监，天性活泼，却对深宫中的尔虞我诈心知肚明，渴望自由。\n**核心场景：** 阴森冷清的御花园，白天风景秀丽，夜晚却充满了未知的危险。假山、凉亭、蜿蜒的石路，仿佛每一处都藏着秘密。\n**情节目标：** 他意外地听到了一个关于皇室秘密的惊天丑闻。他必须在宫廷内部的各方势力察觉前，利用自己的聪明才智，将这个秘密传递出去，并为自己寻找一条出路。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Anon": 2,
+        "DeepSeek V3.1 Volcengine": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6": 1,
+        "GPT 4o Latest": 0,
+        "GPT 4.1": 0,
+        "Doubao 1.6 Thinking": 0.5,
+        "Anon": 1,
+        "DeepSeek V3.1 Volcengine": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 落魄的世家公子，性格风流却不失真诚，因家族蒙冤而流落街头。\n**核心场景：** 繁华的京都夜市，灯火通明，人声鼎沸，各色小吃香气扑鼻，然而他却身无分文，只能看着热闹的人群发呆。\n**情节目标：** 他在夜市上偶遇了一位神秘的富商，富商提出可以资助他，但前提是他必须在七日之内，为富商寻得一幅已经失传的画作。他必须想尽办法，利用自己对古玩的独特见解，在一众古董商中找到这幅画，并借此重振家业。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 4,
@@ -183,72 +322,51 @@
       }
     },
     {
-      "prompt": "以鲁迅的文风写一篇杂文，锐评当今的“人工智能（AI）”热潮与泡沫。\n\n**写作要求：**\n-   通篇使用白话文。\n-   文风需模仿鲁迅，体现在：犀利的讽刺、一针見血的比喻、对国民性的反思以及深沉的忧虑感。\n-   文章可以围绕“新瓶装旧酒”、“看客心态”、“盲目跟风”等主题展开。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
+      "prompt": "**作品：** 火影忍者\n**角色：** 漩涡鸣人，宇智波佐助\n**情节目标：** 成为火影后的鸣人收到了一份来自过去的卷轴，上面记载着一种能复活亡者的禁术。他必须与在外游历的佐助联手，阻止企图利用此术扰乱和平的敌人。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
       "total_battles": 4,
       "model_battle_counts": {
-        "DeepSeek V3.1 DS": 1,
+        "Step 3": 2,
+        "Llama 4 Maverick": 1,
+        "DeepSeek R1 0528": 1,
         "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Gemini 2.5 Pro": 2,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 1,
-        "Claude Sonnet 4": 0,
-        "GPT 4o Latest": 0,
-        "Claude Opus 4": 1,
-        "Doubao 1.6 Thinking": 0,
-        "Gemini 2.5 Pro": 1,
-        "GPT 4.1": 0
-      }
-    },
-    {
-      "prompt": "你将扮演一个与青梅竹马久别重逢的女孩。你们曾是彼此最亲密的朋友，但一份未能说出口的暗恋，使你们的关系一直处于友谊之上，恋人未满。毕业后，他去了遥远的北方城市，你们暂时的中断了所有联系。\n\n多年后的今天，在一个湿漉漉的雨天午后，你常去的那家街角咖啡馆，推门而入的竟是他。他依然是记忆中那个清瘦的模样，只是眉宇间多了几分成熟的疲惫。他径直向你走来，在你对面的空位坐下，带着一身寒气和熟悉的味道，轻声说：“好久不见。”\n\n现在，请你以第一人称视角，描写在这一刻，你与他重逢时的内心活动、情绪波澜、以及你眼中所见的场景与他。你的回应需要捕捉那种混合着惊喜、尴尬、怀念与一丝怨怼的复杂情感。展现你们之间那种因长久的分离和未曾言明的情愫而产生的独特张力与疏离感。\n\n**写作要求：**\n- 文风细腻、偏向文艺与感性，侧重于内心独白与情景氛围的渲染，而非强烈的戏剧冲突。请着重描写人物的微表情、眼神交流、肢体语言以及被压抑的情感流动。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "Grok 3": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude Sonnet 4": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
         "Gemini 2.5 Flash": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Flash Lite": 1,
-        "Step 3": 1
+        "GPT 4o Latest": 1
       },
       "model_win_rates": {
-        "Grok 3": 0,
-        "Kimi K2": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Step 3": 0,
+        "Llama 4 Maverick": 1,
+        "DeepSeek R1 0528": 1,
         "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 0,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Flash Lite": 1,
-        "Step 3": 0
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4o Latest": 0
       }
     },
     {
-      "prompt": "你是一位刚刚入职的新人，性格开朗，充满干劲，却在公司的重要提案会议上，不慎将咖啡洒在了顶头上司的文件上。这位上司以严苛和难以取悦而闻名。\n\n**情节目标：** 在上司暴怒之前，通过你的机智和应变能力，成功化解这场危机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "职场",
+      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
       "total_battles": 4,
       "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GLM 4.5": 2,
-        "Anon": 2,
-        "Gemini 2.5 Pro": 1,
-        "Mistral Medium 2508": 1,
-        "Qwen 235B A22B Instruct 2507": 1
+        "GPT 4.1": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 1.5 Pro": 1,
+        "Kimi K2": 1,
+        "Doubao 1.6 Thinking": 1,
+        "GLM 4.5": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GLM 4.5": 1,
-        "Anon": 0.5,
-        "Gemini 2.5 Pro": 0,
-        "Mistral Medium 2508": 0,
-        "Qwen 235B A22B Instruct 2507": 1
+        "GPT 4.1": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 1.5 Pro": 0,
+        "Kimi K2": 0,
+        "Doubao 1.6 Thinking": 1,
+        "GLM 4.5": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1
       }
     },
     {
@@ -296,6 +414,48 @@
       }
     },
     {
+      "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "GPT 4o Latest": 1,
+        "Grok 3": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 1
+      },
+      "model_win_rates": {
+        "Gemini 1.5 Pro": 0,
+        "Step 3": 1,
+        "GPT 4o Latest": 0,
+        "Grok 3": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 0
+      }
+    },
+    {
+      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "GPT 4.1": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4o Latest": 1,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 Volcengine": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4o Latest": 0,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 Volcengine": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 拥有绘画天赋的转校生，性格孤僻，不善与人交流，总是活在自己的世界里。\n**核心场景：** 美术教室，画板上散落着各种颜料，空气中充满了油画颜料的味道。\n**情节目标：** 他在美术教室中，发现了一幅未完成的画作。这幅画作似乎隐藏着一个秘密，他必须通过这幅画作，找到画作的主人，并帮助他解开心中的困惑。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 3,
@@ -338,41 +498,83 @@
       }
     },
     {
-      "prompt": "**人物设定：** 深宫中的小太监，天性活泼，却对深宫中的尔虞我诈心知肚明，渴望自由。\n**核心场景：** 阴森冷清的御花园，白天风景秀丽，夜晚却充满了未知的危险。假山、凉亭、蜿蜒的石路，仿佛每一处都藏着秘密。\n**情节目标：** 他意外地听到了一个关于皇室秘密的惊天丑闻。他必须在宫廷内部的各方势力察觉前，利用自己的聪明才智，将这个秘密传递出去，并为自己寻找一条出路。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
+      "prompt": "**人物设定：** 职场新人，性格单纯，对工作充满热情，但总是被同事排挤。\n**核心场景：** 冰冷的办公室，每个人都埋头工作，空气中弥漫着紧张的气氛。\n**情节目标：** 他负责的一个重要项目被同事故意篡改，导致项目面临失败的风险。他必须在不被发现的情况下，找到被篡改的代码，并向他的上司证明自己的清白。写一个故事\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
       "total_battles": 3,
       "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Opus 4": 1,
+        "Gemini 1.5 Pro": 1,
+        "Claude Sonnet 4": 1,
         "GPT 4.1": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Anon": 1
+        "DeepSeek V3.1 Thinking Volcengine": 1
       },
       "model_win_rates": {
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Opus 4": 0,
+        "Gemini 1.5 Pro": 0,
+        "Claude Sonnet 4": 1,
         "GPT 4.1": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "Anon": 1
+        "DeepSeek V3.1 Thinking Volcengine": 1
       }
     },
     {
-      "prompt": "**作品：** 火影忍者\n**角色：** 漩涡鸣人，宇智波佐助\n**情节目标：** 成为火影后的鸣人收到了一份来自过去的卷轴，上面记载着一种能复活亡者的禁术。他必须与在外游历的佐助联手，阻止企图利用此术扰乱和平的敌人。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt": "**作品：** 新世纪福音战士\n**角色：** 碇真嗣, 绫波丽, 明日香\n**情节目标：** 转学生明日香的到来，打破了真嗣与丽之间微妙的平衡。在一次要求团队合作的学校活动中，明日香的傲慢与真嗣的退缩、丽的淡漠产生了激烈冲突。他们必须在这场小小的校园“战斗”中，找到与彼此同步的第一个契机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 3,
       "model_battle_counts": {
-        "Step 3": 2,
-        "Llama 4 Maverick": 1,
-        "DeepSeek R1 0528": 1,
-        "Claude Sonnet 4": 1,
-        "Qwen 235B A22B Instruct 2507": 1
+        "Claude 3.7 Sonnet": 2,
+        "Grok 3": 1,
+        "Command A Reasoning 08 2025": 1,
+        "GLM 4.5 Air": 1,
+        "DeepSeek V3.1 DS": 1
       },
       "model_win_rates": {
-        "Step 3": 0,
-        "Llama 4 Maverick": 1,
-        "DeepSeek R1 0528": 1,
-        "Claude Sonnet 4": 0,
-        "Qwen 235B A22B Instruct 2507": 1
+        "Claude 3.7 Sonnet": 0.5,
+        "Grok 3": 0,
+        "Command A Reasoning 08 2025": 0,
+        "GLM 4.5 Air": 1,
+        "DeepSeek V3.1 DS": 0
+      }
+    },
+    {
+      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "悬疑",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 1,
+        "Qwen3 30B A3B Thinking 2507": 2,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 1,
+        "GPT 4.1": 0,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 1
+      }
+    },
+    {
+      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "GPT 4o Latest": 1,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 1,
+        "GPT 4.1": 1,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 0,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 0,
+        "GPT 4.1": 1,
+        "Kimi K2": 0,
+        "Claude Sonnet 4": 1
       }
     },
     {
@@ -392,6 +594,48 @@
         "Kimi K2": 1,
         "DeepSeek V3.1 Volcengine": 0,
         "Gemini 2.5 Flash": 1
+      }
+    },
+    {
+      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Pro": 0,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 0
+      }
+    },
+    {
+      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 1,
+        "Step 3": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 1,
+        "Command A Reasoning 08 2025": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 0,
+        "Step 3": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 0,
+        "Command A Reasoning 08 2025": 1
       }
     },
     {
@@ -456,24 +700,83 @@
       }
     },
     {
-      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
+      "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "历史",
       "total_battles": 3,
       "model_battle_counts": {
-        "GPT 4.1": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
         "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 1,
         "Kimi K2": 1,
-        "Doubao 1.6 Thinking": 1
+        "GPT 4o Latest": 2,
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1
       },
       "model_win_rates": {
+        "Claude Sonnet 4": 0,
+        "Kimi K2": 1,
+        "GPT 4o Latest": 0.5,
         "GPT 4.1": 0,
-        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 1
+      }
+    },
+    {
+      "prompt": "你是一个落魄的股民，赌上了所有钱财，撬动着巨大倍数的杠杆押中的那一只股票正在迅速下跌，你垂头丧气的往天台走去，就在打开天台门的刹那，下跌的股票瞬间抬起，飞快上升，很快便追上历史顶峰甚至还在不断提高。操作成功引起了别人的注意，可能是某个地下操盘组织。股价的飙升是他们为了某个更大的计划而进行的市场操控，而你只是一个碰巧赶上了这次机会的路人。\n\n**情节目标：**导致股票抬升的幕后主使找到了你，你需要迅速判断形势，让自己在这幕后主使掀起的滔天巨浪中存活下来\n\n**写作要求：**以动作和对话作为主体，避免过多心里描写，依靠自身行为推动剧情。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Doubao 1.6": 1,
+        "GPT Oss 120B": 1,
+        "DeepSeek V3": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Volcengine": 0,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Doubao 1.6": 1,
+        "GPT Oss 120B": 0,
+        "DeepSeek V3": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格张扬、充满音乐才华的校园乐队主唱。在一次重要的校园音乐节比赛前夕，你的乐队吉他手突然决定退出，导致乐队面临解散危机。\n\n**情节目标：** 成功说服吉他手归队，并带领乐队完成一场精彩的演出。\n\n**写作要求：** 描写过程中可以加入一些青春期的迷茫、叛逆和友情，以及对梦想的追求。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "校园",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
         "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 0,
-        "Kimi K2": 0,
-        "Doubao 1.6 Thinking": 1
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Qwen 235B A22B Instruct 2507": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6 Thinking": 0,
+        "Qwen 235B A22B Instruct 2507": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4.1": 0
       }
     },
     {
@@ -489,27 +792,6 @@
         "Gemini 2.5 Pro": 1,
         "Qwen 235B A22B Instruct 2507": 0,
         "Kimi K2": 0
-      }
-    },
-    {
-      "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Anon": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 1,
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "Anon": 0,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 0,
-        "Doubao 1.6": 1,
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0
       }
     },
     {
@@ -531,6 +813,46 @@
         "Gemini 1.5 Pro": 1,
         "Gemini 2.5 Flash": 1,
         "Grok 3": 0
+      }
+    },
+    {
+      "prompt": "你曾是一个少女乐队的鼓手，被队长蓝毛大小姐潇湘排挤霸凌，在舞台打bpm220的鼓活活累死\n\n**情节目标：**\n你重生了，发现时间线少女乐队刚刚组建的时候。你开始做美妆博主，意外成为大网红。意外泄露了明星同事初华的信息，竟是潇湘的小姨。潇湘的母亲被活活气死，潇湘家破人亡，流落街头\n\n**写作要求：**\n仿照日式轻小说文风格式！！从重生开始写，简要概括一下生前剧情，不要刻板塑造角色，详细描写角色心理活动和动机\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "GPT 4o Latest": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 1,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Grok 3": 0
+      }
+    },
+    {
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4.1": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 1,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Claude Sonnet 4": 0,
+        "GPT 4o Latest": 0,
+        "Claude Opus 4.1": 1
       }
     },
     {
@@ -600,20 +922,20 @@
       }
     },
     {
-      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
+      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
       "total_battles": 2,
       "model_battle_counts": {
-        "GPT 4.1": 1,
-        "Claude Sonnet 4": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
         "Gemini 2.5 Pro": 1,
-        "GPT 4o Latest": 1
+        "Anon": 1,
+        "Claude Sonnet 4": 1
       },
       "model_win_rates": {
-        "GPT 4.1": 0,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Pro": 1,
-        "GPT 4o Latest": 0
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1
       }
     },
     {
@@ -631,23 +953,6 @@
         "Claude Sonnet 4": 1,
         "GPT 4o Latest": 0,
         "Doubao 1.6 Thinking": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 职场新人，性格单纯，对工作充满热情，但总是被同事排挤。\n**核心场景：** 冰冷的办公室，每个人都埋头工作，空气中弥漫着紧张的气氛。\n**情节目标：** 他负责的一个重要项目被同事故意篡改，导致项目面临失败的风险。他必须在不被发现的情况下，找到被篡改的代码，并向他的上司证明自己的清白。写一个故事\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "职场",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Claude Opus 4": 1,
-        "Gemini 1.5 Pro": 1,
-        "Claude Sonnet 4": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "Claude Opus 4": 0,
-        "Gemini 1.5 Pro": 0,
-        "Claude Sonnet 4": 1
       }
     },
     {
@@ -683,20 +988,20 @@
       }
     },
     {
-      "prompt": "**作品：** 新世纪福音战士\n**角色：** 碇真嗣, 绫波丽, 明日香\n**情节目标：** 转学生明日香的到来，打破了真嗣与丽之间微妙的平衡。在一次要求团队合作的学校活动中，明日香的傲慢与真嗣的退缩、丽的淡漠产生了激烈冲突。他们必须在这场小小的校园“战斗”中，找到与彼此同步的第一个契机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 2,
       "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Grok 3": 1,
-        "Command A Reasoning 08 2025": 1,
-        "GLM 4.5 Air": 1
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1
       },
       "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "Grok 3": 0,
-        "Command A Reasoning 08 2025": 0,
-        "GLM 4.5 Air": 1
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 0
       }
     },
     {
@@ -717,23 +1022,6 @@
       }
     },
     {
-      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 0,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 0,
-        "GPT 4.1": 1
-      }
-    },
-    {
       "prompt": "**开场：**\n\n雨还在下，像是要把这个边睡小镇冲进河道里。\n\n这场雨已经下了好几天，从你来到这个世界开始。\n\n你觉得这个世界有些不欢迎你，这在你刚刚开始的旅途中显得有些奇怪。\n\n毕竟你的能力是**奇迹**，很少有世界不欢迎一个奇迹的到来。\n\n雨下来的这几天，镇子里来了几个新面孔。\n\n村民们看他们的眼神很奇怪。\n\n当然，你不算外来者。\n\n毕竟你的能力是**奇迹**，这不奇怪。\n\n不是吗？\n\n你现在住在村子里的教会里，这里的神官是个很好的老爷爷，看上去不像个神父，倒像个和蔼可亲的村长。\n\n他们信仰“莱拉”，唯一的神。\n\n除了神父的工作，你感觉村子里什么事情都归他管。\n\n也没见他有个什么帮手。\n\n你本来想用能力在这个世界的第一站找个住处，但是不知道为什么，老爷子和你一聊就相见如故。执意让你这个陌生人住下。\n\n现在，你负责在教会里帮忙，说是帮忙，其实就是当米虫。你也乐得开心。\n\n\n\n**紧接上文进行创作工作：**\n\n**目标：**写一个小说开场，介绍如下人物：\n\n1. 主角\n2. 女骑士\n3. 女盗贼\n4. 魔法师\n\n介绍应该发生在一个具体的事件里，抓住读者的目光。\n\n**写作要求：**\n- 剧情连贯，不得表现突发性、跳跃性\n- 剧情中不得元叙述用户设定\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 2,
@@ -749,37 +1037,20 @@
       }
     },
     {
-      "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
+      "prompt": "**情景：**5个人在玩狼人杀\n**人物：**小明（狼人），小红（村民），小帅（村民），小美（狼人），小白（村民）\n**情节：**5个人需要发言，运用各种策略跟话术，在白天讨论身份，在夜晚投票出狼人\n**你的任务：**根据以上的设定，描写一段精彩心里博弈场景，投票的结果可以是正确的也可以是错误的，但要做到逻辑正确\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
       "total_battles": 2,
       "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Pro": 1,
-        "Claude Opus 4.1": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Pro": 0,
-        "Claude Opus 4.1": 1
-      }
-    },
-    {
-      "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "历史",
-      "total_battles": 2,
-      "model_battle_counts": {
+        "GLM 4.5 Air": 1,
+        "Gemma 27B": 1,
         "Claude Sonnet 4": 1,
-        "Kimi K2": 1,
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 1
+        "Doubao 1.6": 1
       },
       "model_win_rates": {
+        "GLM 4.5 Air": 0,
+        "Gemma 27B": 1,
         "Claude Sonnet 4": 0,
-        "Kimi K2": 1,
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0
+        "Doubao 1.6": 1
       }
     },
     {
@@ -813,37 +1084,20 @@
       }
     },
     {
-      "prompt": "你是一位性格张扬、充满音乐才华的校园乐队主唱。在一次重要的校园音乐节比赛前夕，你的乐队吉他手突然决定退出，导致乐队面临解散危机。\n\n**情节目标：** 成功说服吉他手归队，并带领乐队完成一场精彩的演出。\n\n**写作要求：** 描写过程中可以加入一些青春期的迷茫、叛逆和友情，以及对梦想的追求。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "校园",
+      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
       "total_battles": 2,
       "model_battle_counts": {
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 1
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 1
       },
       "model_win_rates": {
-        "Gemini 2.5 Pro": 0,
-        "Grok 3": 1,
-        "Claude Sonnet 4": 0,
-        "Gemini 1.5 Pro": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 0,
-        "DeepSeek V3.1 Volcengine": 1
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GPT 4o Latest": 0,
+        "Gemini 2.5 Pro": 1
       }
     },
     {
@@ -913,38 +1167,6 @@
       }
     },
     {
-      "prompt": "你曾是一个少女乐队的鼓手，被队长蓝毛大小姐潇湘排挤霸凌，在舞台打bpm220的鼓活活累死\n\n**情节目标：**\n你重生了，发现时间线少女乐队刚刚组建的时候。你开始做美妆博主，意外成为大网红。意外泄露了明星同事初华的信息，竟是潇湘的小姨。潇湘的母亲被活活气死，潇湘家破人亡，流落街头\n\n**写作要求：**\n仿照日式轻小说文风格式！！从重生开始写，简要概括一下生前剧情，不要刻板塑造角色，详细描写角色心理活动和动机\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 1,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 0
-      }
-    },
-    {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Claude Sonnet 4": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "Claude Sonnet 4": 0
-      }
-    },
-    {
       "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 2,
@@ -990,19 +1212,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1
-      },
-      "model_win_rates": {
-        "Gemini 1.5 Pro": 0,
-        "Step 3": 1
-      }
-    },
-    {
       "prompt": "**人物设定：** 寻宝猎人，性格狡猾，喜欢冒险，但内心深处隐藏着一个无法原谅的过错。\n**核心场景：** 一座布满机关的古墓，到处都是陷阱和谜题，空气中充满了尘土和腐败的气味。\n**情节目标：** 他在一座古墓中，找到了传说中的“永生之泉”，但却发现泉水被一个巨大的石像守护着。他必须破解石像下的机关，得到泉水，并借此来弥补自己过去的过错。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 1,
@@ -1042,19 +1251,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 0
-      }
-    },
-    {
       "prompt": "**作品：** BLEACH\n**角色：** 黑崎一护，朽木露琪亚\n**情节目标：** 现世出现了一只只吞噬“记忆”的虚，一护在战斗中被夺走了关于同伴的记忆。露琪亚必须在不被认出的情况下，引导一护重新唤醒深藏于灵魂中的羁绊与力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 1,
@@ -1081,55 +1277,16 @@
       }
     },
     {
-      "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt": "**作品：** 机动战士高达0079\n**角色：** 阿姆罗·雷，夏亚·阿兹纳布尔\n**情节目标：** 在一场战斗后，阿姆罗与夏亚双双坠落在一颗废弃的殖民卫星上。在救援抵达前，两位宿敌必须暂时放下仇恨，合作求生。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 1,
       "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude Sonnet 4": 1
+        "Gemini 1.5 Pro": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Claude Sonnet 4": 1
-      }
-    },
-    {
-      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "悬疑",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0
-      }
-    },
-    {
-      "prompt": "**情景：**5个人在玩狼人杀\n**人物：**小明（狼人），小红（村民），小帅（村民），小美（狼人），小白（村民）\n**情节：**5个人需要发言，运用各种策略跟话术，在白天讨论身份，在夜晚投票出狼人\n**你的任务：**根据以上的设定，描写一段精彩心里博弈场景，投票的结果可以是正确的也可以是错误的，但要做到逻辑正确\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "GLM 4.5 Air": 1,
-        "Gemma 27B": 1
-      },
-      "model_win_rates": {
-        "GLM 4.5 Air": 0,
-        "Gemma 27B": 1
-      }
-    },
-    {
-      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4o Latest": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4o Latest": 0
+        "Gemini 1.5 Pro": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1
       }
     },
     {
@@ -1146,19 +1303,6 @@
       }
     },
     {
-      "prompt": "你是一个落魄的股民，赌上了所有钱财，撬动着巨大倍数的杠杆押中的那一只股票正在迅速下跌，你垂头丧气的往天台走去，就在打开天台门的刹那，下跌的股票瞬间抬起，飞快上升，很快便追上历史顶峰甚至还在不断提高。操作成功引起了别人的注意，可能是某个地下操盘组织。股价的飙升是他们为了某个更大的计划而进行的市场操控，而你只是一个碰巧赶上了这次机会的路人。\n\n**情节目标：**导致股票抬升的幕后主使找到了你，你需要迅速判断形势，让自己在这幕后主使掀起的滔天巨浪中存活下来\n\n**写作要求：**以动作和对话作为主体，避免过多心里描写，依靠自身行为推动剧情。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Volcengine": 0,
-        "Qwen 235B A22B Instruct 2507": 1
-      }
-    },
-    {
       "prompt": "你是一位伪装成人类生活在城镇中的龙族后裔，性格高傲，不屑于与人类来往。突然，你的龙族血脉感应到一股强大的邪恶力量，正试图吞噬你居住的城镇。\n\n**情节目标：** 在不暴露自己真实身份的前提下，利用龙族的力量成功阻止邪恶力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 1,
@@ -1169,19 +1313,6 @@
       "model_win_rates": {
         "DeepSeek V3.1 DS": 0,
         "GPT 4o Latest": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
@@ -1221,6 +1352,19 @@
       "model_win_rates": {
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "GPT 4.1": 1
+      }
+    },
+    {
+      "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
+      "total_battles": 1,
+      "model_battle_counts": {
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
