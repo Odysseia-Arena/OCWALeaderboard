@@ -1,22 +1,38 @@
 {
-  "updatedAt": "2025-08-26T06:29:08.047Z",
+  "updatedAt": "2025-08-26T06:34:04.907Z",
   "nextUpdateTime": "2025-08-26T15:00:00",
   "leaderboard": [
+    {
+      "model_name": "Gemini 2.5 Pro Max",
+      "tier": "high",
+      "rating": 1737,
+      "rating_deviation": 100,
+      "volatility": 0.06,
+      "battles": 0,
+      "wins": 0,
+      "ties": 0,
+      "skips": 0,
+      "win_rate_percentage": 0,
+      "rating_realtime": 1737,
+      "rating_deviation_realtime": 100,
+      "volatility_realtime": 0.06,
+      "rank": 1
+    },
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
       "rating": 1697,
       "rating_deviation": 65,
       "volatility": 0.05998307842526791,
-      "battles": 33,
-      "wins": 21,
+      "battles": 35,
+      "wins": 22,
       "ties": 3,
       "skips": 0,
-      "win_rate_percentage": 70,
-      "rating_realtime": 1735,
-      "rating_deviation_realtime": 56,
-      "volatility_realtime": 0.05997488054581414,
-      "rank": 1
+      "win_rate_percentage": 68.75,
+      "rating_realtime": 1726,
+      "rating_deviation_realtime": 55,
+      "volatility_realtime": 0.05997677071524656,
+      "rank": 2
     },
     {
       "model_name": "Doubao 1.6",
@@ -24,15 +40,15 @@
       "rating": 1694,
       "rating_deviation": 78,
       "volatility": 0.05998634628146577,
-      "battles": 17,
+      "battles": 18,
       "wins": 12,
       "ties": 0,
       "skips": 1,
-      "win_rate_percentage": 75,
-      "rating_realtime": 1731,
-      "rating_deviation_realtime": 69,
-      "volatility_realtime": 0.05998156056934642,
-      "rank": 2
+      "win_rate_percentage": 70.59,
+      "rating_realtime": 1714,
+      "rating_deviation_realtime": 68,
+      "volatility_realtime": 0.05998430355079857,
+      "rank": 3
     },
     {
       "model_name": "Doubao 1.6 Thinking",
@@ -40,15 +56,15 @@
       "rating": 1688,
       "rating_deviation": 66,
       "volatility": 0.059978600698455585,
-      "battles": 29,
+      "battles": 31,
       "wins": 16,
       "ties": 1,
       "skips": 2,
-      "win_rate_percentage": 61.54,
-      "rating_realtime": 1673,
-      "rating_deviation_realtime": 58,
-      "volatility_realtime": 0.05998129118658023,
-      "rank": 3
+      "win_rate_percentage": 57.14,
+      "rating_realtime": 1650,
+      "rating_deviation_realtime": 57,
+      "volatility_realtime": 0.0599849907837644,
+      "rank": 4
     },
     {
       "model_name": "DeepSeek V3.1 Volcengine",
@@ -56,15 +72,15 @@
       "rating": 1668,
       "rating_deviation": 73,
       "volatility": 0.059990866893952485,
-      "battles": 21,
-      "wins": 9,
+      "battles": 23,
+      "wins": 11,
       "ties": 0,
       "skips": 1,
-      "win_rate_percentage": 45,
-      "rating_realtime": 1583,
-      "rating_deviation_realtime": 63,
-      "volatility_realtime": 0.05999514769505862,
-      "rank": 4
+      "win_rate_percentage": 50,
+      "rating_realtime": 1606,
+      "rating_deviation_realtime": 62,
+      "volatility_realtime": 0.05999742180510786,
+      "rank": 5
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -80,7 +96,7 @@
       "rating_realtime": 1678,
       "rating_deviation_realtime": 85,
       "volatility_realtime": 0.06000908612168772,
-      "rank": 5
+      "rank": 6
     },
     {
       "model_name": "Anon",
@@ -88,15 +104,15 @@
       "rating": 1657,
       "rating_deviation": 69,
       "volatility": 0.05999186602465527,
-      "battles": 23,
-      "wins": 15,
+      "battles": 24,
+      "wins": 16,
       "ties": 1,
       "skips": 0,
-      "win_rate_percentage": 68.18,
-      "rating_realtime": 1684,
-      "rating_deviation_realtime": 61,
-      "volatility_realtime": 0.05999046075826425,
-      "rank": 6
+      "win_rate_percentage": 69.57,
+      "rating_realtime": 1692,
+      "rating_deviation_realtime": 60,
+      "volatility_realtime": 0.05998930236440538,
+      "rank": 7
     },
     {
       "model_name": "Claude Opus 4",
@@ -112,7 +128,7 @@
       "rating_realtime": 1606,
       "rating_deviation_realtime": 73,
       "volatility_realtime": 0.05998550524133514,
-      "rank": 7
+      "rank": 8
     },
     {
       "model_name": "GPT 4o Latest",
@@ -128,7 +144,7 @@
       "rating_realtime": 1595,
       "rating_deviation_realtime": 56,
       "volatility_realtime": 0.05997968002319478,
-      "rank": 8
+      "rank": 9
     },
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
@@ -136,15 +152,15 @@
       "rating": 1609,
       "rating_deviation": 65,
       "volatility": 0.05998007336577036,
-      "battles": 35,
-      "wins": 16,
+      "battles": 37,
+      "wins": 18,
       "ties": 1,
       "skips": 0,
-      "win_rate_percentage": 47.06,
-      "rating_realtime": 1595,
-      "rating_deviation_realtime": 56,
-      "volatility_realtime": 0.059978559138946286,
-      "rank": 9
+      "win_rate_percentage": 50,
+      "rating_realtime": 1612,
+      "rating_deviation_realtime": 54,
+      "volatility_realtime": 0.059978813659318904,
+      "rank": 10
     },
     {
       "model_name": "Claude Sonnet 4",
@@ -152,15 +168,15 @@
       "rating": 1598,
       "rating_deviation": 53,
       "volatility": 0.0599822846206464,
-      "battles": 47,
-      "wins": 22,
+      "battles": 48,
+      "wins": 23,
       "ties": 3,
       "skips": 2,
-      "win_rate_percentage": 52.38,
-      "rating_realtime": 1588,
+      "win_rate_percentage": 53.49,
+      "rating_realtime": 1593,
       "rating_deviation_realtime": 48,
-      "volatility_realtime": 0.0599747704885428,
-      "rank": 10
+      "volatility_realtime": 0.05997349383017791,
+      "rank": 11
     },
     {
       "model_name": "Gemini 2.5 Flash",
@@ -168,15 +184,15 @@
       "rating": 1584,
       "rating_deviation": 74,
       "volatility": 0.05998189377655241,
-      "battles": 21,
-      "wins": 11,
+      "battles": 22,
+      "wins": 12,
       "ties": 0,
       "skips": 0,
-      "win_rate_percentage": 52.38,
-      "rating_realtime": 1603,
-      "rating_deviation_realtime": 62,
-      "volatility_realtime": 0.05998012272644844,
-      "rank": 11
+      "win_rate_percentage": 54.55,
+      "rating_realtime": 1617,
+      "rating_deviation_realtime": 61,
+      "volatility_realtime": 0.05998287940397414,
+      "rank": 12
     },
     {
       "model_name": "GLM 4.5",
@@ -192,7 +208,7 @@
       "rating_realtime": 1534,
       "rating_deviation_realtime": 79,
       "volatility_realtime": 0.0599994878441248,
-      "rank": 12
+      "rank": 13
     },
     {
       "model_name": "Claude 3.7 Sonnet",
@@ -200,15 +216,15 @@
       "rating": 1577,
       "rating_deviation": 69,
       "volatility": 0.05998768299993978,
-      "battles": 29,
-      "wins": 11,
+      "battles": 31,
+      "wins": 12,
       "ties": 3,
       "skips": 2,
-      "win_rate_percentage": 45.83,
-      "rating_realtime": 1596,
-      "rating_deviation_realtime": 58,
-      "volatility_realtime": 0.059989174724658645,
-      "rank": 13
+      "win_rate_percentage": 46.15,
+      "rating_realtime": 1595,
+      "rating_deviation_realtime": 56,
+      "volatility_realtime": 0.05998972423823721,
+      "rank": 14
     },
     {
       "model_name": "Kimi K2",
@@ -216,15 +232,15 @@
       "rating": 1577,
       "rating_deviation": 57,
       "volatility": 0.059974107953509805,
-      "battles": 34,
+      "battles": 36,
       "wins": 17,
       "ties": 2,
       "skips": 1,
-      "win_rate_percentage": 54.84,
-      "rating_realtime": 1604,
-      "rating_deviation_realtime": 54,
-      "volatility_realtime": 0.05997494515578571,
-      "rank": 14
+      "win_rate_percentage": 51.52,
+      "rating_realtime": 1589,
+      "rating_deviation_realtime": 53,
+      "volatility_realtime": 0.059973945337095325,
+      "rank": 15
     },
     {
       "model_name": "Ernie 4.5 Turbo 128k Preview",
@@ -240,7 +256,7 @@
       "rating_realtime": 1502,
       "rating_deviation_realtime": 72,
       "volatility_realtime": 0.06000693411836934,
-      "rank": 15
+      "rank": 16
     },
     {
       "model_name": "Grok 3",
@@ -248,15 +264,15 @@
       "rating": 1559,
       "rating_deviation": 69,
       "volatility": 0.05998520830130429,
-      "battles": 32,
-      "wins": 11,
+      "battles": 34,
+      "wins": 13,
       "ties": 3,
       "skips": 1,
-      "win_rate_percentage": 39.29,
-      "rating_realtime": 1569,
-      "rating_deviation_realtime": 55,
-      "volatility_realtime": 0.05998809506346136,
-      "rank": 16
+      "win_rate_percentage": 43.33,
+      "rating_realtime": 1584,
+      "rating_deviation_realtime": 54,
+      "volatility_realtime": 0.059987383039362664,
+      "rank": 17
     },
     {
       "model_name": "Gemini 1.5 Pro",
@@ -264,15 +280,15 @@
       "rating": 1548,
       "rating_deviation": 69,
       "volatility": 0.059981259467427155,
-      "battles": 25,
+      "battles": 26,
       "wins": 13,
       "ties": 0,
       "skips": 3,
-      "win_rate_percentage": 59.09,
-      "rating_realtime": 1576,
+      "win_rate_percentage": 56.52,
+      "rating_realtime": 1563,
       "rating_deviation_realtime": 61,
-      "volatility_realtime": 0.059980301951304674,
-      "rank": 17
+      "volatility_realtime": 0.059982357361890476,
+      "rank": 18
     },
     {
       "model_name": "GLM 4.5 Air",
@@ -288,7 +304,7 @@
       "rating_realtime": 1523,
       "rating_deviation_realtime": 85,
       "volatility_realtime": 0.05999742330586962,
-      "rank": 18
+      "rank": 19
     },
     {
       "model_name": "DeepSeek R1 0528",
@@ -304,7 +320,7 @@
       "rating_realtime": 1537,
       "rating_deviation_realtime": 90,
       "volatility_realtime": 0.05999993882770095,
-      "rank": 19
+      "rank": 20
     },
     {
       "model_name": "Llama 4 Maverick",
@@ -320,7 +336,7 @@
       "rating_realtime": 1559,
       "rating_deviation_realtime": 88,
       "volatility_realtime": 0.05999848919896235,
-      "rank": 20
+      "rank": 21
     },
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
@@ -328,15 +344,15 @@
       "rating": 1533,
       "rating_deviation": 58,
       "volatility": 0.05997509528487414,
-      "battles": 47,
-      "wins": 22,
+      "battles": 48,
+      "wins": 23,
       "ties": 2,
       "skips": 1,
-      "win_rate_percentage": 50,
-      "rating_realtime": 1557,
+      "win_rate_percentage": 51.11,
+      "rating_realtime": 1565,
       "rating_deviation_realtime": 47,
-      "volatility_realtime": 0.059974451872758676,
-      "rank": 21
+      "volatility_realtime": 0.05997675888792828,
+      "rank": 22
     },
     {
       "model_name": "Step 3",
@@ -352,7 +368,7 @@
       "rating_realtime": 1513,
       "rating_deviation_realtime": 72,
       "volatility_realtime": 0.05998788026834067,
-      "rank": 22
+      "rank": 23
     },
     {
       "model_name": "DeepSeek V3.1 DS",
@@ -360,15 +376,15 @@
       "rating": 1514,
       "rating_deviation": 68,
       "volatility": 0.06002217183308521,
-      "battles": 33,
-      "wins": 9,
+      "battles": 37,
+      "wins": 10,
       "ties": 5,
       "skips": 0,
-      "win_rate_percentage": 32.14,
-      "rating_realtime": 1523,
-      "rating_deviation_realtime": 54,
-      "volatility_realtime": 0.060011524845921614,
-      "rank": 23
+      "win_rate_percentage": 31.25,
+      "rating_realtime": 1509,
+      "rating_deviation_realtime": 52,
+      "volatility_realtime": 0.060009271331866544,
+      "rank": 24
     },
     {
       "model_name": "GPT 4.1",
@@ -376,15 +392,15 @@
       "rating": 1507,
       "rating_deviation": 64,
       "volatility": 0.06001048001379193,
-      "battles": 39,
-      "wins": 10,
+      "battles": 45,
+      "wins": 12,
       "ties": 1,
       "skips": 4,
-      "win_rate_percentage": 29.41,
-      "rating_realtime": 1492,
-      "rating_deviation_realtime": 53,
-      "volatility_realtime": 0.06000775184549248,
-      "rank": 24
+      "win_rate_percentage": 30,
+      "rating_realtime": 1488,
+      "rating_deviation_realtime": 50,
+      "volatility_realtime": 0.060005917714546164,
+      "rank": 25
     },
     {
       "model_name": "Gemma 27B",
@@ -400,7 +416,7 @@
       "rating_realtime": 1481,
       "rating_deviation_realtime": 85,
       "volatility_realtime": 0.05999479802509185,
-      "rank": 25
+      "rank": 26
     },
     {
       "model_name": "Gemini 2.5 Flash Lite",
@@ -416,7 +432,7 @@
       "rating_realtime": 1531,
       "rating_deviation_realtime": 90,
       "volatility_realtime": 0.0599960319024443,
-      "rank": 26
+      "rank": 27
     },
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
@@ -424,15 +440,15 @@
       "rating": 1500,
       "rating_deviation": 88,
       "volatility": 0.05999096480791818,
-      "battles": 35,
-      "wins": 16,
+      "battles": 37,
+      "wins": 18,
       "ties": 1,
       "skips": 0,
-      "win_rate_percentage": 47.06,
+      "win_rate_percentage": 50,
       "rating_realtime": 1478,
       "rating_deviation_realtime": 86,
       "volatility_realtime": 0.05999146465366837,
-      "rank": 27
+      "rank": 28
     },
     {
       "model_name": "Mistral Medium 2508",
@@ -448,7 +464,7 @@
       "rating_realtime": 1510,
       "rating_deviation_realtime": 93,
       "volatility_realtime": 0.06000176676048096,
-      "rank": 28
+      "rank": 29
     },
     {
       "model_name": "Grok 4",
@@ -464,7 +480,7 @@
       "rating_realtime": 1472,
       "rating_deviation_realtime": 87,
       "volatility_realtime": 0.05999125896577654,
-      "rank": 29
+      "rank": 30
     },
     {
       "model_name": "GPT 5 Chat",
@@ -480,7 +496,7 @@
       "rating_realtime": 1455,
       "rating_deviation_realtime": 85,
       "volatility_realtime": 0.06000048860530012,
-      "rank": 30
+      "rank": 31
     },
     {
       "model_name": "Qwen3 30B A3B Thinking 2507",
@@ -496,7 +512,7 @@
       "rating_realtime": 1416,
       "rating_deviation_realtime": 88,
       "volatility_realtime": 0.06000126516601763,
-      "rank": 31
+      "rank": 32
     },
     {
       "model_name": "Command A Reasoning 08 2025",
@@ -512,7 +528,7 @@
       "rating_realtime": 1514,
       "rating_deviation_realtime": 85,
       "volatility_realtime": 0.060003188864806614,
-      "rank": 32
+      "rank": 33
     },
     {
       "model_name": "DeepSeek V3",
@@ -528,7 +544,7 @@
       "rating_realtime": 1426,
       "rating_deviation_realtime": 88,
       "volatility_realtime": 0.05999591147774202,
-      "rank": 33
+      "rank": 34
     },
     {
       "model_name": "GPT Oss 120B",
@@ -544,7 +560,7 @@
       "rating_realtime": 1301,
       "rating_deviation_realtime": 86,
       "volatility_realtime": 0.05999993920422082,
-      "rank": 34
+      "rank": 35
     }
   ]
 }
