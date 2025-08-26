@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T20:46:01.020Z",
+  "updatedAt": "2025-08-26T20:49:08.645Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -322,7 +322,7 @@
       "Qwen 235B A22B Thinking 2507": 1,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
-      "Anon": 0.3333333333333333,
+      "Anon": 0.5,
       "Gemini 2.5 Pro Max": 0.5
     },
     "DeepSeek V3.1 Thinking Volcengine": {
@@ -1198,7 +1198,7 @@
       "DeepSeek R1 0528": null,
       "DeepSeek V3": null,
       "DeepSeek V3.1 DS": 0.25,
-      "DeepSeek V3.1 Volcengine": 0.6666666666666666,
+      "DeepSeek V3.1 Volcengine": 0.5,
       "DeepSeek V3.1 Thinking Volcengine": 0.8333333333333334,
       "Doubao 1.6": 1,
       "Doubao 1.6 Thinking": 0.75,
@@ -1555,7 +1555,7 @@
       "Doubao 1.6 Thinking": 4,
       "DeepSeek V3.1 Thinking Volcengine": 6,
       "Qwen 235B A22B Instruct 2507": 10,
-      "DeepSeek V3.1 Volcengine": 3,
+      "DeepSeek V3.1 Volcengine": 4,
       "Claude 3.7 Sonnet": 7,
       "DeepSeek V3.1 DS": 5,
       "Qwen3 30B A3B Thinking 2507": 1,
@@ -1633,7 +1633,7 @@
       "Claude Sonnet 4": 8,
       "Doubao 1.6": 4,
       "Claude 3.7 Sonnet": 9,
-      "Anon": 3,
+      "Anon": 4,
       "GPT 4o Latest": 4,
       "Llama 4 Maverick": 1,
       "DeepSeek V3": 1,
