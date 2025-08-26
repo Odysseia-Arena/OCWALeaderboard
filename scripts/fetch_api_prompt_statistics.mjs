@@ -9,8 +9,8 @@ if (!API_BASE) {
   process.exit(1);
 }
 
-async function fetchLeaderboard() {
-  const url = `${API_BASE.replace(/\/$/, '')}/leaderboard`;
+async function fetchPromptStatistics() {
+  const url = `${API_BASE.replace(/\/$/, '')}/prompt_statistics`;
   const headers = {};
   if (API_TOKEN) headers['Authorization'] = `Bearer ${API_TOKEN}`;
   const res = await fetch(url, { headers });
@@ -22,18 +22,19 @@ async function fetchLeaderboard() {
 }
 
 async function main() {
-  const payload = await fetchLeaderboard();
+  const payload = await fetchPromptStatistics();
   const normalized = {
     updatedAt: new Date().toISOString(),
-    nextUpdateTime: payload.next_update_time || null,
-    leaderboard: Array.isArray(payload.leaderboard) ? payload.leaderboard : [],
+    prompt_statistics: Array.isArray(payload.prompt_statistics) ? payload.prompt_statistics : [],
   };
-  const outPath = path.join(process.cwd(), 'data', 'leaderboard.json');
+  const outPath = path.join(process.cwd(), 'data', 'prompt_statistics.json');
   await fs.writeFile(outPath, JSON.stringify(normalized, null, 2), 'utf8');
-  console.log(`写入 ${outPath}，条目数：${normalized.leaderboard.length}`);
+  console.log(`写入 ${outPath}，条目数：${normalized.prompt_statistics.length}`);
 }
 
 main().catch(err => {
   console.error(err);
   process.exit(2);
 });
+
+

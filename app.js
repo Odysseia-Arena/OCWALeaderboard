@@ -42,19 +42,27 @@ const I18N_TEXT = {
     headers: {
       rank: '名次',
       model_name: 'AI模型名',
-      rating: 'ELO评分',
+      rating: '评分',
+      tier: '段位',
+      rating_deviation: '评分偏差',
+      volatility: '波动率',
       battles: '对战',
       wins: '胜',
       ties: '平',
+      skips: '弃权',
       win_rate_percentage: '胜率%'
     },
     sortBy: {
       label: '排序',
       rank: '名次',
-      rating: 'ELO评分',
+      rating: '评分',
+      tier: '段位',
+      rating_deviation: '评分偏差',
+      volatility: '波动率',
       battles: '对战',
       wins: '胜',
       ties: '平',
+      skips: '弃权',
       win_rate_percentage: '胜率%'
     },
     health: {
@@ -66,7 +74,18 @@ const I18N_TEXT = {
       users: '用户',
       completed_battles: '完成对战'
     },
-    footer: '由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages'
+    footer: '由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages',
+    tooltip: {
+      labels: {
+        rating: 'ELO评分',
+        rating_deviation: '评分偏差',
+        volatility: '波动率'
+      },
+      nonRealtime: '非实时',
+      realtime: '实时',
+      rdShort: '评分偏差',
+      volShort: '波动率'
+    }
   },
   en: {
     htmlLang: 'en',
@@ -87,18 +106,26 @@ const I18N_TEXT = {
       rank: 'Rank',
       model_name: 'Model',
       rating: 'ELO',
+      tier: 'Tier',
+      rating_deviation: 'RD',
+      volatility: 'Volatility',
       battles: 'Battles',
       wins: 'Wins',
       ties: 'Ties',
+      skips: 'Skips',
       win_rate_percentage: 'Win Rate %'
     },
     sortBy: {
       label: 'Sort by',
       rank: 'Rank',
       rating: 'ELO',
+      tier: 'Tier',
+      rating_deviation: 'RD',
+      volatility: 'Volatility',
       battles: 'Battles',
       wins: 'Wins',
       ties: 'Ties',
+      skips: 'Skips',
       win_rate_percentage: 'Win Rate %'
     },
     health: {
@@ -110,7 +137,18 @@ const I18N_TEXT = {
       users: 'Users',
       completed_battles: 'Completed'
     },
-    footer: 'Synced by GitHub Actions · Deployed on GitHub Pages'
+    footer: 'Synced by GitHub Actions · Deployed on GitHub Pages',
+    tooltip: {
+      labels: {
+        rating: 'ELO',
+        rating_deviation: 'RD',
+        volatility: 'Volatility'
+      },
+      nonRealtime: 'Non-realtime',
+      realtime: 'Realtime',
+      rdShort: 'RD',
+      volShort: 'σ'
+    }
   },
   ja: {
     htmlLang: 'ja',
@@ -132,18 +170,26 @@ const I18N_TEXT = {
       rank: '順位',
       model_name: 'モデル',
       rating: 'ELO',
+      tier: 'ティア',
+      rating_deviation: 'レート偏差',
+      volatility: '変動率',
       battles: '対戦',
       wins: '勝',
       ties: '分',
+      skips: '棄権',
       win_rate_percentage: '勝率%'
     },
     sortBy: {
       label: 'ソート',
       rank: '順位',
       rating: 'ELO',
+      tier: 'ティア',
+      rating_deviation: 'レート偏差',
+      volatility: '変動率',
       battles: '対戦',
       wins: '勝',
       ties: '分',
+      skips: '棄権',
       win_rate_percentage: '勝率%'
     },
     health: {
@@ -155,7 +201,18 @@ const I18N_TEXT = {
       users: 'ユーザー',
       completed_battles: '完了対戦'
     },
-    footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ'
+    footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ',
+    tooltip: {
+      labels: {
+        rating: 'ELO',
+        rating_deviation: 'レート偏差',
+        volatility: '変動率'
+      },
+      nonRealtime: '非リアルタイム',
+      realtime: 'リアルタイム',
+      rdShort: 'RD',
+      volShort: 'σ'
+    }
   },
 };
 
@@ -238,9 +295,13 @@ function applyLanguage(lang) {
     const options = [
       { value: 'rank', label: sortConf.rank },
       { value: 'rating', label: sortConf.rating },
+      { value: 'tier', label: sortConf.tier },
+      { value: 'rating_deviation', label: sortConf.rating_deviation },
+      { value: 'volatility', label: sortConf.volatility },
       { value: 'battles', label: sortConf.battles },
       { value: 'wins', label: sortConf.wins },
       { value: 'ties', label: sortConf.ties },
+      { value: 'skips', label: sortConf.skips },
       { value: 'win_rate_percentage', label: sortConf.win_rate_percentage },
     ];
     sortSelect.innerHTML = '';
@@ -275,6 +336,11 @@ function applyLanguage(lang) {
 
   const select = document.getElementById('langSelect');
   if (select && select.value !== lang) select.value = lang;
+
+  // re-render table to update localized tooltips
+  try {
+    if (window.__renderState) applyAndRender(window.__renderState);
+  } catch (_) {}
 }
 
 function setupLanguage() {
@@ -377,19 +443,25 @@ function setupLanguage() {
 function updateTableHeaders(lang) {
   const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
   const map = conf.headers;
-  const keys = ['rank','model_name','rating','battles','wins','ties','win_rate_percentage'];
+  const keys = ['rank','model_name','rating','tier','rating_deviation','volatility','battles','wins','ties','skips','win_rate_percentage'];
   keys.forEach((k) => {
     const th = document.querySelector(`th.sortable[data-key="${k}"]`);
-    if (th) th.textContent = map[k];
+    if (th) {
+      const label = th.querySelector('.th-label');
+      if (label) label.textContent = map[k];
+    }
   });
 }
 
 function applyResponsiveLabels(lang) {
   const conf = I18N_TEXT[lang] || I18N_TEXT.zh;
   const map = conf.headers;
-  const keys = ['rank','model_name','rating','battles','wins','ties','win_rate_percentage'];
+  const keys = ['rank','model_name','rating','tier','rating_deviation','volatility','battles','wins','ties','skips','win_rate_percentage'];
   const tbody = document.getElementById('leaderboardBody');
   if (!tbody) return;
+  // Only auto-assign labels for desktop table. Mobile uses explicit labels per cell.
+  const isMobile = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches;
+  if (isMobile) return;
   const rows = tbody.querySelectorAll('tr');
   rows.forEach(tr => {
     const tds = tr.querySelectorAll('td');
@@ -400,6 +472,162 @@ function applyResponsiveLabels(lang) {
   });
 }
 
+// ---- Tooltip helpers for realtime vs non-realtime metrics ----
+function formatNumberCompact(value, opts) {
+  if (value === undefined || value === null) return '';
+  if (typeof value === 'number') {
+    if (opts && opts.fixed != null) return value.toFixed(opts.fixed);
+    return String(value);
+  }
+  return String(value);
+}
+
+function createHoverTip(labelKey, baseValue, realtimeValue, options) {
+  const lang = getLang();
+  const T = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const TT = T.tooltip;
+  const labelText = (TT.labels && TT.labels[labelKey]) || labelKey;
+  const colon = lang === 'en' ? ': ' : '：';
+
+  const baseStr = formatNumberCompact(baseValue, options && options.format);
+  const rtStr = (realtimeValue === undefined || realtimeValue === null)
+    ? ''
+    : formatNumberCompact(realtimeValue, options && options.format);
+
+  // On mobile, avoid rendering hover bubbles; show plain text only
+  let isMobileScreen = false;
+  try { isMobileScreen = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches; } catch (_) {}
+
+  // If no realtime provided, render plain text
+  if (!rtStr || isMobileScreen) {
+    const span = document.createElement('span');
+    span.textContent = baseStr;
+    return span;
+  }
+
+  const root = document.createElement('span');
+  root.className = 'hover-tip' + ((options && options.small) ? ' small' : '');
+
+  const text = document.createElement('span');
+  text.textContent = baseStr;
+  root.appendChild(text);
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble';
+  const line1 = document.createElement('div');
+  const nrPrefix = (TT.nonRealtime || '') + (TT.nonRealtime ? ' ' : '');
+  line1.textContent = `${nrPrefix}${labelText}${colon}${baseStr}`;
+  const line2 = document.createElement('div');
+  // Prefix "Realtime" in current language
+  const rtPrefix = TT.realtime;
+  line2.textContent = `${rtPrefix}${labelText ? ' ' + labelText : ''}${colon}${rtStr}`;
+  bubble.appendChild(line1);
+  bubble.appendChild(line2);
+  root.appendChild(bubble);
+
+  // Native tooltip fallback
+  try { root.title = `${nrPrefix}${labelText}${colon}${baseStr}\n${rtPrefix}${labelText ? ' ' + labelText : ''}${colon}${rtStr}`; } catch (_) {}
+  return root;
+}
+
+function buildRatingCellContent(item, opts) {
+  const lang = getLang();
+  const T = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const TT = T.tooltip;
+
+  const container = document.createElement('div');
+  container.className = 'rating-cell';
+
+  // Main rating
+  const main = document.createElement('div');
+  main.className = 'main';
+  const ratingEl = createHoverTip('rating', item.rating ?? item.score ?? '', item.rating_realtime);
+  main.appendChild(ratingEl);
+  container.appendChild(main);
+
+  // Sub metrics: RD and volatility (if present)
+  const includeSub = !!(opts && opts.includeSub);
+  const hasRD = includeSub && (item.rating_deviation != null || item.rating_deviation_realtime != null);
+  const hasVol = includeSub && (item.volatility != null || item.volatility_realtime != null);
+  if (includeSub && (hasRD || hasVol)) {
+    const sub = document.createElement('div');
+    sub.className = 'rating-sub';
+    if (hasRD) {
+      const rdVal = item.rating_deviation;
+      const rdRt = item.rating_deviation_realtime;
+      const rdWrap = document.createElement('span');
+      const rdLabel = TT.rdShort || 'RD';
+      const rdTip = createHoverTip('rating_deviation', rdVal, rdRt, { small: true });
+      // prepend short label
+      const rdPrefix = document.createElement('span'); rdPrefix.className = 'sub-prefix'; rdPrefix.textContent = rdLabel + ' ';
+      const rdGroup = document.createElement('span');
+      rdGroup.appendChild(rdPrefix);
+      rdGroup.appendChild(rdTip);
+      sub.appendChild(rdGroup);
+    }
+    if (hasVol) {
+      const volVal = item.volatility;
+      const volRt = item.volatility_realtime;
+      const volWrap = document.createElement('span');
+      const volLabel = TT.volShort || 'σ';
+      const volTip = createHoverTip('volatility', formatNumberCompact(volVal, { fixed: 2 }),
+        (volRt != null ? formatNumberCompact(volRt, { fixed: 2 }) : null), { small: true, format: { fixed: 2 } });
+      const volPrefix = document.createElement('span'); volPrefix.className = 'sub-prefix'; volPrefix.textContent = volLabel + ' ';
+      const volGroup = document.createElement('span');
+      volGroup.appendChild(volPrefix);
+      volGroup.appendChild(volTip);
+      // separator if both exist
+      if (hasRD) {
+        const sep = document.createElement('span'); sep.className = 'sub-sep'; sep.textContent = '·'; sub.appendChild(sep);
+      }
+      sub.appendChild(volGroup);
+    }
+    container.appendChild(sub);
+  }
+
+  return container;
+}
+
+// Build only the sub-metrics (RD and Volatility) snippet for mobile second line
+function buildRatingSubContent(item) {
+  const lang = getLang();
+  const T = I18N_TEXT[lang] || I18N_TEXT.zh;
+  const TT = T.tooltip;
+
+  const hasRD = (item.rating_deviation != null || item.rating_deviation_realtime != null);
+  const hasVol = (item.volatility != null || item.volatility_realtime != null);
+  if (!hasRD && !hasVol) return null;
+
+  const sub = document.createElement('div');
+  sub.className = 'rating-sub';
+
+  if (hasRD) {
+    const rdVal = item.rating_deviation;
+    const rdRt = item.rating_deviation_realtime;
+    const rdLabel = TT.rdShort || 'RD';
+    const rdTip = createHoverTip('rating_deviation', rdVal, rdRt, { small: true });
+    const rdPrefix = document.createElement('span'); rdPrefix.className = 'sub-prefix'; rdPrefix.textContent = rdLabel + ' ';
+    const rdGroup = document.createElement('span');
+    rdGroup.appendChild(rdPrefix);
+    rdGroup.appendChild(rdTip);
+    sub.appendChild(rdGroup);
+  }
+  if (hasVol) {
+    const volVal = item.volatility;
+    const volRt = item.volatility_realtime;
+    const volLabel = TT.volShort || 'σ';
+    const volTip = createHoverTip('volatility', formatNumberCompact(volVal, { fixed: 2 }),
+      (volRt != null ? formatNumberCompact(volRt, { fixed: 2 }) : null), { small: true, format: { fixed: 2 } });
+    const volPrefix = document.createElement('span'); volPrefix.className = 'sub-prefix'; volPrefix.textContent = volLabel + ' ';
+    const volGroup = document.createElement('span');
+    volGroup.appendChild(volPrefix);
+    volGroup.appendChild(volTip);
+    if (hasRD) { const sep = document.createElement('span'); sep.className = 'sub-sep'; sep.textContent = '·'; sub.appendChild(sep); }
+    sub.appendChild(volGroup);
+  }
+  return sub;
+}
+
 function renderTable(rows, state) {
   const tbody = document.getElementById('leaderboardBody');
   tbody.innerHTML = '';
@@ -407,7 +635,7 @@ function renderTable(rows, state) {
   if (!rows || rows.length === 0) {
     const tr = document.createElement('tr');
     const td = document.createElement('td');
-    td.colSpan = 7;
+    td.colSpan = 11;
     td.className = 'muted center';
     const lang = getLang();
     td.textContent = (I18N_TEXT[lang] || I18N_TEXT.zh).noData;
@@ -439,43 +667,95 @@ function renderTable(rows, state) {
     if (!isMobile) {
       // Desktop: always render fixed 7 columns to match headers
       const tdRating = document.createElement('td');
-      tdRating.textContent = item.rating ?? item.score ?? '';
+      tdRating.appendChild(buildRatingCellContent(item, { includeSub: false }));
       tr.appendChild(tdRating);
 
+      const tdTier = document.createElement('td');
+      tdTier.textContent = item.tier ?? '';
+      tr.appendChild(tdTier);
+
+      const tdRD = document.createElement('td');
+      tdRD.className = 'cell-rd sub-col slim';
+      tdRD.appendChild(createHoverTip('rating_deviation', item.rating_deviation ?? '', item.rating_deviation_realtime));
+      tr.appendChild(tdRD);
+
+      const tdVol = document.createElement('td');
+      tdVol.className = 'cell-vol sub-col slim';
+      tdVol.appendChild(createHoverTip('volatility', item.volatility != null ? Number(item.volatility) : '', item.volatility_realtime != null ? Number(item.volatility_realtime) : null, { format: { fixed: 2 } }));
+      tr.appendChild(tdVol);
+
       const tdBattles = document.createElement('td');
+      tdBattles.className = 'cell-battles sub-col';
       tdBattles.textContent = item.battles ?? '';
       tr.appendChild(tdBattles);
 
       const tdWins = document.createElement('td');
+      tdWins.className = 'cell-wins sub-col';
       tdWins.textContent = item.wins ?? '';
       tr.appendChild(tdWins);
 
       const tdTies = document.createElement('td');
+      tdTies.className = 'cell-ties sub-col';
       tdTies.textContent = item.ties ?? '';
       tr.appendChild(tdTies);
 
+      const tdSkips = document.createElement('td');
+      tdSkips.className = 'cell-skips sub-col';
+      tdSkips.textContent = item.skips ?? '';
+      tr.appendChild(tdSkips);
+
       const tdWinRate = document.createElement('td');
+      tdWinRate.className = 'cell-winrate sub-col';
       const wr = item.win_rate_percentage;
       tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
       tr.appendChild(tdWinRate);
     } else {
-      // Mobile: compact header line with dynamic metric column
-      const tdMetric = document.createElement('td');
-      let metricVal = '';
-      if (displayKey === 'rating') {
-        metricVal = item.rating ?? item.score ?? '';
-        tdMetric.setAttribute('data-label', map.rating);
-      } else if (displayKey === 'win_rate_percentage') {
-        const wr2 = item.win_rate_percentage;
-        metricVal = (wr2 !== undefined && wr2 !== null) ? Number(wr2).toFixed(2) : '';
-        tdMetric.setAttribute('data-label', map.win_rate_percentage);
-      } else {
-        metricVal = item[displayKey] ?? '';
-        tdMetric.setAttribute('data-label', map[displayKey] || '');
+      // Mobile: header shows Rating main on the first line; sub-metrics on a separate second line
+      const tdRatingHeader = document.createElement('td');
+      tdRatingHeader.className = 'cell-elo';
+      tdRatingHeader.setAttribute('data-label', map.rating);
+      tdRatingHeader.appendChild(buildRatingCellContent(item, { includeSub: false }));
+      tr.appendChild(tdRatingHeader);
+
+      const subNode = buildRatingSubContent(item);
+      if (subNode) {
+        const tdRatingSub = document.createElement('td');
+        tdRatingSub.className = 'cell-elo-sub';
+        tdRatingSub.appendChild(subNode);
+        tr.appendChild(tdRatingSub);
       }
-      tdMetric.textContent = metricVal;
-      tdMetric.className = 'cell-metric';
-      tr.appendChild(tdMetric);
+
+      // Optional secondary header metric for non-rating, non-RD, non-Volatility sorts
+      if (displayKey !== 'rating' && displayKey !== 'rating_deviation' && displayKey !== 'volatility') {
+        const tdMetric = document.createElement('td');
+        let metricVal = '';
+        if (displayKey === 'tier') {
+          metricVal = item.tier ?? '';
+          tdMetric.setAttribute('data-label', map.tier);
+        } else if (displayKey === 'win_rate_percentage') {
+          const wr2 = item.win_rate_percentage;
+          metricVal = (wr2 !== undefined && wr2 !== null) ? Number(wr2).toFixed(2) : '';
+          tdMetric.setAttribute('data-label', map.win_rate_percentage);
+        } else if (displayKey === 'skips') {
+          metricVal = item.skips ?? '';
+          tdMetric.setAttribute('data-label', map.skips);
+        } else if (displayKey === 'battles') {
+          metricVal = item.battles ?? '';
+          tdMetric.setAttribute('data-label', map.battles);
+        } else if (displayKey === 'wins') {
+          metricVal = item.wins ?? '';
+          tdMetric.setAttribute('data-label', map.wins);
+        } else if (displayKey === 'ties') {
+          metricVal = item.ties ?? '';
+          tdMetric.setAttribute('data-label', map.ties);
+        } else {
+          metricVal = item[displayKey] ?? '';
+          tdMetric.setAttribute('data-label', map[displayKey] || '');
+        }
+        tdMetric.textContent = metricVal;
+        tdMetric.className = 'cell-metric';
+        tr.appendChild(tdMetric);
+      }
 
       const tdBattles = document.createElement('td');
       tdBattles.textContent = item.battles ?? '';
@@ -495,6 +775,12 @@ function renderTable(rows, state) {
       tdTies.setAttribute('data-label', map.ties);
       tr.appendChild(tdTies);
 
+      const tdSkips = document.createElement('td');
+      tdSkips.textContent = item.skips ?? '';
+      tdSkips.className = 'cell-skips detail-cell';
+      tdSkips.setAttribute('data-label', map.skips);
+      tr.appendChild(tdSkips);
+
       const tdWinRate = document.createElement('td');
       const wr = item.win_rate_percentage;
       tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
@@ -502,13 +788,14 @@ function renderTable(rows, state) {
       tdWinRate.setAttribute('data-label', map.win_rate_percentage);
       tr.appendChild(tdWinRate);
 
-      if (displayKey !== 'rating') {
-        const tdRatingDetail = document.createElement('td');
-        tdRatingDetail.textContent = item.rating ?? item.score ?? '';
-        tdRatingDetail.className = 'cell-elo detail-cell';
-        tdRatingDetail.setAttribute('data-label', map.rating);
-        tr.appendChild(tdRatingDetail);
+      if (displayKey !== 'tier') {
+        const tdTierDetail = document.createElement('td');
+        tdTierDetail.className = 'cell-tier detail-cell';
+        tdTierDetail.setAttribute('data-label', map.tier);
+        tdTierDetail.textContent = item.tier ?? '';
+        tr.appendChild(tdTierDetail);
       }
+      // RD/Volatility are shown under Rating on mobile; do not duplicate them in details
 
       tr.addEventListener('click', () => {
         if (window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches) {
@@ -710,6 +997,7 @@ function setupResponsiveReload() {
     sortKey: 'rank',
     sortDir: 'asc',
   };
+  window.__renderState = state;
 
   setupSearch(state);
   setupSorting(state);

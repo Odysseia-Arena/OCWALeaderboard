@@ -36,13 +36,16 @@
 
   <main class="container">
     <section class="card" style="padding:16px 20px; line-height:1.8;">
-      <h2 id="eloTitle">ELO 评分</h2>
-      <p id="eloIntro">初始评分 1200。每场对战结束后，根据双方评分差更新：</p>
-      <pre class="muted" id="eloFormula" style="white-space:pre-wrap;">R_a' = R_a + K * (S_a - E_a)
-其中：
-- R_a 为对战前评分
-- S_a 为实际得分：胜=1，平=0.5，负=0
-- E_a 为期望得分：1 / (1 + 10^((R_b - R_a)/400))</pre>
+      <h2 id="eloTitle">Glicko-2 参数</h2>
+      <div id="eloIntro" style="line-height:1.9;">
+        <p>每个模型都拥有三个核心 Glicko-2 参数：</p>
+        <ul>
+          <li><strong>评分 (Rating, μ)</strong>：代表模型的实力值，类似于 Elo 分数。初始值通常为 1500。</li>
+          <li><strong>评分偏差 (Rating Deviation, RD, φ)</strong>：衡量模型评分的不确定性。RD 越高，表示系统对该模型的真实实力越不确定。新模型的 RD 会很高，而参赛次数多的模型的 RD 会逐渐降低。</li>
+          <li><strong>评分波动率 (Rating Volatility, σ)</strong>：衡量模型实力表现的稳定性。表现时好时坏、经常爆冷或被爆冷的模型，其波动率会较高。</li>
+        </ul>
+        <p>一场比赛的结果不仅会改变双方的评分，还会根据比赛的意外程度调整他们的 RD 和波动率。</p>
+      </div>
 
       <h2 id="wrTitle">胜率</h2>
       <pre class="muted" id="wrFormula" style="white-space:pre-wrap;">胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100</pre>
@@ -63,10 +66,18 @@
         zh: {
           htmlLang: 'zh-CN',
           title: '规则说明',
-          subtitle: 'ELO 评分与胜率计算方法',
-          eloTitle: 'ELO 评分',
-          eloIntro: '初始评分 1200。每场对战结束后，根据双方评分差更新：',
-          eloFormula: "R_a' = R_a + K * (S_a - E_a)\n其中：\n- R_a 为对战前评分\n- S_a 为实际得分：胜=1，平=0.5，负=0\n- E_a 为期望得分：1 / (1 + 10^((R_b - R_a)/400))",
+          subtitle: 'Glicko-2 参数与胜率',
+          eloTitle: 'Glicko-2 参数',
+          eloIntro: `
+            <p>每个模型都拥有三个核心 Glicko-2 参数：</p>
+            <ul>
+              <li><strong>评分 (Rating, μ)</strong>：代表模型的实力值，类似于 Elo 分数。初始值通常为 1500。</li>
+              <li><strong>评分偏差 (Rating Deviation, RD, φ)</strong>：衡量模型评分的不确定性。RD 越高，表示系统对该模型的真实实力越不确定。新模型的 RD 会很高，而参赛次数多的模型的 RD 会逐渐降低。</li>
+              <li><strong>评分波动率 (Rating Volatility, σ)</strong>：衡量模型实力表现的稳定性。表现时好时坏、经常爆冷或被爆冷的模型，其波动率会较高。</li>
+            </ul>
+            <p>一场比赛的结果不仅会改变双方的评分，还会根据比赛的意外程度调整他们的 RD 和波动率。</p>
+          `,
+          eloFormula: '',
           wrTitle: '胜率',
           wrFormula: '胜率(%) = (胜场 + 0.5 * 平局) / 对战总数 * 100',
           wrNote: '平局计作半场胜利。',
@@ -77,10 +88,18 @@
         en: {
           htmlLang: 'en',
           title: 'Rules',
-          subtitle: 'ELO rating and win rate',
-          eloTitle: 'ELO Rating',
-          eloIntro: 'Initial rating is 1200. After each battle, ratings are updated by the gap:',
-          eloFormula: "R_a' = R_a + K * (S_a - E_a)\nWhere:\n- R_a: rating before match\n- S_a: actual score (win=1, draw=0.5, loss=0)\n- E_a: expected score = 1 / (1 + 10^((R_b - R_a)/400))",
+          subtitle: 'Glicko-2 and win rate',
+          eloTitle: 'Glicko-2 Parameters',
+          eloIntro: `
+            <p>Each model has three core Glicko-2 parameters:</p>
+            <ul>
+              <li><strong>Rating (μ)</strong>: Represents model skill, similar to Elo. The typical initial value is 1500.</li>
+              <li><strong>Rating Deviation (RD, φ)</strong>: Measures the uncertainty of the rating. A higher RD indicates more uncertainty about true skill. New models start with high RD, and RD decreases as more matches are played.</li>
+              <li><strong>Rating Volatility (σ)</strong>: Measures stability of performance. Models with inconsistent performance and frequent upsets tend to have higher volatility.</li>
+            </ul>
+            <p>A match result updates both players’ ratings and also adjusts RD and volatility depending on how surprising the outcome is.</p>
+          `,
+          eloFormula: '',
           wrTitle: 'Win Rate',
           wrFormula: 'WinRate(%) = (Wins + 0.5 * Draws) / Total * 100',
           wrNote: 'A draw counts as half a win.',
@@ -91,10 +110,18 @@
         ja: {
           htmlLang: 'ja',
           title: 'ルール',
-          subtitle: 'ELO レーティングと勝率の計算',
-          eloTitle: 'ELO レーティング',
-          eloIntro: '初期レートは1200。各対戦後、レート差に応じて更新します：',
-          eloFormula: "R_a' = R_a + K * (S_a - E_a)\n内訳：\n- R_a：対戦前のレート\n- S_a：実スコア（勝=1、引分=0.5、負=0）\n- E_a：期待スコア = 1 / (1 + 10^((R_b - R_a)/400))",
+          subtitle: 'Glicko-2 パラメータと勝率',
+          eloTitle: 'Glicko-2 パラメータ',
+          eloIntro: `
+            <p>各モデルには 3 つの中核的な Glicko-2 パラメータがあります。</p>
+            <ul>
+              <li><strong>レーティング（μ）</strong>: モデルの実力値を表し、Elo スコアに類似します。初期値は通常 1500 です。</li>
+              <li><strong>レーティング偏差（RD, φ）</strong>: レーティングの不確実性を表します。RD が高いほど真の実力に対する不確実性が大きいことを意味します。新規モデルは RD が高く、対戦数が増えるにつれて RD は低下していきます。</li>
+              <li><strong>変動率（σ）</strong>: 実力の安定性を表します。好不調の波が大きく、番狂わせが多いモデルは変動率が高くなります。</li>
+            </ul>
+            <p>対戦結果は両者のレーティングを更新するだけでなく、結果の意外性に応じて RD と変動率も調整されます。</p>
+          `,
+          eloFormula: '',
           wrTitle: '勝率',
           wrFormula: '勝率(%) = (勝 + 0.5 * 引分) / 総対戦数 * 100',
           wrNote: '引き分けは半勝として計算します。',
@@ -115,7 +142,7 @@
         s('infoTitle', T.title);
         s('infoSubtitle', T.subtitle);
         s('eloTitle', T.eloTitle);
-        s('eloIntro', T.eloIntro);
+        var ei = document.getElementById('eloIntro'); if (ei) ei.innerHTML = T.eloIntro || '';
         var ef = document.getElementById('eloFormula'); if (ef) ef.textContent = T.eloFormula;
         s('wrTitle', T.wrTitle);
         var wf = document.getElementById('wrFormula'); if (wf) wf.textContent = T.wrFormula;

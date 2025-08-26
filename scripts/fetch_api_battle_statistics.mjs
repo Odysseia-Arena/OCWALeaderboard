@@ -9,8 +9,8 @@ if (!API_BASE) {
   process.exit(1);
 }
 
-async function fetchLeaderboard() {
-  const url = `${API_BASE.replace(/\/$/, '')}/leaderboard`;
+async function fetchBattleStatistics() {
+  const url = `${API_BASE.replace(/\/$/, '')}/battle_statistics`;
   const headers = {};
   if (API_TOKEN) headers['Authorization'] = `Bearer ${API_TOKEN}`;
   const res = await fetch(url, { headers });
@@ -22,18 +22,21 @@ async function fetchLeaderboard() {
 }
 
 async function main() {
-  const payload = await fetchLeaderboard();
+  const payload = await fetchBattleStatistics();
+  // 直接落盘为 heatmap.json，保留时间戳
   const normalized = {
     updatedAt: new Date().toISOString(),
-    nextUpdateTime: payload.next_update_time || null,
-    leaderboard: Array.isArray(payload.leaderboard) ? payload.leaderboard : [],
+    win_rate_matrix: payload.win_rate_matrix || {},
+    match_count_matrix: payload.match_count_matrix || {},
   };
-  const outPath = path.join(process.cwd(), 'data', 'leaderboard.json');
+  const outPath = path.join(process.cwd(), 'data', 'heatmap.json');
   await fs.writeFile(outPath, JSON.stringify(normalized, null, 2), 'utf8');
-  console.log(`写入 ${outPath}，条目数：${normalized.leaderboard.length}`);
+  console.log(`写入 ${outPath}`);
 }
 
 main().catch(err => {
   console.error(err);
   process.exit(2);
 });
+
+
