@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T19:04:09.551Z",
+  "updatedAt": "2025-08-26T19:09:10.994Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3573,7 +3573,7 @@
     {
       "prompt": "**情节:** 一个平凡的11岁英国女孩在某天清晨意外收到了霍格沃茨的录取通知书，她第一次接触到魔法世界，在对角巷购买学习用品，购买魔杖、校服到课本，每个环节都写出来。在前往霍格沃茨的列车上，她结识了同样是新生的小伙伴，最终在庄严的分院仪式上，获知自己被分去的学院\n\n**创作要求:** 仿照JK·罗琳的文学风格，注重细节描写和幽默感，突出主角作为普通麻瓜出身学生的视角体验。展现魔法世界与麻瓜世界的文化碰撞，描写主角在陌生环境中的心理变化和成长过程。保持原著的世界观设定，所有出现的地点、人物、物品都要符合哈利波特系列的描述，但**不能**刻意安排主角与原著角色相逢，尽可能安排原创角色，不要刻板塑造角色，详细描写角色心理活动和动机。\n\n**以这段话做开场:** 七月的最后一个星期二，当一只健硕的棕褐色猫头鹰坚持不懈地用喙敲击着厨房窗户时，(角色名)还以为自己昨晚读《爱丽丝梦游仙境》读得太晚出现了幻觉。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
-      "total_battles": 5,
+      "total_battles": 6,
       "model_battle_counts": {
         "DeepSeek V3.1 DS": 1,
         "Gemini 1.5 Pro": 1,
@@ -3583,8 +3583,9 @@
         "Mistral Medium 2508": 1,
         "GPT 4o Latest": 1,
         "Gemini 2.5 Pro Max": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
+        "DeepSeek V3.1 Volcengine": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Doubao 1.6 Thinking": 1
       },
       "model_win_rates": {
         "DeepSeek V3.1 DS": 0,
@@ -3595,8 +3596,9 @@
         "Mistral Medium 2508": 0,
         "GPT 4o Latest": 0,
         "Gemini 2.5 Pro Max": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Doubao 1.6 Thinking": 1
       }
     },
     {
