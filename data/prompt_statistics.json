@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T05:47:20.839Z",
+  "updatedAt": "2025-08-26T05:49:40.018Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -56,7 +56,7 @@
     {
       "prompt": "写个小说：一个普通美国士兵突然从1941年12月5日穿越到了南北战争开始前夕。他被一个神秘声音告知一天后就会被传送回到原时空。他设法见到林肯，告诉林肯“立即对南方实施‘经济绞杀’——摧毁铁路、焚烧种植园并同步解放奴隶。此举将瓦解南方的战争后勤、切断其劳动力，并动员20万黑人加入北军，使战争缩短两年，避免60万人伤亡。”\n林肯点点头，然后告诉穿越者，日本将会偷袭珍珠港。\n请你描写美国士兵听到这句话后的反应。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
-      "total_battles": 4,
+      "total_battles": 5,
       "model_battle_counts": {
         "Doubao 1.6": 1,
         "Llama 4 Maverick": 1,
@@ -65,7 +65,9 @@
         "DeepSeek V3.1 Volcengine": 1,
         "Gemini 2.5 Pro": 1,
         "DeepSeek V3.1 DS": 1,
-        "Qwen 235B A22B Instruct 2507": 1
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Kimi K2": 1
       },
       "model_win_rates": {
         "Doubao 1.6": 0,
@@ -75,7 +77,53 @@
         "DeepSeek V3.1 Volcengine": 1,
         "Gemini 2.5 Pro": 0,
         "DeepSeek V3.1 DS": 0,
-        "Qwen 235B A22B Instruct 2507": 1
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Kimi K2": 0
+      }
+    },
+    {
+      "prompt": "**作品：** 魔女之旅\n**角色：** 伊蕾娜\n**情节目标：** 伊蕾娜来到了一个“幸福”国度，这里的国民脸上都挂着一模一样的微笑。她必须在不使用攻击性魔法的前提下，揭开这个国家幸福表象下隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Claude Opus 4": 1,
+        "Anon": 2,
+        "Kimi K2": 2,
+        "Doubao 1.6 Thinking": 1,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 1
+      },
+      "model_win_rates": {
+        "Claude Opus 4": 0,
+        "Anon": 1,
+        "Kimi K2": 0,
+        "Doubao 1.6 Thinking": 1,
+        "GPT 4o Latest": 0,
+        "Gemini 2.5 Pro": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格坚韧、身手敏捷的废土拾荒者，在被辐射污染的城市废墟中寻找生存资源。你在一个废弃的商场里发现了一个幸存者营地，但他们对你充满警惕。\n\n**情节目标：** 通过你的诚意和行动，成功获得幸存者们的信任。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Command A Reasoning 08 2025": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Command A Reasoning 08 2025": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 0,
+        "Claude 3.7 Sonnet": 0
       }
     },
     {
@@ -133,25 +181,6 @@
         "DeepSeek R1 0528": 1,
         "Claude Sonnet 4": 0,
         "Qwen 235B A22B Instruct 2507": 1
-      }
-    },
-    {
-      "prompt": "**作品：** 魔女之旅\n**角色：** 伊蕾娜\n**情节目标：** 伊蕾娜来到了一个“幸福”国度，这里的国民脸上都挂着一模一样的微笑。她必须在不使用攻击性魔法的前提下，揭开这个国家幸福表象下隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Claude Opus 4": 1,
-        "Anon": 2,
-        "Kimi K2": 1,
-        "Doubao 1.6 Thinking": 1,
-        "GPT 4o Latest": 1
-      },
-      "model_win_rates": {
-        "Claude Opus 4": 0,
-        "Anon": 1,
-        "Kimi K2": 0,
-        "Doubao 1.6 Thinking": 1,
-        "GPT 4o Latest": 0
       }
     },
     {
@@ -216,6 +245,25 @@
       }
     },
     {
+      "prompt": "你是一位刚刚入职的新人，性格开朗，充满干劲，却在公司的重要提案会议上，不慎将咖啡洒在了顶头上司的文件上。这位上司以严苛和难以取悦而闻名。\n\n**情节目标：** 在上司暴怒之前，通过你的机智和应变能力，成功化解这场危机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GLM 4.5": 2,
+        "Anon": 1,
+        "Gemini 2.5 Pro": 1,
+        "Mistral Medium 2508": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GLM 4.5": 1,
+        "Anon": 1,
+        "Gemini 2.5 Pro": 0,
+        "Mistral Medium 2508": 0
+      }
+    },
+    {
       "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 3,
@@ -258,22 +306,20 @@
       }
     },
     {
-      "prompt": "你是一位性格坚韧、身手敏捷的废土拾荒者，在被辐射污染的城市废墟中寻找生存资源。你在一个废弃的商场里发现了一个幸存者营地，但他们对你充满警惕。\n\n**情节目标：** 通过你的诚意和行动，成功获得幸存者们的信任。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
+      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
       "total_battles": 3,
       "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Command A Reasoning 08 2025": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro": 1
+        "Claude Sonnet 4": 2,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1
       },
       "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Command A Reasoning 08 2025": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Pro": 1
+        "Claude Sonnet 4": 1,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 0
       }
     },
     {
@@ -314,6 +360,23 @@
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "Claude Opus 4": 0,
         "Claude Opus 4.1": 1
+      }
+    },
+    {
+      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 2,
+      "model_battle_counts": {
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 0
       }
     },
     {
@@ -363,6 +426,23 @@
         "GPT 4.1": 0,
         "Grok 3": 0,
         "Doubao 1.6 Thinking": 1
+      }
+    },
+    {
+      "prompt": "**人物设定：** 职场新人，性格单纯，对工作充满热情，但总是被同事排挤。\n**核心场景：** 冰冷的办公室，每个人都埋头工作，空气中弥漫着紧张的气氛。\n**情节目标：** 他负责的一个重要项目被同事故意篡改，导致项目面临失败的风险。他必须在不被发现的情况下，找到被篡改的代码，并向他的上司证明自己的清白。写一个故事\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
+      "total_battles": 2,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "Claude Opus 4": 1,
+        "Gemini 1.5 Pro": 1,
+        "Claude Sonnet 4": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 1,
+        "Claude Opus 4": 0,
+        "Gemini 1.5 Pro": 0,
+        "Claude Sonnet 4": 1
       }
     },
     {
@@ -480,23 +560,6 @@
         "Kimi K2": 1,
         "GPT 4o Latest": 1,
         "GPT 4.1": 0
-      }
-    },
-    {
-      "prompt": "你是一位刚刚入职的新人，性格开朗，充满干劲，却在公司的重要提案会议上，不慎将咖啡洒在了顶头上司的文件上。这位上司以严苛和难以取悦而闻名。\n\n**情节目标：** 在上司暴怒之前，通过你的机智和应变能力，成功化解这场危机。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "职场",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GLM 4.5": 1,
-        "Anon": 1,
-        "Gemini 2.5 Pro": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GLM 4.5": 1,
-        "Anon": 1,
-        "Gemini 2.5 Pro": 0
       }
     },
     {
@@ -626,19 +689,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 0
-      }
-    },
-    {
       "prompt": "**人物设定：** 一位失忆的私家侦探，他的记忆只停留在三天前。他性格多疑，却有着敏锐的洞察力。\n**核心场景：** 一座空旷的废弃工厂，地上散落着各种废旧的机械零件，空气中弥漫着铁锈味。\n**情节目标：** 他在工厂中醒来，身边只有一部手机和一张字条，字条上写着“找到真凶”。他必须在有限的线索中，通过手机里的通话记录和照片，拼凑出三天前发生的一切，并找到那个连他自己都不知道的“真凶”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 1,
@@ -743,16 +793,16 @@
       }
     },
     {
-      "prompt": "**人物设定：** 职场新人，性格单纯，对工作充满热情，但总是被同事排挤。\n**核心场景：** 冰冷的办公室，每个人都埋头工作，空气中弥漫着紧张的气氛。\n**情节目标：** 他负责的一个重要项目被同事故意篡改，导致项目面临失败的风险。他必须在不被发现的情况下，找到被篡改的代码，并向他的上司证明自己的清白。写一个故事\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "职场",
       "total_battles": 1,
       "model_battle_counts": {
         "Claude 3.7 Sonnet": 1,
-        "Claude Opus 4": 1
+        "Claude Sonnet 4": 1
       },
       "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "Claude Opus 4": 0
+        "Claude 3.7 Sonnet": 0,
+        "Claude Sonnet 4": 1
       }
     },
     {
@@ -925,16 +975,16 @@
       }
     },
     {
-      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 1,
       "model_battle_counts": {
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1
+        "Kimi K2": 1,
+        "Step 3": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 0
+        "Kimi K2": 1,
+        "Step 3": 0
       }
     },
     {
@@ -961,6 +1011,19 @@
       "model_win_rates": {
         "Gemini 2.5 Pro": 1,
         "Claude 3.7 Sonnet": 0
+      }
+    },
+    {
+      "prompt": "你是一位性格沉着、勇敢的变异植物研究者，正在一个充满了危险变异植物的温室里工作。突然，你发现你正在研究的一种变异植物，正在以惊人的速度吞噬温室里的所有生物。\n\n**情节目标：** 在变异植物吞噬一切之前，成功找到抑制其生长的解药。\n\n**写作要求：** 描写过程中要突出末世的荒凉和危险，以及变异植物的恐怖感。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 1,
+      "model_battle_counts": {
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "DeepSeek V3.1 Volcengine": 1
       }
     },
     {
