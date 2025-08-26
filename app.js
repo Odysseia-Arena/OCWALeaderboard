@@ -77,11 +77,11 @@ const I18N_TEXT = {
     footer: '由 GitHub Actions 定时同步 · 开源部署于 GitHub Pages',
     tooltip: {
       labels: {
-        rating: 'ELO评分',
+        rating: '评分',
         rating_deviation: '评分偏差',
         volatility: '波动率'
       },
-      nonRealtime: '非实时',
+      nonRealtime: '长期',
       realtime: '实时',
       rdShort: '评分偏差',
       volShort: '波动率'
@@ -140,11 +140,11 @@ const I18N_TEXT = {
     footer: 'Synced by GitHub Actions · Deployed on GitHub Pages',
     tooltip: {
       labels: {
-        rating: 'ELO',
+        rating: 'Rating',
         rating_deviation: 'RD',
         volatility: 'Volatility'
       },
-      nonRealtime: 'Non-realtime',
+      nonRealtime: 'Long-term',
       realtime: 'Realtime',
       rdShort: 'RD',
       volShort: 'σ'
@@ -204,11 +204,11 @@ const I18N_TEXT = {
     footer: 'GitHub Actions により同期 · GitHub Pages にデプロイ',
     tooltip: {
       labels: {
-        rating: 'ELO',
+        rating: 'レーティング',
         rating_deviation: 'レート偏差',
         volatility: '変動率'
       },
-      nonRealtime: '非リアルタイム',
+      nonRealtime: '長期',
       realtime: 'リアルタイム',
       rdShort: 'RD',
       volShort: 'σ'
@@ -498,10 +498,10 @@ function createHoverTip(labelKey, baseValue, realtimeValue, options) {
   let isMobileScreen = false;
   try { isMobileScreen = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches; } catch (_) {}
 
-  // If no realtime provided, render plain text
+  // If no realtime provided, render plain text with base; on mobile prefer realtime text
   if (!rtStr || isMobileScreen) {
     const span = document.createElement('span');
-    span.textContent = baseStr;
+    span.textContent = rtStr || baseStr;
     return span;
   }
 
@@ -509,7 +509,8 @@ function createHoverTip(labelKey, baseValue, realtimeValue, options) {
   root.className = 'hover-tip' + ((options && options.small) ? ' small' : '');
 
   const text = document.createElement('span');
-  text.textContent = baseStr;
+  // Display realtime value in cell when available; fallback to base
+  text.textContent = rtStr || baseStr;
   root.appendChild(text);
 
   const bubble = document.createElement('div');
@@ -525,8 +526,7 @@ function createHoverTip(labelKey, baseValue, realtimeValue, options) {
   bubble.appendChild(line2);
   root.appendChild(bubble);
 
-  // Native tooltip fallback
-  try { root.title = `${nrPrefix}${labelText}${colon}${baseStr}\n${rtPrefix}${labelText ? ' ' + labelText : ''}${colon}${rtStr}`; } catch (_) {}
+  // Do not set native title to avoid duplicate white tooltip
   return root;
 }
 
