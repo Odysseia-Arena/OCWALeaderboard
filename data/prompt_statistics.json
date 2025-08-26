@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T06:49:07.984Z",
+  "updatedAt": "2025-08-26T06:53:17.850Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位性格正直、武艺高强的少林寺俗家弟子，下山游历时，在江湖上卷入了一场关于“武林盟主”之位的纷争。你被冤枉偷走了传说中的武功秘籍。\n\n**情节目标：** 在证明自己清白的过程中，成功找出真正的盗窃者。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -530,6 +530,33 @@
       }
     },
     {
+      "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 2,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Flash": 1,
+        "Grok 3": 2,
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Mistral Medium 2508": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Flash": 1,
+        "Grok 3": 0.5,
+        "Doubao 1.6": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Mistral Medium 2508": 1
+      }
+    },
+    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 6,
@@ -587,6 +614,31 @@
         "Doubao 1.6": 1,
         "Gemini 2.5 Pro": 0,
         "GPT 4.1": 1
+      }
+    },
+    {
+      "prompt": "曰古有赤鸠集于汤之屋，汤射之获之，乃命小臣曰：“脂羹之，我其享之。”汤往囗。 小臣既羹之，汤后妻纴巟谓小臣曰：“尝我于尔羹。” 小臣弗敢尝，曰：“后其杀我。” 纴巟谓小臣曰：“尔不我尝，吾不亦杀尔？” 小臣自堂下授纴巟羹。纴巟受小臣而尝之，乃昭然四荒之外，无不见也；小臣受其余而尝之，亦昭然四海之外，无不见也。 汤返廷，小臣馈。汤怒曰：“孰盗吾羹？” 小臣惧，乃逃于夏。 汤乃魅之，小臣乃眛而寝于路，视而不能言。 众乌将食之，灵乌曰：“是小臣也，不可食也。夏后有疾，将抚楚，于食其祭。” 众乌乃讯灵乌曰：“夏后之疾如何？” 灵乌乃曰：“帝命二黄蛇与二白兔居后之寝室之栋，其下余后疾，是使后疾疾而不知人。帝命后土为二蓤屯，共居后之床下，其上刺后之体，是使后之身疴疟，不可极于席。” 众乌乃往。灵乌乃度小臣之喉胃，小臣乃起而行，至于夏后。 夏后曰：“尔惟誰？” 小臣曰：“我天灵。” 夏后乃讯小臣曰：“如尔天灵，而知朕疾？” 小臣曰：“我知之。” 夏后曰：“朕疾如何？” 小臣曰：“帝命二黄蛇与二白兔，居后之寝室之栋，其下余后疾，是使后棼棼恂恂而不知人。帝命后土为二蓤屯，共居后之床下，其上刺后之身，是使后混乱憨心。后如彻屋，杀黄蛇与白兔，𡊭地斩蓤，后疾其瘳。” 夏后乃从小臣之言，彻屋，杀二黄蛇与一白兔；乃𡊭地，有二蓤廌（屯），乃斩之。其一白兔不得，是始为埤，丁诸屋，以御白兔。\n\n**写作要求：**\n- 用同案异录的形式，重新演绎提供的故事。\n- 逻辑自洽。\n- 主题不浅薄。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "其它",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Grok 3": 2,
+        "Doubao 1.6": 2,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek R1 0528": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4o Latest": 1,
+        "Grok 3": 0,
+        "Doubao 1.6": 0.5,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek R1 0528": 0,
+        "Claude 3.7 Sonnet": 1
       }
     },
     {
@@ -689,6 +741,33 @@
         "GPT 4o Latest": 1,
         "Gemini 2.5 Pro": 0,
         "DeepSeek V3.1 Thinking Volcengine": 1
+      }
+    },
+    {
+      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 1,
+        "Anon": 1,
+        "Claude Sonnet 4": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Pro": 0,
+        "Anon": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT 5 Chat": 0,
+        "Gemma 27B": 1
       }
     },
     {
@@ -877,30 +956,28 @@
       }
     },
     {
-      "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
+      "prompt": "你是一个落魄的股民，赌上了所有钱财，撬动着巨大倍数的杠杆押中的那一只股票正在迅速下跌，你垂头丧气的往天台走去，就在打开天台门的刹那，下跌的股票瞬间抬起，飞快上升，很快便追上历史顶峰甚至还在不断提高。操作成功引起了别人的注意，可能是某个地下操盘组织。股价的飙升是他们为了某个更大的计划而进行的市场操控，而你只是一个碰巧赶上了这次机会的路人。\n\n**情节目标：**导致股票抬升的幕后主使找到了你，你需要迅速判断形势，让自己在这幕后主使掀起的滔天巨浪中存活下来\n\n**写作要求：**以动作和对话作为主体，避免过多心里描写，依靠自身行为推动剧情。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
       "total_battles": 5,
       "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Flash": 1,
-        "Grok 3": 2,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Qwen 235B A22B Instruct 2507": 2,
         "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Mistral Medium 2508": 1
+        "GPT Oss 120B": 1,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Opus 4": 1
       },
       "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 0,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Flash": 1,
-        "Grok 3": 0.5,
-        "Doubao 1.6": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Mistral Medium 2508": 1
+        "DeepSeek V3.1 Volcengine": 0,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Doubao 1.6": 1,
+        "GPT Oss 120B": 0,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Opus 4": 1
       }
     },
     {
@@ -922,29 +999,6 @@
         "Claude Sonnet 4": 0,
         "Gemini 2.5 Flash": 0.6666666666666666,
         "Doubao 1.6": 0
-      }
-    },
-    {
-      "prompt": "曰古有赤鸠集于汤之屋，汤射之获之，乃命小臣曰：“脂羹之，我其享之。”汤往囗。 小臣既羹之，汤后妻纴巟谓小臣曰：“尝我于尔羹。” 小臣弗敢尝，曰：“后其杀我。” 纴巟谓小臣曰：“尔不我尝，吾不亦杀尔？” 小臣自堂下授纴巟羹。纴巟受小臣而尝之，乃昭然四荒之外，无不见也；小臣受其余而尝之，亦昭然四海之外，无不见也。 汤返廷，小臣馈。汤怒曰：“孰盗吾羹？” 小臣惧，乃逃于夏。 汤乃魅之，小臣乃眛而寝于路，视而不能言。 众乌将食之，灵乌曰：“是小臣也，不可食也。夏后有疾，将抚楚，于食其祭。” 众乌乃讯灵乌曰：“夏后之疾如何？” 灵乌乃曰：“帝命二黄蛇与二白兔居后之寝室之栋，其下余后疾，是使后疾疾而不知人。帝命后土为二蓤屯，共居后之床下，其上刺后之体，是使后之身疴疟，不可极于席。” 众乌乃往。灵乌乃度小臣之喉胃，小臣乃起而行，至于夏后。 夏后曰：“尔惟誰？” 小臣曰：“我天灵。” 夏后乃讯小臣曰：“如尔天灵，而知朕疾？” 小臣曰：“我知之。” 夏后曰：“朕疾如何？” 小臣曰：“帝命二黄蛇与二白兔，居后之寝室之栋，其下余后疾，是使后棼棼恂恂而不知人。帝命后土为二蓤屯，共居后之床下，其上刺后之身，是使后混乱憨心。后如彻屋，杀黄蛇与白兔，𡊭地斩蓤，后疾其瘳。” 夏后乃从小臣之言，彻屋，杀二黄蛇与一白兔；乃𡊭地，有二蓤廌（屯），乃斩之。其一白兔不得，是始为埤，丁诸屋，以御白兔。\n\n**写作要求：**\n- 用同案异录的形式，重新演绎提供的故事。\n- 逻辑自洽。\n- 主题不浅薄。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "其它",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "DeepSeek V3.1 DS": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 2,
-        "Grok 3": 2,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek R1 0528": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4o Latest": 1,
-        "Grok 3": 0,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek R1 0528": 0
       }
     },
     {
@@ -1029,29 +1083,6 @@
         "Doubao 1.6 Thinking": 0.5,
         "Anon": 1,
         "DeepSeek V3.1 Volcengine": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 犯罪心理学教授，性格沉稳，擅长通过细节分析罪犯的动机和行为模式。\n**核心场景：** 一个漆黑的审讯室，只有一盏孤零零的灯光，映照出教授疲惫的脸庞。\n**情节目标：** 他正在审讯一个看似毫无破绽的嫌疑人。他必须通过观察嫌疑人的微表情和肢体语言，找到他话语中的漏洞，并用心理战术击溃他的心理防线，让他供出真相。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 1,
-        "Anon": 1,
-        "Claude Sonnet 4": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Gemini 2.5 Pro": 0,
-        "Anon": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1
       }
     },
     {
@@ -1166,6 +1197,29 @@
       }
     },
     {
+      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 1,
+        "Step 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 1,
+        "GPT 4o Latest": 0,
+        "Step 3": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 0,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 0
+      }
+    },
+    {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "历史",
       "total_battles": 4,
@@ -1186,27 +1240,6 @@
         "Gemini 2.5 Pro": 1,
         "DeepSeek V3.1 DS": 0,
         "DeepSeek V3.1 Thinking Volcengine": 0
-      }
-    },
-    {
-      "prompt": "你是一个落魄的股民，赌上了所有钱财，撬动着巨大倍数的杠杆押中的那一只股票正在迅速下跌，你垂头丧气的往天台走去，就在打开天台门的刹那，下跌的股票瞬间抬起，飞快上升，很快便追上历史顶峰甚至还在不断提高。操作成功引起了别人的注意，可能是某个地下操盘组织。股价的飙升是他们为了某个更大的计划而进行的市场操控，而你只是一个碰巧赶上了这次机会的路人。\n\n**情节目标：**导致股票抬升的幕后主使找到了你，你需要迅速判断形势，让自己在这幕后主使掀起的滔天巨浪中存活下来\n\n**写作要求：**以动作和对话作为主体，避免过多心里描写，依靠自身行为推动剧情。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Volcengine": 2,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Doubao 1.6": 1,
-        "GPT Oss 120B": 1,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Volcengine": 0,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "Doubao 1.6": 1,
-        "GPT Oss 120B": 0,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 1
       }
     },
     {
@@ -1365,6 +1398,27 @@
       }
     },
     {
+      "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 4,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Anon": 1,
+        "Grok 3": 2,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Volcengine": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0.5,
+        "Anon": 1,
+        "Grok 3": 0,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Volcengine": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 3,
@@ -1489,27 +1543,6 @@
       }
     },
     {
-      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 3,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4o Latest": 1,
-        "Step 3": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemma 27B": 1,
-        "Command A Reasoning 08 2025": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "GPT 4o Latest": 0,
-        "Step 3": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemma 27B": 0,
-        "Command A Reasoning 08 2025": 1
-      }
-    },
-    {
       "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 3,
@@ -1605,20 +1638,24 @@
       }
     },
     {
-      "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
+      "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "言情",
       "total_battles": 3,
       "model_battle_counts": {
-        "GPT 4.1": 2,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude 3.7 Sonnet": 1,
         "Anon": 1,
-        "Grok 3": 2,
-        "GPT 4o Latest": 1
+        "Claude Opus 4": 1
       },
       "model_win_rates": {
-        "GPT 4.1": 0.5,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Claude 3.7 Sonnet": 1,
         "Anon": 1,
-        "Grok 3": 0,
-        "GPT 4o Latest": 1
+        "Claude Opus 4": 0
       }
     },
     {
@@ -1783,23 +1820,6 @@
         "DeepSeek V3.1 Thinking Volcengine": 0.5,
         "GPT 4.1": 1,
         "Qwen 235B A22B Instruct 2507": 0
-      }
-    },
-    {
-      "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "言情",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Claude 3.7 Sonnet": 1
       }
     },
     {
