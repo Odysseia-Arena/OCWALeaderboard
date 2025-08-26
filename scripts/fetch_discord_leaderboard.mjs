@@ -118,7 +118,19 @@ async function main() {
     entries,
   };
 
-  const outPath = path.join(process.cwd(), 'data', 'leaderboard.json');
+  const dataDir = path.join(process.cwd(), 'data');
+  const outPath = path.join(dataDir, 'leaderboard.json');
+  const prevPath = path.join(dataDir, 'leaderboard_prev.json');
+
+  // 先备份上一份（若存在）
+  try {
+    const prevContent = await fs.readFile(outPath, 'utf8');
+    await fs.writeFile(prevPath, prevContent, 'utf8');
+    console.log(`已备份上一份排行榜到 ${prevPath}`);
+  } catch (_) {
+    console.log('未发现上一份排行榜，跳过备份。');
+  }
+
   await fs.writeFile(outPath, JSON.stringify(out, null, 2), 'utf8');
   console.log(`已写入 ${outPath} 共 ${entries.length} 条`);
 }

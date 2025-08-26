@@ -79,5 +79,5 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/leaderboard.json data/health.json data/heatmap.json data/prompt_statistics.json
+          git add data/leaderboard.json data/leaderboard_prev.json data/health.json data/heatmap.json data/prompt_statistics.json
           git diff --staged --quiet && echo "No changes" || (git commit -m "chore: update leaderboard + health [skip ci]" && git push)
