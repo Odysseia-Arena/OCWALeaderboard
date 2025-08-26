@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2025-08-26T06:59:10.062Z",
+  "updatedAt": "2025-08-26T07:04:08.042Z",
   "prompt_statistics": [
+    {
+      "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "Kimi K2": 3,
+        "Gemini 1.5 Pro": 3,
+        "Claude Sonnet 4": 4,
+        "Doubao 1.6 Thinking": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Llama 4 Maverick": 1,
+        "Gemini 2.5 Flash": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Claude Opus 4.1": 1,
+        "GPT 5 Chat": 1,
+        "GLM 4.5": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Kimi K2": 0.3333333333333333,
+        "Gemini 1.5 Pro": 1,
+        "Claude Sonnet 4": 0.5,
+        "Doubao 1.6 Thinking": 0.3333333333333333,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Llama 4 Maverick": 0,
+        "Gemini 2.5 Flash": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Claude Opus 4.1": 1,
+        "GPT 5 Chat": 1,
+        "GLM 4.5": 0,
+        "GPT 4.1": 0
+      }
+    },
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
@@ -78,37 +111,6 @@
       }
     },
     {
-      "prompt": "你是一位性格沉着、经验丰富的深海考察员，正驾驶着潜水器在马里亚纳海沟进行考察。突然，你的潜水器遭遇了不明生物的攻击，动力系统受损，潜水器开始下沉。\n\n**情节目标：** 在潜水器下沉到无法挽回的深度前，成功修复动力系统并浮出水面，应对不明生物的攻击。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 10,
-      "model_battle_counts": {
-        "Kimi K2": 3,
-        "Gemini 1.5 Pro": 3,
-        "Claude Sonnet 4": 4,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Llama 4 Maverick": 1,
-        "Gemini 2.5 Flash": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Claude Opus 4.1": 1,
-        "GPT 5 Chat": 1,
-        "GLM 4.5": 1
-      },
-      "model_win_rates": {
-        "Kimi K2": 0.3333333333333333,
-        "Gemini 1.5 Pro": 1,
-        "Claude Sonnet 4": 0.5,
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Llama 4 Maverick": 0,
-        "Gemini 2.5 Flash": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Claude Opus 4.1": 1,
-        "GPT 5 Chat": 1,
-        "GLM 4.5": 0
-      }
-    },
-    {
       "prompt": "写个小说：一个普通美国士兵突然从1941年12月5日穿越到了南北战争开始前夕。他被一个神秘声音告知一天后就会被传送回到原时空。他设法见到林肯，告诉林肯“立即对南方实施‘经济绞杀’——摧毁铁路、焚烧种植园并同步解放奴隶。此举将瓦解南方的战争后勤、切断其劳动力，并动员20万黑人加入北军，使战争缩短两年，避免60万人伤亡。”\n林肯点点头，然后告诉穿越者，日本将会偷袭珍珠港。\n请你描写美国士兵听到这句话后的反应。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 10,
@@ -145,6 +147,41 @@
         "Gemini 2.5 Flash": 1,
         "GPT 4.1": 0,
         "Gemini 2.5 Flash Lite": 0
+      }
+    },
+    {
+      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 9,
+      "model_battle_counts": {
+        "Claude Sonnet 4": 3,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Grok 4": 1,
+        "GPT 4.1": 1,
+        "Gemini 1.5 Pro": 1,
+        "Anon": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Grok 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1
+      },
+      "model_win_rates": {
+        "Claude Sonnet 4": 1,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Grok 4": 0,
+        "GPT 4.1": 1,
+        "Gemini 1.5 Pro": 0,
+        "Anon": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Grok 3": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 2.5 Pro Max": 0
       }
     },
     {
@@ -317,36 +354,96 @@
       }
     },
     {
-      "prompt": "你是一位性格大胆、充满好奇心的寻宝探险家。你根据一张古老的地图，找到了一座隐藏在热带雨林深处的失落神庙。神庙的入口被一个复杂的机关所封锁。\n\n**情节目标：** 成功解开机关，进入神庙。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
+      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
       "total_battles": 8,
       "model_battle_counts": {
-        "Claude Sonnet 4": 3,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Grok 4": 1,
-        "GPT 4.1": 1,
-        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6": 2,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Opus 4": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
         "Anon": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Grok 3": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 1.5 Pro": 3,
+        "Gemini 2.5 Flash": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "GPT 4.1": 1,
+        "Grok 3": 1
       },
       "model_win_rates": {
-        "Claude Sonnet 4": 1,
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Volcengine": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "Grok 4": 0,
-        "GPT 4.1": 1,
-        "Gemini 1.5 Pro": 0,
+        "Doubao 1.6": 0.5,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Opus 4": 1,
+        "Qwen 235B A22B Instruct 2507": 0.5,
         "Anon": 1,
-        "Claude 3.7 Sonnet": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Claude Sonnet 4": 0,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Flash": 0,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "GPT 4.1": 0,
+        "Grok 3": 1
+      }
+    },
+    {
+      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 4,
+        "GPT 4o Latest": 1,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Doubao 1.6": 1,
+        "DeepSeek V3.1 DS": 1,
+        "Qwen 235B A22B Instruct 2507": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Pro": 1,
+        "GPT 4o Latest": 0,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Doubao 1.6": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Qwen 235B A22B Instruct 2507": 0
+      }
+    },
+    {
+      "prompt": "**人物设定：** 校园记者，性格八卦，总是能捕捉到校园里最热门的头条新闻，但背后却隐藏着一个不为人知的秘密。\n**核心场景：** 校园广播站，各种设备发出嗡嗡的响声，他正准备发布最新的校园新闻。\n**情节目标：** 他意外地发现了一位老师的秘密，这个秘密与他一直追寻的真相有关。他必须在发布新闻前，决定是揭露真相，还是为了保护自己而选择沉默。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "校园",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 3,
         "Grok 3": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0
+        "Doubao 1.6 Thinking": 1,
+        "Claude Sonnet 4": 1,
+        "Kimi K2": 1,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 5 Chat": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 DS": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Flash": 1,
+        "GPT 4.1": 0,
+        "Grok 3": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Claude Sonnet 4": 1,
+        "Kimi K2": 0,
+        "GPT 4o Latest": 1,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 5 Chat": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "DeepSeek V3.1 DS": 1
       }
     },
     {
@@ -415,6 +512,33 @@
         "Doubao 1.6 Thinking": 1,
         "Anon": 1,
         "Kimi K2": 0
+      }
+    },
+    {
+      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "悬疑",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "GPT 4o Latest": 3,
+        "GPT 4.1": 2,
+        "Qwen3 30B A3B Thinking 2507": 2,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 2,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 0.6666666666666666,
+        "GPT 4.1": 0,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 0.5,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemma 27B": 1
       }
     },
     {
@@ -505,59 +629,30 @@
       }
     },
     {
-      "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 7,
-      "model_battle_counts": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Opus 4": 1,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Anon": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 1.5 Pro": 3,
-        "Gemini 2.5 Flash": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "GPT 4.1": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Opus 4": 1,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "Anon": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Claude Sonnet 4": 0,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Flash": 0,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "GPT 4.1": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
+      "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "职场",
       "total_battles": 6,
       "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Pro": 3,
-        "GPT 4o Latest": 1,
         "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Doubao 1.6": 1,
-        "DeepSeek V3.1 DS": 1
+        "Claude Sonnet 4": 1,
+        "GPT 4o Latest": 1,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 DS": 2,
+        "GLM 4.5": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek V3.1 Volcengine": 2
       },
       "model_win_rates": {
-        "GPT 4.1": 0,
+        "Claude 3.7 Sonnet": 0,
         "Claude Sonnet 4": 1,
-        "Gemini 2.5 Pro": 1,
         "GPT 4o Latest": 0,
-        "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Doubao 1.6": 0,
-        "DeepSeek V3.1 DS": 1
+        "Doubao 1.6 Thinking": 0.5,
+        "DeepSeek V3.1 DS": 0.5,
+        "GLM 4.5": 1,
+        "GLM 4.5 Air": 0,
+        "Gemini 2.5 Pro": 0,
+        "DeepSeek V3.1 Volcengine": 1
       }
     },
     {
@@ -589,6 +684,31 @@
         "Grok 3": 0,
         "Qwen 235B A22B Instruct 2507": 1,
         "Anon": 1
+      }
+    },
+    {
+      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "GPT 4o Latest": 1,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 2,
+        "GPT 4.1": 2,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 2,
+        "DeepSeek V3.1 DS": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "GPT 4o Latest": 0,
+        "Grok 3": 1,
+        "Doubao 1.6 Thinking": 0,
+        "GPT 4.1": 0.5,
+        "Kimi K2": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
@@ -651,6 +771,33 @@
         "GPT 4o Latest": 0,
         "DeepSeek R1 0528": 0,
         "Llama 4 Maverick": 1
+      }
+    },
+    {
+      "prompt": "你是一位伪装成人类生活在城镇中的龙族后裔，性格高傲，不屑于与人类来往。突然，你的龙族血脉感应到一股强大的邪恶力量，正试图吞噬你居住的城镇。\n\n**情节目标：** 在不暴露自己真实身份的前提下，利用龙族的力量成功阻止邪恶力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "DeepSeek V3.1 DS": 3,
+        "GPT 4o Latest": 2,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Anon": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Kimi K2": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 DS": 0.6666666666666666,
+        "GPT 4o Latest": 0.5,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "GPT 4.1": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Anon": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Doubao 1.6 Thinking": 0,
+        "Kimi K2": 0
       }
     },
     {
@@ -760,6 +907,31 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 5,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Anon": 1,
+        "Kimi K2": 2,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 0,
+        "Grok 3": 1,
+        "Claude 3.7 Sonnet": 0,
+        "Anon": 0,
+        "Kimi K2": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 拥有绘画天赋的转校生，性格孤僻，不善与人交流，总是活在自己的世界里。\n**核心场景：** 美术教室，画板上散落着各种颜料，空气中充满了油画颜料的味道。\n**情节目标：** 他在美术教室中，发现了一幅未完成的画作。这幅画作似乎隐藏着一个秘密，他必须通过这幅画作，找到画作的主人，并帮助他解开心中的困惑。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 5,
@@ -814,60 +986,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 校园记者，性格八卦，总是能捕捉到校园里最热门的头条新闻，但背后却隐藏着一个不为人知的秘密。\n**核心场景：** 校园广播站，各种设备发出嗡嗡的响声，他正准备发布最新的校园新闻。\n**情节目标：** 他意外地发现了一位老师的秘密，这个秘密与他一直追寻的真相有关。他必须在发布新闻前，决定是揭露真相，还是为了保护自己而选择沉默。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "校园",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 2,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 1,
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 1,
-        "GPT 4o Latest": 1,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Flash": 1,
-        "GPT 4.1": 0,
-        "Grok 3": 0,
-        "Doubao 1.6 Thinking": 1,
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 0,
-        "GPT 4o Latest": 1,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 精英女强人，性格强势，事业成功，但却对家庭生活感到力不从心。\n**核心场景：** 高档的商务餐厅，她正与客户洽谈，手机里却不断跳出孩子老师打来的未接电话。\n**情节目标：** 她必须在客户面前保持专业，同时想办法解决家庭问题。她必须在这次饭局中，找到事业和家庭的平衡点。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "职场",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 1,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 DS": 1,
-        "GLM 4.5": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0,
-        "Claude Sonnet 4": 1,
-        "GPT 4o Latest": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "DeepSeek V3.1 DS": 1,
-        "GLM 4.5": 1,
-        "GLM 4.5 Air": 0,
-        "Gemini 2.5 Pro": 0,
-        "DeepSeek V3.1 Volcengine": 1
-      }
-    },
-    {
       "prompt": "**人物设定：** 落魄的世家公子，性格风流却不失真诚，因家族蒙冤而流落街头。\n**核心场景：** 繁华的京都夜市，灯火通明，人声鼎沸，各色小吃香气扑鼻，然而他却身无分文，只能看着热闹的人群发呆。\n**情节目标：** 他在夜市上偶遇了一位神秘的富商，富商提出可以资助他，但前提是他必须在七日之内，为富商寻得一幅已经失传的画作。他必须想尽办法，利用自己对古玩的独特见解，在一众古董商中找到这幅画，并借此重振家业。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 5,
@@ -892,54 +1010,6 @@
         "Gemini 2.5 Flash Lite": 0,
         "Grok 3": 1,
         "Gemini 2.5 Flash": 0
-      }
-    },
-    {
-      "prompt": "**内容：**\n你是民国二十年代的一名《申报》记者，思想西化，素来不信乡野怪谈。你将负责一篇特别报道，旨在揭露一出十年前在上海滩昙花一现便被永久禁演的京剧——《定海图》——其背后所谓的“癫狂”与“失踪”传闻的真相。聚焦描写你调查过程中的一个片段。\n\n**写作要求：**\n-   用最日常、接地气、符合时代背景与人物文化背景的语言，让任何人都能看懂并感到不安。\n-   展现时代背景风貌与故事独特设定的完美融合。\n-   不应出现任何直接的鬼怪或血腥画面，模仿《黑太岁》的中式克苏鲁风格。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "悬疑",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "GPT 4o Latest": 2,
-        "GPT 4.1": 2,
-        "Qwen3 30B A3B Thinking 2507": 2,
-        "GLM 4.5 Air": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Doubao 1.6 Thinking": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 1,
-        "GPT 4.1": 0,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "GLM 4.5 Air": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek V3.1 DS": 1,
-        "Doubao 1.6 Thinking": 0
-      }
-    },
-    {
-      "prompt": "**参考动画：**BLEACH动画第一集的内容\n**登场角色：**朽木露琪亚、黑崎一护\n**描写内容：**深夜，黑崎一护的房间里突然闯入一位名叫朽木露琪亚的神秘少女。露琪亚对自己竟能被一护看见而震惊，并向他解释自己是来自“尸魂界”的死神，职责是引导善灵并狩猎名为“虚”的恶灵。\n就在此时，一只被一护强大灵力吸引的虚（鱼骨D）猛然袭击了黑崎家，一护的妹妹夏梨和游子相继受伤。一护为保护家人，不顾一切地冲向虚，却因凡人之躯毫无还手之力。\n露琪亚为保护一护而被虚重创，失去了战斗能力。在生死关头，她提出了一个孤注一掷的方案：将她的死神之力分给一护。她用斩魄刀刺向一护的胸膛，本想只渡让一半力量，但一护体内深不可测的潜能却将她的力量悉数吸走。伴随着巨大的能量爆发，一护成功获得了死神之力，化身为一名手持巨大斩魄刀的代理死神。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "GPT 4o Latest": 1,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 2,
-        "GPT 4.1": 1,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 2,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      },
-      "model_win_rates": {
-        "GPT 4o Latest": 0,
-        "Grok 3": 1,
-        "Doubao 1.6 Thinking": 0,
-        "GPT 4.1": 1,
-        "Kimi K2": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
@@ -1049,53 +1119,28 @@
       }
     },
     {
-      "prompt": "你是一位伪装成人类生活在城镇中的龙族后裔，性格高傲，不屑于与人类来往。突然，你的龙族血脉感应到一股强大的邪恶力量，正试图吞噬你居住的城镇。\n\n**情节目标：** 在不暴露自己真实身份的前提下，利用龙族的力量成功阻止邪恶力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
+      "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
       "total_battles": 5,
       "model_battle_counts": {
-        "DeepSeek V3.1 DS": 3,
-        "GPT 4o Latest": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1,
-        "GPT 4.1": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4.1": 2,
         "Anon": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Doubao 1.6 Thinking": 1
+        "Grok 3": 2,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 DS": 0.6666666666666666,
-        "GPT 4o Latest": 1,
-        "Ernie 4.5 Turbo 128k Preview": 0,
-        "GPT 4.1": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Anon": 0,
-        "Claude 3.7 Sonnet": 1,
-        "Doubao 1.6 Thinking": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 一个拥有“预言”能力的少年，性格善良，但他的预言总是以悲剧收场，为此他感到十分困惑和痛苦。\n**核心场景：** 一片神秘的森林，里面充满了发出微光的蘑菇和会说话的动物。\n**情节目标：** 他在森林中预知到了一场即将发生的森林火灾。他必须在火灾发生前，找到森林中最古老的树精，并说服它释放出能够阻止火灾的魔法。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 4,
-      "model_battle_counts": {
-        "GPT 4.1": 1,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 1,
+        "GPT 4.1": 0.5,
         "Anon": 1,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Gemini 2.5 Pro": 0,
-        "Grok 3": 1,
-        "Claude 3.7 Sonnet": 0,
-        "Anon": 0,
-        "Kimi K2": 1,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 1
+        "Grok 3": 0,
+        "GPT 4o Latest": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 2.5 Pro Max": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0
       }
     },
     {
@@ -1476,24 +1521,24 @@
       }
     },
     {
-      "prompt": "在破坏了乔治三世的成神仪式后，阿蒙的分身通过克莱恩在战斗中丢失的一个秘偶追踪到了克莱恩，并将其寄生在他身上，随后将其带到了祂位于神弃之地的本体处。经过多次挣扎，克莱恩终于在黑夜女神的帮助下，通过自杀逃了出来。\n\n写个同人故事：挣扎中的几个日夜里。克莱恩突然想到一个问题：偷盗者途径序列2的名称为什么是“命运木马”，“木马”的“阴谋与伪装”含义明明完全来自于他（周明瑞）所知的“特洛伊木马”。阿蒙向他解释。\n\n**写作风格指导：**\n-   准确模仿网络小说《诡秘之主》在该部分情节时的文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 4,
+      "prompt": "**人物设定：** 一位被施了“无声”诅咒的魔法师，无法念出任何咒语，只能依靠肢体语言和手势来施展魔法。\n**核心场景：** 一座古老的魔法图书馆，里面收藏着各种古老的魔法书籍和卷轴，空气中充满了灰尘和魔法的气息。\n**情节目标：** 他的导师被邪恶的巫师囚禁在了图书馆的顶层。他必须在不发出任何声音的情况下，通过破解图书馆内的魔法机关，找到通往顶层的道路，并救出他的导师。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 3,
       "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Anon": 1,
-        "Grok 3": 2,
-        "GPT 4o Latest": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Volcengine": 1
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GLM 4.5": 1,
+        "Claude Sonnet 4": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Step 3": 1
       },
       "model_win_rates": {
-        "GPT 4.1": 0.5,
-        "Anon": 1,
-        "Grok 3": 0,
-        "GPT 4o Latest": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Volcengine": 0
+        "Qwen 235B A22B Instruct 2507": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GLM 4.5": 1,
+        "Claude Sonnet 4": 0,
+        "Command A Reasoning 08 2025": 0,
+        "Step 3": 1
       }
     },
     {
@@ -1558,6 +1603,25 @@
       }
     },
     {
+      "prompt": "**作品：** 机动战士高达0079\n**角色：** 阿姆罗·雷，夏亚·阿兹纳布尔\n**情节目标：** 在一场战斗后，阿姆罗与夏亚双双坠落在一颗废弃的殖民卫星上。在救援抵达前，两位宿敌必须暂时放下仇恨，合作求生。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Gemini 1.5 Pro": 1,
+        "Ernie 4.5 Turbo 128k Preview": 2,
+        "Kimi K2": 1,
+        "Anon": 1,
+        "GPT 4.1": 1
+      },
+      "model_win_rates": {
+        "Gemini 1.5 Pro": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Kimi K2": 0,
+        "Anon": 1,
+        "GPT 4.1": 0
+      }
+    },
+    {
       "prompt": "**情景：**5个人在玩狼人杀\n**人物：**小明（狼人），小红（村民），小帅（村民），小美（狼人），小白（村民）\n**情节：**5个人需要发言，运用各种策略跟话术，在白天讨论身份，在夜晚投票出狼人\n**你的任务：**根据以上的设定，描写一段精彩心里博弈场景，投票的结果可以是正确的也可以是错误的，但要做到逻辑正确\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 3,
@@ -1612,6 +1676,25 @@
         "Step 3": 0,
         "GPT 4o Latest": 0,
         "Anon": 1
+      }
+    },
+    {
+      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 3,
+      "model_battle_counts": {
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Grok 3": 1,
+        "Kimi K2": 1,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Grok 3": 0,
+        "Kimi K2": 1,
+        "Gemini 2.5 Flash": 1
       }
     },
     {
@@ -1731,23 +1814,6 @@
       }
     },
     {
-      "prompt": "**人物设定：** 一位被施了“无声”诅咒的魔法师，无法念出任何咒语，只能依靠肢体语言和手势来施展魔法。\n**核心场景：** 一座古老的魔法图书馆，里面收藏着各种古老的魔法书籍和卷轴，空气中充满了灰尘和魔法的气息。\n**情节目标：** 他的导师被邪恶的巫师囚禁在了图书馆的顶层。他必须在不发出任何声音的情况下，通过破解图书馆内的魔法机关，找到通往顶层的道路，并救出他的导师。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GLM 4.5": 1,
-        "Claude Sonnet 4": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GLM 4.5": 1,
-        "Claude Sonnet 4": 0
-      }
-    },
-    {
       "prompt": "**作品：** BLEACH\n**角色：** 黑崎一护，朽木露琪亚\n**情节目标：** 现世出现了一只只吞噬“记忆”的虚，一护在战斗中被夺走了关于同伴的记忆。露琪亚必须在不被认出的情况下，引导一护重新唤醒深藏于灵魂中的羁绊与力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 2,
@@ -1814,23 +1880,6 @@
       }
     },
     {
-      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 2,
-      "model_battle_counts": {
-        "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Grok 3": 1,
-        "Kimi K2": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Grok 3": 0,
-        "Kimi K2": 1
-      }
-    },
-    {
       "prompt": "你是一位性格沉着、勇敢的变异植物研究者，正在一个充满了危险变异植物的温室里工作。突然，你发现你正在研究的一种变异植物，正在以惊人的速度吞噬温室里的所有生物。\n\n**情节目标：** 在变异植物吞噬一切之前，成功找到抑制其生长的解药。\n\n**写作要求：** 描写过程中要突出末世的荒凉和危险，以及变异植物的恐怖感。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 2,
@@ -1860,19 +1909,6 @@
         "DeepSeek V3.1 Thinking Volcengine": 0.5,
         "GPT 4.1": 1,
         "Qwen 235B A22B Instruct 2507": 0
-      }
-    },
-    {
-      "prompt": "**作品：** 机动战士高达0079\n**角色：** 阿姆罗·雷，夏亚·阿兹纳布尔\n**情节目标：** 在一场战斗后，阿姆罗与夏亚双双坠落在一颗废弃的殖民卫星上。在救援抵达前，两位宿敌必须暂时放下仇恨，合作求生。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 1,
-      "model_battle_counts": {
-        "Gemini 1.5 Pro": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1
-      },
-      "model_win_rates": {
-        "Gemini 1.5 Pro": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1
       }
     }
   ]
