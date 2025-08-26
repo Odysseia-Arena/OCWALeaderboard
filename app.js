@@ -11,6 +11,19 @@ async function fetchLeaderboard() {
   }
 }
 
+async function fetchPrevLeaderboard() {
+  const url = 'data/leaderboard_prev.json';
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    // 首次运行或无备份时可能 404，返回空结构
+    return { updatedAt: null, leaderboard: [] };
+  }
+}
+
 async function fetchHealth() {
   const url = 'data/health.json';
   try {
@@ -588,6 +601,39 @@ function buildRatingCellContent(item, opts) {
   return container;
 }
 
+function createDeltaArrow(delta) {
+  if (delta == null || Number.isNaN(Number(delta)) || Number(delta) === 0) return null;
+  const up = Number(delta) > 0;
+  const span = document.createElement('span');
+  span.className = 'delta-arrow ' + (up ? 'up' : 'down');
+  span.textContent = up ? '▲' : '▼';
+  span.setAttribute('aria-hidden', 'true');
+  return span;
+}
+
+function getComparableRating(item) {
+  const v = (item && (item.rating_realtime ?? item.rating ?? item.score));
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+function getComparableWinRate(item) {
+  const v = (item && item.win_rate_percentage);
+  const n = Number(v);
+  return Number.isFinite(n) ? n : null;
+}
+
+function buildPrevMap(prevEntries) {
+  const map = Object.create(null);
+  if (!Array.isArray(prevEntries)) return map;
+  for (const p of prevEntries) {
+    const key = (p.model_name || p.name || '').toLowerCase();
+    if (!key) continue;
+    map[key] = p;
+  }
+  return map;
+}
+
 // Build only the sub-metrics (RD and Volatility) snippet for mobile second line
 function buildRatingSubContent(item) {
   const lang = getLang();
@@ -649,13 +695,29 @@ function renderTable(rows, state) {
   const map = conf.headers;
   const isMobile = window.matchMedia(`(max-width: ${BREAKPOINT_TABLE}px)`).matches;
   const displayKey = (state && state.sortKey && state.sortKey !== 'rank') ? state.sortKey : 'rating';
+  const prevMap = (state && state.prevMap) || {};
   for (const item of rows) {
     const tr = document.createElement('tr');
+
+    const prev = prevMap[(item.model_name || item.name || '').toLowerCase()];
+    const prevRank = prev && prev.rank != null ? Number(prev.rank) : null;
+    const curRank = item && item.rank != null ? Number(item.rank) : null;
+    const rankDelta = (prevRank != null && curRank != null) ? (curRank - prevRank) : null;
+    const prevRating = getComparableRating(prev);
+    const curRating = getComparableRating(item);
+    const ratingDelta = (prevRating != null && curRating != null) ? (curRating - prevRating) : null;
+    const prevWR = getComparableWinRate(prev);
+    const curWR = getComparableWinRate(item);
+    const wrDelta = (prevWR != null && curWR != null) ? (curWR - prevWR) : null;
 
     const tdRank = document.createElement('td');
     tdRank.textContent = item.rank ?? '';
     tdRank.className = 'cell-rank';
     tdRank.setAttribute('data-label', map.rank);
+    {
+      const arrow = createDeltaArrow(rankDelta != null ? -rankDelta : null);
+      if (arrow) tdRank.appendChild(arrow);
+    }
     tr.appendChild(tdRank);
 
     const tdName = document.createElement('td');
@@ -667,7 +729,14 @@ function renderTable(rows, state) {
     if (!isMobile) {
       // Desktop: always render fixed 7 columns to match headers
       const tdRating = document.createElement('td');
-      tdRating.appendChild(buildRatingCellContent(item, { includeSub: false }));
+      const ratingNode = buildRatingCellContent(item, { includeSub: false });
+      // append arrow to rating main
+      const main = ratingNode && ratingNode.querySelector && ratingNode.querySelector('.main');
+      if (main) {
+        const arrow = createDeltaArrow(ratingDelta);
+        if (arrow) main.appendChild(arrow);
+      }
+      tdRating.appendChild(ratingNode);
       tr.appendChild(tdRating);
 
       const tdTier = document.createElement('td');
@@ -708,13 +777,23 @@ function renderTable(rows, state) {
       tdWinRate.className = 'cell-winrate sub-col';
       const wr = item.win_rate_percentage;
       tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
+      {
+        const arrow = createDeltaArrow(wrDelta);
+        if (arrow) tdWinRate.appendChild(arrow);
+      }
       tr.appendChild(tdWinRate);
     } else {
       // Mobile: header shows Rating main on the first line; sub-metrics on a separate second line
       const tdRatingHeader = document.createElement('td');
       tdRatingHeader.className = 'cell-elo';
       tdRatingHeader.setAttribute('data-label', map.rating);
-      tdRatingHeader.appendChild(buildRatingCellContent(item, { includeSub: false }));
+      const ratingNode = buildRatingCellContent(item, { includeSub: false });
+      const main = ratingNode && ratingNode.querySelector && ratingNode.querySelector('.main');
+      if (main) {
+        const arrow = createDeltaArrow(ratingDelta);
+        if (arrow) main.appendChild(arrow);
+      }
+      tdRatingHeader.appendChild(ratingNode);
       tr.appendChild(tdRatingHeader);
 
       const subNode = buildRatingSubContent(item);
@@ -786,6 +865,10 @@ function renderTable(rows, state) {
       tdWinRate.textContent = (wr !== undefined && wr !== null) ? Number(wr).toFixed(2) : '';
       tdWinRate.className = 'cell-winrate detail-cell';
       tdWinRate.setAttribute('data-label', map.win_rate_percentage);
+      {
+        const arrow = createDeltaArrow(wrDelta);
+        if (arrow) tdWinRate.appendChild(arrow);
+      }
       tr.appendChild(tdWinRate);
 
       if (displayKey !== 'tier') {
@@ -992,10 +1075,12 @@ function setupResponsiveReload() {
 }
 
 (async function init() {
-  const [data, health] = await Promise.all([fetchLeaderboard(), fetchHealth()]);
+  const [data, health, prevData] = await Promise.all([fetchLeaderboard(), fetchHealth(), fetchPrevLeaderboard()]);
   const rows = Array.isArray(data.leaderboard)
     ? data.leaderboard
     : (Array.isArray(data.entries) ? data.entries.map(e => ({ rank: e.rank, model_name: e.name, rating: e.score })) : []);
+  const prevRows = Array.isArray(prevData && prevData.leaderboard) ? prevData.leaderboard : [];
+  const prevMap = buildPrevMap(prevRows);
 
   setupToggles();
   setupLanguage();
@@ -1006,6 +1091,7 @@ function setupResponsiveReload() {
     query: '',
     sortKey: 'rank',
     sortDir: 'asc',
+    prevMap,
   };
   window.__renderState = state;
 
@@ -1022,6 +1108,7 @@ function setupResponsiveReload() {
   // 缓存最近一次数据以便在语言切换时重绘相关文案
   window.__lastHealth = health || {};
   window.__lastRows = rows;
+  window.__prevMap = prevMap;
 
   renderHealth(health || {});
   updateTotalBattles(health || {}, rows);

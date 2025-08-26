@@ -342,6 +342,11 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
 .rating-cell .rating-sub .sub-prefix { opacity: 0.9; }
 .rating-cell .rating-sub .sub-sep { color: var(--muted); opacity: 0.7; padding: 0 2px; }
 
+/* Delta arrows for rank/rating/win rate */
+.delta-arrow { margin-left: 6px; font-size: 11px; vertical-align: baseline; }
+.delta-arrow.up { color: #e74c3c; } /* 红色上升 */
+.delta-arrow.down { color: #2ecc71; } /* 绿色下降 */
+
 /* Generic style so rating-sub also applies when rendered outside .rating-cell (e.g., mobile second line) */
 .rating-sub { display: inline-flex; gap: 8px; color: var(--muted); font-size: 12px; }
 .rating-sub .sub-prefix { opacity: 0.9; }
@@ -445,6 +450,7 @@ select option:checked, select option:hover { background-color: var(--accent-2); 
   /* ensure metric stays on the header line in card layout */
   .table tr .cell-elo,
   .table tr .cell-metric { white-space: nowrap; }
+  .delta-arrow { font-size: 10px; margin-left: 4px; }
   /* second line for rating sub metrics */
   .table tr .cell-elo-sub {
     border: 0;
