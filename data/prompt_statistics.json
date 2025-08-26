@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T09:04:10.914Z",
+  "updatedAt": "2025-08-26T09:09:10.589Z",
   "prompt_statistics": [
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**剧情：**《幸运星》中的泉此方和柊镜一同逛漫展\n\n**写作风格指导：**\n-   对白常常省略说话人，角色台词可能独立成段。\n-   模仿日本轻小说作家“暁 なつめ”文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1146,6 +1146,41 @@
       }
     },
     {
+      "prompt": "你是一名侦探，正在面对一起奇特的“斩首”事件。\n确实奇特——案发现场是一个奇特的纯用特殊金属制作的方形小房子；案发时间为深夜；死者被斩首时是躺在床上的，不仅他的脖颈，整个床都被切成了两段。\n你的助手告诉你，案发现场是完全的密室。你看着满屋子的血迹，看了看周围和你们一起被困在岛上的心怀鬼胎的众人，再看了眼不远处的一台攻城车；你顿了顿，缓缓说出了自己的推理：\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 9,
+      "model_battle_counts": {
+        "Step 3": 2,
+        "Claude Sonnet 4": 2,
+        "GPT 5 Chat": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Claude 3.7 Sonnet": 2,
+        "Kimi K2": 1,
+        "DeepSeek R1 0528": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "GPT 4.1": 2,
+        "Anon": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Llama 4 Maverick": 1,
+        "DeepSeek V3": 1
+      },
+      "model_win_rates": {
+        "Step 3": 1,
+        "Claude Sonnet 4": 0,
+        "GPT 5 Chat": 0,
+        "DeepSeek V3.1 DS": 0,
+        "Claude 3.7 Sonnet": 1,
+        "Kimi K2": 0,
+        "DeepSeek R1 0528": 1,
+        "Gemini 2.5 Flash Lite": 0,
+        "GPT 4.1": 0,
+        "Anon": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Llama 4 Maverick": 1,
+        "DeepSeek V3": 0
+      }
+    },
+    {
       "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 9,
@@ -1529,37 +1564,6 @@
       }
     },
     {
-      "prompt": "你是一名侦探，正在面对一起奇特的“斩首”事件。\n确实奇特——案发现场是一个奇特的纯用特殊金属制作的方形小房子；案发时间为深夜；死者被斩首时是躺在床上的，不仅他的脖颈，整个床都被切成了两段。\n你的助手告诉你，案发现场是完全的密室。你看着满屋子的血迹，看了看周围和你们一起被困在岛上的心怀鬼胎的众人，再看了眼不远处的一台攻城车；你顿了顿，缓缓说出了自己的推理：\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 8,
-      "model_battle_counts": {
-        "Step 3": 2,
-        "Claude Sonnet 4": 2,
-        "GPT 5 Chat": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Claude 3.7 Sonnet": 2,
-        "Kimi K2": 1,
-        "DeepSeek R1 0528": 1,
-        "Gemini 2.5 Flash Lite": 1,
-        "GPT 4.1": 2,
-        "Anon": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      },
-      "model_win_rates": {
-        "Step 3": 1,
-        "Claude Sonnet 4": 0,
-        "GPT 5 Chat": 0,
-        "DeepSeek V3.1 DS": 0,
-        "Claude 3.7 Sonnet": 1,
-        "Kimi K2": 0,
-        "DeepSeek R1 0528": 1,
-        "Gemini 2.5 Flash Lite": 0,
-        "GPT 4.1": 0,
-        "Anon": 1,
-        "DeepSeek V3.1 Volcengine": 1
-      }
-    },
-    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 8,
@@ -1777,6 +1781,35 @@
       }
     },
     {
+      "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Kimi K2": 2,
+        "Step 3": 1,
+        "GPT 4o Latest": 2,
+        "Anon": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT Oss 120B": 1,
+        "GPT 5 Chat": 1,
+        "Doubao 1.6": 1,
+        "GPT 4.1": 1,
+        "Qwen 235B A22B Instruct 2507": 1
+      },
+      "model_win_rates": {
+        "Kimi K2": 0.5,
+        "Step 3": 0,
+        "GPT 4o Latest": 0,
+        "Anon": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "GPT Oss 120B": 1,
+        "GPT 5 Chat": 0,
+        "Doubao 1.6": 0,
+        "GPT 4.1": 1,
+        "Qwen 235B A22B Instruct 2507": 1
+      }
+    },
+    {
       "prompt": "你是一位才华横溢、性格清冷的宫廷画师，正为即将和亲的公主绘制肖像。公主因不愿和亲而郁郁寡欢，在你的画室里向你倾诉心事。\n\n**情节目标：** 在绘制肖像的过程中，用你的画作和言语安慰公主，让她重拾对生活的希望。\n\n**写作要求：** 采用细腻、婉约的文风，突出人物内心世界和情感的变化。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 7,
@@ -1948,6 +1981,33 @@
         "Claude Sonnet 4": 0,
         "Gemini 2.5 Pro": 1,
         "Kimi K2": 0
+      }
+    },
+    {
+      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 1,
+        "Claude 3.7 Sonnet": 3,
+        "GPT 4.1": 1,
+        "Grok 3": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "Mistral Medium 2508": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 0,
+        "Claude 3.7 Sonnet": 0,
+        "GPT 4.1": 1,
+        "Grok 3": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "Mistral Medium 2508": 0
       }
     },
     {
@@ -2279,29 +2339,6 @@
       }
     },
     {
-      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 3,
-        "GPT 4.1": 1,
-        "Grok 3": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 1.5 Pro": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 0,
-        "Claude 3.7 Sonnet": 0,
-        "GPT 4.1": 1,
-        "Grok 3": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 1.5 Pro": 1
-      }
-    },
-    {
       "prompt": "你是一位性格内向、喜欢独处的高中生。你暗恋的同桌，在一次班级活动中不小心将手机弄丢了，而手机里有他非常重要的照片。\n\n**情节目标：** 在手机电量耗尽前，帮助他找到手机，并在此过程中与他产生更深的联结。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
       "total_battles": 5,
@@ -2322,29 +2359,6 @@
         "DeepSeek V3.1 DS": 0,
         "Qwen 235B A22B Instruct 2507": 0,
         "Step 3": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Kimi K2": 1,
-        "Step 3": 1,
-        "GPT 4o Latest": 2,
-        "Anon": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT Oss 120B": 1,
-        "GPT 5 Chat": 1
-      },
-      "model_win_rates": {
-        "Kimi K2": 1,
-        "Step 3": 0,
-        "GPT 4o Latest": 0,
-        "Anon": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "GPT Oss 120B": 1,
-        "GPT 5 Chat": 0
       }
     },
     {
