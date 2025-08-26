@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-26T07:34:10.816Z",
+  "updatedAt": "2025-08-26T07:35:06.326Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -435,7 +435,7 @@
       "Doubao 1.6": null,
       "Doubao 1.6 Thinking": null,
       "Gemini 1.5 Pro": 0.5,
-      "Gemini 2.5 Flash Lite": null,
+      "Gemini 2.5 Flash Lite": 1,
       "Gemini 2.5 Flash": null,
       "Gemini 2.5 Pro": null,
       "Gemma 27B": null,
@@ -504,7 +504,7 @@
       "DeepSeek V3.1 Thinking Volcengine": null,
       "Doubao 1.6": 0,
       "Doubao 1.6 Thinking": null,
-      "Ernie 4.5 Turbo 128k Preview": null,
+      "Ernie 4.5 Turbo 128k Preview": 0,
       "Gemini 1.5 Pro": 1,
       "Gemini 2.5 Flash": null,
       "Gemini 2.5 Pro": null,
@@ -558,7 +558,7 @@
       "Qwen 235B A22B Instruct 2507": 0.6666666666666666,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
-      "Anon": 0,
+      "Anon": 0.3333333333333333,
       "Gemini 2.5 Pro Max": null
     },
     "Gemini 2.5 Pro": {
@@ -1137,7 +1137,7 @@
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": null,
       "Gemini 2.5 Flash Lite": null,
-      "Gemini 2.5 Flash": 1,
+      "Gemini 2.5 Flash": 0.6666666666666666,
       "Gemini 2.5 Pro": 1,
       "Gemma 27B": null,
       "GLM 4.5": null,
@@ -1350,7 +1350,7 @@
     },
     "Gemini 2.5 Flash": {
       "GPT 4.1": 1,
-      "Anon": 2,
+      "Anon": 3,
       "Qwen 235B A22B Instruct 2507": 3,
       "Doubao 1.6": 2,
       "DeepSeek V3.1 Thinking Volcengine": 7,
@@ -1412,7 +1412,7 @@
       "Ernie 4.5 Turbo 128k Preview": 1
     },
     "Anon": {
-      "Gemini 2.5 Flash": 2,
+      "Gemini 2.5 Flash": 3,
       "GPT 4o Latest": 3,
       "Claude Sonnet 4": 3,
       "Gemini 2.5 Pro": 2,
@@ -1464,7 +1464,8 @@
       "GPT 4.1": 2,
       "GPT 5 Chat": 1,
       "Qwen 235B A22B Instruct 2507": 1,
-      "GLM 4.5": 1
+      "GLM 4.5": 1,
+      "Gemini 2.5 Flash Lite": 1
     },
     "GPT Oss 120B": {
       "Ernie 4.5 Turbo 128k Preview": 1,
@@ -1651,7 +1652,8 @@
       "Step 3": 1,
       "Qwen 235B A22B Instruct 2507": 2,
       "Gemini 1.5 Pro": 1,
-      "Doubao 1.6": 1
+      "Doubao 1.6": 1,
+      "Ernie 4.5 Turbo 128k Preview": 1
     },
     "DeepSeek V3": {
       "GPT Oss 120B": 2,
