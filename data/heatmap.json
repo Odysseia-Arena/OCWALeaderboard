@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T08:04:10.771Z",
+  "updatedAt": "2025-08-27T08:09:15.963Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -189,7 +189,7 @@
       "Command A Reasoning 08 2025": 1,
       "DeepSeek V3": 1,
       "DeepSeek V3.1 DS": 0.25,
-      "DeepSeek V3.1 Volcengine": 1,
+      "DeepSeek V3.1 Volcengine": 0.5,
       "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
       "Doubao 1.6": 0.25,
       "Doubao 1.6 Thinking": 1,
@@ -295,7 +295,7 @@
       "Claude Opus 4.1": 0.6666666666666666,
       "Claude Sonnet 4": 0.8571428571428571,
       "Command A Reasoning 08 2025": null,
-      "DeepSeek R1 0528": 0,
+      "DeepSeek R1 0528": 0.5,
       "DeepSeek V3": 1,
       "DeepSeek V3.1 DS": 0.7142857142857143,
       "DeepSeek V3.1 Thinking Volcengine": 0.45454545454545453,
@@ -336,7 +336,7 @@
       "DeepSeek V3.1 DS": 0.5,
       "DeepSeek V3.1 Volcengine": 0.5454545454545454,
       "Doubao 1.6": 0.42857142857142855,
-      "Doubao 1.6 Thinking": 0.7142857142857143,
+      "Doubao 1.6 Thinking": 0.75,
       "Ernie 4.5 Turbo 128k Preview": 0.6666666666666666,
       "Gemini 1.5 Pro": 0.8,
       "Gemini 2.5 Flash Lite": null,
@@ -407,7 +407,7 @@
       "DeepSeek V3": null,
       "DeepSeek V3.1 DS": 0.5714285714285714,
       "DeepSeek V3.1 Volcengine": 0.75,
-      "DeepSeek V3.1 Thinking Volcengine": 0.2857142857142857,
+      "DeepSeek V3.1 Thinking Volcengine": 0.25,
       "Doubao 1.6": 0.5714285714285714,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": null,
@@ -1293,7 +1293,7 @@
     "Doubao 1.6 Thinking": {
       "Claude Sonnet 4": 9,
       "Qwen 235B A22B Instruct 2507": 12,
-      "DeepSeek V3.1 Thinking Volcengine": 7,
+      "DeepSeek V3.1 Thinking Volcengine": 8,
       "DeepSeek V3.1 DS": 10,
       "Doubao 1.6": 8,
       "GPT 4.1": 7,
@@ -1320,7 +1320,7 @@
       "GLM 4.5": 4,
       "Gemini 1.5 Pro": 10,
       "Kimi K2": 12,
-      "Doubao 1.6 Thinking": 7,
+      "Doubao 1.6 Thinking": 8,
       "Gemini 2.5 Flash": 12,
       "GPT 4.1": 12,
       "Doubao 1.6": 7,
@@ -1669,7 +1669,7 @@
       "Gemini 2.5 Pro Max": 2,
       "Doubao 1.6 Thinking": 6,
       "Claude Opus 4": 1,
-      "DeepSeek R1 0528": 3,
+      "DeepSeek R1 0528": 4,
       "GLM 4.5 Air": 3
     },
     "Gemma 27B": {
@@ -1956,7 +1956,7 @@
       "DeepSeek V3.1 Thinking Volcengine": 7,
       "DeepSeek V3.1 DS": 5,
       "Claude Opus 4.1": 1,
-      "DeepSeek V3.1 Volcengine": 3,
+      "DeepSeek V3.1 Volcengine": 4,
       "Claude Opus 4": 2,
       "Claude Sonnet 4": 4,
       "Doubao 1.6": 5,
