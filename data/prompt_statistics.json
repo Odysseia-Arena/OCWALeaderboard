@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T10:55:15.573Z",
+  "updatedAt": "2025-08-27T10:59:07.996Z",
   "prompt_statistics": [
     {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2672,6 +2672,53 @@
       }
     },
     {
+      "prompt": "你是一位性格洒脱、医术高明的江湖游医，在一次为病人诊治时，你发现病人身上有一种罕见的毒素。这种毒素与你多年前失踪的师父有关。\n\n**情节目标：** 成功解毒，并根据线索找到你失踪的师父。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 17,
+      "model_battle_counts": {
+        "Qwen 235B A22B Instruct 2507": 3,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 6,
+        "DeepSeek V3.1 Thinking Volcengine": 5,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Kimi K2": 2,
+        "Step 3": 1,
+        "Grok 4": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Llama 4 Maverick": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Claude Sonnet 4": 1,
+        "DeepSeek R1 0528": 1,
+        "Doubao 1.6": 1,
+        "Claude Opus 4": 1,
+        "GLM 4.5 Air": 2,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "Anon": 1
+      },
+      "model_win_rates": {
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 0.6666666666666666,
+        "DeepSeek V3.1 Thinking Volcengine": 0.2,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Kimi K2": 0.5,
+        "Step 3": 1,
+        "Grok 4": 0,
+        "Command A Reasoning 08 2025": 0,
+        "Llama 4 Maverick": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Doubao 1.6 Thinking": 0,
+        "Claude Sonnet 4": 1,
+        "DeepSeek R1 0528": 0,
+        "Doubao 1.6": 1,
+        "Claude Opus 4": 0,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "Anon": 1
+      }
+    },
+    {
       "prompt": "你是一名侦探，正在面对一起奇特的“斩首”事件。\n确实奇特——案发现场是一个奇特的纯用特殊金属制作的方形小房子；案发时间为深夜；死者被斩首时是躺在床上的，不仅他的脖颈，整个床都被切成了两段。\n你的助手告诉你，案发现场是完全的密室。你看着满屋子的血迹，看了看周围和你们一起被困在岛上的心怀鬼胎的众人，再看了眼不远处的一台攻城车；你顿了顿，缓缓说出了自己的推理：\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "逻辑",
       "total_battles": 17,
@@ -3016,51 +3063,6 @@
         "Anon": 0,
         "DeepSeek R1 0528": 0,
         "GLM 4.5 Air": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格洒脱、医术高明的江湖游医，在一次为病人诊治时，你发现病人身上有一种罕见的毒素。这种毒素与你多年前失踪的师父有关。\n\n**情节目标：** 成功解毒，并根据线索找到你失踪的师父。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 16,
-      "model_battle_counts": {
-        "Qwen 235B A22B Instruct 2507": 3,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 5,
-        "DeepSeek V3.1 Thinking Volcengine": 5,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Kimi K2": 2,
-        "Step 3": 1,
-        "Grok 4": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Llama 4 Maverick": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Claude Sonnet 4": 1,
-        "DeepSeek R1 0528": 1,
-        "Doubao 1.6": 1,
-        "Claude Opus 4": 1,
-        "GLM 4.5 Air": 2,
-        "Gemini 2.5 Pro Deepthink": 1
-      },
-      "model_win_rates": {
-        "Qwen 235B A22B Instruct 2507": 0,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 0.8,
-        "DeepSeek V3.1 Thinking Volcengine": 0.2,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Kimi K2": 0.5,
-        "Step 3": 1,
-        "Grok 4": 0,
-        "Command A Reasoning 08 2025": 0,
-        "Llama 4 Maverick": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6 Thinking": 0,
-        "Claude Sonnet 4": 1,
-        "DeepSeek R1 0528": 0,
-        "Doubao 1.6": 1,
-        "Claude Opus 4": 0,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Pro Deepthink": 1
       }
     },
     {

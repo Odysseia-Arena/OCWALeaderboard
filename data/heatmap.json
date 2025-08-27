@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T10:55:15.186Z",
+  "updatedAt": "2025-08-27T10:59:07.303Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -1392,7 +1392,8 @@
       "Claude Opus 4": 7,
       "Claude Opus 4.1": 4,
       "Gemini 2.5 Flash Lite": 2,
-      "DeepSeek R1 0528": 5
+      "DeepSeek R1 0528": 5,
+      "Anon": 1
     },
     "Grok 3": {
       "Kimi K2": 8,
@@ -2075,7 +2076,8 @@
       "Claude Sonnet 4": 1,
       "DeepSeek V3.1 Thinking Volcengine": 1,
       "Claude Opus 4.1": 1,
-      "Qwen 235B A22B Instruct 2507": 1
+      "Qwen 235B A22B Instruct 2507": 1,
+      "DeepSeek V3.1 DS": 1
     }
   }
 }
