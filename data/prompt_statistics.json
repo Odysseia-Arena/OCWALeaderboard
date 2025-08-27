@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T03:11:36.696Z",
+  "updatedAt": "2025-08-27T03:14:10.050Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1524,6 +1524,57 @@
       }
     },
     {
+      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 18,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Claude Sonnet 4": 2,
+        "Gemini 1.5 Pro": 2,
+        "Kimi K2": 1,
+        "Doubao 1.6 Thinking": 2,
+        "GLM 4.5": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
+        "DeepSeek V3.1 DS": 5,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Step 3": 1,
+        "Claude Opus 4.1": 1,
+        "Mistral Medium 2508": 1,
+        "Claude 3.7 Sonnet": 2,
+        "GPT 5 Chat": 1,
+        "Gemini 2.5 Flash": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "Gemini 2.5 Pro": 1,
+        "GLM 4.5 Air": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Claude Sonnet 4": 0.5,
+        "Gemini 1.5 Pro": 0.5,
+        "Kimi K2": 0,
+        "Doubao 1.6 Thinking": 1,
+        "GLM 4.5": 0.6666666666666666,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "DeepSeek V3.1 DS": 0.4,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3": 0,
+        "Command A Reasoning 08 2025": 1,
+        "Step 3": 0,
+        "Claude Opus 4.1": 1,
+        "Mistral Medium 2508": 0,
+        "Claude 3.7 Sonnet": 0.5,
+        "GPT 5 Chat": 0,
+        "Gemini 2.5 Flash": 1,
+        "Ernie 4.5 Turbo 128k Preview": 0,
+        "Gemini 2.5 Pro": 1,
+        "GLM 4.5 Air": 0
+      }
+    },
+    {
       "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 18,
@@ -1813,53 +1864,6 @@
         "GLM 4.5 Air": 1,
         "Claude Opus 4": 0,
         "Doubao 1.6": 0
-      }
-    },
-    {
-      "prompt": "你是一位思维缜密、观察力极强的侦探小说家，在一次签名售书会上，你收到了一张看似普通的明信片。然而，你敏锐地察觉到明信片上的文字和图案隐藏着一个等待你解开的谜题。\n\n**情节目标：** 根据明信片上的线索，成功找到一个你从未见过的神秘人物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 17,
-      "model_battle_counts": {
-        "GPT 4.1": 2,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Claude Sonnet 4": 2,
-        "Gemini 1.5 Pro": 2,
-        "Kimi K2": 1,
-        "Doubao 1.6 Thinking": 2,
-        "GLM 4.5": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 4,
-        "DeepSeek V3.1 DS": 5,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Step 3": 1,
-        "Claude Opus 4.1": 1,
-        "Mistral Medium 2508": 1,
-        "Claude 3.7 Sonnet": 2,
-        "GPT 5 Chat": 1,
-        "Gemini 2.5 Flash": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude Sonnet 4": 0.5,
-        "Gemini 1.5 Pro": 0.5,
-        "Kimi K2": 0,
-        "Doubao 1.6 Thinking": 1,
-        "GLM 4.5": 0.6666666666666666,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "DeepSeek V3.1 DS": 0.4,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3": 0,
-        "Command A Reasoning 08 2025": 1,
-        "Step 3": 0,
-        "Claude Opus 4.1": 1,
-        "Mistral Medium 2508": 0,
-        "Claude 3.7 Sonnet": 0.5,
-        "GPT 5 Chat": 0,
-        "Gemini 2.5 Flash": 1,
-        "Ernie 4.5 Turbo 128k Preview": 0
       }
     },
     {
@@ -3079,6 +3083,43 @@
       }
     },
     {
+      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 2,
+        "Claude 3.7 Sonnet": 3,
+        "GPT 4.1": 2,
+        "Grok 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
+        "Gemini 2.5 Flash": 4,
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "Mistral Medium 2508": 1,
+        "Command A Reasoning 08 2025": 1,
+        "GPT Oss 120B": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Anon": 1,
+        "Claude Sonnet 4": 3
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 0.5,
+        "Claude 3.7 Sonnet": 0,
+        "GPT 4.1": 0.5,
+        "Grok 3": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "Mistral Medium 2508": 0,
+        "Command A Reasoning 08 2025": 1,
+        "GPT Oss 120B": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Anon": 1,
+        "Claude Sonnet 4": 0.3333333333333333
+      }
+    },
+    {
       "prompt": "你是一位性格乐观、行动敏捷的仿生人快递员，编号为 734。在一次前往富人区送货的路上，你目睹了一起针对仿生人的非法暴力事件。你的客户，一位年迈的工程师，正遭受一群“人类至上”主义者的围攻。\n\n**情节目标：** 在确保自身安全的前提下，成功保护客户并完成送货任务。\n\n**写作要求：** 描写过程中可以增加一些科幻感十足的细节，例如仿生人的独特感官体验、未来城市的景象等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 14,
@@ -3262,43 +3303,6 @@
         "Claude Sonnet 4": 1,
         "Step 3": 0,
         "Qwen 235B A22B Instruct 2507": 0
-      }
-    },
-    {
-      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 1,
-        "Claude 3.7 Sonnet": 3,
-        "GPT 4.1": 2,
-        "Grok 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 4,
-        "Gemini 2.5 Flash": 4,
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1,
-        "Mistral Medium 2508": 1,
-        "Command A Reasoning 08 2025": 1,
-        "GPT Oss 120B": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Anon": 1,
-        "Claude Sonnet 4": 2
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 0,
-        "Claude 3.7 Sonnet": 0,
-        "GPT 4.1": 0.5,
-        "Grok 3": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1,
-        "Mistral Medium 2508": 0,
-        "Command A Reasoning 08 2025": 1,
-        "GPT Oss 120B": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Anon": 1,
-        "Claude Sonnet 4": 0.5
       }
     },
     {
