@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T15:09:10.959Z",
+  "updatedAt": "2025-08-27T15:14:11.902Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -604,6 +604,63 @@
       }
     },
     {
+      "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 25,
+      "model_battle_counts": {
+        "Claude Sonnet 4": 1,
+        "Kimi K2": 4,
+        "DeepSeek V3.1 Thinking Volcengine": 5,
+        "Claude Opus 4": 2,
+        "Claude Opus 4.1": 1,
+        "Gemini 2.5 Pro Deepthink": 3,
+        "GPT 4.1": 1,
+        "Grok 3": 2,
+        "Claude 3.7 Sonnet": 3,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 1.5 Pro": 1,
+        "Doubao 1.6 Thinking": 3,
+        "Gemini 2.5 Flash": 3,
+        "GPT 4o Latest": 3,
+        "Llama 4 Maverick": 1,
+        "GLM 4.5": 1,
+        "Ernie 4.5 Turbo 128k Preview": 2,
+        "Qwen 235B A22B Instruct 2507": 4,
+        "GLM 4.5 Air": 1,
+        "Gemma 27B": 1,
+        "Doubao 1.6": 2,
+        "DeepSeek V3.1 Volcengine": 3,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek R1 0528": 1
+      },
+      "model_win_rates": {
+        "Claude Sonnet 4": 0,
+        "Kimi K2": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0.8,
+        "Claude Opus 4": 0,
+        "Claude Opus 4.1": 1,
+        "Gemini 2.5 Pro Deepthink": 0.6666666666666666,
+        "GPT 4.1": 0,
+        "Grok 3": 0.5,
+        "Claude 3.7 Sonnet": 0.6666666666666666,
+        "DeepSeek V3.1 DS": 1,
+        "Gemini 1.5 Pro": 0,
+        "Doubao 1.6 Thinking": 0.6666666666666666,
+        "Gemini 2.5 Flash": 0.3333333333333333,
+        "GPT 4o Latest": 0.3333333333333333,
+        "Llama 4 Maverick": 0,
+        "GLM 4.5": 0,
+        "Ernie 4.5 Turbo 128k Preview": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "GLM 4.5 Air": 1,
+        "Gemma 27B": 0,
+        "Doubao 1.6": 0.5,
+        "DeepSeek V3.1 Volcengine": 0.3333333333333333,
+        "Gemini 2.5 Pro": 1,
+        "DeepSeek R1 0528": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 校园记者，性格八卦，总是能捕捉到校园里最热门的头条新闻，但背后却隐藏着一个不为人知的秘密。\n**核心场景：** 校园广播站，各种设备发出嗡嗡的响声，他正准备发布最新的校园新闻。\n**情节目标：** 他意外地发现了一位老师的秘密，这个秘密与他一直追寻的真相有关。他必须在发布新闻前，决定是揭露真相，还是为了保护自己而选择沉默。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "校园",
       "total_battles": 24,
@@ -825,63 +882,6 @@
         "Gemini 2.5 Pro": 1,
         "Doubao 1.6": 0,
         "Grok 3": 0
-      }
-    },
-    {
-      "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 24,
-      "model_battle_counts": {
-        "Claude Sonnet 4": 1,
-        "Kimi K2": 4,
-        "DeepSeek V3.1 Thinking Volcengine": 5,
-        "Claude Opus 4": 2,
-        "Claude Opus 4.1": 1,
-        "Gemini 2.5 Pro Deepthink": 3,
-        "GPT 4.1": 1,
-        "Grok 3": 2,
-        "Claude 3.7 Sonnet": 3,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 1.5 Pro": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Gemini 2.5 Flash": 3,
-        "GPT 4o Latest": 3,
-        "Llama 4 Maverick": 1,
-        "GLM 4.5": 1,
-        "Ernie 4.5 Turbo 128k Preview": 2,
-        "Qwen 235B A22B Instruct 2507": 4,
-        "GLM 4.5 Air": 1,
-        "Gemma 27B": 1,
-        "Doubao 1.6": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek R1 0528": 1
-      },
-      "model_win_rates": {
-        "Claude Sonnet 4": 0,
-        "Kimi K2": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0.8,
-        "Claude Opus 4": 0,
-        "Claude Opus 4.1": 1,
-        "Gemini 2.5 Pro Deepthink": 0.6666666666666666,
-        "GPT 4.1": 0,
-        "Grok 3": 0.5,
-        "Claude 3.7 Sonnet": 0.6666666666666666,
-        "DeepSeek V3.1 DS": 1,
-        "Gemini 1.5 Pro": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "Gemini 2.5 Flash": 0.3333333333333333,
-        "GPT 4o Latest": 0.3333333333333333,
-        "Llama 4 Maverick": 0,
-        "GLM 4.5": 0,
-        "Ernie 4.5 Turbo 128k Preview": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "GLM 4.5 Air": 1,
-        "Gemma 27B": 0,
-        "Doubao 1.6": 0.5,
-        "DeepSeek V3.1 Volcengine": 0.5,
-        "Gemini 2.5 Pro": 1,
-        "DeepSeek R1 0528": 0
       }
     },
     {
@@ -3957,6 +3957,39 @@
       }
     },
     {
+      "prompt": "**世界观：**僵尸末日\n\n**人物：**林影（姐姐）与林云（妹妹），她们既是姐妹也是一对百合情侣。\n\n**背景故事：**\n在僵尸末日中相依为命五年后，两人以一栋别墅为据点度过了半年幸福时光。因物资耗尽，她们约定分头寻找资源，三日后在据点汇合。分开前，她们发誓无论如何都会回来见面。\n\n**情节大纲：**\n- **起：**约定之日的深夜，暴雨倾盆。妹妹林云已回到据点，但姐姐林影仍未归。一个不明生物（推测为僵尸）闯入据点，而林云只剩下三发子弹。\n- **承：**林云在黑暗中与格外难缠的僵尸斗智斗勇，弹尽粮绝之际，她用陷阱重创了对方，但自己也已筋疲力竭，只剩最后一颗子弹。\n- **转：**雨停天亮，林云终于看清了那只僵尸的真面目……\n\n**写作要求：**\n请根据以上大纲，自由发挥，为这个故事撰写结局。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "GLM 4.5 Air": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 1,
+        "Gemini 2.5 Flash": 1,
+        "Doubao 1.6": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "DeepSeek V3.1 DS": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Kimi K2": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "GLM 4.5 Air": 0,
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 0,
+        "Gemini 2.5 Flash": 1,
+        "Doubao 1.6": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Kimi K2": 1,
+        "Gemini 2.5 Pro Max": 0,
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      }
+    },
+    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若葉睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 7,
@@ -3983,37 +4016,6 @@
         "Doubao 1.6": 1,
         "GPT 5 Chat": 1,
         "Grok 4": 0
-      }
-    },
-    {
-      "prompt": "**世界观：**僵尸末日\n\n**人物：**林影（姐姐）与林云（妹妹），她们既是姐妹也是一对百合情侣。\n\n**背景故事：**\n在僵尸末日中相依为命五年后，两人以一栋别墅为据点度过了半年幸福时光。因物资耗尽，她们约定分头寻找资源，三日后在据点汇合。分开前，她们发誓无论如何都会回来见面。\n\n**情节大纲：**\n- **起：**约定之日的深夜，暴雨倾盆。妹妹林云已回到据点，但姐姐林影仍未归。一个不明生物（推测为僵尸）闯入据点，而林云只剩下三发子弹。\n- **承：**林云在黑暗中与格外难缠的僵尸斗智斗勇，弹尽粮绝之际，她用陷阱重创了对方，但自己也已筋疲力竭，只剩最后一颗子弹。\n- **转：**雨停天亮，林云终于看清了那只僵尸的真面目……\n\n**写作要求：**\n请根据以上大纲，自由发挥，为这个故事撰写结局。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "GLM 4.5 Air": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 1,
-        "Gemini 2.5 Flash": 1,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 DS": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Kimi K2": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Gemini 1.5 Pro": 1
-      },
-      "model_win_rates": {
-        "GLM 4.5 Air": 0,
-        "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 0,
-        "Gemini 2.5 Flash": 1,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Kimi K2": 1,
-        "Gemini 2.5 Pro Max": 0,
-        "Gemini 1.5 Pro": 1
       }
     },
     {
