@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T05:49:34.997Z",
+  "updatedAt": "2025-08-27T05:54:11.277Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3287,6 +3287,55 @@
       }
     },
     {
+      "prompt": "你是一位性格沉着、勇敢的变异植物研究者，正在一个充满了危险变异植物的温室里工作。突然，你发现你正在研究的一种变异植物，正在以惊人的速度吞噬温室里的所有生物。\n\n**情节目标：** 在变异植物吞噬一切之前，成功找到抑制其生长的解药。\n\n**写作要求：** 描写过程中要突出末世的荒凉和危险，以及变异植物的恐怖感。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "GPT 4.1": 2,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Doubao 1.6 Thinking": 1,
+        "Grok 3": 1,
+        "Step 3": 2,
+        "GPT Oss 120B": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "DeepSeek R1 0528": 2,
+        "Gemini 1.5 Pro": 2,
+        "Mistral Medium 2508": 2,
+        "Claude Sonnet 4": 2,
+        "Anon": 2,
+        "Gemma 27B": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Flash": 1,
+        "Claude Opus 4": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "Qwen 235B A22B Instruct 2507": 1
+      },
+      "model_win_rates": {
+        "GPT 4.1": 0,
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "Doubao 1.6 Thinking": 1,
+        "Grok 3": 0,
+        "Step 3": 0.5,
+        "GPT Oss 120B": 0,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "DeepSeek R1 0528": 1,
+        "Gemini 1.5 Pro": 0.5,
+        "Mistral Medium 2508": 0.5,
+        "Claude Sonnet 4": 0.5,
+        "Anon": 0.5,
+        "Gemma 27B": 0,
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Flash": 0,
+        "Claude Opus 4": 1,
+        "Gemini 2.5 Flash Lite": 0,
+        "Qwen 235B A22B Instruct 2507": 1
+      }
+    },
+    {
       "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "现代",
       "total_battles": 13,
@@ -3413,55 +3462,6 @@
         "Command A Reasoning 08 2025": 0,
         "Claude Sonnet 4": 0,
         "DeepSeek R1 0528": 0
-      }
-    },
-    {
-      "prompt": "你是一位性格沉着、勇敢的变异植物研究者，正在一个充满了危险变异植物的温室里工作。突然，你发现你正在研究的一种变异植物，正在以惊人的速度吞噬温室里的所有生物。\n\n**情节目标：** 在变异植物吞噬一切之前，成功找到抑制其生长的解药。\n\n**写作要求：** 描写过程中要突出末世的荒凉和危险，以及变异植物的恐怖感。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "GPT 4.1": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Doubao 1.6 Thinking": 1,
-        "Grok 3": 1,
-        "Step 3": 2,
-        "GPT Oss 120B": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "DeepSeek R1 0528": 1,
-        "Gemini 1.5 Pro": 2,
-        "Mistral Medium 2508": 2,
-        "Claude Sonnet 4": 1,
-        "Anon": 2,
-        "Gemma 27B": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Flash": 1,
-        "Claude Opus 4": 1,
-        "Gemini 2.5 Flash Lite": 1,
-        "Qwen 235B A22B Instruct 2507": 1
-      },
-      "model_win_rates": {
-        "GPT 4.1": 0,
-        "DeepSeek V3.1 Volcengine": 0.5,
-        "Doubao 1.6 Thinking": 1,
-        "Grok 3": 0,
-        "Step 3": 0.5,
-        "GPT Oss 120B": 0,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "DeepSeek R1 0528": 1,
-        "Gemini 1.5 Pro": 0.5,
-        "Mistral Medium 2508": 0.5,
-        "Claude Sonnet 4": 1,
-        "Anon": 0.5,
-        "Gemma 27B": 0,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Flash": 0,
-        "Claude Opus 4": 1,
-        "Gemini 2.5 Flash Lite": 0,
-        "Qwen 235B A22B Instruct 2507": 1
       }
     },
     {
@@ -3732,7 +3732,7 @@
     {
       "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "现代",
-      "total_battles": 6,
+      "total_battles": 7,
       "model_battle_counts": {
         "Gemini 2.5 Pro Max": 1,
         "Claude 3.7 Sonnet": 1,
@@ -3740,10 +3740,11 @@
         "Qwen3 30B A3B Thinking 2507": 1,
         "Qwen 235B A22B Instruct 2507": 1,
         "Doubao 1.6 Thinking": 1,
-        "Claude Sonnet 4": 1,
+        "Claude Sonnet 4": 2,
         "Gemini 2.5 Pro": 2,
         "GLM 4.5": 1,
-        "Gemini 2.5 Flash Lite": 1
+        "Gemini 2.5 Flash Lite": 1,
+        "Doubao 1.6": 1
       },
       "model_win_rates": {
         "Gemini 2.5 Pro Max": 1,
@@ -3752,10 +3753,11 @@
         "Qwen3 30B A3B Thinking 2507": 1,
         "Qwen 235B A22B Instruct 2507": 1,
         "Doubao 1.6 Thinking": 0,
-        "Claude Sonnet 4": 0,
+        "Claude Sonnet 4": 0.5,
         "Gemini 2.5 Pro": 1,
         "GLM 4.5": 1,
-        "Gemini 2.5 Flash Lite": 0
+        "Gemini 2.5 Flash Lite": 0,
+        "Doubao 1.6": 0
       }
     },
     {
