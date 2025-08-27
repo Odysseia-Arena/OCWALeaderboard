@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T08:24:14.182Z",
+  "updatedAt": "2025-08-27T08:29:05.842Z",
   "nextUpdateTime": "2025-08-27T17:00:00",
   "leaderboard": [
     {
@@ -35,7 +35,7 @@
       "rank": 2
     },
     {
-      "model_name": "Anon",
+      "model_name": "Gemini 2.5 Pro Deepthink",
       "tier": "high",
       "rating": 1695,
       "rating_deviation": 34,
@@ -45,9 +45,9 @@
       "ties": 14,
       "skips": 1,
       "win_rate_percentage": 64.89,
-      "rating_realtime": 1688,
+      "rating_realtime": 1683,
       "rating_deviation_realtime": 33,
-      "volatility_realtime": 0.05991367474900343,
+      "volatility_realtime": 0.059916148016330925,
       "rank": 3
     },
     {
@@ -232,14 +232,14 @@
       "rating": 1586,
       "rating_deviation": 27,
       "volatility": 0.0597877045183167,
-      "battles": 177,
-      "wins": 75,
+      "battles": 178,
+      "wins": 76,
       "ties": 12,
       "skips": 7,
-      "win_rate_percentage": 47.47,
-      "rating_realtime": 1582,
+      "win_rate_percentage": 47.8,
+      "rating_realtime": 1584,
       "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059785494052308305,
+      "volatility_realtime": 0.059787959913614526,
       "rank": 15
     },
     {
