@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T17:39:17.799Z",
+  "updatedAt": "2025-08-27T17:43:44.863Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -537,7 +537,7 @@
       "Qwen 235B A22B Instruct 2507": null,
       "Qwen 235B A22B Thinking 2507": 0.8333333333333334,
       "Qwen3 30B A3B Thinking 2507": null,
-      "Step 3": 1,
+      "Step 3": 0.6666666666666666,
       "Gemini 2.5 Pro Deepthink": null,
       "Gemini 2.5 Pro Max": null
     },
@@ -567,7 +567,7 @@
       "GPT Oss 120B": null,
       "Grok 3": 0.5,
       "Grok 4": null,
-      "Kimi K2": 0,
+      "Kimi K2": 0.16666666666666666,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
       "Qwen 235B A22B Instruct 2507": 0.45454545454545453,
@@ -953,7 +953,7 @@
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": 0.75,
       "Gemini 2.5 Flash Lite": null,
-      "Gemini 2.5 Flash": 1,
+      "Gemini 2.5 Flash": 0.8333333333333334,
       "Gemini 2.5 Pro": 0,
       "Gemma 27B": null,
       "GLM 4.5": null,
@@ -1168,7 +1168,7 @@
       "Doubao 1.6 Thinking": null,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": 0.5,
-      "Gemini 2.5 Flash Lite": 0,
+      "Gemini 2.5 Flash Lite": 0.3333333333333333,
       "Gemini 2.5 Flash": 1,
       "Gemini 2.5 Pro": null,
       "Gemma 27B": 1,
@@ -1439,7 +1439,7 @@
       "Gemini 2.5 Pro Max": 7,
       "GPT 4.1": 3,
       "GPT 4o Latest": 4,
-      "Gemini 2.5 Flash": 6,
+      "Gemini 2.5 Flash": 7,
       "Claude Opus 4": 4,
       "Command A Reasoning 08 2025": 1
     },
@@ -1488,7 +1488,7 @@
       "Claude Sonnet 4": 10,
       "Claude Opus 4": 4,
       "Gemini 2.5 Pro Max": 4,
-      "Kimi K2": 6,
+      "Kimi K2": 7,
       "Step 3": 1,
       "Gemini 2.5 Flash Lite": 1,
       "Gemini 2.5 Pro": 3,
@@ -1714,7 +1714,7 @@
       "Llama 4 Maverick": 2,
       "DeepSeek R1 0528": 3,
       "DeepSeek V3.1 Thinking Volcengine": 4,
-      "Gemini 2.5 Flash Lite": 2,
+      "Gemini 2.5 Flash Lite": 3,
       "Claude Sonnet 4": 3,
       "GPT 5 Chat": 2,
       "Command A Reasoning 08 2025": 2,
@@ -2008,7 +2008,7 @@
       "Doubao 1.6": 1
     },
     "Gemini 2.5 Flash Lite": {
-      "Step 3": 2,
+      "Step 3": 3,
       "Qwen 235B A22B Thinking 2507": 6,
       "Gemini 1.5 Pro": 7,
       "Doubao 1.6": 1,
