@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-27T00:59:04.904Z",
-  "nextUpdateTime": "2025-08-27T09:00:00",
+  "updatedAt": "2025-08-27T01:04:06.681Z",
+  "nextUpdateTime": "2025-08-27T10:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1754,
+      "rating": 1753,
       "rating_deviation": 47,
-      "volatility": 0.05993975076606901,
+      "volatility": 0.05993666332509649,
       "battles": 58,
       "wins": 34,
       "ties": 7,
@@ -21,9 +21,9 @@
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1696,
+      "rating": 1697,
       "rating_deviation": 35,
-      "volatility": 0.05993426515302689,
+      "volatility": 0.05993118358594721,
       "battles": 99,
       "wins": 58,
       "ties": 11,
@@ -85,9 +85,9 @@
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
       "tier": "high",
-      "rating": 1629,
+      "rating": 1632,
       "rating_deviation": 32,
-      "volatility": 0.059897892570182014,
+      "volatility": 0.059897153770331,
       "battles": 117,
       "wins": 59,
       "ties": 5,
@@ -103,7 +103,7 @@
       "tier": "high",
       "rating": 1623,
       "rating_deviation": 34,
-      "volatility": 0.059940645813086564,
+      "volatility": 0.059937364523167704,
       "battles": 104,
       "wins": 50,
       "ties": 8,
@@ -111,7 +111,7 @@
       "win_rate_percentage": 53.19,
       "rating_realtime": 1623,
       "rating_deviation_realtime": 34,
-      "volatility_realtime": 0.05993736512837413,
+      "volatility_realtime": 0.059937364523167704,
       "rank": 7
     },
     {
@@ -151,7 +151,7 @@
       "tier": "high",
       "rating": 1608,
       "rating_deviation": 33,
-      "volatility": 0.05987930625948555,
+      "volatility": 0.05987300907640801,
       "battles": 110,
       "wins": 48,
       "ties": 12,
@@ -159,7 +159,7 @@
       "win_rate_percentage": 51.06,
       "rating_realtime": 1608,
       "rating_deviation_realtime": 33,
-      "volatility_realtime": 0.05987299894448339,
+      "volatility_realtime": 0.05987300907640801,
       "rank": 10
     },
     {
@@ -213,9 +213,9 @@
     {
       "model_name": "Claude Sonnet 4",
       "tier": "high",
-      "rating": 1586,
+      "rating": 1584,
       "rating_deviation": 29,
-      "volatility": 0.05982042919496995,
+      "volatility": 0.05981969803069808,
       "battles": 153,
       "wins": 66,
       "ties": 8,
@@ -259,22 +259,6 @@
       "rank": 16
     },
     {
-      "model_name": "Claude Opus 4",
-      "tier": "low",
-      "rating": 1563,
-      "rating_deviation": 39,
-      "volatility": 0.06012662724777118,
-      "battles": 80,
-      "wins": 26,
-      "ties": 12,
-      "skips": 6,
-      "win_rate_percentage": 41.94,
-      "rating_realtime": 1559,
-      "rating_deviation_realtime": 38,
-      "volatility_realtime": 0.06012720971666014,
-      "rank": 17
-    },
-    {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
       "rating": 1562,
@@ -288,14 +272,30 @@
       "rating_realtime": 1562,
       "rating_deviation_realtime": 45,
       "volatility_realtime": 0.06003395906355648,
+      "rank": 17
+    },
+    {
+      "model_name": "Claude Opus 4",
+      "tier": "low",
+      "rating": 1559,
+      "rating_deviation": 38,
+      "volatility": 0.06012720971666014,
+      "battles": 80,
+      "wins": 26,
+      "ties": 12,
+      "skips": 6,
+      "win_rate_percentage": 41.94,
+      "rating_realtime": 1559,
+      "rating_deviation_realtime": 38,
+      "volatility_realtime": 0.06012720971666014,
       "rank": 18
     },
     {
       "model_name": "DeepSeek R1 0528",
       "tier": "high",
-      "rating": 1544,
-      "rating_deviation": 49,
-      "volatility": 0.059960182131735824,
+      "rating": 1546,
+      "rating_deviation": 48,
+      "volatility": 0.05995712622411494,
       "battles": 43,
       "wins": 22,
       "ties": 3,
@@ -323,6 +323,22 @@
       "rank": 20
     },
     {
+      "model_name": "Gemini 2.5 Flash Lite",
+      "tier": "low",
+      "rating": 1540,
+      "rating_deviation": 51,
+      "volatility": 0.06001897982384794,
+      "battles": 42,
+      "wins": 19,
+      "ties": 2,
+      "skips": 5,
+      "win_rate_percentage": 54.29,
+      "rating_realtime": 1540,
+      "rating_deviation_realtime": 51,
+      "volatility_realtime": 0.06001897982384794,
+      "rank": 21
+    },
+    {
       "model_name": "Command A Reasoning 08 2025",
       "tier": "low",
       "rating": 1539,
@@ -336,7 +352,7 @@
       "rating_realtime": 1539,
       "rating_deviation_realtime": 54,
       "volatility_realtime": 0.06000427971062632,
-      "rank": 21
+      "rank": 22
     },
     {
       "model_name": "Step 3",
@@ -352,22 +368,6 @@
       "rating_realtime": 1538,
       "rating_deviation_realtime": 42,
       "volatility_realtime": 0.06002755748325886,
-      "rank": 22
-    },
-    {
-      "model_name": "Gemini 2.5 Flash Lite",
-      "tier": "low",
-      "rating": 1532,
-      "rating_deviation": 52,
-      "volatility": 0.06001843132654608,
-      "battles": 42,
-      "wins": 19,
-      "ties": 2,
-      "skips": 5,
-      "win_rate_percentage": 54.29,
-      "rating_realtime": 1540,
-      "rating_deviation_realtime": 51,
-      "volatility_realtime": 0.06001897982384794,
       "rank": 23
     },
     {
