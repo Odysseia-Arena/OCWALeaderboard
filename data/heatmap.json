@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T11:19:11.278Z",
+  "updatedAt": "2025-08-27T11:24:10.472Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -410,7 +410,7 @@
       "DeepSeek V3.1 Thinking Volcengine": 0.25,
       "Doubao 1.6": 0.5714285714285714,
       "Ernie 4.5 Turbo 128k Preview": null,
-      "Gemini 1.5 Pro": null,
+      "Gemini 1.5 Pro": 1,
       "Gemini 2.5 Flash Lite": null,
       "Gemini 2.5 Flash": 1,
       "Gemini 2.5 Pro": 0.5,
@@ -481,7 +481,7 @@
       "DeepSeek V3.1 Volcengine": 0.6666666666666666,
       "DeepSeek V3.1 Thinking Volcengine": 0.2,
       "Doubao 1.6": 0,
-      "Doubao 1.6 Thinking": null,
+      "Doubao 1.6 Thinking": 0,
       "Ernie 4.5 Turbo 128k Preview": 0.6666666666666666,
       "Gemini 2.5 Flash Lite": 0.6,
       "Gemini 2.5 Flash": 0.4,
@@ -636,7 +636,7 @@
       "GPT 4o Latest": null,
       "GPT 5 Chat": 0.5,
       "GPT 4.1": 0,
-      "GPT Oss 120B": 0.5,
+      "GPT Oss 120B": 0.3333333333333333,
       "Grok 3": null,
       "Grok 4": 1,
       "Kimi K2": null,
@@ -847,7 +847,7 @@
       "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": null,
       "Gemini 2.5 Pro": null,
-      "Gemma 27B": 0.5,
+      "Gemma 27B": 0.6666666666666666,
       "GLM 4.5": 0.5,
       "GLM 4.5 Air": 0,
       "GPT 4o Latest": null,
@@ -1313,7 +1313,8 @@
       "Gemma 27B": 1,
       "DeepSeek V3.1 Volcengine": 6,
       "GLM 4.5 Air": 2,
-      "DeepSeek R1 0528": 2
+      "DeepSeek R1 0528": 2,
+      "Gemini 1.5 Pro": 1
     },
     "DeepSeek V3.1 Thinking Volcengine": {
       "GPT 4o Latest": 4,
@@ -1466,7 +1467,8 @@
       "Command A Reasoning 08 2025": 1,
       "Gemini 2.5 Pro Max": 1,
       "Qwen 235B A22B Instruct 2507": 3,
-      "Claude Opus 4.1": 1
+      "Claude Opus 4.1": 1,
+      "Doubao 1.6 Thinking": 1
     },
     "Gemini 2.5 Flash": {
       "GPT 4.1": 2,
@@ -1650,7 +1652,7 @@
       "Qwen3 30B A3B Thinking 2507": 1,
       "Llama 4 Maverick": 2,
       "GLM 4.5": 2,
-      "Gemma 27B": 2,
+      "Gemma 27B": 3,
       "Command A Reasoning 08 2025": 1,
       "Gemini 2.5 Flash Lite": 1
     },
@@ -1692,7 +1694,7 @@
       "Grok 4": 1,
       "GLM 4.5": 2,
       "Doubao 1.6 Thinking": 1,
-      "GPT Oss 120B": 2,
+      "GPT Oss 120B": 3,
       "Mistral Medium 2508": 2,
       "Llama 4 Maverick": 1,
       "Ernie 4.5 Turbo 128k Preview": 1,
