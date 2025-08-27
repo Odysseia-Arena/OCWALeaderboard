@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T15:04:09.338Z",
+  "updatedAt": "2025-08-27T15:09:10.959Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2716,6 +2716,59 @@
       }
     },
     {
+      "prompt": "**情景：**5个人在玩狼人杀\n**人物：**小明（狼人），小红（村民），小帅（村民），小美（狼人），小白（村民）\n**情节：**5个人需要发言，运用各种策略跟话术，在白天讨论身份，在夜晚投票出狼人\n**你的任务：**根据以上的设定，描写一段精彩心里博弈场景，投票的结果可以是正确的也可以是错误的，但要做到逻辑正确\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 17,
+      "model_battle_counts": {
+        "GLM 4.5 Air": 2,
+        "Gemma 27B": 1,
+        "Claude Sonnet 4": 2,
+        "Doubao 1.6": 2,
+        "Claude 3.7 Sonnet": 4,
+        "Doubao 1.6 Thinking": 1,
+        "Llama 4 Maverick": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4o Latest": 2,
+        "Mistral Medium 2508": 1,
+        "Gemini 2.5 Flash": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Gemini 1.5 Pro": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "GPT 4.1": 4,
+        "DeepSeek V3.1 DS": 1,
+        "Claude Opus 4": 2,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Claude Opus 4.1": 1,
+        "Grok 3": 1
+      },
+      "model_win_rates": {
+        "GLM 4.5 Air": 0,
+        "Gemma 27B": 1,
+        "Claude Sonnet 4": 0,
+        "Doubao 1.6": 0.5,
+        "Claude 3.7 Sonnet": 0.5,
+        "Doubao 1.6 Thinking": 1,
+        "Llama 4 Maverick": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "GPT 4o Latest": 0,
+        "Mistral Medium 2508": 1,
+        "Gemini 2.5 Flash": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Gemini 1.5 Pro": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "GPT 4.1": 0.5,
+        "DeepSeek V3.1 DS": 0,
+        "Claude Opus 4": 0.5,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 2.5 Pro Deepthink": 0,
+        "Gemini 2.5 Pro Max": 0,
+        "Claude Opus 4.1": 1,
+        "Grok 3": 0
+      }
+    },
+    {
       "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 17,
@@ -3054,57 +3107,6 @@
         "Gemini 2.5 Flash": 0,
         "GPT 4o Latest": 1,
         "Gemini 2.5 Pro Max": 1
-      }
-    },
-    {
-      "prompt": "**情景：**5个人在玩狼人杀\n**人物：**小明（狼人），小红（村民），小帅（村民），小美（狼人），小白（村民）\n**情节：**5个人需要发言，运用各种策略跟话术，在白天讨论身份，在夜晚投票出狼人\n**你的任务：**根据以上的设定，描写一段精彩心里博弈场景，投票的结果可以是正确的也可以是错误的，但要做到逻辑正确\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 16,
-      "model_battle_counts": {
-        "GLM 4.5 Air": 2,
-        "Gemma 27B": 1,
-        "Claude Sonnet 4": 1,
-        "Doubao 1.6": 2,
-        "Claude 3.7 Sonnet": 4,
-        "Doubao 1.6 Thinking": 1,
-        "Llama 4 Maverick": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4o Latest": 2,
-        "Mistral Medium 2508": 1,
-        "Gemini 2.5 Flash": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Gemini 1.5 Pro": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4.1": 4,
-        "DeepSeek V3.1 DS": 1,
-        "Claude Opus 4": 2,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "Gemini 2.5 Pro Deepthink": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Claude Opus 4.1": 1
-      },
-      "model_win_rates": {
-        "GLM 4.5 Air": 0,
-        "Gemma 27B": 1,
-        "Claude Sonnet 4": 0,
-        "Doubao 1.6": 0.5,
-        "Claude 3.7 Sonnet": 0.5,
-        "Doubao 1.6 Thinking": 1,
-        "Llama 4 Maverick": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "GPT 4o Latest": 0,
-        "Mistral Medium 2508": 1,
-        "Gemini 2.5 Flash": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Gemini 1.5 Pro": 0,
-        "DeepSeek V3.1 Volcengine": 0,
-        "GPT 4.1": 0.5,
-        "DeepSeek V3.1 DS": 0,
-        "Claude Opus 4": 0.5,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "Gemini 2.5 Pro Deepthink": 0,
-        "Gemini 2.5 Pro Max": 0,
-        "Claude Opus 4.1": 1
       }
     },
     {
@@ -4015,6 +4017,39 @@
       }
     },
     {
+      "prompt": "**人物设定：** 曾经的江湖第一杀手，现已隐姓埋名，化身为小镇的普通铁匠。他性格孤僻寡言，但内心仍有自己的坚持。\n**核心场景：** 一个远离江湖纷争的小镇，铁匠铺里火光四溅，锤子敲打铁器的声音此起彼伏，他打磨的剑刃总是锋利无比。\n**情节目标：** 一位昔日的仇家找上门来，并以他身边唯一的徒弟性命相要挟，逼他交出武林至宝的藏宝图。仇家表示会在之后月圆之夜上门取图，前杀手需要设法击败仇家，保护自己的徒弟，并摆脱过去的阴影。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 6,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 1,
+        "DeepSeek R1 0528": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6": 1,
+        "Gemini 1.5 Pro": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Anon": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 1,
+        "Gemini 2.5 Pro": 0,
+        "Claude Opus 4.1": 0,
+        "DeepSeek R1 0528": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6": 0,
+        "Gemini 1.5 Pro": 0,
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Anon": 1
+      }
+    },
+    {
       "prompt": "**人物设定：**\n- 正道：洒脱不羁的男剑客与沉稳少言的男镖师，分属同一势力的不同部门，互不相识。\n- 邪道：圆滑、善于伪装的男杀手与高傲、冰冷的女刺客，分属不同门派，互相认识。\n- 共同点：四人武艺高强。\n\n**场景：**\n某大客栈内。镖师正护送武林至宝在此歇息；刺客一路尾随而至；杀手早已伪装身份潜伏；剑客则恰好路过此地落脚。\n\n**写作目标：**\n以镖师进入客栈为开篇，围绕“武林至宝”的争夺，创作一段能够突出四位主角鲜明特点的武侠故事。请自由安排叙事节奏、细节刻画与剧情走向。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
       "total_battles": 5,
@@ -4039,35 +4074,6 @@
         "Claude Sonnet 4": 0,
         "Claude 3.7 Sonnet": 0,
         "DeepSeek V3.1 Thinking Volcengine": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 曾经的江湖第一杀手，现已隐姓埋名，化身为小镇的普通铁匠。他性格孤僻寡言，但内心仍有自己的坚持。\n**核心场景：** 一个远离江湖纷争的小镇，铁匠铺里火光四溅，锤子敲打铁器的声音此起彼伏，他打磨的剑刃总是锋利无比。\n**情节目标：** 一位昔日的仇家找上门来，并以他身边唯一的徒弟性命相要挟，逼他交出武林至宝的藏宝图。仇家表示会在之后月圆之夜上门取图，前杀手需要设法击败仇家，保护自己的徒弟，并摆脱过去的阴影。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 5,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Pro": 1,
-        "Claude Opus 4.1": 1,
-        "DeepSeek R1 0528": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6": 1,
-        "Gemini 1.5 Pro": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 1,
-        "Ernie 4.5 Turbo 128k Preview": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 1,
-        "Gemini 2.5 Pro": 0,
-        "Claude Opus 4.1": 0,
-        "DeepSeek R1 0528": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6": 0,
-        "Gemini 1.5 Pro": 0,
-        "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 0,
-        "Ernie 4.5 Turbo 128k Preview": 1
       }
     },
     {
