@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T19:14:08.168Z",
+  "updatedAt": "2025-08-27T19:19:08.271Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2433,6 +2433,57 @@
       }
     },
     {
+      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 19,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 2,
+        "GPT 4o Latest": 2,
+        "Step 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemma 27B": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 2,
+        "Claude Sonnet 4": 4,
+        "Gemini 2.5 Pro": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 2,
+        "Qwen 235B A22B Instruct 2507": 4,
+        "Grok 3": 2,
+        "DeepSeek V3.1 DS": 2,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "GLM 4.5": 1,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 2.5 Flash": 2,
+        "GLM 4.5 Air": 2,
+        "Doubao 1.6 Thinking": 1,
+        "Doubao 1.6": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 0.5,
+        "GPT 4o Latest": 0,
+        "Step 3": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
+        "Gemma 27B": 0,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 0,
+        "Claude Sonnet 4": 0.5,
+        "Gemini 2.5 Pro": 1,
+        "Kimi K2": 0,
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0.25,
+        "Grok 3": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Gemini 2.5 Pro Deepthink": 0,
+        "GLM 4.5": 1,
+        "Qwen 235B A22B Thinking 2507": 0,
+        "Gemini 2.5 Flash": 0.5,
+        "GLM 4.5 Air": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Doubao 1.6": 0
+      }
+    },
+    {
       "prompt": "你将扮演一个与青梅竹马久别重逢的女孩。你们曾是彼此最亲密的朋友，但一份未能说出口的暗恋，使你们的关系一直处于友谊之上，恋人未满。毕业后，他去了遥远的北方城市，你们暂时的中断了所有联系。\n\n多年后的今天，在一个湿漉漉的雨天午后，你常去的那家街角咖啡馆，推门而入的竟是他。他依然是记忆中那个清瘦的模样，只是眉宇间多了几分成熟的疲惫。他径直向你走来，在你对面的空位坐下，带着一身寒气和熟悉的味道，轻声说：“好久不见。”\n\n现在，请你以第一人称视角，描写在这一刻，你与他重逢时的内心活动、情绪波澜、以及你眼中所见的场景与他。你的回应需要捕捉那种混合着惊喜、尴尬、怀念与一丝怨怼的复杂情感。展现你们之间那种因长久的分离和未曾言明的情愫而产生的独特张力与疏离感。\n\n**写作要求：**\n- 文风细腻、偏向文艺与感性，侧重于内心独白与情景氛围的渲染，而非强烈的戏剧冲突。请着重描写人物的微表情、眼神交流、肢体语言以及被压抑的情感流动。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
       "total_battles": 19,
@@ -2675,53 +2726,6 @@
         "DeepSeek V3.1 Thinking Volcengine": 0,
         "DeepSeek R1 0528": 1,
         "Claude Opus 4.1": 0
-      }
-    },
-    {
-      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 18,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 2,
-        "GPT 4o Latest": 2,
-        "Step 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemma 27B": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek R1 0528": 2,
-        "Claude Sonnet 4": 4,
-        "Gemini 2.5 Pro": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 2,
-        "Qwen 235B A22B Instruct 2507": 4,
-        "Grok 3": 2,
-        "DeepSeek V3.1 DS": 2,
-        "Gemini 2.5 Pro Deepthink": 1,
-        "GLM 4.5": 1,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "Gemini 2.5 Flash": 2,
-        "GLM 4.5 Air": 2
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0.5,
-        "GPT 4o Latest": 0,
-        "Step 3": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
-        "Gemma 27B": 0,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek R1 0528": 0,
-        "Claude Sonnet 4": 0.5,
-        "Gemini 2.5 Pro": 1,
-        "Kimi K2": 0,
-        "DeepSeek V3.1 Volcengine": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0.25,
-        "Grok 3": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Gemini 2.5 Pro Deepthink": 0,
-        "GLM 4.5": 1,
-        "Qwen 235B A22B Thinking 2507": 0,
-        "Gemini 2.5 Flash": 0.5,
-        "GLM 4.5 Air": 1
       }
     },
     {
