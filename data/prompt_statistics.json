@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T02:44:07.815Z",
+  "updatedAt": "2025-08-27T02:49:12.846Z",
   "prompt_statistics": [
     {
       "prompt": "**根据以下要求创作小说**\n**场景: **雨夜，豪宅内，光线昏暗。\n**人物: **千金小姐和她的富豪父亲\n**情节: **富家千金和镇上的花匠的儿子相爱，富豪父亲极力反对，将她软禁在家。雨夜，千金准备偷偷溜出豪宅，和爱人私奔，即将推门离开时，被父亲发现。\n**创作要求: **以对话为主体，创作女儿与父亲的语言交锋，体现双方的立场、诉求、矛盾。台词精炼、充满张力。\n**以这段话做开场: **就在她的手刚刚碰到大门，身后响起了那道熟悉而低沉的声音，“想干什么去？”\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2807,6 +2807,53 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一位行走江湖的剑客，性格豪爽，但却因为一场比武失利而失去了信心，对自己的剑术产生了怀疑。\n**核心场景：** 烟雾缭绕的竹林，竹叶随风摇曳，他正在竹林中苦练剑术，但每一次出剑都显得毫无章法。\n**情节目标：** 他在竹林中偶遇了一位神秘的老者，老者通过一招看似简单的剑法，击溃了他所有的剑招。他必须在老者的指点下，领悟到剑术的真谛，并重新找回对剑术的信心。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 14,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 1.5 Pro": 2,
+        "GPT 4.1": 3,
+        "Claude Sonnet 4": 2,
+        "Qwen 235B A22B Instruct 2507": 3,
+        "GPT 4o Latest": 1,
+        "Claude Opus 4": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Doubao 1.6 Thinking": 2,
+        "DeepSeek V3.1 DS": 2,
+        "Anon": 1,
+        "Grok 3": 1,
+        "DeepSeek V3": 1,
+        "Llama 4 Maverick": 1,
+        "Mistral Medium 2508": 1,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 2.5 Flash Lite": 1,
+        "Doubao 1.6": 2,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 1.5 Pro": 1,
+        "GPT 4.1": 0,
+        "Claude Sonnet 4": 0.5,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GPT 4o Latest": 0,
+        "Claude Opus 4": 0,
+        "Gemini 2.5 Pro Max": 1,
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Anon": 1,
+        "Grok 3": 1,
+        "DeepSeek V3": 1,
+        "Llama 4 Maverick": 0,
+        "Mistral Medium 2508": 0,
+        "Qwen 235B A22B Thinking 2507": 0,
+        "Gemini 2.5 Flash Lite": 1,
+        "Doubao 1.6": 0.5,
+        "Gemini 2.5 Flash": 0
+      }
+    },
+    {
       "prompt": "**人物设定：** 孤独的幸存者，性格警惕，随身携带着一把磨损严重的猎刀，独自一人在废墟中寻找着生存的希望。\n**核心场景：** 荒废的城市，高楼大厦变成了残垣断壁，地面上布满了丧尸的尸体和血迹，空气中弥漫着腐败的气味。\n**情节目标：** 他在废墟中发现了一个小女孩，小女孩身边放着一个破旧的玩偶。他必须在丧尸潮来临之前，带领小女孩离开这座城市，并找到玩偶隐藏的秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 14,
@@ -2972,51 +3019,6 @@
         "Gemini 2.5 Pro": 0,
         "Doubao 1.6": 1,
         "Gemini 1.5 Pro": 0
-      }
-    },
-    {
-      "prompt": "**人物设定：** 一位行走江湖的剑客，性格豪爽，但却因为一场比武失利而失去了信心，对自己的剑术产生了怀疑。\n**核心场景：** 烟雾缭绕的竹林，竹叶随风摇曳，他正在竹林中苦练剑术，但每一次出剑都显得毫无章法。\n**情节目标：** 他在竹林中偶遇了一位神秘的老者，老者通过一招看似简单的剑法，击溃了他所有的剑招。他必须在老者的指点下，领悟到剑术的真谛，并重新找回对剑术的信心。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 13,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 1.5 Pro": 2,
-        "GPT 4.1": 3,
-        "Claude Sonnet 4": 2,
-        "Qwen 235B A22B Instruct 2507": 3,
-        "GPT 4o Latest": 1,
-        "Claude Opus 4": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6 Thinking": 2,
-        "DeepSeek V3.1 DS": 2,
-        "Anon": 1,
-        "Grok 3": 1,
-        "DeepSeek V3": 1,
-        "Llama 4 Maverick": 1,
-        "Mistral Medium 2508": 1,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "Gemini 2.5 Flash Lite": 1,
-        "Doubao 1.6": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Gemini 1.5 Pro": 1,
-        "GPT 4.1": 0,
-        "Claude Sonnet 4": 0.5,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GPT 4o Latest": 0,
-        "Claude Opus 4": 0,
-        "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Anon": 1,
-        "Grok 3": 1,
-        "DeepSeek V3": 1,
-        "Llama 4 Maverick": 0,
-        "Mistral Medium 2508": 0,
-        "Qwen 235B A22B Thinking 2507": 0,
-        "Gemini 2.5 Flash Lite": 1,
-        "Doubao 1.6": 0
       }
     },
     {
@@ -3415,6 +3417,47 @@
       }
     },
     {
+      "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "科幻",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "GPT 4o Latest": 1,
+        "Grok 3": 3,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 2,
+        "Claude Opus 4": 1,
+        "Gemma 27B": 1,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 2,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Gemini 2.5 Flash": 1
+      },
+      "model_win_rates": {
+        "Gemini 1.5 Pro": 0,
+        "Step 3": 1,
+        "GPT 4o Latest": 0,
+        "Grok 3": 1,
+        "Gemini 2.5 Pro": 1,
+        "Claude Opus 4.1": 0,
+        "Claude Opus 4": 0,
+        "Gemma 27B": 0,
+        "DeepSeek V3": 1,
+        "GPT 4.1": 0,
+        "Mistral Medium 2508": 1,
+        "DeepSeek V3.1 DS": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "Gemini 2.5 Flash": 1
+      }
+    },
+    {
       "prompt": "**作品：** BLEACH\n**角色：** 黑崎一护，朽木露琪亚\n**情节目标：** 现世出现了一只只吞噬“记忆”的虚，一护在战斗中被夺走了关于同伴的记忆。露琪亚必须在不被认出的情况下，引导一护重新唤醒深藏于灵魂中的羁绊与力量。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 11,
@@ -3490,43 +3533,6 @@
         "Command A Reasoning 08 2025": 1,
         "Grok 3": 1,
         "Doubao 1.6": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 仿生人维修师，代号“七”，性格冷静沉着，有强迫症。他曾亲眼目睹过自己创造的第一个仿生人因系统故障而报废，内心深处对完美有着执念。\n**核心场景：** 一个即将废弃的地下维修站，空气中弥漫着金属和机油的气味。外面是永不落幕的雨，城市被高耸入云的摩天大楼笼罩。\n**情节目标：** 一位神秘客户送来了一个异常老旧的仿生人。当“七”打开仿生人的后颈盖时，发现里面是他曾亲手设计的核心芯片，但芯片上布满了自己从未见过的划痕。他必须在午夜前修复它，找出它被遗弃的真相，并决定是否要让它重新拥有意识。\n**写作要求：** 描写要充满赛博朋克风格，注重氛围营造，加入对仿生人内部精密构造的细致描写。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "科幻",
-      "total_battles": 10,
-      "model_battle_counts": {
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1,
-        "GPT 4o Latest": 1,
-        "Grok 3": 3,
-        "Gemini 2.5 Pro": 1,
-        "Claude Opus 4.1": 2,
-        "Claude Opus 4": 1,
-        "Gemma 27B": 1,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 2,
-        "Mistral Medium 2508": 1,
-        "DeepSeek V3.1 DS": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "Gemini 1.5 Pro": 0,
-        "Step 3": 1,
-        "GPT 4o Latest": 0,
-        "Grok 3": 1,
-        "Gemini 2.5 Pro": 1,
-        "Claude Opus 4.1": 0,
-        "Claude Opus 4": 0,
-        "Gemma 27B": 0,
-        "DeepSeek V3": 1,
-        "GPT 4.1": 0,
-        "Mistral Medium 2508": 1,
-        "DeepSeek V3.1 DS": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
-        "Gemini 2.5 Flash": 1
       }
     },
     {
