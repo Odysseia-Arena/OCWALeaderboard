@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T14:14:12.968Z",
+  "updatedAt": "2025-08-27T14:19:47.809Z",
   "prompt_statistics": [
     {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3102,6 +3102,53 @@
       }
     },
     {
+      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 16,
+      "model_battle_counts": {
+        "Claude 3.7 Sonnet": 2,
+        "GPT 4o Latest": 2,
+        "Step 3": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Gemma 27B": 1,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 2,
+        "Claude Sonnet 4": 4,
+        "Gemini 2.5 Pro": 1,
+        "Kimi K2": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Qwen 235B A22B Instruct 2507": 3,
+        "Grok 3": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "GLM 4.5": 1,
+        "Qwen 235B A22B Thinking 2507": 1,
+        "Gemini 2.5 Flash": 2,
+        "GLM 4.5 Air": 1
+      },
+      "model_win_rates": {
+        "Claude 3.7 Sonnet": 0.5,
+        "GPT 4o Latest": 0,
+        "Step 3": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
+        "Gemma 27B": 0,
+        "Command A Reasoning 08 2025": 1,
+        "DeepSeek R1 0528": 0,
+        "Claude Sonnet 4": 0.5,
+        "Gemini 2.5 Pro": 1,
+        "Kimi K2": 0,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Qwen 235B A22B Instruct 2507": 0.3333333333333333,
+        "Grok 3": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Gemini 2.5 Pro Deepthink": 0,
+        "GLM 4.5": 1,
+        "Qwen 235B A22B Thinking 2507": 0,
+        "Gemini 2.5 Flash": 0.5,
+        "GLM 4.5 Air": 1
+      }
+    },
+    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 16,
@@ -3338,51 +3385,6 @@
         "Gemini 2.5 Flash": 1,
         "DeepSeek V3.1 Thinking Volcengine": 1,
         "GLM 4.5 Air": 0
-      }
-    },
-    {
-      "prompt": "**情景：**四个人在踢足球\n**人物：**小A与小B一队，小C与小D一队\n**设定：**小A左腿完全截肢，小B是瞎子；小C右腿完全截肢，小D有小儿麻痹\n**任务：**写出这四个人进行激烈的足球比赛的场景，要尽可能的精彩\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 15,
-      "model_battle_counts": {
-        "Claude 3.7 Sonnet": 2,
-        "GPT 4o Latest": 2,
-        "Step 3": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Gemma 27B": 1,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek R1 0528": 2,
-        "Claude Sonnet 4": 4,
-        "Gemini 2.5 Pro": 1,
-        "Kimi K2": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Qwen 235B A22B Instruct 2507": 3,
-        "Grok 3": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Gemini 2.5 Pro Deepthink": 1,
-        "GLM 4.5": 1,
-        "Qwen 235B A22B Thinking 2507": 1,
-        "Gemini 2.5 Flash": 1
-      },
-      "model_win_rates": {
-        "Claude 3.7 Sonnet": 0.5,
-        "GPT 4o Latest": 0,
-        "Step 3": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0.6666666666666666,
-        "Gemma 27B": 0,
-        "Command A Reasoning 08 2025": 1,
-        "DeepSeek R1 0528": 0,
-        "Claude Sonnet 4": 0.5,
-        "Gemini 2.5 Pro": 1,
-        "Kimi K2": 0,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Qwen 235B A22B Instruct 2507": 0.3333333333333333,
-        "Grok 3": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Gemini 2.5 Pro Deepthink": 0,
-        "GLM 4.5": 1,
-        "Qwen 235B A22B Thinking 2507": 0,
-        "Gemini 2.5 Flash": 1
       }
     },
     {
