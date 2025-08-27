@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T13:29:08.510Z",
+  "updatedAt": "2025-08-27T13:34:10.956Z",
   "prompt_statistics": [
     {
       "prompt": "你是1941年6月22日的一名苏军坦克兵，你的部队遭到德军突袭。写一篇短篇故事描述你逃出生天的全过程。\n写作要求：使用简体中文，直接输出正文内容。要求故事文笔优秀，文中出现无错误的军事细节。你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -2516,6 +2516,49 @@
       }
     },
     {
+      "prompt": "**人物设定：** 寻宝猎人，性格狡猾，喜欢冒险，但内心深处隐藏着一个无法原谅的过错。\n**核心场景：** 一座布满机关的古墓，到处都是陷阱和谜题，空气中充满了尘土和腐败的气味。\n**情节目标：** 他在一座古墓中，找到了传说中的“永生之泉”，但却发现泉水被一个巨大的石像守护着。他必须破解石像下的机关，得到泉水，并借此来弥补自己过去的过错。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 17,
+      "model_battle_counts": {
+        "Doubao 1.6 Thinking": 5,
+        "DeepSeek V3.1 DS": 4,
+        "GPT 4.1": 3,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 3,
+        "Grok 4": 1,
+        "Step 3": 2,
+        "Grok 3": 1,
+        "Qwen 235B A22B Instruct 2507": 4,
+        "Claude Sonnet 4": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Kimi K2": 1,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 2.5 Pro Deepthink": 2,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek R1 0528": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6 Thinking": 1,
+        "DeepSeek V3.1 DS": 0,
+        "GPT 4.1": 0.3333333333333333,
+        "Doubao 1.6": 1,
+        "Claude 3.7 Sonnet": 0.3333333333333333,
+        "Grok 4": 1,
+        "Step 3": 0,
+        "Grok 3": 0,
+        "Qwen 235B A22B Instruct 2507": 0.25,
+        "Claude Sonnet 4": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Kimi K2": 1,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 2.5 Pro Deepthink": 0.5,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "DeepSeek R1 0528": 1
+      }
+    },
+    {
       "prompt": "**情景：**A与B游玩了一天之后到达夜晚。\n**人物：**A（女性普通人）与B（千年前在A家被A照顾了一个星期的救世者，但现在丢失了记忆）。\n**情节：**千年前，A收留并照顾了重伤的B一个星期，却因迟疑而未能追随他，最终在村中孤独老死。千年后，失忆的B将A召唤出来，出于愧疚带她游玩了一整天。A一直编造“传奇故事”来让B安心，让他觉得自己的生活很充实。在走完当年走过的遗迹后，B认为A的生活过得很充实，问她：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 17,
@@ -2946,49 +2989,6 @@
         "Gemini 2.5 Flash": 1,
         "Gemma 27B": 0,
         "Command A Reasoning 08 2025": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 寻宝猎人，性格狡猾，喜欢冒险，但内心深处隐藏着一个无法原谅的过错。\n**核心场景：** 一座布满机关的古墓，到处都是陷阱和谜题，空气中充满了尘土和腐败的气味。\n**情节目标：** 他在一座古墓中，找到了传说中的“永生之泉”，但却发现泉水被一个巨大的石像守护着。他必须破解石像下的机关，得到泉水，并借此来弥补自己过去的过错。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 16,
-      "model_battle_counts": {
-        "Doubao 1.6 Thinking": 4,
-        "DeepSeek V3.1 DS": 4,
-        "GPT 4.1": 3,
-        "Doubao 1.6": 1,
-        "Claude 3.7 Sonnet": 3,
-        "Grok 4": 1,
-        "Step 3": 2,
-        "Grok 3": 1,
-        "Qwen 235B A22B Instruct 2507": 4,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Kimi K2": 1,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 2.5 Pro Deepthink": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "DeepSeek R1 0528": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6 Thinking": 1,
-        "DeepSeek V3.1 DS": 0,
-        "GPT 4.1": 0.3333333333333333,
-        "Doubao 1.6": 1,
-        "Claude 3.7 Sonnet": 0.3333333333333333,
-        "Grok 4": 1,
-        "Step 3": 0,
-        "Grok 3": 0,
-        "Qwen 235B A22B Instruct 2507": 0.25,
-        "Claude Sonnet 4": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Kimi K2": 1,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 2.5 Pro Deepthink": 0.5,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "DeepSeek R1 0528": 1
       }
     },
     {
