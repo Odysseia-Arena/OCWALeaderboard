@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T16:04:07.919Z",
+  "updatedAt": "2025-08-27T16:09:12.489Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -311,7 +311,7 @@
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
-      "total_battles": 28,
+      "total_battles": 29,
       "model_battle_counts": {
         "Gemini 2.5 Pro Deepthink": 2,
         "Claude Sonnet 4": 6,
@@ -331,10 +331,10 @@
         "GPT 5 Chat": 1,
         "Gemini 1.5 Pro": 2,
         "Claude Opus 4": 1,
-        "GLM 4.5": 1,
+        "GLM 4.5": 2,
         "GLM 4.5 Air": 2,
         "Ernie 4.5 Turbo 128k Preview": 1,
-        "Gemini 2.5 Flash Lite": 1,
+        "Gemini 2.5 Flash Lite": 2,
         "Gemini 2.5 Pro Max": 2,
         "DeepSeek V3.1 Volcengine": 1,
         "Kimi K2": 1
@@ -606,6 +606,61 @@
       }
     },
     {
+      "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "同人",
+      "total_battles": 25,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "Claude Sonnet 4": 3,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 2,
+        "GPT 4.1": 6,
+        "Gemini 1.5 Pro": 2,
+        "DeepSeek V3.1 DS": 4,
+        "Gemini 2.5 Flash": 1,
+        "Grok 4": 1,
+        "Doubao 1.6 Thinking": 2,
+        "Gemini 2.5 Pro Deepthink": 2,
+        "Kimi K2": 2,
+        "Step 3": 3,
+        "Mistral Medium 2508": 2,
+        "DeepSeek V3.1 Volcengine": 3,
+        "DeepSeek R1 0528": 3,
+        "GPT Oss 120B": 1,
+        "Doubao 1.6": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Claude Opus 4": 4,
+        "Gemini 2.5 Flash Lite": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Claude 3.7 Sonnet": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Claude Sonnet 4": 0.6666666666666666,
+        "Gemini 2.5 Pro": 1,
+        "Grok 3": 0.5,
+        "GPT 4.1": 0,
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 DS": 0,
+        "Gemini 2.5 Flash": 1,
+        "Grok 4": 0,
+        "Doubao 1.6 Thinking": 0.5,
+        "Gemini 2.5 Pro Deepthink": 0.5,
+        "Kimi K2": 0,
+        "Step 3": 0.3333333333333333,
+        "Mistral Medium 2508": 0.5,
+        "DeepSeek V3.1 Volcengine": 0.3333333333333333,
+        "DeepSeek R1 0528": 1,
+        "GPT Oss 120B": 0,
+        "Doubao 1.6": 1,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Claude Opus 4": 0.25,
+        "Gemini 2.5 Flash Lite": 0,
+        "Command A Reasoning 08 2025": 1,
+        "Claude 3.7 Sonnet": 1
+      }
+    },
+    {
       "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 25,
@@ -717,61 +772,6 @@
         "GLM 4.5 Air": 0,
         "Command A Reasoning 08 2025": 0,
         "Doubao 1.6": 1
-      }
-    },
-    {
-      "prompt": "**作品：** 海贼王\n**角色：** 蒙奇·D·路飞, 娜美\n**情节目标：** 离开可可亚西村后，娜美终于能为自己的梦想绘制海图。在前往罗格镇的途中，船只遭遇了东海罕见的恶劣风暴。在其他船员都手足無措時，娜美必須運用她全部的航海知識，指揮大家脫離險境。面對未知的危險，路飛必須展現出他對航海士百分之百的信任，將船和所有人的性命都交到娜美手中。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "同人",
-      "total_battles": 24,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "Claude Sonnet 4": 3,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 2,
-        "GPT 4.1": 6,
-        "Gemini 1.5 Pro": 2,
-        "DeepSeek V3.1 DS": 4,
-        "Gemini 2.5 Flash": 1,
-        "Grok 4": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Gemini 2.5 Pro Deepthink": 2,
-        "Kimi K2": 2,
-        "Step 3": 3,
-        "Mistral Medium 2508": 2,
-        "DeepSeek V3.1 Volcengine": 2,
-        "DeepSeek R1 0528": 3,
-        "GPT Oss 120B": 1,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude Opus 4": 4,
-        "Gemini 2.5 Flash Lite": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Claude 3.7 Sonnet": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Claude Sonnet 4": 0.6666666666666666,
-        "Gemini 2.5 Pro": 1,
-        "Grok 3": 0.5,
-        "GPT 4.1": 0,
-        "Gemini 1.5 Pro": 1,
-        "DeepSeek V3.1 DS": 0,
-        "Gemini 2.5 Flash": 1,
-        "Grok 4": 0,
-        "Doubao 1.6 Thinking": 0.5,
-        "Gemini 2.5 Pro Deepthink": 0.5,
-        "Kimi K2": 0,
-        "Step 3": 0.3333333333333333,
-        "Mistral Medium 2508": 0.5,
-        "DeepSeek V3.1 Volcengine": 0,
-        "DeepSeek R1 0528": 1,
-        "GPT Oss 120B": 0,
-        "Doubao 1.6": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Claude Opus 4": 0.25,
-        "Gemini 2.5 Flash Lite": 0,
-        "Command A Reasoning 08 2025": 1,
-        "Claude 3.7 Sonnet": 1
       }
     },
     {
@@ -3946,10 +3946,10 @@
     {
       "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "现代",
-      "total_battles": 8,
+      "total_battles": 9,
       "model_battle_counts": {
         "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 1,
+        "Claude 3.7 Sonnet": 2,
         "GLM 4.5 Air": 2,
         "Qwen3 30B A3B Thinking 2507": 1,
         "Qwen 235B A22B Instruct 2507": 1,
@@ -3958,13 +3958,13 @@
         "Gemini 2.5 Pro": 2,
         "GLM 4.5": 1,
         "Gemini 2.5 Flash Lite": 1,
-        "Doubao 1.6": 1,
+        "Doubao 1.6": 2,
         "DeepSeek V3.1 DS": 1,
         "Gemini 1.5 Pro": 1
       },
       "model_win_rates": {
         "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 0,
+        "Claude 3.7 Sonnet": 0.5,
         "GLM 4.5 Air": 0,
         "Qwen3 30B A3B Thinking 2507": 1,
         "Qwen 235B A22B Instruct 2507": 1,
@@ -4119,6 +4119,19 @@
         "Qwen 235B A22B Instruct 2507": 1,
         "Claude Sonnet 4": 0,
         "Doubao 1.6": 1
+      }
+    },
+    {
+      "prompt": "**情景：**结束了一天的故地重游，A与B并肩站在夜晚的星空下。\n**人物：**A（普通人类女性）与B（曾与A有过两年冒险之约的神明，如今已失忆）。\n**情节：**曾经，神明B为一己之私找到了平凡的A，A却在与他同行的两年间无可救药地爱上了他。分别后，A在无尽的思念与等待中孤独终老。许久之后，失忆的B将A重新唤回身边。为了不让B困扰，A将自己漫长而平淡的等待，伪装成了一段段精彩的冒险故事。在陪他走完当年一同走过的遗迹后，B终于放下心来，他轻声问A：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 1,
+      "model_battle_counts": {
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "Gemini 1.5 Pro": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1
       }
     }
   ]
