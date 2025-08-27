@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T14:24:08.856Z",
+  "updatedAt": "2025-08-27T14:29:13.406Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -1217,6 +1217,59 @@
       }
     },
     {
+      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 23,
+      "model_battle_counts": {
+        "Doubao 1.6 Thinking": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 6,
+        "Grok 3": 1,
+        "Kimi K2": 4,
+        "Gemini 2.5 Flash": 4,
+        "DeepSeek V3.1 DS": 2,
+        "GPT 4.1": 1,
+        "Gemini 2.5 Pro": 1,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Grok 4": 1,
+        "Qwen 235B A22B Instruct 2507": 2,
+        "Gemini 1.5 Pro": 5,
+        "DeepSeek R1 0528": 1,
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 4,
+        "GLM 4.5 Air": 1,
+        "DeepSeek V3.1 Volcengine": 2,
+        "GLM 4.5": 2,
+        "GPT Oss 120B": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4": 1,
+        "Doubao 1.6": 1
+      },
+      "model_win_rates": {
+        "Doubao 1.6 Thinking": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 0.5,
+        "Grok 3": 0,
+        "Kimi K2": 0.75,
+        "Gemini 2.5 Flash": 1,
+        "DeepSeek V3.1 DS": 0.5,
+        "GPT 4.1": 0,
+        "Gemini 2.5 Pro": 1,
+        "Qwen3 30B A3B Thinking 2507": 0,
+        "Grok 4": 1,
+        "Qwen 235B A22B Instruct 2507": 0.5,
+        "Gemini 1.5 Pro": 0.2,
+        "DeepSeek R1 0528": 1,
+        "Command A Reasoning 08 2025": 0,
+        "Claude Sonnet 4": 0.25,
+        "GLM 4.5 Air": 1,
+        "DeepSeek V3.1 Volcengine": 0,
+        "GLM 4.5": 0,
+        "GPT Oss 120B": 1,
+        "Llama 4 Maverick": 1,
+        "Claude Opus 4": 0,
+        "Doubao 1.6": 0
+      }
+    },
+    {
       "prompt": "你正在车站里等待阔别五年的恋人。怀着激动的心情，你的恋人终于出现了。于是，你们一边前往公交车站，一边在路上闲聊着，包括嘘寒问暖，以及回忆往事。\n\n**写作要求：** 必须在两人的对话中，在以最不突兀的情况下，加入一段完整的白切鸡的食谱。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "言情",
       "total_battles": 23,
@@ -1652,57 +1705,6 @@
         "DeepSeek R1 0528": 0,
         "Llama 4 Maverick": 0,
         "GPT Oss 120B": 1
-      }
-    },
-    {
-      "prompt": "你是一位性格宅、喜欢二次元的普通高中生。突然有一天，你被一个自称“命运女神”的少女召唤到了一个充满魔法和怪物的异世界。你发现自己并没有强大的魔力，而是拥有一个看似无用的能力——可以将二次元中的物品具现化。\n\n**情节目标：** 利用你独有的能力，成功战胜一只强大的哥布林。\n\n**写作要求：** 采用轻松、幽默的文风，可以加入一些二次元梗和台词。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 21,
-      "model_battle_counts": {
-        "Doubao 1.6 Thinking": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 6,
-        "Grok 3": 1,
-        "Kimi K2": 4,
-        "Gemini 2.5 Flash": 3,
-        "DeepSeek V3.1 DS": 2,
-        "GPT 4.1": 1,
-        "Gemini 2.5 Pro": 1,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Grok 4": 1,
-        "Qwen 235B A22B Instruct 2507": 2,
-        "Gemini 1.5 Pro": 4,
-        "DeepSeek R1 0528": 1,
-        "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 3,
-        "GLM 4.5 Air": 1,
-        "DeepSeek V3.1 Volcengine": 2,
-        "GLM 4.5": 2,
-        "GPT Oss 120B": 1,
-        "Llama 4 Maverick": 1,
-        "Claude Opus 4": 1
-      },
-      "model_win_rates": {
-        "Doubao 1.6 Thinking": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "Grok 3": 0,
-        "Kimi K2": 0.75,
-        "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 0.5,
-        "GPT 4.1": 0,
-        "Gemini 2.5 Pro": 1,
-        "Qwen3 30B A3B Thinking 2507": 0,
-        "Grok 4": 1,
-        "Qwen 235B A22B Instruct 2507": 0.5,
-        "Gemini 1.5 Pro": 0.25,
-        "DeepSeek R1 0528": 1,
-        "Command A Reasoning 08 2025": 0,
-        "Claude Sonnet 4": 0.3333333333333333,
-        "GLM 4.5 Air": 1,
-        "DeepSeek V3.1 Volcengine": 0,
-        "GLM 4.5": 0,
-        "GPT Oss 120B": 1,
-        "Llama 4 Maverick": 1,
-        "Claude Opus 4": 0
       }
     },
     {
@@ -2326,6 +2328,49 @@
       }
     },
     {
+      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "古风",
+      "total_battles": 18,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro": 2,
+        "Claude 3.7 Sonnet": 3,
+        "GPT 4.1": 2,
+        "Grok 3": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
+        "Gemini 2.5 Flash": 4,
+        "Gemini 1.5 Pro": 2,
+        "Step 3": 1,
+        "Mistral Medium 2508": 1,
+        "Command A Reasoning 08 2025": 1,
+        "GPT Oss 120B": 1,
+        "DeepSeek V3.1 DS": 4,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "Claude Sonnet 4": 4,
+        "Doubao 1.6 Thinking": 1,
+        "Doubao 1.6": 1,
+        "DeepSeek R1 0528": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro": 0.5,
+        "Claude 3.7 Sonnet": 0,
+        "GPT 4.1": 0.5,
+        "Grok 3": 0.3333333333333333,
+        "DeepSeek V3.1 Thinking Volcengine": 0,
+        "Gemini 2.5 Flash": 1,
+        "Gemini 1.5 Pro": 1,
+        "Step 3": 1,
+        "Mistral Medium 2508": 0,
+        "Command A Reasoning 08 2025": 1,
+        "GPT Oss 120B": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Gemini 2.5 Pro Deepthink": 1,
+        "Claude Sonnet 4": 0.25,
+        "Doubao 1.6 Thinking": 1,
+        "Doubao 1.6": 1,
+        "DeepSeek R1 0528": 0
+      }
+    },
+    {
       "prompt": "你是一位性格乐观、行动敏捷的仿生人快递员，编号为 734。在一次前往富人区送货的路上，你目睹了一起针对仿生人的非法暴力事件。你的客户，一位年迈的工程师，正遭受一群“人类至上”主义者的围攻。\n\n**情节目标：** 在确保自身安全的前提下，成功保护客户并完成送货任务。\n\n**写作要求：** 描写过程中可以增加一些科幻感十足的细节，例如仿生人的独特感官体验、未来城市的景象等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
       "total_battles": 18,
@@ -2760,49 +2805,6 @@
         "Gemini 2.5 Pro Max": 0.5,
         "Gemini 2.5 Flash Lite": 0,
         "GLM 4.5 Air": 0
-      }
-    },
-    {
-      "prompt": "你是一位在乱世中艰难求生的年轻茶商，性格灵活，善于交际。在一次运送重要茶叶的途中，你遭遇了土匪的劫掠，货物被抢走，你身无分文。\n\n**情节目标：** 在不暴露身份的前提下，通过你的智慧和口才，成功从土匪手中夺回你的货物。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "古风",
-      "total_battles": 17,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro": 2,
-        "Claude 3.7 Sonnet": 3,
-        "GPT 4.1": 2,
-        "Grok 3": 3,
-        "DeepSeek V3.1 Thinking Volcengine": 4,
-        "Gemini 2.5 Flash": 4,
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1,
-        "Mistral Medium 2508": 1,
-        "Command A Reasoning 08 2025": 1,
-        "GPT Oss 120B": 1,
-        "DeepSeek V3.1 DS": 3,
-        "Gemini 2.5 Pro Deepthink": 1,
-        "Claude Sonnet 4": 4,
-        "Doubao 1.6 Thinking": 1,
-        "Doubao 1.6": 1,
-        "DeepSeek R1 0528": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro": 0.5,
-        "Claude 3.7 Sonnet": 0,
-        "GPT 4.1": 0.5,
-        "Grok 3": 0.3333333333333333,
-        "DeepSeek V3.1 Thinking Volcengine": 0,
-        "Gemini 2.5 Flash": 1,
-        "Gemini 1.5 Pro": 1,
-        "Step 3": 1,
-        "Mistral Medium 2508": 0,
-        "Command A Reasoning 08 2025": 1,
-        "GPT Oss 120B": 0,
-        "DeepSeek V3.1 DS": 0.6666666666666666,
-        "Gemini 2.5 Pro Deepthink": 1,
-        "Claude Sonnet 4": 0.25,
-        "Doubao 1.6 Thinking": 1,
-        "Doubao 1.6": 1,
-        "DeepSeek R1 0528": 0
       }
     },
     {
@@ -3830,6 +3832,45 @@
       }
     },
     {
+      "prompt": "你曾是一个少女乐队主吉他手，配合你的好闺蜜同时也是乐队队长蓝毛大小姐潇湘排挤霸凌，把舞台打bpm220的鼓手压榨到活活累死\n\n**情节目标：**\n那个被你压榨至死的鼓手重生了，决定向你们展开报复，只有你知道这件事，你需要想出合理的办法把鼓手赶出乐队，才能让乐队不至于解散。\n\n**写作要求：**\n仿照日式轻小说文风格式！！从你发现鼓手重生开始写，不要刻板塑造角色，详细描写角色心理活动和动机\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 11,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "GPT 4.1": 2,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "GPT 5 Chat": 1,
+        "Gemma 27B": 2,
+        "Step 3": 1,
+        "Claude Sonnet 4": 1,
+        "Claude 3.7 Sonnet": 2,
+        "DeepSeek V3.1 Volcengine": 1,
+        "Gemini 1.5 Pro": 2,
+        "Claude Opus 4": 1,
+        "DeepSeek V3.1 DS": 2,
+        "Doubao 1.6": 1,
+        "Doubao 1.6 Thinking": 1,
+        "Llama 4 Maverick": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+        "GPT 4.1": 0.5,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "GPT 5 Chat": 0,
+        "Gemma 27B": 1,
+        "Step 3": 1,
+        "Claude Sonnet 4": 0,
+        "Claude 3.7 Sonnet": 0.5,
+        "DeepSeek V3.1 Volcengine": 0,
+        "Gemini 1.5 Pro": 0,
+        "Claude Opus 4": 0,
+        "DeepSeek V3.1 DS": 1,
+        "Doubao 1.6": 0,
+        "Doubao 1.6 Thinking": 1,
+        "Llama 4 Maverick": 0
+      }
+    },
+    {
       "prompt": "**情节:** 一个平凡的11岁英国女孩在某天清晨意外收到了霍格沃茨的录取通知书，她第一次接触到魔法世界，在对角巷购买学习用品，购买魔杖、校服到课本，每个环节都写出来。在前往霍格沃茨的列车上，她结识了同样是新生的小伙伴，最终在庄严的分院仪式上，获知自己被分去的学院\n\n**创作要求:** 仿照JK·罗琳的文学风格，注重细节描写和幽默感，突出主角作为普通麻瓜出身学生的视角体验。展现魔法世界与麻瓜世界的文化碰撞，描写主角在陌生环境中的心理变化和成长过程。保持原著的世界观设定，所有出现的地点、人物、物品都要符合哈利波特系列的描述，但**不能**刻意安排主角与原著角色相逢，尽可能安排原创角色，不要刻板塑造角色，详细描写角色心理活动和动机。\n\n**以这段话做开场:** 七月的最后一个星期二，当一只健硕的棕褐色猫头鹰坚持不懈地用喙敲击着厨房窗户时，(角色名)还以为自己昨晚读《爱丽丝梦游仙境》读得太晚出现了幻觉。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 9,
@@ -3868,41 +3909,6 @@
         "GLM 4.5 Air": 1,
         "DeepSeek R1 0528": 0,
         "Claude Sonnet 4": 1
-      }
-    },
-    {
-      "prompt": "你曾是一个少女乐队主吉他手，配合你的好闺蜜同时也是乐队队长蓝毛大小姐潇湘排挤霸凌，把舞台打bpm220的鼓手压榨到活活累死\n\n**情节目标：**\n那个被你压榨至死的鼓手重生了，决定向你们展开报复，只有你知道这件事，你需要想出合理的办法把鼓手赶出乐队，才能让乐队不至于解散。\n\n**写作要求：**\n仿照日式轻小说文风格式！！从你发现鼓手重生开始写，不要刻板塑造角色，详细描写角色心理活动和动机\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 9,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "GPT 4.1": 2,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "GPT 5 Chat": 1,
-        "Gemma 27B": 1,
-        "Step 3": 1,
-        "Claude Sonnet 4": 1,
-        "Claude 3.7 Sonnet": 2,
-        "DeepSeek V3.1 Volcengine": 1,
-        "Gemini 1.5 Pro": 2,
-        "Claude Opus 4": 1,
-        "DeepSeek V3.1 DS": 2,
-        "Doubao 1.6": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Thinking Volcengine": 0.5,
-        "GPT 4.1": 0.5,
-        "Qwen 235B A22B Instruct 2507": 0,
-        "GPT 5 Chat": 0,
-        "Gemma 27B": 1,
-        "Step 3": 1,
-        "Claude Sonnet 4": 0,
-        "Claude 3.7 Sonnet": 0.5,
-        "DeepSeek V3.1 Volcengine": 0,
-        "Gemini 1.5 Pro": 0,
-        "Claude Opus 4": 0,
-        "DeepSeek V3.1 DS": 1,
-        "Doubao 1.6": 0
       }
     },
     {
@@ -4022,7 +4028,7 @@
     {
       "prompt": "**人物设定：** 曾经的江湖第一杀手，现已隐姓埋名，化身为小镇的普通铁匠。他性格孤僻寡言，但内心仍有自己的坚持。\n**核心场景：** 一个远离江湖纷争的小镇，铁匠铺里火光四溅，锤子敲打铁器的声音此起彼伏，他打磨的剑刃总是锋利无比。\n**情节目标：** 一位昔日的仇家找上门来，并以他身边唯一的徒弟性命相要挟，逼他交出武林至宝的藏宝图。仇家表示会在之后月圆之夜上门取图，前杀手需要设法击败仇家，保护自己的徒弟，并摆脱过去的阴影。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
-      "total_battles": 4,
+      "total_battles": 5,
       "model_battle_counts": {
         "Claude 3.7 Sonnet": 1,
         "Gemini 2.5 Pro": 1,
@@ -4031,7 +4037,9 @@
         "Qwen 235B A22B Instruct 2507": 1,
         "Doubao 1.6": 1,
         "Gemini 1.5 Pro": 1,
-        "Command A Reasoning 08 2025": 1
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 1,
+        "Ernie 4.5 Turbo 128k Preview": 1
       },
       "model_win_rates": {
         "Claude 3.7 Sonnet": 1,
@@ -4041,7 +4049,9 @@
         "Qwen 235B A22B Instruct 2507": 1,
         "Doubao 1.6": 0,
         "Gemini 1.5 Pro": 0,
-        "Command A Reasoning 08 2025": 1
+        "Command A Reasoning 08 2025": 1,
+        "Claude Sonnet 4": 0,
+        "Ernie 4.5 Turbo 128k Preview": 1
       }
     },
     {
