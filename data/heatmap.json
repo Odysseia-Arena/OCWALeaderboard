@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T03:55:22.923Z",
+  "updatedAt": "2025-08-27T03:59:09.731Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -40,7 +40,7 @@
     "Claude Opus 4": {
       "Claude 3.7 Sonnet": 0.5,
       "Claude Opus 4.1": 0,
-      "Claude Sonnet 4": 0.3333333333333333,
+      "Claude Sonnet 4": 0.25,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": 1,
       "DeepSeek V3": null,
@@ -111,7 +111,7 @@
     },
     "Claude Sonnet 4": {
       "Claude 3.7 Sonnet": 0.5,
-      "Claude Opus 4": 0.6666666666666666,
+      "Claude Opus 4": 0.75,
       "Claude Opus 4.1": 0.3333333333333333,
       "Command A Reasoning 08 2025": 0,
       "DeepSeek R1 0528": 1,
@@ -1265,7 +1265,7 @@
   "match_count_matrix": {
     "Claude Sonnet 4": {
       "Doubao 1.6 Thinking": 8,
-      "Claude Opus 4": 6,
+      "Claude Opus 4": 7,
       "Kimi K2": 14,
       "Anon": 11,
       "DeepSeek V3.1 DS": 17,
@@ -1506,7 +1506,7 @@
       "Qwen 235B A22B Thinking 2507": 1
     },
     "Claude Opus 4": {
-      "Claude Sonnet 4": 6,
+      "Claude Sonnet 4": 7,
       "Claude 3.7 Sonnet": 4,
       "GPT 4o Latest": 1,
       "Qwen 235B A22B Instruct 2507": 6,
