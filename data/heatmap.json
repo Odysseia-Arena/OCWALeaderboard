@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T16:49:13.484Z",
+  "updatedAt": "2025-08-27T16:54:07.353Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -1799,7 +1799,8 @@
       "DeepSeek V3.1 Thinking Volcengine": 10,
       "Claude Opus 4.1": 5,
       "Gemini 2.5 Pro Max": 5,
-      "GLM 4.5 Air": 2
+      "GLM 4.5 Air": 2,
+      "Anon": 1
     },
     "GLM 4.5 Air": {
       "Gemma 27B": 2,
@@ -1983,7 +1984,8 @@
       "Gemini 2.5 Pro Max": 1,
       "Doubao 1.6 Thinking": 2,
       "Gemini 2.5 Flash": 3,
-      "Qwen 235B A22B Instruct 2507": 2
+      "Qwen 235B A22B Instruct 2507": 2,
+      "Anon": 1
     },
     "Mistral Medium 2508": {
       "GLM 4.5": 1,
@@ -2095,7 +2097,9 @@
       "DeepSeek V3.1 Volcengine": 1,
       "Gemini 2.5 Pro Max": 1,
       "Doubao 1.6 Thinking": 1,
-      "Grok 3": 1
+      "Grok 3": 1,
+      "Claude 3.7 Sonnet": 1,
+      "DeepSeek R1 0528": 1
     }
   }
 }
