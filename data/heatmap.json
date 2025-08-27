@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T07:34:07.811Z",
+  "updatedAt": "2025-08-27T07:39:10.251Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -192,7 +192,7 @@
       "DeepSeek V3.1 Volcengine": 1,
       "DeepSeek V3.1 Thinking Volcengine": 0.25,
       "Doubao 1.6": 0.3333333333333333,
-      "Doubao 1.6 Thinking": null,
+      "Doubao 1.6 Thinking": 1,
       "Ernie 4.5 Turbo 128k Preview": 0,
       "Gemini 1.5 Pro": 0.6,
       "Gemini 2.5 Flash Lite": 0.3333333333333333,
@@ -403,7 +403,7 @@
       "Claude Opus 4.1": 0.375,
       "Claude Sonnet 4": 0.25,
       "Command A Reasoning 08 2025": null,
-      "DeepSeek R1 0528": null,
+      "DeepSeek R1 0528": 0,
       "DeepSeek V3": null,
       "DeepSeek V3.1 DS": 0.5714285714285714,
       "DeepSeek V3.1 Volcengine": 0.75,
@@ -709,7 +709,7 @@
       "GPT 5 Chat": null,
       "GPT 4.1": 0,
       "GPT Oss 120B": 1,
-      "Grok 3": 1,
+      "Grok 3": 0.5,
       "Grok 4": 1,
       "Kimi K2": null,
       "Llama 4 Maverick": 0.5,
@@ -885,7 +885,7 @@
       "Gemini 2.5 Pro": 0.5,
       "Gemma 27B": null,
       "GLM 4.5": null,
-      "GLM 4.5 Air": 0,
+      "GLM 4.5 Air": 0.5,
       "GPT 4o Latest": 0.5714285714285714,
       "GPT 5 Chat": null,
       "GPT 4.1": 0.75,
@@ -1311,7 +1311,8 @@
       "Gemini 2.5 Pro Max": 1,
       "Gemma 27B": 1,
       "DeepSeek V3.1 Volcengine": 6,
-      "GLM 4.5 Air": 2
+      "GLM 4.5 Air": 2,
+      "DeepSeek R1 0528": 1
     },
     "DeepSeek V3.1 Thinking Volcengine": {
       "GPT 4o Latest": 4,
@@ -1411,7 +1412,7 @@
       "DeepSeek V3.1 Volcengine": 2,
       "DeepSeek V3.1 Thinking Volcengine": 2,
       "Gemini 2.5 Flash Lite": 1,
-      "GLM 4.5 Air": 1,
+      "GLM 4.5 Air": 2,
       "DeepSeek R1 0528": 1
     },
     "Kimi K2": {
@@ -1804,7 +1805,7 @@
       "Step 3": 1,
       "GPT 4.1": 1,
       "Claude Sonnet 4": 1,
-      "Grok 3": 1,
+      "Grok 3": 2,
       "Mistral Medium 2508": 1,
       "Claude Opus 4.1": 1,
       "Doubao 1.6": 1,
@@ -1961,7 +1962,8 @@
       "Doubao 1.6": 4,
       "Gemini 2.5 Pro": 1,
       "Grok 3": 1,
-      "Gemini 2.5 Pro Max": 1
+      "Gemini 2.5 Pro Max": 1,
+      "Doubao 1.6 Thinking": 1
     },
     "Mistral Medium 2508": {
       "GLM 4.5": 1,
