@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T02:19:07.125Z",
+  "updatedAt": "2025-08-27T02:24:10.031Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -1075,7 +1075,7 @@
       "Kimi K2": 0.5714285714285714,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
-      "Qwen 235B A22B Thinking 2507": null,
+      "Qwen 235B A22B Thinking 2507": 1,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
       "Anon": 0.2222222222222222,
@@ -1111,7 +1111,7 @@
       "Kimi K2": null,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": 0,
-      "Qwen 235B A22B Instruct 2507": null,
+      "Qwen 235B A22B Instruct 2507": 0,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
       "Anon": null,
@@ -1310,7 +1310,7 @@
       "Gemini 2.5 Pro Max": 1,
       "Gemma 27B": 1,
       "DeepSeek V3.1 Volcengine": 6,
-      "GLM 4.5 Air": 1
+      "GLM 4.5 Air": 2
     },
     "DeepSeek V3.1 Thinking Volcengine": {
       "GPT 4o Latest": 4,
@@ -1588,7 +1588,8 @@
       "Gemini 2.5 Pro Max": 3,
       "Claude Opus 4.1": 2,
       "Gemma 27B": 1,
-      "GLM 4.5 Air": 1
+      "GLM 4.5 Air": 1,
+      "Qwen 235B A22B Thinking 2507": 1
     },
     "Ernie 4.5 Turbo 128k Preview": {
       "GPT Oss 120B": 1,
@@ -1783,8 +1784,8 @@
       "Claude Opus 4.1": 1,
       "Doubao 1.6": 1,
       "DeepSeek V3.1 Volcengine": 1,
-      "Gemini 2.5 Pro": 1,
-      "Doubao 1.6 Thinking": 1,
+      "Gemini 2.5 Pro": 2,
+      "Doubao 1.6 Thinking": 2,
       "Qwen 235B A22B Instruct 2507": 1
     },
     "Gemini 2.5 Pro": {
@@ -1808,7 +1809,7 @@
       "Claude Sonnet 4": 6,
       "Gemini 2.5 Pro Max": 1,
       "Gemini 2.5 Flash": 1,
-      "GLM 4.5 Air": 1
+      "GLM 4.5 Air": 2
     },
     "Qwen 235B A22B Thinking 2507": {
       "GPT Oss 120B": 2,
@@ -1826,7 +1827,8 @@
       "Gemini 1.5 Pro": 1,
       "GPT 4.1": 1,
       "Command A Reasoning 08 2025": 1,
-      "Gemma 27B": 1
+      "Gemma 27B": 1,
+      "Qwen 235B A22B Instruct 2507": 1
     },
     "Grok 4": {
       "GPT Oss 120B": 1,
