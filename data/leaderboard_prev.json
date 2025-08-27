@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-27T18:59:06.142Z",
-  "nextUpdateTime": "2025-08-28T03:00:00",
+  "updatedAt": "2025-08-27T19:04:05.603Z",
+  "nextUpdateTime": "2025-08-28T04:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -24,14 +24,14 @@
       "rating": 1705,
       "rating_deviation": 34,
       "volatility": 0.060024710128035945,
-      "battles": 109,
-      "wins": 63,
+      "battles": 110,
+      "wins": 64,
       "ties": 11,
       "skips": 1,
-      "win_rate_percentage": 64.95,
-      "rating_realtime": 1704,
+      "win_rate_percentage": 65.31,
+      "rating_realtime": 1707,
       "rating_deviation_realtime": 34,
-      "volatility_realtime": 0.06002614154455607,
+      "volatility_realtime": 0.060024661369970506,
       "rank": 2
     },
     {
@@ -45,9 +45,9 @@
       "ties": 14,
       "skips": 1,
       "win_rate_percentage": 64.89,
-      "rating_realtime": 1695,
+      "rating_realtime": 1692,
       "rating_deviation_realtime": 31,
-      "volatility_realtime": 0.05998680590262119,
+      "volatility_realtime": 0.059988197874277935,
       "rank": 3
     },
     {
@@ -72,14 +72,14 @@
       "rating": 1634,
       "rating_deviation": 28,
       "volatility": 0.05984368551683649,
-      "battles": 156,
-      "wins": 77,
+      "battles": 157,
+      "wins": 78,
       "ties": 9,
       "skips": 4,
-      "win_rate_percentage": 53.85,
-      "rating_realtime": 1631,
+      "win_rate_percentage": 54.17,
+      "rating_realtime": 1634,
       "rating_deviation_realtime": 28,
-      "volatility_realtime": 0.05984042889873762,
+      "volatility_realtime": 0.05984181509992116,
       "rank": 5
     },
     {
@@ -216,14 +216,14 @@
       "rating": 1584,
       "rating_deviation": 25,
       "volatility": 0.059704713722163315,
-      "battles": 207,
+      "battles": 208,
       "wins": 88,
       "ties": 16,
       "skips": 8,
-      "win_rate_percentage": 48.09,
-      "rating_realtime": 1586,
+      "win_rate_percentage": 47.83,
+      "rating_realtime": 1585,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.05970288869989118,
+      "volatility_realtime": 0.05970144215069184,
       "rank": 14
     },
     {
