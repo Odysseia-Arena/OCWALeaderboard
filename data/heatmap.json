@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T12:29:10.165Z",
+  "updatedAt": "2025-08-27T12:34:10.527Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -1344,7 +1344,7 @@
       "Grok 3": 2,
       "DeepSeek R1 0528": 7,
       "Command A Reasoning 08 2025": 1,
-      "Anon": 1
+      "Anon": 2
     },
     "GPT 4o Latest": {
       "DeepSeek V3.1 Thinking Volcengine": 4,
@@ -2076,7 +2076,7 @@
     },
     "Anon": {
       "Claude Sonnet 4": 1,
-      "DeepSeek V3.1 Thinking Volcengine": 1,
+      "DeepSeek V3.1 Thinking Volcengine": 2,
       "Claude Opus 4.1": 1,
       "Qwen 235B A22B Instruct 2507": 1,
       "DeepSeek V3.1 DS": 1
