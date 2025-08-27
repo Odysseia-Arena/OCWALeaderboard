@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-27T19:29:09.016Z",
+  "updatedAt": "2025-08-27T19:34:11.724Z",
   "prompt_statistics": [
     {
       "prompt": "九龙城寨里有一个上了年纪的“双花红棍”，名叫“疯狗强”，早已金盆洗手，靠在逼仄的麻将馆里抽水勉强度日。今天，一个不知天高地厚的年轻古惑仔为了扬名立万，在麻将馆闹事，打扰了他平静的退休生活。疯狗强决定给他上一课。\n\n**写作要求：**\n- 用简练克制的语言描写场面和人物动作。对白符合故事背景。\n- 营造出一种荒诞的幽默感和宿命的悲剧感交织、逝去的时代只剩余晖的氛围。\n- 打斗描写有港片感，要迅猛、直接，动作感画面感强，描写出打斗的全过程，有“拳拳到肉”的物理冲击感，强调利用狭窄空间和手边工具的智慧。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3713,10 +3713,10 @@
     {
       "prompt": "**作品：** 七龙珠\n**角色：** 孙悟空, 贝吉塔\n**情节目标：** 在未来特兰克斯发出人造人来袭的警告后，Z战士们正各自紧张备战。然而，一支神秘的外星先遣部队突然降临地球，其实力远超弗利萨军团。悟空和贝吉塔必须暂时中断修行，首次以超级赛亚人的形态联手，迎击这批意料之外的强敌。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
-      "total_battles": 14,
+      "total_battles": 15,
       "model_battle_counts": {
         "Gemini 2.5 Pro Deepthink": 1,
-        "Gemini 2.5 Flash": 4,
+        "Gemini 2.5 Flash": 5,
         "Claude 3.7 Sonnet": 4,
         "DeepSeek V3.1 DS": 1,
         "Qwen 235B A22B Instruct 2507": 2,
@@ -3732,7 +3732,8 @@
         "DeepSeek V3.1 Volcengine": 1,
         "Gemini 2.5 Pro": 1,
         "Doubao 1.6": 1,
-        "Gemini 1.5 Pro": 1
+        "Gemini 1.5 Pro": 1,
+        "Anon": 1
       },
       "model_win_rates": {
         "Gemini 2.5 Pro Deepthink": 1,
@@ -3752,7 +3753,8 @@
         "DeepSeek V3.1 Volcengine": 1,
         "Gemini 2.5 Pro": 0,
         "Doubao 1.6": 1,
-        "Gemini 1.5 Pro": 0
+        "Gemini 1.5 Pro": 0,
+        "Anon": 1
       }
     },
     {
