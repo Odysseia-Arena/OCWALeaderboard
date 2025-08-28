@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2025-08-28T14:34:46.221Z",
+  "updatedAt": "2025-08-28T14:39:08.397Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
-      "Claude Opus 4": 0.6,
+      "Claude Opus 4": 0.6666666666666666,
       "Claude Opus 4.1": 0.6,
       "Claude Sonnet 4": 0.6428571428571429,
       "Command A Reasoning 08 2025": null,
@@ -38,7 +38,7 @@
       "Gemini 2.5 Pro Max": 0.3333333333333333
     },
     "Claude Opus 4": {
-      "Claude 3.7 Sonnet": 0.4,
+      "Claude 3.7 Sonnet": 0.3333333333333333,
       "Claude Opus 4.1": 0,
       "Claude Sonnet 4": 0.3333333333333333,
       "Command A Reasoning 08 2025": null,
@@ -1546,7 +1546,7 @@
     },
     "Claude Opus 4": {
       "Claude Sonnet 4": 9,
-      "Claude 3.7 Sonnet": 5,
+      "Claude 3.7 Sonnet": 6,
       "GPT 4o Latest": 2,
       "Qwen 235B A22B Instruct 2507": 6,
       "Gemini 2.5 Pro Deepthink": 3,
@@ -1806,7 +1806,7 @@
       "Claude Opus 4": 1
     },
     "Claude 3.7 Sonnet": {
-      "Claude Opus 4": 5,
+      "Claude Opus 4": 6,
       "GPT 4o Latest": 8,
       "Grok 3": 12,
       "Gemini 2.5 Pro": 4,
