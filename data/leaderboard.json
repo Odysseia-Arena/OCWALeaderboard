@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-28T02:59:09.460Z",
-  "nextUpdateTime": "2025-08-28T11:00:00",
+  "updatedAt": "2025-08-28T03:04:12.420Z",
+  "nextUpdateTime": "2025-08-28T12:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -21,9 +21,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1703,
+      "rating": 1699,
       "rating_deviation": 33,
-      "volatility": 0.060014011938955864,
+      "volatility": 0.060016032182694565,
       "battles": 115,
       "wins": 66,
       "ties": 11,
@@ -67,6 +67,22 @@
       "rank": 4
     },
     {
+      "model_name": "Claude 3.7 Sonnet",
+      "tier": "high",
+      "rating": 1637,
+      "rating_deviation": 28,
+      "volatility": 0.06007790103840329,
+      "battles": 151,
+      "wins": 72,
+      "ties": 15,
+      "skips": 4,
+      "win_rate_percentage": 54.55,
+      "rating_realtime": 1637,
+      "rating_deviation_realtime": 28,
+      "volatility_realtime": 0.06007790103840329,
+      "rank": 5
+    },
+    {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
       "rating": 1637,
@@ -80,7 +96,7 @@
       "rating_realtime": 1637,
       "rating_deviation_realtime": 29,
       "volatility_realtime": 0.059846311190664546,
-      "rank": 5
+      "rank": 6
     },
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
@@ -96,30 +112,14 @@
       "rating_realtime": 1636,
       "rating_deviation_realtime": 28,
       "volatility_realtime": 0.05982716617915432,
-      "rank": 6
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "tier": "high",
-      "rating": 1635,
-      "rating_deviation": 28,
-      "volatility": 0.06007873459304014,
-      "battles": 151,
-      "wins": 72,
-      "ties": 15,
-      "skips": 4,
-      "win_rate_percentage": 54.55,
-      "rating_realtime": 1637,
-      "rating_deviation_realtime": 28,
-      "volatility_realtime": 0.06007790103840329,
       "rank": 7
     },
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1614,
+      "rating": 1618,
       "rating_deviation": 29,
-      "volatility": 0.0599107280345562,
+      "volatility": 0.059912743418678784,
       "battles": 135,
       "wins": 65,
       "ties": 10,
@@ -147,22 +147,6 @@
       "rank": 9
     },
     {
-      "model_name": "Kimi K2",
-      "tier": "high",
-      "rating": 1604,
-      "rating_deviation": 33,
-      "volatility": 0.06003583685887889,
-      "battles": 116,
-      "wins": 52,
-      "ties": 7,
-      "skips": 6,
-      "win_rate_percentage": 50.49,
-      "rating_realtime": 1601,
-      "rating_deviation_realtime": 33,
-      "volatility_realtime": 0.06003589914701824,
-      "rank": 10
-    },
-    {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
       "rating": 1602,
@@ -176,7 +160,39 @@
       "rating_realtime": 1602,
       "rating_deviation_realtime": 36,
       "volatility_realtime": 0.06003785090643097,
+      "rank": 10
+    },
+    {
+      "model_name": "DeepSeek V3.1 Thinking Volcengine",
+      "tier": "high",
+      "rating": 1601,
+      "rating_deviation": 24,
+      "volatility": 0.05990608859995302,
+      "battles": 213,
+      "wins": 99,
+      "ties": 14,
+      "skips": 8,
+      "win_rate_percentage": 51.83,
+      "rating_realtime": 1601,
+      "rating_deviation_realtime": 24,
+      "volatility_realtime": 0.05990608859995302,
       "rank": 11
+    },
+    {
+      "model_name": "Kimi K2",
+      "tier": "high",
+      "rating": 1601,
+      "rating_deviation": 33,
+      "volatility": 0.06003589914701824,
+      "battles": 116,
+      "wins": 52,
+      "ties": 7,
+      "skips": 6,
+      "win_rate_percentage": 50.49,
+      "rating_realtime": 1601,
+      "rating_deviation_realtime": 33,
+      "volatility_realtime": 0.06003589914701824,
+      "rank": 12
     },
     {
       "model_name": "DeepSeek V3.1 Volcengine",
@@ -192,39 +208,7 @@
       "rating_realtime": 1600,
       "rating_deviation_realtime": 29,
       "volatility_realtime": 0.059807772466249555,
-      "rank": 12
-    },
-    {
-      "model_name": "DeepSeek V3.1 Thinking Volcengine",
-      "tier": "high",
-      "rating": 1599,
-      "rating_deviation": 24,
-      "volatility": 0.0599060138059581,
-      "battles": 213,
-      "wins": 99,
-      "ties": 14,
-      "skips": 8,
-      "win_rate_percentage": 51.83,
-      "rating_realtime": 1601,
-      "rating_deviation_realtime": 24,
-      "volatility_realtime": 0.05990608859995302,
       "rank": 13
-    },
-    {
-      "model_name": "Claude Sonnet 4",
-      "tier": "high",
-      "rating": 1586,
-      "rating_deviation": 24,
-      "volatility": 0.059687092020717133,
-      "battles": 216,
-      "wins": 90,
-      "ties": 18,
-      "skips": 9,
-      "win_rate_percentage": 47.62,
-      "rating_realtime": 1584,
-      "rating_deviation_realtime": 24,
-      "volatility_realtime": 0.0596862801000147,
-      "rank": 14
     },
     {
       "model_name": "GPT 4o Latest",
@@ -240,6 +224,22 @@
       "rating_realtime": 1586,
       "rating_deviation_realtime": 36,
       "volatility_realtime": 0.059919380338063606,
+      "rank": 14
+    },
+    {
+      "model_name": "Claude Sonnet 4",
+      "tier": "high",
+      "rating": 1584,
+      "rating_deviation": 24,
+      "volatility": 0.0596862801000147,
+      "battles": 216,
+      "wins": 90,
+      "ties": 18,
+      "skips": 9,
+      "win_rate_percentage": 47.62,
+      "rating_realtime": 1584,
+      "rating_deviation_realtime": 24,
+      "volatility_realtime": 0.0596862801000147,
       "rank": 15
     },
     {
@@ -485,9 +485,9 @@
     {
       "model_name": "Qwen 235B A22B Thinking 2507",
       "tier": "low",
-      "rating": 1440,
+      "rating": 1448,
       "rating_deviation": 56,
-      "volatility": 0.06001512171576389,
+      "volatility": 0.06001448298760341,
       "battles": 32,
       "wins": 10,
       "ties": 3,
@@ -517,9 +517,9 @@
     {
       "model_name": "Llama 4 Maverick",
       "tier": "low",
-      "rating": 1405,
-      "rating_deviation": 50,
-      "volatility": 0.06000953723842178,
+      "rating": 1399,
+      "rating_deviation": 49,
+      "volatility": 0.06000891508029999,
       "battles": 43,
       "wins": 12,
       "ties": 2,
