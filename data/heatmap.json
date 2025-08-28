@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-28T05:14:07.058Z",
+  "updatedAt": "2025-08-28T05:19:06.956Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.6,
@@ -40,7 +40,7 @@
     "Claude Opus 4": {
       "Claude 3.7 Sonnet": 0.4,
       "Claude Opus 4.1": 0,
-      "Claude Sonnet 4": 0.2,
+      "Claude Sonnet 4": 0.3333333333333333,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": 0.3333333333333333,
       "DeepSeek V3": null,
@@ -111,7 +111,7 @@
     },
     "Claude Sonnet 4": {
       "Claude 3.7 Sonnet": 0.3333333333333333,
-      "Claude Opus 4": 0.8,
+      "Claude Opus 4": 0.6666666666666666,
       "Claude Opus 4.1": 0.5,
       "Command A Reasoning 08 2025": 0.5,
       "DeepSeek R1 0528": 0.8,
@@ -825,7 +825,7 @@
       "Qwen 235B A22B Instruct 2507": 0,
       "Qwen 235B A22B Thinking 2507": 0,
       "Qwen3 30B A3B Thinking 2507": null,
-      "Step 3": 0.38461538461538464,
+      "Step 3": 0.35714285714285715,
       "Anon": null,
       "Gemini 2.5 Pro Max": 0
     },
@@ -1176,7 +1176,7 @@
       "GLM 4.5 Air": 1,
       "GPT 4o Latest": null,
       "GPT 5 Chat": 0.5,
-      "GPT 4.1": 0.6153846153846154,
+      "GPT 4.1": 0.6428571428571429,
       "GPT Oss 120B": null,
       "Grok 3": null,
       "Grok 4": 0.6666666666666666,
@@ -1265,7 +1265,7 @@
   "match_count_matrix": {
     "Claude Sonnet 4": {
       "Doubao 1.6 Thinking": 13,
-      "Claude Opus 4": 8,
+      "Claude Opus 4": 9,
       "Kimi K2": 14,
       "Gemini 2.5 Pro Deepthink": 11,
       "DeepSeek V3.1 DS": 22,
@@ -1522,7 +1522,7 @@
       "Ernie 4.5 Turbo 128k Preview": 2,
       "Kimi K2": 3,
       "Gemini 2.5 Pro Max": 5,
-      "Step 3": 13,
+      "Step 3": 14,
       "Claude Opus 4": 6,
       "DeepSeek R1 0528": 4,
       "Claude Opus 4.1": 2,
@@ -1533,7 +1533,7 @@
       "Qwen 235B A22B Thinking 2507": 1
     },
     "Claude Opus 4": {
-      "Claude Sonnet 4": 8,
+      "Claude Sonnet 4": 9,
       "Claude 3.7 Sonnet": 5,
       "GPT 4o Latest": 1,
       "Qwen 235B A22B Instruct 2507": 6,
@@ -1729,7 +1729,7 @@
       "Grok 4": 3,
       "GLM 4.5": 3,
       "Mistral Medium 2508": 4,
-      "GPT 4.1": 13,
+      "GPT 4.1": 14,
       "DeepSeek V3.1 DS": 8,
       "Gemini 2.5 Flash": 1,
       "Claude Opus 4": 4,
