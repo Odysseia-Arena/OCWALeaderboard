@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-28T11:14:08.842Z",
+  "updatedAt": "2025-08-28T11:19:07.761Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.6,
@@ -430,7 +430,7 @@
       "Qwen 235B A22B Thinking 2507": 1,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
-      "Anon": 0.25,
+      "Anon": 0.2,
       "Gemini 2.5 Pro Max": 0
     },
     "Ernie 4.5 Turbo 128k Preview": {
@@ -597,7 +597,7 @@
       "Gemma 27B": null,
       "GLM 4.5": 1,
       "GLM 4.5 Air": 0.75,
-      "GPT 4o Latest": 0.8333333333333334,
+      "GPT 4o Latest": 0.8571428571428571,
       "GPT 5 Chat": 1,
       "GPT 4.1": 0.8,
       "GPT Oss 120B": null,
@@ -738,7 +738,7 @@
       "Gemini 1.5 Pro": null,
       "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": 0.3,
-      "Gemini 2.5 Pro": 0.16666666666666666,
+      "Gemini 2.5 Pro": 0.14285714285714285,
       "Gemma 27B": null,
       "GLM 4.5": null,
       "GLM 4.5 Air": 1,
@@ -1201,7 +1201,7 @@
       "DeepSeek V3.1 Volcengine": 1,
       "DeepSeek V3.1 Thinking Volcengine": 0.5,
       "Doubao 1.6": 0,
-      "Doubao 1.6 Thinking": 0.75,
+      "Doubao 1.6 Thinking": 0.8,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": 1,
       "Gemini 2.5 Flash Lite": 0.5,
@@ -1317,7 +1317,7 @@
       "GLM 4.5 Air": 2,
       "DeepSeek R1 0528": 3,
       "Gemini 1.5 Pro": 2,
-      "Anon": 4,
+      "Anon": 5,
       "Qwen 235B A22B Thinking 2507": 1,
       "Gemini 2.5 Flash Lite": 2
     },
@@ -1364,7 +1364,7 @@
       "Qwen 235B A22B Instruct 2507": 4,
       "Doubao 1.6": 7,
       "Doubao 1.6 Thinking": 9,
-      "Gemini 2.5 Pro": 7,
+      "Gemini 2.5 Pro": 8,
       "Claude Opus 4.1": 2,
       "DeepSeek V3.1 Volcengine": 6,
       "Gemini 2.5 Flash": 10,
@@ -1868,7 +1868,7 @@
       "GPT 4.1": 6,
       "Kimi K2": 5,
       "DeepSeek V3.1 Thinking Volcengine": 5,
-      "GPT 4o Latest": 7,
+      "GPT 4o Latest": 8,
       "Doubao 1.6": 6,
       "Doubao 1.6 Thinking": 6,
       "Claude Opus 4": 4,
@@ -2134,7 +2134,7 @@
       "Doubao 1.6": 1,
       "DeepSeek V3.1 Volcengine": 3,
       "Gemini 2.5 Pro Max": 2,
-      "Doubao 1.6 Thinking": 4,
+      "Doubao 1.6 Thinking": 5,
       "Grok 3": 2,
       "Claude 3.7 Sonnet": 1,
       "DeepSeek R1 0528": 3,
