@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-28T02:29:09.525Z",
+  "updatedAt": "2025-08-28T02:34:07.550Z",
   "nextUpdateTime": "2025-08-28T11:00:00",
   "leaderboard": [
     {
@@ -35,16 +35,16 @@
       "rank": 2
     },
     {
-      "model_name": "Gemini 2.5 Pro Deepthink",
+      "model_name": "Anon",
       "tier": "high",
       "rating": 1688,
       "rating_deviation": 30,
       "volatility": 0.059975570695616036,
-      "battles": 109,
-      "wins": 61,
-      "ties": 14,
-      "skips": 1,
-      "win_rate_percentage": 64.89,
+      "battles": 25,
+      "wins": 14,
+      "ties": 3,
+      "skips": 0,
+      "win_rate_percentage": 63.64,
       "rating_realtime": 1688,
       "rating_deviation_realtime": 30,
       "volatility_realtime": 0.059975570695616036,
