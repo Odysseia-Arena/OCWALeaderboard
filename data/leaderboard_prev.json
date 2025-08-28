@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-28T19:59:05.959Z",
-  "nextUpdateTime": "2025-08-29T04:00:00",
+  "updatedAt": "2025-08-28T20:04:08.493Z",
+  "nextUpdateTime": "2025-08-29T05:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -196,7 +196,7 @@
     },
     {
       "model_name": "Grok 3",
-      "tier": "low",
+      "tier": "high",
       "rating": 1587,
       "rating_deviation": 31,
       "volatility": 0.059924410661982556,
@@ -260,7 +260,7 @@
     },
     {
       "model_name": "Gemini 2.5 Flash Lite",
-      "tier": "high",
+      "tier": "low",
       "rating": 1567,
       "rating_deviation": 37,
       "volatility": 0.05993397133837016,
@@ -276,7 +276,7 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "tier": "high",
+      "tier": "low",
       "rating": 1559,
       "rating_deviation": 34,
       "volatility": 0.06020549224912715,
@@ -292,7 +292,7 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "tier": "high",
+      "tier": "low",
       "rating": 1550,
       "rating_deviation": 31,
       "volatility": 0.059913156465965664,
@@ -308,7 +308,7 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "tier": "low",
+      "tier": "high",
       "rating": 1545,
       "rating_deviation": 33,
       "volatility": 0.06001615550429722,
@@ -324,7 +324,7 @@
     },
     {
       "model_name": "Step 3",
-      "tier": "low",
+      "tier": "high",
       "rating": 1537,
       "rating_deviation": 39,
       "volatility": 0.06001203109352968,
