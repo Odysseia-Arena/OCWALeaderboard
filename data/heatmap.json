@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-28T07:14:38.221Z",
+  "updatedAt": "2025-08-28T07:19:07.963Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.6,
@@ -1626,7 +1626,7 @@
       "GLM 4.5 Air": 4,
       "Qwen 235B A22B Thinking 2507": 1,
       "Gemini 1.5 Pro": 3,
-      "Anon": 2,
+      "Anon": 3,
       "DeepSeek R1 0528": 2
     },
     "Ernie 4.5 Turbo 128k Preview": {
@@ -2108,7 +2108,7 @@
       "Claude Sonnet 4": 3,
       "DeepSeek V3.1 Thinking Volcengine": 2,
       "Claude Opus 4.1": 1,
-      "Qwen 235B A22B Instruct 2507": 2,
+      "Qwen 235B A22B Instruct 2507": 3,
       "DeepSeek V3.1 DS": 1,
       "GLM 4.5 Air": 1,
       "Doubao 1.6": 1,
