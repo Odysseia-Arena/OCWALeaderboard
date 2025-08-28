@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-28T00:44:07.356Z",
+  "updatedAt": "2025-08-28T00:49:09.330Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.5,
@@ -1576,7 +1576,8 @@
       "Qwen 235B A22B Thinking 2507": 1,
       "Gemini 2.5 Flash Lite": 2,
       "Doubao 1.6": 1,
-      "Gemini 2.5 Pro": 1
+      "Gemini 2.5 Pro": 1,
+      "Claude Opus 4.1": 1
     },
     "Gemini 2.5 Pro Deepthink": {
       "Gemini 2.5 Flash": 8,
@@ -1964,7 +1965,8 @@
       "GLM 4.5 Air": 2,
       "Gemini 1.5 Pro": 2,
       "Gemini 2.5 Flash": 1,
-      "Anon": 1
+      "Anon": 1,
+      "GLM 4.5": 1
     },
     "DeepSeek R1 0528": {
       "Step 3": 3,
