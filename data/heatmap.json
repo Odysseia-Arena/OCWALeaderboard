@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T03:34:09.349Z",
+  "updatedAt": "2025-08-29T03:39:11.153Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -138,7 +138,7 @@
       "Kimi K2": 0.5,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
-      "Qwen 235B A22B Instruct 2507": 0.3333333333333333,
+      "Qwen 235B A22B Instruct 2507": 0.375,
       "Qwen 235B A22B Thinking 2507": null,
       "Qwen3 30B A3B Thinking 2507": 1,
       "Step 3": 0.6666666666666666,
@@ -274,7 +274,7 @@
       "GLM 4.5": 1,
       "GLM 4.5 Air": 0.5,
       "GPT 4o Latest": 0.5,
-      "GPT 5 Chat": null,
+      "GPT 5 Chat": 0,
       "GPT 4.1": 0.6818181818181818,
       "GPT Oss 120B": null,
       "Grok 3": 0.4444444444444444,
@@ -765,7 +765,7 @@
       "Command A Reasoning 08 2025": 0,
       "DeepSeek R1 0528": 1,
       "DeepSeek V3": null,
-      "DeepSeek V3.1 DS": null,
+      "DeepSeek V3.1 DS": 1,
       "DeepSeek V3.1 Volcengine": null,
       "DeepSeek V3.1 Thinking Volcengine": 0,
       "Doubao 1.6": null,
@@ -1049,7 +1049,7 @@
       "Claude 3.7 Sonnet": 0.3,
       "Claude Opus 4": 0.5,
       "Claude Opus 4.1": 0.3333333333333333,
-      "Claude Sonnet 4": 0.6666666666666666,
+      "Claude Sonnet 4": 0.625,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": 1,
       "DeepSeek V3": null,
@@ -1271,7 +1271,7 @@
       "DeepSeek V3.1 DS": 27,
       "Gemini 1.5 Pro": 11,
       "GPT 4.1": 5,
-      "Qwen 235B A22B Instruct 2507": 15,
+      "Qwen 235B A22B Instruct 2507": 16,
       "DeepSeek V3.1 Thinking Volcengine": 16,
       "Claude 3.7 Sonnet": 15,
       "DeepSeek V3.1 Volcengine": 11,
@@ -1405,7 +1405,8 @@
       "Claude Opus 4.1": 5,
       "Gemini 2.5 Flash Lite": 8,
       "DeepSeek R1 0528": 8,
-      "Anon": 1
+      "Anon": 1,
+      "GPT 5 Chat": 1
     },
     "Grok 3": {
       "Kimi K2": 8,
@@ -1628,7 +1629,7 @@
       "Gemini 2.5 Pro": 6,
       "Kimi K2": 12,
       "GPT 4o Latest": 5,
-      "Claude Sonnet 4": 15,
+      "Claude Sonnet 4": 16,
       "Claude Opus 4": 6,
       "Claude 3.7 Sonnet": 10,
       "DeepSeek V3.1 Thinking Volcengine": 12,
@@ -1755,7 +1756,7 @@
       "Gemini 2.5 Flash": 1,
       "Claude Opus 4": 4,
       "DeepSeek V3": 2,
-      "GLM 4.5 Air": 1,
+      "GLM 4.5 Air": 2,
       "Gemma 27B": 1,
       "Doubao 1.6": 1,
       "GPT 4o Latest": 1
@@ -1849,7 +1850,7 @@
       "Llama 4 Maverick": 2,
       "Gemini 2.5 Flash Lite": 5,
       "Ernie 4.5 Turbo 128k Preview": 2,
-      "Step 3": 1,
+      "Step 3": 2,
       "GPT 4.1": 1,
       "Claude Sonnet 4": 4,
       "Grok 3": 4,
@@ -2113,7 +2114,8 @@
       "Gemini 2.5 Pro Max": 1,
       "Grok 4": 1,
       "Claude Sonnet 4": 1,
-      "GPT 4o Latest": 2
+      "GPT 4o Latest": 2,
+      "DeepSeek V3.1 DS": 1
     },
     "Gemini 2.5 Pro Max": {
       "Claude Sonnet 4": 5,
