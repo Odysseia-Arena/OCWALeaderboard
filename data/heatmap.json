@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T16:21:29.203Z",
+  "updatedAt": "2025-08-29T16:24:08.382Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -272,7 +272,7 @@
       "Gemini 2.5 Pro": 0.375,
       "Gemma 27B": null,
       "GLM 4.5": 1,
-      "GLM 4.5 Air": 0.625,
+      "GLM 4.5 Air": 0.5555555555555556,
       "GPT 4o Latest": 0.5,
       "GPT 5 Chat": 0,
       "GPT 4.1": 0.6818181818181818,
@@ -693,7 +693,7 @@
       "Command A Reasoning 08 2025": 0.6666666666666666,
       "DeepSeek R1 0528": 0.5714285714285714,
       "DeepSeek V3": null,
-      "DeepSeek V3.1 DS": 0.375,
+      "DeepSeek V3.1 DS": 0.4444444444444444,
       "DeepSeek V3.1 Volcengine": 0.75,
       "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
       "Doubao 1.6": 0.75,
@@ -1399,7 +1399,7 @@
       "Mistral Medium 2508": 5,
       "GLM 4.5": 1,
       "Gemini 2.5 Pro Max": 7,
-      "GLM 4.5 Air": 9,
+      "GLM 4.5 Air": 10,
       "Step 3": 9,
       "Claude Opus 4": 10,
       "Claude Opus 4.1": 5,
@@ -1848,7 +1848,7 @@
       "GPT Oss 120B": 2,
       "DeepSeek V3.1 Thinking Volcengine": 7,
       "Grok 4": 3,
-      "DeepSeek V3.1 DS": 9,
+      "DeepSeek V3.1 DS": 10,
       "DeepSeek R1 0528": 7,
       "Gemini 1.5 Pro": 5,
       "Llama 4 Maverick": 2,
