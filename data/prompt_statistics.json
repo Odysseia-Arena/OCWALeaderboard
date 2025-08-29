@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T16:59:09.859Z",
+  "updatedAt": "2025-08-29T17:04:12.840Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4204,6 +4204,49 @@
       }
     },
     {
+      "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 16,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro Max": 1,
+        "Claude 3.7 Sonnet": 3,
+        "GLM 4.5 Air": 2,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6 Thinking": 3,
+        "Claude Sonnet 4": 5,
+        "Gemini 2.5 Pro": 2,
+        "GLM 4.5": 2,
+        "Gemini 2.5 Flash Lite": 2,
+        "Doubao 1.6": 3,
+        "DeepSeek V3.1 DS": 2,
+        "Gemini 1.5 Pro": 1,
+        "Claude Opus 4": 1,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro Max": 1,
+        "Claude 3.7 Sonnet": 0.3333333333333333,
+        "GLM 4.5 Air": 0,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6 Thinking": 0.3333333333333333,
+        "Claude Sonnet 4": 0.6,
+        "Gemini 2.5 Pro": 1,
+        "GLM 4.5": 0.5,
+        "Gemini 2.5 Flash Lite": 0,
+        "Doubao 1.6": 0,
+        "DeepSeek V3.1 DS": 0.5,
+        "Gemini 1.5 Pro": 1,
+        "Claude Opus 4": 0,
+        "Claude Opus 4.1": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1
+      }
+    },
+    {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若叶睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 16,
@@ -4248,49 +4291,6 @@
         "Gemini 2.5 Pro Max": 1,
         "Llama 4 Maverick": 1,
         "GLM 4.5 Air": 0
-      }
-    },
-    {
-      "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 15,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 2,
-        "GLM 4.5 Air": 2,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6 Thinking": 2,
-        "Claude Sonnet 4": 5,
-        "Gemini 2.5 Pro": 2,
-        "GLM 4.5": 2,
-        "Gemini 2.5 Flash Lite": 2,
-        "Doubao 1.6": 3,
-        "DeepSeek V3.1 DS": 2,
-        "Gemini 1.5 Pro": 1,
-        "Claude Opus 4": 1,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 0.5,
-        "GLM 4.5 Air": 0,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6 Thinking": 0,
-        "Claude Sonnet 4": 0.6,
-        "Gemini 2.5 Pro": 1,
-        "GLM 4.5": 0.5,
-        "Gemini 2.5 Flash Lite": 0,
-        "Doubao 1.6": 0,
-        "DeepSeek V3.1 DS": 0.5,
-        "Gemini 1.5 Pro": 1,
-        "Claude Opus 4": 0,
-        "Claude Opus 4.1": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1
       }
     },
     {
