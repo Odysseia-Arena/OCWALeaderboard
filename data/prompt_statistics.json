@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T02:39:11.453Z",
+  "updatedAt": "2025-08-29T02:44:08.779Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3148,6 +3148,55 @@
       }
     },
     {
+      "prompt": "**人物设定：** 一位失忆的私家侦探，他的记忆只停留在三天前。他性格多疑，却有着敏锐的洞察力。\n**核心场景：** 一座空旷的废弃工厂，地上散落着各种废旧的机械零件，空气中弥漫着铁锈味。\n**情节目标：** 他在工厂中醒来，身边只有一部手机和一张字条，字条上写着“找到真凶”。他必须在有限的线索中，通过手机里的通话记录和照片，拼凑出三天前发生的一切，并找到那个连他自己都不知道的“真凶”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "逻辑",
+      "total_battles": 19,
+      "model_battle_counts": {
+        "DeepSeek V3.1 Volcengine": 2,
+        "GPT 4.1": 4,
+        "Claude Sonnet 4": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "Grok 4": 1,
+        "Qwen3 30B A3B Thinking 2507": 2,
+        "Claude 3.7 Sonnet": 2,
+        "DeepSeek V3.1 DS": 5,
+        "Gemma 27B": 3,
+        "DeepSeek R1 0528": 3,
+        "GPT 4o Latest": 2,
+        "Kimi K2": 2,
+        "DeepSeek V3": 1,
+        "GLM 4.5 Air": 1,
+        "Step 3": 1,
+        "Gemini 1.5 Pro": 1,
+        "Gemini 2.5 Flash": 1,
+        "Doubao 1.6 Thinking": 1,
+        "GPT Oss 120B": 1,
+        "Anon": 1
+      },
+      "model_win_rates": {
+        "DeepSeek V3.1 Volcengine": 0.5,
+        "GPT 4.1": 0.25,
+        "Claude Sonnet 4": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Grok 4": 1,
+        "Qwen3 30B A3B Thinking 2507": 0.5,
+        "Claude 3.7 Sonnet": 1,
+        "DeepSeek V3.1 DS": 0.4,
+        "Gemma 27B": 0.3333333333333333,
+        "DeepSeek R1 0528": 0.6666666666666666,
+        "GPT 4o Latest": 0,
+        "Kimi K2": 1,
+        "DeepSeek V3": 0,
+        "GLM 4.5 Air": 1,
+        "Step 3": 0,
+        "Gemini 1.5 Pro": 0,
+        "Gemini 2.5 Flash": 0,
+        "Doubao 1.6 Thinking": 0,
+        "GPT Oss 120B": 1,
+        "Anon": 1
+      }
+    },
+    {
       "prompt": "**人物设定：** 一位年轻的咖啡师，性格温和内敛，却有着异于常人的“超能力”——他能通过冲泡咖啡的味道，感知到客人的内心秘密。\n**核心场景：** 一个藏在老街深处的咖啡馆，装修复古温馨，弥漫着浓郁的咖啡香气。\n**情节目标：** 一位神秘的客人点了一杯黑咖啡，当他尝过咖啡后，咖啡师感知到了他内心的巨大悲痛和即将实施的复仇计划。他必须在客人离开前，通过一杯特调咖啡，用咖啡的味道作为媒介，劝说他放弃复仇，并引导他走向新的生活。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 19,
@@ -3347,53 +3396,6 @@
         "Doubao 1.6 Thinking": 1,
         "Gemini 2.5 Pro": 0,
         "Anon": 1
-      }
-    },
-    {
-      "prompt": "**人物设定：** 一位失忆的私家侦探，他的记忆只停留在三天前。他性格多疑，却有着敏锐的洞察力。\n**核心场景：** 一座空旷的废弃工厂，地上散落着各种废旧的机械零件，空气中弥漫着铁锈味。\n**情节目标：** 他在工厂中醒来，身边只有一部手机和一张字条，字条上写着“找到真凶”。他必须在有限的线索中，通过手机里的通话记录和照片，拼凑出三天前发生的一切，并找到那个连他自己都不知道的“真凶”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "逻辑",
-      "total_battles": 18,
-      "model_battle_counts": {
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4.1": 4,
-        "Claude Sonnet 4": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
-        "Grok 4": 1,
-        "Qwen3 30B A3B Thinking 2507": 2,
-        "Claude 3.7 Sonnet": 2,
-        "DeepSeek V3.1 DS": 5,
-        "Gemma 27B": 3,
-        "DeepSeek R1 0528": 3,
-        "GPT 4o Latest": 2,
-        "Kimi K2": 2,
-        "DeepSeek V3": 1,
-        "GLM 4.5 Air": 1,
-        "Step 3": 1,
-        "Gemini 1.5 Pro": 1,
-        "Gemini 2.5 Flash": 1,
-        "Doubao 1.6 Thinking": 1,
-        "GPT Oss 120B": 1
-      },
-      "model_win_rates": {
-        "DeepSeek V3.1 Volcengine": 1,
-        "GPT 4.1": 0.25,
-        "Claude Sonnet 4": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Grok 4": 1,
-        "Qwen3 30B A3B Thinking 2507": 0.5,
-        "Claude 3.7 Sonnet": 1,
-        "DeepSeek V3.1 DS": 0.4,
-        "Gemma 27B": 0.3333333333333333,
-        "DeepSeek R1 0528": 0.6666666666666666,
-        "GPT 4o Latest": 0,
-        "Kimi K2": 1,
-        "DeepSeek V3": 0,
-        "GLM 4.5 Air": 1,
-        "Step 3": 0,
-        "Gemini 1.5 Pro": 0,
-        "Gemini 2.5 Flash": 0,
-        "Doubao 1.6 Thinking": 0,
-        "GPT Oss 120B": 1
       }
     },
     {
