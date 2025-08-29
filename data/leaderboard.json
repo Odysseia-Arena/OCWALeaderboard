@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T10:59:08.134Z",
-  "nextUpdateTime": "2025-08-29T19:00:00",
+  "updatedAt": "2025-08-29T11:04:06.801Z",
+  "nextUpdateTime": "2025-08-29T20:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -53,9 +53,9 @@
     {
       "model_name": "Doubao 1.6",
       "tier": "high",
-      "rating": 1652,
-      "rating_deviation": 29,
-      "volatility": 0.05999292689521747,
+      "rating": 1650,
+      "rating_deviation": 28,
+      "volatility": 0.05999331096180381,
       "battles": 161,
       "wins": 81,
       "ties": 9,
@@ -69,9 +69,9 @@
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
       "tier": "high",
-      "rating": 1650,
+      "rating": 1647,
       "rating_deviation": 26,
-      "volatility": 0.059801834837670015,
+      "volatility": 0.05980433466561047,
       "battles": 187,
       "wins": 95,
       "ties": 11,
@@ -101,9 +101,9 @@
     {
       "model_name": "Kimi K2",
       "tier": "high",
-      "rating": 1632,
+      "rating": 1634,
       "rating_deviation": 29,
-      "volatility": 0.06014291661602731,
+      "volatility": 0.06014330348186256,
       "battles": 155,
       "wins": 75,
       "ties": 8,
@@ -211,6 +211,22 @@
       "rank": 13
     },
     {
+      "model_name": "DeepSeek V3.1 DS",
+      "tier": "high",
+      "rating": 1585,
+      "rating_deviation": 21,
+      "volatility": 0.05983600206637961,
+      "battles": 287,
+      "wins": 118,
+      "ties": 34,
+      "skips": 14,
+      "win_rate_percentage": 49.37,
+      "rating_realtime": 1585,
+      "rating_deviation_realtime": 21,
+      "volatility_realtime": 0.05983600206637961,
+      "rank": 14
+    },
+    {
       "model_name": "Grok 3",
       "tier": "high",
       "rating": 1585,
@@ -224,30 +240,14 @@
       "rating_realtime": 1585,
       "rating_deviation_realtime": 31,
       "volatility_realtime": 0.05992296610480363,
-      "rank": 14
-    },
-    {
-      "model_name": "DeepSeek V3.1 DS",
-      "tier": "high",
-      "rating": 1583,
-      "rating_deviation": 21,
-      "volatility": 0.0598361050540813,
-      "battles": 287,
-      "wins": 118,
-      "ties": 34,
-      "skips": 14,
-      "win_rate_percentage": 49.37,
-      "rating_realtime": 1585,
-      "rating_deviation_realtime": 21,
-      "volatility_realtime": 0.05983600206637961,
       "rank": 15
     },
     {
       "model_name": "Claude Sonnet 4",
       "tier": "high",
-      "rating": 1579,
+      "rating": 1577,
       "rating_deviation": 22,
-      "volatility": 0.05987096145532889,
+      "volatility": 0.059870857270917566,
       "battles": 260,
       "wins": 107,
       "ties": 19,
@@ -307,6 +307,22 @@
       "rank": 19
     },
     {
+      "model_name": "Step 3",
+      "tier": "high",
+      "rating": 1548,
+      "rating_deviation": 38,
+      "volatility": 0.06000799929501586,
+      "battles": 80,
+      "wins": 39,
+      "ties": 4,
+      "skips": 3,
+      "win_rate_percentage": 53.42,
+      "rating_realtime": 1548,
+      "rating_deviation_realtime": 38,
+      "volatility_realtime": 0.06000799929501586,
+      "rank": 20
+    },
+    {
       "model_name": "DeepSeek R1 0528",
       "tier": "high",
       "rating": 1545,
@@ -320,22 +336,6 @@
       "rating_realtime": 1545,
       "rating_deviation_realtime": 33,
       "volatility_realtime": 0.06001615550429722,
-      "rank": 20
-    },
-    {
-      "model_name": "Step 3",
-      "tier": "high",
-      "rating": 1542,
-      "rating_deviation": 38,
-      "volatility": 0.060005490242078324,
-      "battles": 80,
-      "wins": 39,
-      "ties": 4,
-      "skips": 3,
-      "win_rate_percentage": 53.42,
-      "rating_realtime": 1548,
-      "rating_deviation_realtime": 38,
-      "volatility_realtime": 0.06000799929501586,
       "rank": 21
     },
     {
