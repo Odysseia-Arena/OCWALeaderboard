@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T20:59:05.391Z",
-  "nextUpdateTime": "2025-08-30T05:00:00",
+  "updatedAt": "2025-08-29T21:04:07.366Z",
+  "nextUpdateTime": "2025-08-30T06:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -21,9 +21,9 @@
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1709,
+      "rating": 1706,
       "rating_deviation": 28,
-      "volatility": 0.059942253088338,
+      "volatility": 0.05994535347333107,
       "battles": 55,
       "wins": 34,
       "ties": 6,
@@ -115,22 +115,6 @@
       "rank": 7
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "tier": "high",
-      "rating": 1624,
-      "rating_deviation": 27,
-      "volatility": 0.059847278036368745,
-      "battles": 166,
-      "wins": 82,
-      "ties": 10,
-      "skips": 0,
-      "win_rate_percentage": 52.56,
-      "rating_realtime": 1622,
-      "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.05984795106319934,
-      "rank": 8
-    },
-    {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
       "rating": 1623,
@@ -144,7 +128,7 @@
       "rating_realtime": 1623,
       "rating_deviation_realtime": 26,
       "volatility_realtime": 0.05982703218177575,
-      "rank": 9
+      "rank": 8
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -160,14 +144,30 @@
       "rating_realtime": 1622,
       "rating_deviation_realtime": 37,
       "volatility_realtime": 0.059963071455350916,
+      "rank": 9
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "tier": "high",
+      "rating": 1622,
+      "rating_deviation": 27,
+      "volatility": 0.05984795106319934,
+      "battles": 166,
+      "wins": 82,
+      "ties": 10,
+      "skips": 0,
+      "win_rate_percentage": 52.56,
+      "rating_realtime": 1622,
+      "rating_deviation_realtime": 27,
+      "volatility_realtime": 0.05984795106319934,
       "rank": 10
     },
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
-      "rating": 1603,
+      "rating": 1604,
       "rating_deviation": 23,
-      "volatility": 0.05985858836406838,
+      "volatility": 0.059858194425251095,
       "battles": 242,
       "wins": 113,
       "ties": 15,
@@ -175,15 +175,15 @@
       "win_rate_percentage": 51.83,
       "rating_realtime": 1604,
       "rating_deviation_realtime": 23,
-      "volatility_realtime": 0.05985825125164452,
+      "volatility_realtime": 0.059858194425251095,
       "rank": 11
     },
     {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1590,
+      "rating": 1593,
       "rating_deviation": 26,
-      "volatility": 0.05977784668724336,
+      "volatility": 0.05977851811947708,
       "battles": 180,
       "wins": 74,
       "ties": 19,
@@ -229,9 +229,9 @@
     {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1581,
+      "rating": 1583,
       "rating_deviation": 30,
-      "volatility": 0.06000177578939543,
+      "volatility": 0.059996137458536825,
       "battles": 142,
       "wins": 62,
       "ties": 12,
@@ -239,7 +239,7 @@
       "win_rate_percentage": 51.67,
       "rating_realtime": 1583,
       "rating_deviation_realtime": 30,
-      "volatility_realtime": 0.06000453429004772,
+      "volatility_realtime": 0.059996137458536825,
       "rank": 15
     },
     {
