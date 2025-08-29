@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T17:42:04.279Z",
+  "updatedAt": "2025-08-29T17:44:12.397Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -1386,7 +1386,7 @@
       "Claude Sonnet 4": 29,
       "Doubao 1.6 Thinking": 11,
       "GPT 4o Latest": 9,
-      "Doubao 1.6": 10,
+      "Doubao 1.6": 11,
       "Gemini 2.5 Pro": 10,
       "GPT 4.1": 27,
       "Grok 3": 10,
@@ -1769,7 +1769,7 @@
       "Llama 4 Maverick": 2,
       "Gemini 2.5 Flash": 9,
       "Doubao 1.6 Thinking": 12,
-      "DeepSeek V3.1 DS": 10,
+      "DeepSeek V3.1 DS": 11,
       "GPT 4o Latest": 7,
       "DeepSeek V3.1 Thinking Volcengine": 8,
       "Kimi K2": 5,
