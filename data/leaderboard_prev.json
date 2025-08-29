@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T06:59:43.461Z",
-  "nextUpdateTime": "2025-08-29T15:00:00",
+  "updatedAt": "2025-08-29T07:04:10.071Z",
+  "nextUpdateTime": "2025-08-29T16:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -37,9 +37,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1687,
+      "rating": 1684,
       "rating_deviation": 30,
-      "volatility": 0.05999624834522821,
+      "volatility": 0.05999858787586648,
       "battles": 143,
       "wins": 78,
       "ties": 14,
@@ -69,9 +69,9 @@
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
       "tier": "high",
-      "rating": 1646,
+      "rating": 1648,
       "rating_deviation": 26,
-      "volatility": 0.059809220453604414,
+      "volatility": 0.059808535849265425,
       "battles": 183,
       "wins": 93,
       "ties": 11,
@@ -165,9 +165,9 @@
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
-      "rating": 1606,
+      "rating": 1605,
       "rating_deviation": 23,
-      "volatility": 0.05987021010427827,
+      "volatility": 0.05986952685506076,
       "battles": 233,
       "wins": 109,
       "ties": 15,
@@ -181,9 +181,9 @@
     {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1587,
+      "rating": 1589,
       "rating_deviation": 27,
-      "volatility": 0.05977576235635631,
+      "volatility": 0.05977807981815658,
       "battles": 167,
       "wins": 68,
       "ties": 18,
