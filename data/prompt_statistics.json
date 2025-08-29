@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T19:49:10.697Z",
+  "updatedAt": "2025-08-29T19:54:08.087Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4488,11 +4488,11 @@
     {
       "prompt": "**人物设定：**\n- 正道：洒脱不羁的男剑客与沉稳少言的男镖师，分属同一势力的不同部门，互不相识。\n- 邪道：圆滑、善于伪装的男杀手与高傲、冰冷的女刺客，分属不同门派，互相认识。\n- 共同点：四人武艺高强。\n\n**场景：**\n某大客栈内。镖师正护送武林至宝在此歇息；刺客一路尾随而至；杀手早已伪装身份潜伏；剑客则恰好路过此地落脚。\n\n**写作目标：**\n以镖师进入客栈为开篇，围绕“武林至宝”的争夺，创作一段能够突出四位主角鲜明特点的武侠故事。请自由安排叙事节奏、细节刻画与剧情走向。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "古风",
-      "total_battles": 7,
+      "total_battles": 8,
       "model_battle_counts": {
-        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Volcengine": 2,
         "Claude Opus 4.1": 2,
-        "Claude Opus 4": 1,
+        "Claude Opus 4": 2,
         "Doubao 1.6": 1,
         "Doubao 1.6 Thinking": 1,
         "Qwen 235B A22B Instruct 2507": 2,
@@ -4503,9 +4503,9 @@
         "Kimi K2": 1
       },
       "model_win_rates": {
-        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Volcengine": 0.5,
         "Claude Opus 4.1": 0.5,
-        "Claude Opus 4": 0,
+        "Claude Opus 4": 0.5,
         "Doubao 1.6": 0,
         "Doubao 1.6 Thinking": 0,
         "Qwen 235B A22B Instruct 2507": 1,
