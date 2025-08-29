@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T21:59:21.133Z",
-  "nextUpdateTime": "2025-08-30T06:00:00",
+  "updatedAt": "2025-08-29T22:04:06.873Z",
+  "nextUpdateTime": "2025-08-30T07:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -248,14 +248,14 @@
       "rating": 1578,
       "rating_deviation": 22,
       "volatility": 0.059873351199539446,
-      "battles": 270,
-      "wins": 111,
+      "battles": 271,
+      "wins": 112,
       "ties": 20,
       "skips": 11,
-      "win_rate_percentage": 46.44,
-      "rating_realtime": 1578,
+      "win_rate_percentage": 46.67,
+      "rating_realtime": 1580,
       "rating_deviation_realtime": 22,
-      "volatility_realtime": 0.059873351199539446,
+      "volatility_realtime": 0.059873132308490506,
       "rank": 16
     },
     {
@@ -264,14 +264,14 @@
       "rating": 1567,
       "rating_deviation": 36,
       "volatility": 0.059932825926405614,
-      "battles": 94,
+      "battles": 95,
       "wins": 38,
       "ties": 13,
       "skips": 9,
-      "win_rate_percentage": 52.78,
-      "rating_realtime": 1567,
+      "win_rate_percentage": 52.05,
+      "rating_realtime": 1563,
       "rating_deviation_realtime": 36,
-      "volatility_realtime": 0.059932825926405614,
+      "volatility_realtime": 0.05993258409045914,
       "rank": 17
     },
     {
