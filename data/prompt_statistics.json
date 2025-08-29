@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T03:19:07.966Z",
+  "updatedAt": "2025-08-29T03:24:07.783Z",
   "prompt_statistics": [
     {
       "prompt": "你是一位隐居山林的青年剑客，性格淡泊名利，剑法高超却从不轻易展露。你的平静生活被打破，一位身受重伤的昔日仇敌，带着一个神秘的信物，晕倒在你的竹屋前。\n\n**情节目标：** 在救助仇敌的过程中，发现信物中隐藏的惊天秘密。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4248,7 +4248,7 @@
     {
       "prompt": "你需要按以下要求写一段独立同人文段：\n**参考动画：**《BanG Dream! It's MyGo!!!!!》\n**登场角色：**丰川祥子, 高松灯, 椎名立希, 长崎素世, 若葉睦\n**描写内容：**在一个雨天，迟到的丰川祥子面色沉重地宣布退出乐队。面对成员的震惊与追问，她仅以“是我个人的原因”回应（内心独白可揭示真实原因是父亲欠债家庭经济崩溃，但尊严不容许向队友袒露困境），态度坚决且不愿多解释。素世尝试挽留她，询问：\"大家之前在一起不是很开心吗？祥子你不是也说过还想再开Live吗？\"，立希指责她不负责任，祥子反驳说没有自己乐队也能练习，并指出灯更需要努力练习。素世最终尝试将话题抛向睦，希望睦能挽留祥子，结果一向沉默的睦说出“我从来没有觉得乐队开心过”，这句话使气氛降低到了冰点，也宣告着乐队的终结。祥子最终径直离开，在回去的雨路上独自崩溃痛哭。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
-      "total_battles": 12,
+      "total_battles": 13,
       "model_battle_counts": {
         "Gemini 2.5 Pro": 3,
         "DeepSeek V3.1 Volcengine": 4,
@@ -4257,7 +4257,7 @@
         "Claude Sonnet 4": 2,
         "Qwen 235B A22B Instruct 2507": 1,
         "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6": 1,
+        "Doubao 1.6": 2,
         "GPT 5 Chat": 1,
         "Grok 4": 1,
         "Gemini 2.5 Flash": 2,
@@ -4266,7 +4266,8 @@
         "Claude Opus 4": 1,
         "Anon": 1,
         "GPT 4o Latest": 1,
-        "DeepSeek V3.1 DS": 1
+        "DeepSeek V3.1 DS": 1,
+        "GLM 4.5 Air": 1
       },
       "model_win_rates": {
         "Gemini 2.5 Pro": 0.3333333333333333,
@@ -4276,7 +4277,7 @@
         "Claude Sonnet 4": 0.5,
         "Qwen 235B A22B Instruct 2507": 0,
         "Gemini 2.5 Pro Max": 1,
-        "Doubao 1.6": 1,
+        "Doubao 1.6": 0.5,
         "GPT 5 Chat": 1,
         "Grok 4": 0,
         "Gemini 2.5 Flash": 0,
@@ -4285,7 +4286,8 @@
         "Claude Opus 4": 1,
         "Anon": 1,
         "GPT 4o Latest": 0,
-        "DeepSeek V3.1 DS": 1
+        "DeepSeek V3.1 DS": 1,
+        "GLM 4.5 Air": 1
       }
     },
     {
