@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-29T12:39:08.909Z",
+  "updatedAt": "2025-08-29T12:44:10.676Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -606,7 +606,7 @@
       "Kimi K2": 0.7142857142857143,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
-      "Qwen 235B A22B Instruct 2507": 0.8,
+      "Qwen 235B A22B Instruct 2507": 0.6666666666666666,
       "Qwen 235B A22B Thinking 2507": 1,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
@@ -1062,7 +1062,7 @@
       "Gemini 1.5 Pro": 0.6666666666666666,
       "Gemini 2.5 Flash Lite": null,
       "Gemini 2.5 Flash": 0.5833333333333334,
-      "Gemini 2.5 Pro": 0.2,
+      "Gemini 2.5 Pro": 0.3333333333333333,
       "Gemma 27B": 1,
       "GLM 4.5": 1,
       "GLM 4.5 Air": 0.5,
@@ -1077,7 +1077,7 @@
       "Mistral Medium 2508": null,
       "Qwen 235B A22B Thinking 2507": 1,
       "Qwen3 30B A3B Thinking 2507": null,
-      "Step 3": 0,
+      "Step 3": 0.5,
       "Anon": 1,
       "Gemini 2.5 Pro Max": 0.2
     },
@@ -1183,7 +1183,7 @@
       "Kimi K2": 0.3333333333333333,
       "Llama 4 Maverick": 0.5,
       "Mistral Medium 2508": 0.75,
-      "Qwen 235B A22B Instruct 2507": 1,
+      "Qwen 235B A22B Instruct 2507": 0.5,
       "Qwen 235B A22B Thinking 2507": null,
       "Qwen3 30B A3B Thinking 2507": null,
       "Anon": null,
@@ -1627,7 +1627,7 @@
       "DeepSeek V3.1 DS": 15,
       "Gemini 2.5 Flash": 12,
       "Doubao 1.6 Thinking": 13,
-      "Gemini 2.5 Pro": 6,
+      "Gemini 2.5 Pro": 7,
       "Kimi K2": 13,
       "GPT 4o Latest": 5,
       "Claude Sonnet 4": 16,
@@ -1648,7 +1648,7 @@
       "Anon": 3,
       "DeepSeek R1 0528": 2,
       "GLM 4.5": 1,
-      "Step 3": 1
+      "Step 3": 2
     },
     "Ernie 4.5 Turbo 128k Preview": {
       "GPT Oss 120B": 1,
@@ -1762,7 +1762,7 @@
       "Gemma 27B": 1,
       "Doubao 1.6": 1,
       "GPT 4o Latest": 1,
-      "Qwen 235B A22B Instruct 2507": 1
+      "Qwen 235B A22B Instruct 2507": 2
     },
     "Doubao 1.6": {
       "Llama 4 Maverick": 2,
@@ -1875,7 +1875,7 @@
     "Gemini 2.5 Pro": {
       "DeepSeek V3.1 Volcengine": 12,
       "Gemini 2.5 Pro Deepthink": 10,
-      "Qwen 235B A22B Instruct 2507": 6,
+      "Qwen 235B A22B Instruct 2507": 7,
       "Claude Opus 4.1": 5,
       "Claude 3.7 Sonnet": 5,
       "Grok 3": 4,
