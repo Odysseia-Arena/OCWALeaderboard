@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T01:59:41.568Z",
-  "nextUpdateTime": "2025-08-29T10:00:00",
+  "updatedAt": "2025-08-29T02:04:08.124Z",
+  "nextUpdateTime": "2025-08-29T11:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -37,9 +37,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1690,
+      "rating": 1687,
       "rating_deviation": 30,
-      "volatility": 0.059994598782569984,
+      "volatility": 0.05999624834522821,
       "battles": 142,
       "wins": 78,
       "ties": 14,
@@ -149,9 +149,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1616,
+      "rating": 1618,
       "rating_deviation": 27,
-      "volatility": 0.05985821599600066,
+      "volatility": 0.05985985809306501,
       "battles": 156,
       "wins": 76,
       "ties": 10,
