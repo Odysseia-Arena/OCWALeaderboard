@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-29T22:59:04.972Z",
-  "nextUpdateTime": "2025-08-30T07:00:00",
+  "updatedAt": "2025-08-29T23:04:08.419Z",
+  "nextUpdateTime": "2025-08-30T08:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -149,9 +149,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1622,
+      "rating": 1620,
       "rating_deviation": 27,
-      "volatility": 0.05984795106319934,
+      "volatility": 0.05984875002846115,
       "battles": 167,
       "wins": 82,
       "ties": 10,
@@ -230,8 +230,8 @@
       "model_name": "GLM 4.5 Air",
       "tier": "high",
       "rating": 1583,
-      "rating_deviation": 30,
-      "volatility": 0.059996137458536825,
+      "rating_deviation": 29,
+      "volatility": 0.05998962168502209,
       "battles": 144,
       "wins": 63,
       "ties": 12,
@@ -239,15 +239,15 @@
       "win_rate_percentage": 51.64,
       "rating_realtime": 1583,
       "rating_deviation_realtime": 29,
-      "volatility_realtime": 0.059997305597559794,
+      "volatility_realtime": 0.05998962168502209,
       "rank": 15
     },
     {
       "model_name": "Claude Sonnet 4",
       "tier": "low",
-      "rating": 1578,
+      "rating": 1580,
       "rating_deviation": 22,
-      "volatility": 0.059873351199539446,
+      "volatility": 0.059873132308490506,
       "battles": 271,
       "wins": 112,
       "ties": 20,
@@ -259,11 +259,27 @@
       "rank": 16
     },
     {
+      "model_name": "Claude Opus 4",
+      "tier": "high",
+      "rating": 1569,
+      "rating_deviation": 34,
+      "volatility": 0.06020198992723483,
+      "battles": 108,
+      "wins": 39,
+      "ties": 14,
+      "skips": 8,
+      "win_rate_percentage": 45.35,
+      "rating_realtime": 1569,
+      "rating_deviation_realtime": 34,
+      "volatility_realtime": 0.06020198992723483,
+      "rank": 17
+    },
+    {
       "model_name": "Gemini 2.5 Flash Lite",
       "tier": "high",
-      "rating": 1567,
+      "rating": 1563,
       "rating_deviation": 36,
-      "volatility": 0.059932825926405614,
+      "volatility": 0.05993258409045914,
       "battles": 95,
       "wins": 38,
       "ties": 13,
@@ -272,22 +288,6 @@
       "rating_realtime": 1563,
       "rating_deviation_realtime": 36,
       "volatility_realtime": 0.05993258409045914,
-      "rank": 17
-    },
-    {
-      "model_name": "Claude Opus 4",
-      "tier": "high",
-      "rating": 1565,
-      "rating_deviation": 34,
-      "volatility": 0.060201683979946505,
-      "battles": 108,
-      "wins": 39,
-      "ties": 14,
-      "skips": 8,
-      "win_rate_percentage": 45.35,
-      "rating_realtime": 1569,
-      "rating_deviation_realtime": 34,
-      "volatility_realtime": 0.060202048033047385,
       "rank": 18
     },
     {
