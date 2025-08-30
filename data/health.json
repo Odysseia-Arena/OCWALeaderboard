@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2025-08-30T08:09:09.938Z",
+  "updatedAt": "2025-08-30T08:14:07.255Z",
   "ok": true,
   "status": "ok",
   "models_count": 35,
   "fixed_prompts_count": 80,
-  "recorded_users_count": 255,
-  "completed_battles_count": 2099
+  "recorded_users_count": 256,
+  "completed_battles_count": 2100
 }
