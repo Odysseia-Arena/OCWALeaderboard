@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-30T14:59:05.614Z",
-  "nextUpdateTime": "2025-08-30T23:00:00",
+  "updatedAt": "2025-08-30T15:04:06.124Z",
+  "nextUpdateTime": "2025-08-31T00:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -21,9 +21,9 @@
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1706,
+      "rating": 1708,
       "rating_deviation": 27,
-      "volatility": 0.0599334884637643,
+      "volatility": 0.05993226962458426,
       "battles": 61,
       "wins": 38,
       "ties": 6,
@@ -55,7 +55,7 @@
       "tier": "high",
       "rating": 1647,
       "rating_deviation": 25,
-      "volatility": 0.05980428536632353,
+      "volatility": 0.05979790150052943,
       "battles": 200,
       "wins": 102,
       "ties": 11,
@@ -63,7 +63,7 @@
       "win_rate_percentage": 56.04,
       "rating_realtime": 1647,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.05980462208450366,
+      "volatility_realtime": 0.05979790150052943,
       "rank": 4
     },
     {
@@ -85,9 +85,9 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
-      "rating": 1635,
-      "rating_deviation": 26,
-      "volatility": 0.06006812734842909,
+      "rating": 1632,
+      "rating_deviation": 25,
+      "volatility": 0.060068677797946876,
       "battles": 192,
       "wins": 91,
       "ties": 16,
@@ -131,22 +131,6 @@
       "rank": 8
     },
     {
-      "model_name": "Gemini 2.5 Flash",
-      "tier": "high",
-      "rating": 1622,
-      "rating_deviation": 26,
-      "volatility": 0.05985049291159569,
-      "battles": 177,
-      "wins": 86,
-      "ties": 11,
-      "skips": 0,
-      "win_rate_percentage": 51.81,
-      "rating_realtime": 1618,
-      "rating_deviation_realtime": 26,
-      "volatility_realtime": 0.059848817931509,
-      "rank": 9
-    },
-    {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
       "rating": 1621,
@@ -160,14 +144,30 @@
       "rating_realtime": 1621,
       "rating_deviation_realtime": 26,
       "volatility_realtime": 0.05982782114332364,
+      "rank": 9
+    },
+    {
+      "model_name": "Gemini 2.5 Flash",
+      "tier": "high",
+      "rating": 1618,
+      "rating_deviation": 26,
+      "volatility": 0.059853368348801755,
+      "battles": 177,
+      "wins": 86,
+      "ties": 11,
+      "skips": 0,
+      "win_rate_percentage": 51.81,
+      "rating_realtime": 1618,
+      "rating_deviation_realtime": 26,
+      "volatility_realtime": 0.059853368348801755,
       "rank": 10
     },
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
-      "rating": 1607,
+      "rating": 1610,
       "rating_deviation": 23,
-      "volatility": 0.059850430220926586,
+      "volatility": 0.059859634460188924,
       "battles": 248,
       "wins": 118,
       "ties": 15,
@@ -175,7 +175,7 @@
       "win_rate_percentage": 52.68,
       "rating_realtime": 1610,
       "rating_deviation_realtime": 23,
-      "volatility_realtime": 0.05985178072898107,
+      "volatility_realtime": 0.059859634460188924,
       "rank": 11
     },
     {
