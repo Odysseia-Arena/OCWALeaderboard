@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2025-08-30T18:44:08.297Z",
+  "updatedAt": "2025-08-30T18:46:51.458Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
-      "total_battles": 36,
+      "total_battles": 37,
       "model_battle_counts": {
         "Qwen 235B A22B Instruct 2507": 3,
         "Kimi K2": 2,
@@ -13,7 +13,7 @@
         "Gemini 2.5 Flash": 3,
         "Grok 3": 4,
         "Doubao 1.6": 3,
-        "DeepSeek V3.1 DS": 6,
+        "DeepSeek V3.1 DS": 7,
         "Mistral Medium 2508": 2,
         "GPT 5 Chat": 3,
         "GPT Oss 120B": 2,
@@ -25,7 +25,7 @@
         "Claude Opus 4": 2,
         "Step 3": 1,
         "Doubao 1.6 Thinking": 4,
-        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Volcengine": 2,
         "Gemini 2.5 Pro": 2,
         "Claude 3.7 Sonnet": 3,
         "DeepSeek V3": 1,
@@ -41,7 +41,7 @@
         "Gemini 2.5 Flash": 0.6666666666666666,
         "Grok 3": 0.5,
         "Doubao 1.6": 0.6666666666666666,
-        "DeepSeek V3.1 DS": 0.16666666666666666,
+        "DeepSeek V3.1 DS": 0.14285714285714285,
         "Mistral Medium 2508": 0.5,
         "GPT 5 Chat": 0.6666666666666666,
         "GPT Oss 120B": 0.5,
@@ -53,7 +53,7 @@
         "Claude Opus 4": 0.5,
         "Step 3": 0,
         "Doubao 1.6 Thinking": 0.25,
-        "DeepSeek V3.1 Volcengine": 0,
+        "DeepSeek V3.1 Volcengine": 0.5,
         "Gemini 2.5 Pro": 1,
         "Claude 3.7 Sonnet": 0.6666666666666666,
         "DeepSeek V3": 0,
