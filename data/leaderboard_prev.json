@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-08-30T09:59:04.149Z",
-  "nextUpdateTime": "2025-08-30T18:00:00",
+  "updatedAt": "2025-08-30T10:04:06.191Z",
+  "nextUpdateTime": "2025-08-30T19:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1727,
+      "rating": 1726,
       "rating_deviation": 37,
-      "volatility": 0.05994364727906318,
+      "volatility": 0.059940874095269284,
       "battles": 101,
       "wins": 56,
       "ties": 11,
@@ -101,9 +101,9 @@
     {
       "model_name": "Kimi K2",
       "tier": "high",
-      "rating": 1625,
+      "rating": 1626,
       "rating_deviation": 28,
-      "volatility": 0.06016918175702164,
+      "volatility": 0.060166379340025083,
       "battles": 162,
       "wins": 76,
       "ties": 10,
@@ -133,9 +133,9 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
-      "rating": 1623,
+      "rating": 1621,
       "rating_deviation": 26,
-      "volatility": 0.05982703218177575,
+      "volatility": 0.05982782114332364,
       "battles": 181,
       "wins": 83,
       "ties": 14,
@@ -197,9 +197,9 @@
     {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
-      "rating": 1585,
+      "rating": 1586,
       "rating_deviation": 21,
-      "volatility": 0.05980958889485936,
+      "volatility": 0.05981038418657036,
       "battles": 300,
       "wins": 124,
       "ties": 35,
