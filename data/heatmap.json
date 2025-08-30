@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-30T08:14:10.213Z",
+  "updatedAt": "2025-08-30T08:19:08.911Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -15,7 +15,7 @@
       "Doubao 1.6 Thinking": 0.5,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": null,
-      "Gemini 2.5 Flash Lite": null,
+      "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": 0.5,
       "Gemini 2.5 Pro": 0.6666666666666666,
       "Gemma 27B": null,
@@ -506,7 +506,7 @@
       "Gemini 2.5 Pro Max": 1
     },
     "Gemini 2.5 Flash Lite": {
-      "Claude 3.7 Sonnet": null,
+      "Claude 3.7 Sonnet": 1,
       "Claude Opus 4": 0.4,
       "Claude Opus 4.1": null,
       "Claude Sonnet 4": 0.3333333333333333,
@@ -531,7 +531,7 @@
       "GPT Oss 120B": 1,
       "Grok 3": 0,
       "Grok 4": 1,
-      "Kimi K2": null,
+      "Kimi K2": 1,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": 0.5,
       "Qwen 235B A22B Instruct 2507": null,
@@ -952,7 +952,7 @@
       "Doubao 1.6 Thinking": 0,
       "Ernie 4.5 Turbo 128k Preview": null,
       "Gemini 1.5 Pro": 0.8,
-      "Gemini 2.5 Flash Lite": null,
+      "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": 0.75,
       "Gemini 2.5 Pro": 0.2857142857142857,
       "Gemma 27B": null,
@@ -1457,7 +1457,8 @@
       "Anon": 3,
       "GLM 4.5 Air": 4,
       "Claude Opus 4.1": 1,
-      "DeepSeek R1 0528": 2
+      "DeepSeek R1 0528": 2,
+      "Gemini 2.5 Flash Lite": 1
     },
     "Gemini 1.5 Pro": {
       "Kimi K2": 5,
@@ -1837,7 +1838,8 @@
       "Gemini 2.5 Pro Max": 6,
       "GLM 4.5 Air": 7,
       "Anon": 1,
-      "DeepSeek V3": 1
+      "DeepSeek V3": 1,
+      "Gemini 2.5 Flash Lite": 1
     },
     "GLM 4.5 Air": {
       "Gemma 27B": 2,
@@ -2085,7 +2087,9 @@
       "DeepSeek V3.1 Thinking Volcengine": 2,
       "GPT 4o Latest": 2,
       "Doubao 1.6 Thinking": 2,
-      "Gemini 2.5 Pro Max": 2
+      "Gemini 2.5 Pro Max": 2,
+      "Claude 3.7 Sonnet": 1,
+      "Kimi K2": 1
     },
     "DeepSeek V3": {
       "GPT Oss 120B": 4,
