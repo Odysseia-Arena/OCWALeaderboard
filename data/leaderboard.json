@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-30T00:59:08.119Z",
-  "nextUpdateTime": "2025-08-30T09:00:00",
+  "updatedAt": "2025-08-30T01:04:10.173Z",
+  "nextUpdateTime": "2025-08-30T10:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -53,9 +53,9 @@
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
       "tier": "high",
-      "rating": 1652,
+      "rating": 1650,
       "rating_deviation": 25,
-      "volatility": 0.05980925286716408,
+      "volatility": 0.05980989116299022,
       "battles": 195,
       "wins": 100,
       "ties": 11,
@@ -69,9 +69,9 @@
     {
       "model_name": "Doubao 1.6",
       "tier": "high",
-      "rating": 1641,
-      "rating_deviation": 28,
-      "volatility": 0.05997931530505098,
+      "rating": 1638,
+      "rating_deviation": 27,
+      "volatility": 0.05997971097050998,
       "battles": 173,
       "wins": 84,
       "ties": 11,
@@ -79,7 +79,7 @@
       "win_rate_percentage": 55.63,
       "rating_realtime": 1638,
       "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059979664885854746,
+      "volatility_realtime": 0.05997971097050998,
       "rank": 5
     },
     {
@@ -115,6 +115,22 @@
       "rank": 7
     },
     {
+      "model_name": "Gemini 2.5 Flash",
+      "tier": "high",
+      "rating": 1624,
+      "rating_deviation": 26,
+      "volatility": 0.05985722734654783,
+      "battles": 169,
+      "wins": 84,
+      "ties": 10,
+      "skips": 0,
+      "win_rate_percentage": 52.83,
+      "rating_realtime": 1624,
+      "rating_deviation_realtime": 26,
+      "volatility_realtime": 0.05985722734654783,
+      "rank": 8
+    },
+    {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
       "rating": 1623,
@@ -128,7 +144,7 @@
       "rating_realtime": 1623,
       "rating_deviation_realtime": 26,
       "volatility_realtime": 0.05982703218177575,
-      "rank": 8
+      "rank": 9
     },
     {
       "model_name": "Claude Opus 4.1",
@@ -144,22 +160,6 @@
       "rating_realtime": 1622,
       "rating_deviation_realtime": 37,
       "volatility_realtime": 0.059963071455350916,
-      "rank": 9
-    },
-    {
-      "model_name": "Gemini 2.5 Flash",
-      "tier": "high",
-      "rating": 1620,
-      "rating_deviation": 27,
-      "volatility": 0.05984875002846115,
-      "battles": 169,
-      "wins": 84,
-      "ties": 10,
-      "skips": 0,
-      "win_rate_percentage": 52.83,
-      "rating_realtime": 1624,
-      "rating_deviation_realtime": 26,
-      "volatility_realtime": 0.05984973669545714,
       "rank": 10
     },
     {
