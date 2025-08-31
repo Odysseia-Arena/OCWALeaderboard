@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-31T05:36:56.273Z",
+  "updatedAt": "2025-08-31T05:39:09.320Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -394,9 +394,9 @@
     {
       "prompt": "写个小说片段：西式奇幻世界观，大陆上最强大的两个大国之间的宏大战争。因为一个奇迹，战局发生了扭转。\n\n**写作风格指导：**\n-   准确模仿《战争与和平》文风。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
-      "total_battles": 34,
+      "total_battles": 35,
       "model_battle_counts": {
-        "Claude Sonnet 4": 2,
+        "Claude Sonnet 4": 3,
         "Kimi K2": 4,
         "DeepSeek V3.1 Thinking Volcengine": 5,
         "Claude Opus 4": 2,
@@ -416,7 +416,7 @@
         "Qwen 235B A22B Instruct 2507": 7,
         "GLM 4.5 Air": 2,
         "Gemma 27B": 1,
-        "Doubao 1.6": 3,
+        "Doubao 1.6": 4,
         "DeepSeek V3.1 Volcengine": 4,
         "Gemini 2.5 Pro": 4,
         "DeepSeek R1 0528": 1,
@@ -424,7 +424,7 @@
         "Gemini 2.5 Pro Max": 1
       },
       "model_win_rates": {
-        "Claude Sonnet 4": 0.5,
+        "Claude Sonnet 4": 0.6666666666666666,
         "Kimi K2": 0.5,
         "DeepSeek V3.1 Thinking Volcengine": 0.8,
         "Claude Opus 4": 0,
@@ -444,7 +444,7 @@
         "Qwen 235B A22B Instruct 2507": 0.7142857142857143,
         "GLM 4.5 Air": 0.5,
         "Gemma 27B": 0,
-        "Doubao 1.6": 0.6666666666666666,
+        "Doubao 1.6": 0.5,
         "DeepSeek V3.1 Volcengine": 0.25,
         "Gemini 2.5 Pro": 0.5,
         "DeepSeek R1 0528": 0,
