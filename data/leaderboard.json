@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-31T18:59:04.629Z",
-  "nextUpdateTime": "2025-09-01T03:00:00",
+  "updatedAt": "2025-08-31T19:04:09.036Z",
+  "nextUpdateTime": "2025-09-01T04:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -40,14 +40,14 @@
       "rating": 1680,
       "rating_deviation": 28,
       "volatility": 0.059979236778928254,
-      "battles": 159,
+      "battles": 160,
       "wins": 85,
       "ties": 18,
       "skips": 2,
-      "win_rate_percentage": 61.15,
-      "rating_realtime": 1680,
+      "win_rate_percentage": 60.71,
+      "rating_realtime": 1677,
       "rating_deviation_realtime": 28,
-      "volatility_realtime": 0.059979236778928254,
+      "volatility_realtime": 0.059980369365420096,
       "rank": 3
     },
     {
@@ -117,17 +117,17 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
-      "rating": 1623,
+      "rating": 1627,
       "rating_deviation": 26,
-      "volatility": 0.05981796628679379,
-      "battles": 188,
-      "wins": 88,
+      "volatility": 0.059820431797818444,
+      "battles": 189,
+      "wins": 89,
       "ties": 14,
       "skips": 7,
-      "win_rate_percentage": 52.69,
-      "rating_realtime": 1627,
+      "win_rate_percentage": 52.98,
+      "rating_realtime": 1629,
       "rating_deviation_realtime": 26,
-      "volatility_realtime": 0.05981605460719663,
+      "volatility_realtime": 0.059821559123587276,
       "rank": 8
     },
     {
@@ -147,6 +147,22 @@
       "rank": 9
     },
     {
+      "model_name": "DeepSeek V3.1 Thinking Volcengine",
+      "tier": "high",
+      "rating": 1614,
+      "rating_deviation": 22,
+      "volatility": 0.059847697830857575,
+      "battles": 254,
+      "wins": 122,
+      "ties": 16,
+      "skips": 9,
+      "win_rate_percentage": 53.28,
+      "rating_realtime": 1614,
+      "rating_deviation_realtime": 22,
+      "volatility_realtime": 0.059847697830857575,
+      "rank": 10
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
       "rating": 1614,
@@ -160,22 +176,6 @@
       "rating_realtime": 1614,
       "rating_deviation_realtime": 25,
       "volatility_realtime": 0.05985115505570196,
-      "rank": 10
-    },
-    {
-      "model_name": "DeepSeek V3.1 Thinking Volcengine",
-      "tier": "high",
-      "rating": 1613,
-      "rating_deviation": 22,
-      "volatility": 0.05985221418923323,
-      "battles": 254,
-      "wins": 122,
-      "ties": 16,
-      "skips": 9,
-      "win_rate_percentage": 53.28,
-      "rating_realtime": 1614,
-      "rating_deviation_realtime": 22,
-      "volatility_realtime": 0.05984834487622476,
       "rank": 11
     },
     {
@@ -229,9 +229,9 @@
     {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
-      "rating": 1582,
+      "rating": 1581,
       "rating_deviation": 20,
-      "volatility": 0.059809483023543206,
+      "volatility": 0.059808787528219116,
       "battles": 311,
       "wins": 126,
       "ties": 35,
@@ -239,7 +239,7 @@
       "win_rate_percentage": 48.28,
       "rating_realtime": 1581,
       "rating_deviation_realtime": 20,
-      "volatility_realtime": 0.05980876676322275,
+      "volatility_realtime": 0.059808787528219116,
       "rank": 15
     },
     {
@@ -261,9 +261,9 @@
     {
       "model_name": "Grok 3",
       "tier": "high",
-      "rating": 1574,
+      "rating": 1572,
       "rating_deviation": 30,
-      "volatility": 0.05991285943330248,
+      "volatility": 0.059908325902040274,
       "battles": 139,
       "wins": 51,
       "ties": 15,
@@ -271,7 +271,7 @@
       "win_rate_percentage": 42.86,
       "rating_realtime": 1572,
       "rating_deviation_realtime": 30,
-      "volatility_realtime": 0.05990896624288332,
+      "volatility_realtime": 0.059908325902040274,
       "rank": 17
     },
     {
@@ -325,9 +325,9 @@
     {
       "model_name": "Step 3",
       "tier": "high",
-      "rating": 1540,
+      "rating": 1537,
       "rating_deviation": 36,
-      "volatility": 0.059997926764799835,
+      "volatility": 0.05999671325114237,
       "battles": 90,
       "wins": 42,
       "ties": 4,
