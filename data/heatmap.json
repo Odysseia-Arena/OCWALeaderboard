@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-08-31T18:19:07.223Z",
+  "updatedAt": "2025-08-31T18:24:09.199Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -1320,7 +1320,7 @@
       "Anon": 6,
       "Qwen 235B A22B Thinking 2507": 1,
       "Gemini 2.5 Flash Lite": 2,
-      "Step 3": 1,
+      "Step 3": 2,
       "Mistral Medium 2508": 1
     },
     "DeepSeek V3.1 Thinking Volcengine": {
@@ -1770,7 +1770,7 @@
       "GPT 4o Latest": 1,
       "Qwen 235B A22B Instruct 2507": 2,
       "Gemini 2.5 Pro": 1,
-      "Doubao 1.6 Thinking": 1
+      "Doubao 1.6 Thinking": 2
     },
     "Doubao 1.6": {
       "Llama 4 Maverick": 2,
