@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-08-31T00:59:06.619Z",
-  "nextUpdateTime": "2025-08-31T09:00:00",
+  "updatedAt": "2025-08-31T01:04:06.246Z",
+  "nextUpdateTime": "2025-08-31T10:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -131,6 +131,22 @@
       "rank": 8
     },
     {
+      "model_name": "Claude Opus 4.1",
+      "tier": "high",
+      "rating": 1618,
+      "rating_deviation": 36,
+      "volatility": 0.059955008837406065,
+      "battles": 89,
+      "wins": 38,
+      "ties": 10,
+      "skips": 4,
+      "win_rate_percentage": 50.67,
+      "rating_realtime": 1618,
+      "rating_deviation_realtime": 36,
+      "volatility_realtime": 0.059955008837406065,
+      "rank": 9
+    },
+    {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
       "rating": 1616,
@@ -144,22 +160,6 @@
       "rating_realtime": 1616,
       "rating_deviation_realtime": 26,
       "volatility_realtime": 0.05984505585682603,
-      "rank": 9
-    },
-    {
-      "model_name": "Claude Opus 4.1",
-      "tier": "high",
-      "rating": 1615,
-      "rating_deviation": 36,
-      "volatility": 0.05995562893899682,
-      "battles": 89,
-      "wins": 38,
-      "ties": 10,
-      "skips": 4,
-      "win_rate_percentage": 50.67,
-      "rating_realtime": 1618,
-      "rating_deviation_realtime": 36,
-      "volatility_realtime": 0.059955008837406065,
       "rank": 10
     },
     {
@@ -245,9 +245,9 @@
     {
       "model_name": "Grok 3",
       "tier": "high",
-      "rating": 1580,
+      "rating": 1578,
       "rating_deviation": 30,
-      "volatility": 0.05990775873423319,
+      "volatility": 0.05990714981453121,
       "battles": 133,
       "wins": 50,
       "ties": 14,
