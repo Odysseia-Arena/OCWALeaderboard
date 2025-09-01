@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-01T09:19:10.730Z",
+  "updatedAt": "2025-09-01T09:24:14.117Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -262,7 +262,7 @@
       "DeepSeek R1 0528": 0.625,
       "DeepSeek V3": null,
       "DeepSeek V3.1 Volcengine": 0.2727272727272727,
-      "DeepSeek V3.1 Thinking Volcengine": 0.42857142857142855,
+      "DeepSeek V3.1 Thinking Volcengine": 0.45454545454545453,
       "Doubao 1.6": 0.3,
       "Doubao 1.6 Thinking": 0.45454545454545453,
       "Ernie 4.5 Turbo 128k Preview": 0.6666666666666666,
@@ -333,7 +333,7 @@
       "Command A Reasoning 08 2025": 1,
       "DeepSeek R1 0528": 0.6666666666666666,
       "DeepSeek V3": null,
-      "DeepSeek V3.1 DS": 0.5714285714285714,
+      "DeepSeek V3.1 DS": 0.5454545454545454,
       "DeepSeek V3.1 Volcengine": 0.6428571428571429,
       "Doubao 1.6": 0.4,
       "Doubao 1.6 Thinking": 0.6,
@@ -1325,7 +1325,7 @@
     },
     "DeepSeek V3.1 Thinking Volcengine": {
       "GPT 4o Latest": 5,
-      "DeepSeek V3.1 DS": 25,
+      "DeepSeek V3.1 DS": 26,
       "GLM 4.5": 5,
       "Gemini 1.5 Pro": 15,
       "Kimi K2": 15,
@@ -1384,7 +1384,7 @@
       "Gemini 1.5 Pro": 1
     },
     "DeepSeek V3.1 DS": {
-      "DeepSeek V3.1 Thinking Volcengine": 25,
+      "DeepSeek V3.1 Thinking Volcengine": 26,
       "DeepSeek V3.1 Volcengine": 15,
       "Qwen 235B A22B Instruct 2507": 18,
       "Claude Sonnet 4": 30,
