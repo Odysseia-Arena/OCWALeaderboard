@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-01T14:59:09.315Z",
-  "nextUpdateTime": "2025-09-01T23:00:00",
+  "updatedAt": "2025-09-01T15:04:05.335Z",
+  "nextUpdateTime": "2025-09-02T00:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -37,9 +37,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1672,
+      "rating": 1674,
       "rating_deviation": 28,
-      "volatility": 0.05998075714822197,
+      "volatility": 0.059980288498661376,
       "battles": 164,
       "wins": 86,
       "ties": 19,
@@ -69,9 +69,9 @@
     {
       "model_name": "Doubao 1.6",
       "tier": "high",
-      "rating": 1646,
+      "rating": 1645,
       "rating_deviation": 26,
-      "volatility": 0.05998775054943341,
+      "volatility": 0.059987283983271814,
       "battles": 189,
       "wins": 93,
       "ties": 11,
@@ -181,9 +181,9 @@
     {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1597,
-      "rating_deviation": 26,
-      "volatility": 0.05977084865493371,
+      "rating": 1599,
+      "rating_deviation": 25,
+      "volatility": 0.059770697182524236,
       "battles": 190,
       "wins": 79,
       "ties": 21,
@@ -197,9 +197,9 @@
     {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1590,
+      "rating": 1588,
       "rating_deviation": 28,
-      "volatility": 0.059971615993814176,
+      "volatility": 0.05997145989197915,
       "battles": 164,
       "wins": 73,
       "ties": 12,
@@ -229,9 +229,9 @@
     {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
-      "rating": 1581,
+      "rating": 1583,
       "rating_deviation": 20,
-      "volatility": 0.05982317491337662,
+      "volatility": 0.05982257709151935,
       "battles": 316,
       "wins": 129,
       "ties": 35,
@@ -277,9 +277,9 @@
     {
       "model_name": "Gemini 2.5 Flash Lite",
       "tier": "high",
-      "rating": 1565,
+      "rating": 1561,
       "rating_deviation": 34,
-      "volatility": 0.059921059309703616,
+      "volatility": 0.05992206844534988,
       "battles": 109,
       "wins": 43,
       "ties": 14,
@@ -293,9 +293,9 @@
     {
       "model_name": "GPT 4o Latest",
       "tier": "high",
-      "rating": 1547,
-      "rating_deviation": 30,
-      "volatility": 0.059911883410525515,
+      "rating": 1545,
+      "rating_deviation": 29,
+      "volatility": 0.05991127113758119,
       "battles": 140,
       "wins": 48,
       "ties": 14,
@@ -339,6 +339,22 @@
       "rank": 21
     },
     {
+      "model_name": "GPT 5 Chat",
+      "tier": "low",
+      "rating": 1522,
+      "rating_deviation": 49,
+      "volatility": 0.059987637622877475,
+      "battles": 45,
+      "wins": 21,
+      "ties": 3,
+      "skips": 2,
+      "win_rate_percentage": 52.5,
+      "rating_realtime": 1522,
+      "rating_deviation_realtime": 49,
+      "volatility_realtime": 0.059987637622877475,
+      "rank": 22
+    },
+    {
       "model_name": "Gemini 1.5 Pro",
       "tier": "low",
       "rating": 1518,
@@ -352,22 +368,6 @@
       "rating_realtime": 1518,
       "rating_deviation_realtime": 28,
       "volatility_realtime": 0.05982579696181807,
-      "rank": 22
-    },
-    {
-      "model_name": "GPT 5 Chat",
-      "tier": "low",
-      "rating": 1514,
-      "rating_deviation": 49,
-      "volatility": 0.059986657802130285,
-      "battles": 45,
-      "wins": 21,
-      "ties": 3,
-      "skips": 2,
-      "win_rate_percentage": 52.5,
-      "rating_realtime": 1522,
-      "rating_deviation_realtime": 49,
-      "volatility_realtime": 0.059987637622877475,
       "rank": 23
     },
     {
