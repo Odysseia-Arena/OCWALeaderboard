@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-01T08:59:09.051Z",
-  "nextUpdateTime": "2025-09-01T17:00:00",
+  "updatedAt": "2025-09-01T09:04:07.543Z",
+  "nextUpdateTime": "2025-09-01T18:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -85,9 +85,9 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
-      "rating": 1634,
+      "rating": 1635,
       "rating_deviation": 25,
-      "volatility": 0.060058881604018906,
+      "volatility": 0.060058508719421415,
       "battles": 200,
       "wins": 95,
       "ties": 17,
@@ -165,9 +165,9 @@
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
-      "rating": 1614,
+      "rating": 1613,
       "rating_deviation": 22,
-      "volatility": 0.059847697830857575,
+      "volatility": 0.059847332389741895,
       "battles": 256,
       "wins": 122,
       "ties": 16,
@@ -197,9 +197,9 @@
     {
       "model_name": "Claude Sonnet 4",
       "tier": "high",
-      "rating": 1583,
+      "rating": 1585,
       "rating_deviation": 21,
-      "volatility": 0.05989794589255342,
+      "volatility": 0.05989789313511445,
       "battles": 280,
       "wins": 118,
       "ties": 20,
@@ -213,9 +213,9 @@
     {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1582,
+      "rating": 1585,
       "rating_deviation": 28,
-      "volatility": 0.05996838583992415,
+      "volatility": 0.05996833975978282,
       "battles": 158,
       "wins": 70,
       "ties": 12,
@@ -223,15 +223,15 @@
       "win_rate_percentage": 51.47,
       "rating_realtime": 1585,
       "rating_deviation_realtime": 28,
-      "volatility_realtime": 0.0599683174312779,
+      "volatility_realtime": 0.05996833975978282,
       "rank": 14
     },
     {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
-      "rating": 1581,
+      "rating": 1579,
       "rating_deviation": 20,
-      "volatility": 0.059808787528219116,
+      "volatility": 0.05981514701326473,
       "battles": 313,
       "wins": 126,
       "ties": 35,
@@ -239,7 +239,7 @@
       "win_rate_percentage": 47.91,
       "rating_realtime": 1579,
       "rating_deviation_realtime": 20,
-      "volatility_realtime": 0.05980867838044997,
+      "volatility_realtime": 0.05981514701326473,
       "rank": 15
     },
     {
