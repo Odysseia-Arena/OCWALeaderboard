@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-01T03:29:06.154Z",
+  "updatedAt": "2025-09-01T03:34:09.971Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -603,7 +603,7 @@
       "GPT Oss 120B": null,
       "Grok 3": 0.4,
       "Grok 4": 1,
-      "Kimi K2": 0.7142857142857143,
+      "Kimi K2": 0.625,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
       "Qwen 235B A22B Instruct 2507": 0.6666666666666666,
@@ -954,7 +954,7 @@
       "Gemini 1.5 Pro": 0.8,
       "Gemini 2.5 Flash Lite": 0,
       "Gemini 2.5 Flash": 0.7777777777777778,
-      "Gemini 2.5 Pro": 0.2857142857142857,
+      "Gemini 2.5 Pro": 0.375,
       "Gemma 27B": null,
       "GLM 4.5": null,
       "GLM 4.5 Air": 0.75,
@@ -1449,7 +1449,7 @@
       "Doubao 1.6 Thinking": 4,
       "Gemini 2.5 Pro Deepthink": 5,
       "Doubao 1.6": 6,
-      "Gemini 2.5 Pro": 7,
+      "Gemini 2.5 Pro": 8,
       "DeepSeek V3.1 DS": 8,
       "Claude 3.7 Sonnet": 10,
       "Gemini 2.5 Pro Max": 9,
@@ -1891,7 +1891,7 @@
       "Grok 3": 6,
       "DeepSeek V3.1 DS": 12,
       "GPT 4.1": 6,
-      "Kimi K2": 7,
+      "Kimi K2": 8,
       "DeepSeek V3.1 Thinking Volcengine": 8,
       "GPT 4o Latest": 9,
       "Doubao 1.6": 7,
