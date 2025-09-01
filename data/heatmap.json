@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-01T08:44:08.273Z",
+  "updatedAt": "2025-09-01T08:49:10.438Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -10,7 +10,7 @@
       "DeepSeek V3": 1,
       "DeepSeek V3.1 DS": 0.8,
       "DeepSeek V3.1 Volcengine": 0.5,
-      "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+      "DeepSeek V3.1 Thinking Volcengine": 0.375,
       "Doubao 1.6": 0.5454545454545454,
       "Doubao 1.6 Thinking": 0.5,
       "Ernie 4.5 Turbo 128k Preview": null,
@@ -326,7 +326,7 @@
       "Gemini 2.5 Pro Max": 0.3333333333333333
     },
     "DeepSeek V3.1 Thinking Volcengine": {
-      "Claude 3.7 Sonnet": 0.6666666666666666,
+      "Claude 3.7 Sonnet": 0.625,
       "Claude Opus 4": 0.4,
       "Claude Opus 4.1": 0.75,
       "Claude Sonnet 4": 0.4375,
@@ -1344,7 +1344,7 @@
       "Claude Opus 4": 5,
       "Gemini 2.5 Pro Max": 4,
       "GLM 4.5 Air": 10,
-      "Claude 3.7 Sonnet": 17,
+      "Claude 3.7 Sonnet": 18,
       "Mistral Medium 2508": 1,
       "Llama 4 Maverick": 1,
       "Claude Opus 4.1": 5,
@@ -1841,7 +1841,7 @@
       "Doubao 1.6": 12,
       "Kimi K2": 10,
       "Llama 4 Maverick": 2,
-      "DeepSeek V3.1 Thinking Volcengine": 17,
+      "DeepSeek V3.1 Thinking Volcengine": 18,
       "Claude Opus 4.1": 7,
       "Gemini 2.5 Pro Max": 6,
       "GLM 4.5 Air": 8,
