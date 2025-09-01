@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-01T19:09:06.916Z",
+  "updatedAt": "2025-09-01T19:14:04.001Z",
   "nextUpdateTime": "2025-09-02T04:00:00",
   "leaderboard": [
     {
@@ -24,14 +24,14 @@
       "rating": 1712,
       "rating_deviation": 27,
       "volatility": 0.059928475738037876,
-      "battles": 66,
-      "wins": 41,
+      "battles": 67,
+      "wins": 42,
       "ties": 7,
       "skips": 2,
-      "win_rate_percentage": 71.93,
-      "rating_realtime": 1712,
+      "win_rate_percentage": 72.41,
+      "rating_realtime": 1714,
       "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059928475738037876,
+      "volatility_realtime": 0.05992685201100773,
       "rank": 2
     },
     {
@@ -280,14 +280,14 @@
       "rating": 1555,
       "rating_deviation": 29,
       "volatility": 0.05992272920587132,
-      "battles": 144,
+      "battles": 145,
       "wins": 52,
       "ties": 14,
       "skips": 4,
-      "win_rate_percentage": 41.27,
-      "rating_realtime": 1555,
+      "win_rate_percentage": 40.94,
+      "rating_realtime": 1554,
       "rating_deviation_realtime": 29,
-      "volatility_realtime": 0.05992272920587132,
+      "volatility_realtime": 0.05992110419457958,
       "rank": 18
     },
     {
