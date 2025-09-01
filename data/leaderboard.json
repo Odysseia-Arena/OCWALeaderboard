@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-01T12:59:05.647Z",
-  "nextUpdateTime": "2025-09-01T21:00:00",
+  "updatedAt": "2025-09-01T13:00:58.171Z",
+  "nextUpdateTime": "2025-09-01T22:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -149,9 +149,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1616,
+      "rating": 1618,
       "rating_deviation": 25,
-      "volatility": 0.0598515339389587,
+      "volatility": 0.059851425331803945,
       "battles": 186,
       "wins": 90,
       "ties": 12,
@@ -165,9 +165,9 @@
     {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
-      "rating": 1611,
+      "rating": 1610,
       "rating_deviation": 22,
-      "volatility": 0.059848014451958836,
+      "volatility": 0.05984790982719104,
       "battles": 258,
       "wins": 122,
       "ties": 16,
