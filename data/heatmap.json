@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T01:49:09.965Z",
+  "updatedAt": "2025-09-02T01:54:09.985Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -1768,7 +1768,7 @@
       "DeepSeek V3": 2,
       "GLM 4.5 Air": 3,
       "Gemma 27B": 1,
-      "Doubao 1.6": 1,
+      "Doubao 1.6": 2,
       "GPT 4o Latest": 1,
       "Qwen 235B A22B Instruct 2507": 2,
       "Gemini 2.5 Pro": 1,
@@ -1797,7 +1797,7 @@
       "GLM 4.5 Air": 6,
       "Gemini 1.5 Pro": 3,
       "DeepSeek R1 0528": 7,
-      "Step 3": 1,
+      "Step 3": 2,
       "Mistral Medium 2508": 1,
       "GLM 4.5": 1,
       "Anon": 4,
