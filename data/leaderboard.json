@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-09-02T10:59:07.322Z",
-  "nextUpdateTime": "2025-09-02T19:00:00",
+  "updatedAt": "2025-09-02T11:04:03.789Z",
+  "nextUpdateTime": "2025-09-02T20:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1726,
+      "rating": 1729,
       "rating_deviation": 36,
-      "volatility": 0.05993132686561514,
+      "volatility": 0.05992973860288833,
       "battles": 108,
       "wins": 59,
       "ties": 12,
@@ -15,7 +15,7 @@
       "win_rate_percentage": 69.41,
       "rating_realtime": 1729,
       "rating_deviation_realtime": 36,
-      "volatility_realtime": 0.05992974787265507,
+      "volatility_realtime": 0.05992973860288833,
       "rank": 1
     },
     {
@@ -37,9 +37,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1675,
-      "rating_deviation": 28,
-      "volatility": 0.0599716897181731,
+      "rating": 1669,
+      "rating_deviation": 27,
+      "volatility": 0.059986600026009536,
       "battles": 172,
       "wins": 88,
       "ties": 20,
@@ -47,7 +47,7 @@
       "win_rate_percentage": 59.46,
       "rating_realtime": 1669,
       "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059972822967928247,
+      "volatility_realtime": 0.059986600026009536,
       "rank": 3
     },
     {
@@ -99,9 +99,25 @@
       "rank": 6
     },
     {
-      "model_name": "Doubao 1.6 Thinking",
+      "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
       "rating": 1629,
+      "rating_deviation": 24,
+      "volatility": 0.06006417958095449,
+      "battles": 210,
+      "wins": 98,
+      "ties": 18,
+      "skips": 8,
+      "win_rate_percentage": 53.26,
+      "rating_realtime": 1629,
+      "rating_deviation_realtime": 24,
+      "volatility_realtime": 0.06006417958095449,
+      "rank": 7
+    },
+    {
+      "model_name": "Doubao 1.6 Thinking",
+      "tier": "high",
+      "rating": 1627,
       "rating_deviation": 26,
       "volatility": 0.05982285682080806,
       "battles": 194,
@@ -112,22 +128,6 @@
       "rating_realtime": 1627,
       "rating_deviation_realtime": 26,
       "volatility_realtime": 0.05982285682080806,
-      "rank": 7
-    },
-    {
-      "model_name": "Claude 3.7 Sonnet",
-      "tier": "high",
-      "rating": 1628,
-      "rating_deviation": 24,
-      "volatility": 0.06006417940476755,
-      "battles": 210,
-      "wins": 98,
-      "ties": 18,
-      "skips": 8,
-      "win_rate_percentage": 53.26,
-      "rating_realtime": 1629,
-      "rating_deviation_realtime": 24,
-      "volatility_realtime": 0.06006417958095449,
       "rank": 8
     },
     {
@@ -181,9 +181,9 @@
     {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1598,
+      "rating": 1600,
       "rating_deviation": 25,
-      "volatility": 0.05975287353949563,
+      "volatility": 0.05975014965778038,
       "battles": 198,
       "wins": 82,
       "ties": 23,
@@ -191,7 +191,7 @@
       "win_rate_percentage": 48.52,
       "rating_realtime": 1600,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.0597489181288093,
+      "volatility_realtime": 0.05975014965778038,
       "rank": 12
     },
     {
@@ -211,6 +211,22 @@
       "rank": 13
     },
     {
+      "model_name": "GLM 4.5 Air",
+      "tier": "high",
+      "rating": 1586,
+      "rating_deviation": 27,
+      "volatility": 0.0599729144051281,
+      "battles": 171,
+      "wins": 75,
+      "ties": 12,
+      "skips": 11,
+      "win_rate_percentage": 50.68,
+      "rating_realtime": 1583,
+      "rating_deviation_realtime": 27,
+      "volatility_realtime": 0.059974401123220805,
+      "rank": 14
+    },
+    {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
       "rating": 1585,
@@ -224,22 +240,6 @@
       "rating_realtime": 1585,
       "rating_deviation_realtime": 20,
       "volatility_realtime": 0.059827301399728396,
-      "rank": 14
-    },
-    {
-      "model_name": "GLM 4.5 Air",
-      "tier": "high",
-      "rating": 1582,
-      "rating_deviation": 27,
-      "volatility": 0.05996997962136802,
-      "battles": 170,
-      "wins": 75,
-      "ties": 12,
-      "skips": 11,
-      "win_rate_percentage": 51.02,
-      "rating_realtime": 1586,
-      "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.05997260362572757,
       "rank": 15
     },
     {
@@ -307,22 +307,6 @@
       "rank": 19
     },
     {
-      "model_name": "Step 3",
-      "tier": "high",
-      "rating": 1539,
-      "rating_deviation": 35,
-      "volatility": 0.059990309074085924,
-      "battles": 96,
-      "wins": 44,
-      "ties": 4,
-      "skips": 4,
-      "win_rate_percentage": 50,
-      "rating_realtime": 1536,
-      "rating_deviation_realtime": 35,
-      "volatility_realtime": 0.059989356872111654,
-      "rank": 20
-    },
-    {
       "model_name": "DeepSeek R1 0528",
       "tier": "high",
       "rating": 1536,
@@ -336,6 +320,22 @@
       "rating_realtime": 1536,
       "rating_deviation_realtime": 31,
       "volatility_realtime": 0.06000403164062444,
+      "rank": 20
+    },
+    {
+      "model_name": "Step 3",
+      "tier": "high",
+      "rating": 1536,
+      "rating_deviation": 35,
+      "volatility": 0.059989356872111654,
+      "battles": 96,
+      "wins": 44,
+      "ties": 4,
+      "skips": 4,
+      "win_rate_percentage": 50,
+      "rating_realtime": 1536,
+      "rating_deviation_realtime": 35,
+      "volatility_realtime": 0.059989356872111654,
       "rank": 21
     },
     {
@@ -360,14 +360,14 @@
       "rating": 1518,
       "rating_deviation": 28,
       "volatility": 0.05982579696181807,
-      "battles": 156,
-      "wins": 59,
+      "battles": 157,
+      "wins": 60,
       "ties": 14,
       "skips": 9,
-      "win_rate_percentage": 44.36,
-      "rating_realtime": 1518,
+      "win_rate_percentage": 44.78,
+      "rating_realtime": 1521,
       "rating_deviation_realtime": 28,
-      "volatility_realtime": 0.05982579696181807,
+      "volatility_realtime": 0.05982727085580498,
       "rank": 23
     },
     {

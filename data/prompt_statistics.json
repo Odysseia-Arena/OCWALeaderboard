@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T10:59:09.033Z",
+  "updatedAt": "2025-09-02T11:04:08.120Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -3828,6 +3828,53 @@
       }
     },
     {
+      "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "现代",
+      "total_battles": 21,
+      "model_battle_counts": {
+        "Gemini 2.5 Pro Max": 1,
+        "Claude 3.7 Sonnet": 4,
+        "GLM 4.5 Air": 4,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6 Thinking": 3,
+        "Claude Sonnet 4": 6,
+        "Gemini 2.5 Pro": 3,
+        "GLM 4.5": 2,
+        "Gemini 2.5 Flash Lite": 2,
+        "Doubao 1.6": 3,
+        "DeepSeek V3.1 DS": 3,
+        "Gemini 1.5 Pro": 2,
+        "Claude Opus 4": 1,
+        "Claude Opus 4.1": 1,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 2,
+        "DeepSeek V3": 1,
+        "Grok 3": 1
+      },
+      "model_win_rates": {
+        "Gemini 2.5 Pro Max": 1,
+        "Claude 3.7 Sonnet": 0.25,
+        "GLM 4.5 Air": 0.25,
+        "Qwen3 30B A3B Thinking 2507": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "Doubao 1.6 Thinking": 0.3333333333333333,
+        "Claude Sonnet 4": 0.6666666666666666,
+        "Gemini 2.5 Pro": 0.6666666666666666,
+        "GLM 4.5": 0.5,
+        "Gemini 2.5 Flash Lite": 0,
+        "Doubao 1.6": 0,
+        "DeepSeek V3.1 DS": 0.3333333333333333,
+        "Gemini 1.5 Pro": 1,
+        "Claude Opus 4": 0,
+        "Claude Opus 4.1": 0,
+        "DeepSeek V3.1 Volcengine": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "DeepSeek V3": 0,
+        "Grok 3": 1
+      }
+    },
+    {
       "prompt": "你是一位性格大大咧咧、却缺乏魔法天赋的“废柴”，在著名的魔法学院里处处碰壁。一次意外，你闯入了学院的禁地，那里存放着被封印的古老魔法书。\n\n**情节目标：** 在无意间，通过一种非传统的方式，成功解开魔法书的封印。\n\n**写作要求：** 描写过程要充满奇幻色彩，例如魔法书发出的光芒、古老的咒语等。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
       "total_battles": 21,
@@ -4041,53 +4088,6 @@
         "Claude Opus 4.1": 0.5,
         "Grok 3": 0,
         "Gemini 2.5 Pro": 0
-      }
-    },
-    {
-      "prompt": "**背景：**现代日常\n\n**人物设定：**\n- 两名女子高中生，同时也是熟练使用枪械和近身格斗术的特工。\n- 短发：性格活泼。\n- 长发：性格文静。\n\n**情节目标：**描写她们日常生活中的某个片段，将两种身份的转换自然结合在一起，使场景变换和事情发展不显得突兀。\n\n**写作要求：**\n- 日常场合下文风要俏皮可爱。\n- 战斗场面要紧张刺激、扣人心弦。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "现代",
-      "total_battles": 20,
-      "model_battle_counts": {
-        "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 4,
-        "GLM 4.5 Air": 3,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6 Thinking": 3,
-        "Claude Sonnet 4": 6,
-        "Gemini 2.5 Pro": 3,
-        "GLM 4.5": 2,
-        "Gemini 2.5 Flash Lite": 2,
-        "Doubao 1.6": 3,
-        "DeepSeek V3.1 DS": 3,
-        "Gemini 1.5 Pro": 1,
-        "Claude Opus 4": 1,
-        "Claude Opus 4.1": 1,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 2,
-        "DeepSeek V3": 1,
-        "Grok 3": 1
-      },
-      "model_win_rates": {
-        "Gemini 2.5 Pro Max": 1,
-        "Claude 3.7 Sonnet": 0.25,
-        "GLM 4.5 Air": 0.3333333333333333,
-        "Qwen3 30B A3B Thinking 2507": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "Doubao 1.6 Thinking": 0.3333333333333333,
-        "Claude Sonnet 4": 0.6666666666666666,
-        "Gemini 2.5 Pro": 0.6666666666666666,
-        "GLM 4.5": 0.5,
-        "Gemini 2.5 Flash Lite": 0,
-        "Doubao 1.6": 0,
-        "DeepSeek V3.1 DS": 0.3333333333333333,
-        "Gemini 1.5 Pro": 1,
-        "Claude Opus 4": 0,
-        "Claude Opus 4.1": 0,
-        "DeepSeek V3.1 Volcengine": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "DeepSeek V3": 0,
-        "Grok 3": 1
       }
     },
     {
