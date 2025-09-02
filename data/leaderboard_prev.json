@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-09-02T18:59:08.259Z",
-  "nextUpdateTime": "2025-09-03T03:00:00",
+  "updatedAt": "2025-09-02T19:04:11.484Z",
+  "nextUpdateTime": "2025-09-03T04:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1732,
+      "rating": 1726,
       "rating_deviation": 36,
-      "volatility": 0.05992855961742144,
+      "volatility": 0.059933634171802155,
       "battles": 110,
       "wins": 60,
       "ties": 12,
@@ -15,15 +15,15 @@
       "win_rate_percentage": 68.97,
       "rating_realtime": 1726,
       "rating_deviation_realtime": 36,
-      "volatility_realtime": 0.05993368577695414,
+      "volatility_realtime": 0.059933634171802155,
       "rank": 1
     },
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1717,
+      "rating": 1718,
       "rating_deviation": 27,
-      "volatility": 0.059926930275359856,
+      "volatility": 0.059925275512981865,
       "battles": 70,
       "wins": 45,
       "ties": 7,
@@ -163,22 +163,6 @@
       "rank": 10
     },
     {
-      "model_name": "DeepSeek V3.1 Volcengine",
-      "tier": "high",
-      "rating": 1607,
-      "rating_deviation": 25,
-      "volatility": 0.059770362069671436,
-      "battles": 203,
-      "wins": 86,
-      "ties": 23,
-      "skips": 6,
-      "win_rate_percentage": 49.43,
-      "rating_realtime": 1605,
-      "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.05977089870037472,
-      "rank": 11
-    },
-    {
       "model_name": "DeepSeek V3.1 Thinking Volcengine",
       "tier": "high",
       "rating": 1606,
@@ -192,6 +176,22 @@
       "rating_realtime": 1606,
       "rating_deviation_realtime": 22,
       "volatility_realtime": 0.059852646339256105,
+      "rank": 11
+    },
+    {
+      "model_name": "DeepSeek V3.1 Volcengine",
+      "tier": "high",
+      "rating": 1605,
+      "rating_deviation": 25,
+      "volatility": 0.05977089870037472,
+      "battles": 203,
+      "wins": 86,
+      "ties": 23,
+      "skips": 6,
+      "win_rate_percentage": 49.43,
+      "rating_realtime": 1605,
+      "rating_deviation_realtime": 25,
+      "volatility_realtime": 0.05977089870037472,
       "rank": 12
     },
     {
@@ -245,9 +245,9 @@
     {
       "model_name": "Grok 3",
       "tier": "high",
-      "rating": 1579,
+      "rating": 1582,
       "rating_deviation": 29,
-      "volatility": 0.05990836486354018,
+      "volatility": 0.05990889824627916,
       "battles": 143,
       "wins": 55,
       "ties": 15,
@@ -309,9 +309,9 @@
     {
       "model_name": "Step 3",
       "tier": "high",
-      "rating": 1533,
+      "rating": 1536,
       "rating_deviation": 35,
-      "volatility": 0.05998853353806211,
+      "volatility": 0.05998680198487809,
       "battles": 99,
       "wins": 45,
       "ties": 4,
@@ -319,7 +319,7 @@
       "win_rate_percentage": 49.45,
       "rating_realtime": 1536,
       "rating_deviation_realtime": 35,
-      "volatility_realtime": 0.05999200841535881,
+      "volatility_realtime": 0.05998680198487809,
       "rank": 20
     },
     {
