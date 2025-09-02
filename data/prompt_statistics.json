@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T11:54:09.468Z",
+  "updatedAt": "2025-09-02T11:59:08.157Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4655,13 +4655,13 @@
     {
       "prompt": "**情景：**结束了一天的故地重游，A与B并肩站在夜晚的星空下。\n**人物：**A（普通人类女性）与B（曾与A有过两年冒险之约的神明，如今已失忆）。\n**情节：**曾经，神明B为一己之私找到了平凡的A，A却在与他同行的两年间无可救药地爱上了他。分别后，A在无尽的思念与等待中孤独终老。许久之后，失忆的B将A重新唤回身边。为了不让B困扰，A将自己漫长而平淡的等待，伪装成了一段段精彩的冒险故事。在陪他走完当年一同走过的遗迹后，B终于放下心来，他轻声问A：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "奇幻",
-      "total_battles": 7,
+      "total_battles": 8,
       "model_battle_counts": {
         "Gemini 1.5 Pro": 1,
         "DeepSeek V3.1 Thinking Volcengine": 1,
         "Gemini 2.5 Pro Max": 2,
         "Gemini 2.5 Pro": 1,
-        "GLM 4.5 Air": 1,
+        "GLM 4.5 Air": 2,
         "Gemini 2.5 Flash": 1,
         "GPT 4o Latest": 1,
         "GPT 5 Chat": 1,
@@ -4669,7 +4669,8 @@
         "Qwen 235B A22B Instruct 2507": 1,
         "DeepSeek V3.1 DS": 1,
         "DeepSeek R1 0528": 1,
-        "Step 3": 1
+        "Step 3": 1,
+        "Qwen 235B A22B Thinking 2507": 1
       },
       "model_win_rates": {
         "Gemini 1.5 Pro": 0,
@@ -4684,7 +4685,8 @@
         "Qwen 235B A22B Instruct 2507": 0,
         "DeepSeek V3.1 DS": 1,
         "DeepSeek R1 0528": 0,
-        "Step 3": 1
+        "Step 3": 1,
+        "Qwen 235B A22B Thinking 2507": 1
       }
     },
     {
