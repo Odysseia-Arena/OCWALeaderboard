@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-02T19:59:11.258Z",
-  "nextUpdateTime": "2025-09-03T04:00:00",
+  "updatedAt": "2025-09-02T20:04:06.029Z",
+  "nextUpdateTime": "2025-09-03T05:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -83,22 +83,6 @@
       "rank": 5
     },
     {
-      "model_name": "Kimi K2",
-      "tier": "high",
-      "rating": 1633,
-      "rating_deviation": 27,
-      "volatility": 0.06016429907764233,
-      "battles": 174,
-      "wins": 83,
-      "ties": 10,
-      "skips": 11,
-      "win_rate_percentage": 54.25,
-      "rating_realtime": 1631,
-      "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.06016529653531793,
-      "rank": 6
-    },
-    {
       "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
       "rating": 1631,
@@ -112,6 +96,22 @@
       "rating_realtime": 1631,
       "rating_deviation_realtime": 24,
       "volatility_realtime": 0.06006288595479188,
+      "rank": 6
+    },
+    {
+      "model_name": "Kimi K2",
+      "tier": "high",
+      "rating": 1631,
+      "rating_deviation": 27,
+      "volatility": 0.06016529653531793,
+      "battles": 174,
+      "wins": 83,
+      "ties": 10,
+      "skips": 11,
+      "win_rate_percentage": 54.25,
+      "rating_realtime": 1631,
+      "rating_deviation_realtime": 27,
+      "volatility_realtime": 0.06016529653531793,
       "rank": 7
     },
     {
@@ -197,9 +197,9 @@
     {
       "model_name": "Claude Sonnet 4",
       "tier": "high",
-      "rating": 1586,
+      "rating": 1587,
       "rating_deviation": 21,
-      "volatility": 0.05989721223651668,
+      "volatility": 0.05989820434941665,
       "battles": 290,
       "wins": 123,
       "ties": 20,
@@ -244,7 +244,7 @@
     },
     {
       "model_name": "Grok 3",
-      "tier": "high",
+      "tier": "low",
       "rating": 1582,
       "rating_deviation": 29,
       "volatility": 0.05990889824627916,
@@ -260,7 +260,7 @@
     },
     {
       "model_name": "Claude Opus 4",
-      "tier": "low",
+      "tier": "high",
       "rating": 1572,
       "rating_deviation": 33,
       "volatility": 0.060196247119769376,
@@ -276,7 +276,7 @@
     },
     {
       "model_name": "GPT 4o Latest",
-      "tier": "low",
+      "tier": "high",
       "rating": 1554,
       "rating_deviation": 29,
       "volatility": 0.05991785754854733,
@@ -292,7 +292,7 @@
     },
     {
       "model_name": "Gemini 2.5 Flash Lite",
-      "tier": "low",
+      "tier": "high",
       "rating": 1553,
       "rating_deviation": 33,
       "volatility": 0.059925457280572365,
@@ -308,7 +308,7 @@
     },
     {
       "model_name": "Step 3",
-      "tier": "high",
+      "tier": "low",
       "rating": 1536,
       "rating_deviation": 35,
       "volatility": 0.05998680198487809,
@@ -324,7 +324,7 @@
     },
     {
       "model_name": "DeepSeek R1 0528",
-      "tier": "high",
+      "tier": "low",
       "rating": 1532,
       "rating_deviation": 31,
       "volatility": 0.06000171194502645,
