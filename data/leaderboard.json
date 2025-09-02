@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-09-02T14:59:04.371Z",
-  "nextUpdateTime": "2025-09-02T23:00:00",
+  "updatedAt": "2025-09-02T15:04:05.659Z",
+  "nextUpdateTime": "2025-09-03T00:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1729,
+      "rating": 1732,
       "rating_deviation": 36,
-      "volatility": 0.05992973860288833,
+      "volatility": 0.05992855961742144,
       "battles": 109,
       "wins": 60,
       "ties": 12,
@@ -37,9 +37,9 @@
     {
       "model_name": "Gemini 2.5 Pro",
       "tier": "high",
-      "rating": 1669,
+      "rating": 1666,
       "rating_deviation": 27,
-      "volatility": 0.059986600026009536,
+      "volatility": 0.059988753593356293,
       "battles": 173,
       "wins": 88,
       "ties": 20,
@@ -53,9 +53,9 @@
     {
       "model_name": "Qwen 235B A22B Instruct 2507",
       "tier": "high",
-      "rating": 1648,
+      "rating": 1647,
       "rating_deviation": 24,
-      "volatility": 0.0597794134147555,
+      "volatility": 0.059778258232754386,
       "battles": 212,
       "wins": 108,
       "ties": 12,
@@ -211,6 +211,22 @@
       "rank": 13
     },
     {
+      "model_name": "DeepSeek V3.1 DS",
+      "tier": "high",
+      "rating": 1585,
+      "rating_deviation": 20,
+      "volatility": 0.059830565692888575,
+      "battles": 326,
+      "wins": 134,
+      "ties": 36,
+      "skips": 16,
+      "win_rate_percentage": 48.91,
+      "rating_realtime": 1585,
+      "rating_deviation_realtime": 20,
+      "volatility_realtime": 0.059830565692888575,
+      "rank": 14
+    },
+    {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
       "rating": 1585,
@@ -224,30 +240,14 @@
       "rating_realtime": 1585,
       "rating_deviation_realtime": 27,
       "volatility_realtime": 0.059970727108051194,
-      "rank": 14
-    },
-    {
-      "model_name": "DeepSeek V3.1 DS",
-      "tier": "high",
-      "rating": 1584,
-      "rating_deviation": 20,
-      "volatility": 0.05983136213297508,
-      "battles": 326,
-      "wins": 134,
-      "ties": 36,
-      "skips": 16,
-      "win_rate_percentage": 48.91,
-      "rating_realtime": 1585,
-      "rating_deviation_realtime": 20,
-      "volatility_realtime": 0.059830565692888575,
       "rank": 15
     },
     {
       "model_name": "Grok 3",
       "tier": "high",
-      "rating": 1576,
+      "rating": 1579,
       "rating_deviation": 29,
-      "volatility": 0.05990622259704587,
+      "volatility": 0.05990836486354018,
       "battles": 142,
       "wins": 54,
       "ties": 15,
@@ -307,22 +307,6 @@
       "rank": 19
     },
     {
-      "model_name": "Step 3",
-      "tier": "high",
-      "rating": 1536,
-      "rating_deviation": 35,
-      "volatility": 0.059989356872111654,
-      "battles": 97,
-      "wins": 44,
-      "ties": 4,
-      "skips": 4,
-      "win_rate_percentage": 49.44,
-      "rating_realtime": 1533,
-      "rating_deviation_realtime": 35,
-      "volatility_realtime": 0.05998853353806211,
-      "rank": 20
-    },
-    {
       "model_name": "DeepSeek R1 0528",
       "tier": "high",
       "rating": 1534,
@@ -336,6 +320,22 @@
       "rating_realtime": 1534,
       "rating_deviation_realtime": 31,
       "volatility_realtime": 0.060002734321048516,
+      "rank": 20
+    },
+    {
+      "model_name": "Step 3",
+      "tier": "high",
+      "rating": 1533,
+      "rating_deviation": 35,
+      "volatility": 0.05998853353806211,
+      "battles": 97,
+      "wins": 44,
+      "ties": 4,
+      "skips": 4,
+      "win_rate_percentage": 49.44,
+      "rating_realtime": 1533,
+      "rating_deviation_realtime": 35,
+      "volatility_realtime": 0.05998853353806211,
       "rank": 21
     },
     {
