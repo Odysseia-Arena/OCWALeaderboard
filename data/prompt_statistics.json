@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T01:59:11.538Z",
+  "updatedAt": "2025-09-02T02:01:21.505Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4645,6 +4645,41 @@
       }
     },
     {
+      "prompt": "**情景：**结束了一天的故地重游，A与B并肩站在夜晚的星空下。\n**人物：**A（普通人类女性）与B（曾与A有过两年冒险之约的神明，如今已失忆）。\n**情节：**曾经，神明B为一己之私找到了平凡的A，A却在与他同行的两年间无可救药地爱上了他。分别后，A在无尽的思念与等待中孤独终老。许久之后，失忆的B将A重新唤回身边。为了不让B困扰，A将自己漫长而平淡的等待，伪装成了一段段精彩的冒险故事。在陪他走完当年一同走过的遗迹后，B终于放下心来，他轻声问A：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
+      "prompt_theme": "奇幻",
+      "total_battles": 7,
+      "model_battle_counts": {
+        "Gemini 1.5 Pro": 1,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro Max": 2,
+        "Gemini 2.5 Pro": 1,
+        "GLM 4.5 Air": 1,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4o Latest": 1,
+        "GPT 5 Chat": 1,
+        "Claude 3.7 Sonnet": 1,
+        "Qwen 235B A22B Instruct 2507": 1,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek R1 0528": 1,
+        "Step 3": 1
+      },
+      "model_win_rates": {
+        "Gemini 1.5 Pro": 0,
+        "DeepSeek V3.1 Thinking Volcengine": 1,
+        "Gemini 2.5 Pro Max": 1,
+        "Gemini 2.5 Pro": 0,
+        "GLM 4.5 Air": 0,
+        "Gemini 2.5 Flash": 1,
+        "GPT 4o Latest": 1,
+        "GPT 5 Chat": 0,
+        "Claude 3.7 Sonnet": 0,
+        "Qwen 235B A22B Instruct 2507": 0,
+        "DeepSeek V3.1 DS": 1,
+        "DeepSeek R1 0528": 0,
+        "Step 3": 1
+      }
+    },
+    {
       "prompt": "**作品：** 无职转生\n**角色：** 鲁迪乌斯·格雷拉特, 希露菲叶特, 洛琪希·米格路迪亚, 艾莉丝·伯雷亚斯·格雷拉特\n**背景设定：** 你（鲁迪乌斯）刚从贝卡利特大陆的转移迷宫九死一生归来。虽然成功救回了洛琪希，但你也付出了父亲保罗牺牲的惨痛代价。你带着满身的伤痕和深切的悲痛，回到了位于夏利亚的家。\n**核心场景：** 格雷拉特家的客厅。妻子希露菲正含泪迎接你和洛琪希。空气中混杂着劫后余生的庆幸、丧亲的哀伤以及两位女性间微妙的紧张感。你正艰难地开口，准备向希露菲解释一切，包括迎娶洛琪希的决定。突然，家门被粗暴地踢开——多年前不辞而别、已修行成为“剑王”的艾莉丝，带着凌厉而狂野的气势闯了进来。\n\n**情节目标：** 面对这突如其来的三方对峙——温柔包容的希露菲、局促不安的洛琪希、以及强势回归的艾莉丝。你必须在巨大的悲痛与震惊中，应对这个前所未有的情感修罗场，处理一触即发的冲突。\n\n**写作要求：** 着重刻画角色间的复杂情感张力。需体现希露菲的包容与瞬间的僵硬、洛琪希的愧疚与尴尬、艾莉丝的错愕与占有欲，以及鲁迪乌斯在多重冲击下近乎崩溃的心理活动。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "同人",
       "total_battles": 6,
@@ -4668,37 +4703,6 @@
         "Doubao 1.6": 1,
         "GLM 4.5 Air": 0.5,
         "Gemini 2.5 Flash": 1,
-        "DeepSeek V3.1 DS": 1
-      }
-    },
-    {
-      "prompt": "**情景：**结束了一天的故地重游，A与B并肩站在夜晚的星空下。\n**人物：**A（普通人类女性）与B（曾与A有过两年冒险之约的神明，如今已失忆）。\n**情节：**曾经，神明B为一己之私找到了平凡的A，A却在与他同行的两年间无可救药地爱上了他。分别后，A在无尽的思念与等待中孤独终老。许久之后，失忆的B将A重新唤回身边。为了不让B困扰，A将自己漫长而平淡的等待，伪装成了一段段精彩的冒险故事。在陪他走完当年一同走过的遗迹后，B终于放下心来，他轻声问A：“那你觉得你幸福吗？”\n**你的任务：**扮演A，以第一人称视角，描写此刻的内心感受，并最终恰当地回答出“我很幸福”。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
-      "prompt_theme": "奇幻",
-      "total_battles": 6,
-      "model_battle_counts": {
-        "Gemini 1.5 Pro": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro Max": 2,
-        "Gemini 2.5 Pro": 1,
-        "GLM 4.5 Air": 1,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4o Latest": 1,
-        "GPT 5 Chat": 1,
-        "Claude 3.7 Sonnet": 1,
-        "Qwen 235B A22B Instruct 2507": 1,
-        "DeepSeek V3.1 DS": 1
-      },
-      "model_win_rates": {
-        "Gemini 1.5 Pro": 0,
-        "DeepSeek V3.1 Thinking Volcengine": 1,
-        "Gemini 2.5 Pro Max": 1,
-        "Gemini 2.5 Pro": 0,
-        "GLM 4.5 Air": 0,
-        "Gemini 2.5 Flash": 1,
-        "GPT 4o Latest": 1,
-        "GPT 5 Chat": 0,
-        "Claude 3.7 Sonnet": 0,
-        "Qwen 235B A22B Instruct 2507": 0,
         "DeepSeek V3.1 DS": 1
       }
     }
