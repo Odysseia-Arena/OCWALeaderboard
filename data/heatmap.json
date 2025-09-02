@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T11:17:49.191Z",
+  "updatedAt": "2025-09-02T11:19:09.264Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -80,7 +80,7 @@
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": 0,
       "DeepSeek V3": null,
-      "DeepSeek V3.1 DS": 0.5,
+      "DeepSeek V3.1 DS": 0.4,
       "DeepSeek V3.1 Volcengine": 0.42857142857142855,
       "DeepSeek V3.1 Thinking Volcengine": 0.25,
       "Doubao 1.6": 0.5,
@@ -256,7 +256,7 @@
     "DeepSeek V3.1 DS": {
       "Claude 3.7 Sonnet": 0.2,
       "Claude Opus 4": 0.4444444444444444,
-      "Claude Opus 4.1": 0.5,
+      "Claude Opus 4.1": 0.6,
       "Claude Sonnet 4": 0.5517241379310345,
       "Command A Reasoning 08 2025": null,
       "DeepSeek R1 0528": 0.625,
@@ -1406,7 +1406,7 @@
       "GLM 4.5 Air": 13,
       "Step 3": 9,
       "Claude Opus 4": 11,
-      "Claude Opus 4.1": 5,
+      "Claude Opus 4.1": 6,
       "Gemini 2.5 Flash Lite": 9,
       "DeepSeek R1 0528": 9,
       "Anon": 1,
@@ -2005,7 +2005,7 @@
       "Doubao 1.6": 2,
       "GPT 4.1": 2,
       "Claude Sonnet 4": 6,
-      "DeepSeek V3.1 DS": 5,
+      "DeepSeek V3.1 DS": 6,
       "DeepSeek V3.1 Volcengine": 7,
       "Gemini 2.5 Pro Deepthink": 1,
       "Qwen 235B A22B Instruct 2507": 6,
