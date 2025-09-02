@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T13:55:28.570Z",
+  "updatedAt": "2025-09-02T13:59:10.074Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -285,7 +285,7 @@
       "Qwen 235B A22B Instruct 2507": 0.4444444444444444,
       "Qwen 235B A22B Thinking 2507": null,
       "Qwen3 30B A3B Thinking 2507": null,
-      "Step 3": 0.5555555555555556,
+      "Step 3": 0.6,
       "Anon": 0,
       "Gemini 2.5 Pro Max": 0.3333333333333333
     },
@@ -1079,7 +1079,7 @@
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": 0.5,
       "Anon": 1,
-      "Gemini 2.5 Pro Max": 0.2
+      "Gemini 2.5 Pro Max": 0.16666666666666666
     },
     "Qwen 235B A22B Thinking 2507": {
       "Claude 3.7 Sonnet": null,
@@ -1161,7 +1161,7 @@
       "Command A Reasoning 08 2025": 0.6666666666666666,
       "DeepSeek R1 0528": 0.6666666666666666,
       "DeepSeek V3": 1,
-      "DeepSeek V3.1 DS": 0.4444444444444444,
+      "DeepSeek V3.1 DS": 0.4,
       "DeepSeek V3.1 Volcengine": 0,
       "DeepSeek V3.1 Thinking Volcengine": 0.5,
       "Doubao 1.6": 0,
@@ -1255,7 +1255,7 @@
       "Kimi K2": 0.625,
       "Llama 4 Maverick": null,
       "Mistral Medium 2508": null,
-      "Qwen 235B A22B Instruct 2507": 0.8,
+      "Qwen 235B A22B Instruct 2507": 0.8333333333333334,
       "Qwen 235B A22B Thinking 2507": null,
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
@@ -1404,7 +1404,7 @@
       "GLM 4.5": 1,
       "Gemini 2.5 Pro Max": 8,
       "GLM 4.5 Air": 13,
-      "Step 3": 9,
+      "Step 3": 10,
       "Claude Opus 4": 11,
       "Claude Opus 4.1": 6,
       "Gemini 2.5 Flash Lite": 9,
@@ -1646,7 +1646,7 @@
       "Grok 3": 8,
       "Ernie 4.5 Turbo 128k Preview": 1,
       "Qwen3 30B A3B Thinking 2507": 1,
-      "Gemini 2.5 Pro Max": 5,
+      "Gemini 2.5 Pro Max": 6,
       "Claude Opus 4.1": 6,
       "Gemma 27B": 1,
       "GLM 4.5 Air": 7,
@@ -1763,7 +1763,7 @@
       "GLM 4.5": 3,
       "Mistral Medium 2508": 4,
       "GPT 4.1": 14,
-      "DeepSeek V3.1 DS": 9,
+      "DeepSeek V3.1 DS": 10,
       "Gemini 2.5 Flash": 1,
       "Claude Opus 4": 5,
       "DeepSeek V3": 2,
@@ -2159,7 +2159,7 @@
       "Doubao 1.6 Thinking": 5,
       "Claude Opus 4": 1,
       "Gemini 2.5 Flash": 5,
-      "Qwen 235B A22B Instruct 2507": 5,
+      "Qwen 235B A22B Instruct 2507": 6,
       "GPT 5 Chat": 1,
       "Claude Opus 4.1": 6,
       "Gemini 2.5 Pro": 4,
