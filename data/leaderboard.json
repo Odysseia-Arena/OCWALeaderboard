@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-02T12:59:07.000Z",
-  "nextUpdateTime": "2025-09-02T21:00:00",
+  "updatedAt": "2025-09-02T13:04:05.629Z",
+  "nextUpdateTime": "2025-09-02T22:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -69,9 +69,9 @@
     {
       "model_name": "Doubao 1.6",
       "tier": "high",
-      "rating": 1643,
+      "rating": 1645,
       "rating_deviation": 26,
-      "volatility": 0.05997672424610499,
+      "volatility": 0.05997580683042424,
       "battles": 195,
       "wins": 96,
       "ties": 12,
@@ -117,9 +117,9 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
-      "rating": 1627,
-      "rating_deviation": 26,
-      "volatility": 0.05982285682080806,
+      "rating": 1625,
+      "rating_deviation": 25,
+      "volatility": 0.05982375770607862,
       "battles": 195,
       "wins": 90,
       "ties": 14,
@@ -133,9 +133,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1620,
+      "rating": 1621,
       "rating_deviation": 25,
-      "volatility": 0.05984946326682229,
+      "volatility": 0.05984887608386892,
       "battles": 190,
       "wins": 93,
       "ties": 12,
@@ -143,7 +143,7 @@
       "win_rate_percentage": 52.25,
       "rating_realtime": 1621,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.059848861476106734,
+      "volatility_realtime": 0.05984887608386892,
       "rank": 9
     },
     {
@@ -211,27 +211,11 @@
       "rank": 13
     },
     {
-      "model_name": "DeepSeek V3.1 DS",
-      "tier": "high",
-      "rating": 1586,
-      "rating_deviation": 20,
-      "volatility": 0.05982789579901425,
-      "battles": 325,
-      "wins": 133,
-      "ties": 36,
-      "skips": 16,
-      "win_rate_percentage": 48.72,
-      "rating_realtime": 1584,
-      "rating_deviation_realtime": 20,
-      "volatility_realtime": 0.05982639637626539,
-      "rank": 14
-    },
-    {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1583,
+      "rating": 1585,
       "rating_deviation": 27,
-      "volatility": 0.05996982154551673,
+      "volatility": 0.059970727108051194,
       "battles": 174,
       "wins": 77,
       "ties": 12,
@@ -240,6 +224,22 @@
       "rating_realtime": 1585,
       "rating_deviation_realtime": 27,
       "volatility_realtime": 0.059970727108051194,
+      "rank": 14
+    },
+    {
+      "model_name": "DeepSeek V3.1 DS",
+      "tier": "high",
+      "rating": 1584,
+      "rating_deviation": 20,
+      "volatility": 0.05983136213297508,
+      "battles": 325,
+      "wins": 133,
+      "ties": 36,
+      "skips": 16,
+      "win_rate_percentage": 48.72,
+      "rating_realtime": 1584,
+      "rating_deviation_realtime": 20,
+      "volatility_realtime": 0.05983136213297508,
       "rank": 15
     },
     {
