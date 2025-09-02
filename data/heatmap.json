@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-02T15:54:49.777Z",
+  "updatedAt": "2025-09-02T15:59:06.170Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -189,7 +189,7 @@
       "Command A Reasoning 08 2025": 1,
       "DeepSeek V3": 1,
       "DeepSeek V3.1 DS": 0.375,
-      "DeepSeek V3.1 Volcengine": 0.6,
+      "DeepSeek V3.1 Volcengine": 0.5,
       "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
       "Doubao 1.6": 0.3333333333333333,
       "Doubao 1.6 Thinking": 0.6666666666666666,
@@ -295,7 +295,7 @@
       "Claude Opus 4.1": 0.5714285714285714,
       "Claude Sonnet 4": 0.7,
       "Command A Reasoning 08 2025": null,
-      "DeepSeek R1 0528": 0.4,
+      "DeepSeek R1 0528": 0.5,
       "DeepSeek V3": 1,
       "DeepSeek V3.1 DS": 0.7272727272727273,
       "DeepSeek V3.1 Thinking Volcengine": 0.35714285714285715,
@@ -1718,7 +1718,7 @@
       "Gemini 2.5 Pro Max": 3,
       "Doubao 1.6 Thinking": 11,
       "Claude Opus 4": 2,
-      "DeepSeek R1 0528": 7,
+      "DeepSeek R1 0528": 8,
       "GLM 4.5 Air": 5,
       "Anon": 6,
       "Gemini 2.5 Flash Lite": 4,
@@ -2038,7 +2038,7 @@
       "DeepSeek V3.1 Thinking Volcengine": 7,
       "DeepSeek V3.1 DS": 9,
       "Claude Opus 4.1": 1,
-      "DeepSeek V3.1 Volcengine": 7,
+      "DeepSeek V3.1 Volcengine": 8,
       "Claude Opus 4": 5,
       "Claude Sonnet 4": 12,
       "Doubao 1.6": 7,
