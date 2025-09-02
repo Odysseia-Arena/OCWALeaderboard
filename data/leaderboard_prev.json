@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-02T15:59:04.633Z",
-  "nextUpdateTime": "2025-09-03T00:00:00",
+  "updatedAt": "2025-09-02T16:04:07.258Z",
+  "nextUpdateTime": "2025-09-03T01:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -181,9 +181,9 @@
     {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1600,
+      "rating": 1601,
       "rating_deviation": 25,
-      "volatility": 0.05975014965778038,
+      "volatility": 0.05974914772452671,
       "battles": 199,
       "wins": 83,
       "ties": 23,
@@ -307,22 +307,6 @@
       "rank": 19
     },
     {
-      "model_name": "DeepSeek R1 0528",
-      "tier": "high",
-      "rating": 1534,
-      "rating_deviation": 31,
-      "volatility": 0.060002734321048516,
-      "battles": 126,
-      "wins": 48,
-      "ties": 13,
-      "skips": 3,
-      "win_rate_percentage": 43.64,
-      "rating_realtime": 1532,
-      "rating_deviation_realtime": 31,
-      "volatility_realtime": 0.06000171194502645,
-      "rank": 20
-    },
-    {
       "model_name": "Step 3",
       "tier": "high",
       "rating": 1533,
@@ -336,6 +320,22 @@
       "rating_realtime": 1533,
       "rating_deviation_realtime": 35,
       "volatility_realtime": 0.05998853353806211,
+      "rank": 20
+    },
+    {
+      "model_name": "DeepSeek R1 0528",
+      "tier": "high",
+      "rating": 1532,
+      "rating_deviation": 31,
+      "volatility": 0.06000171194502645,
+      "battles": 126,
+      "wins": 48,
+      "ties": 13,
+      "skips": 3,
+      "win_rate_percentage": 43.64,
+      "rating_realtime": 1532,
+      "rating_deviation_realtime": 31,
+      "volatility_realtime": 0.06000171194502645,
       "rank": 21
     },
     {
