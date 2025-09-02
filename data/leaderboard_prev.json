@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-02T17:59:12.672Z",
-  "nextUpdateTime": "2025-09-03T02:00:00",
+  "updatedAt": "2025-09-02T18:04:09.492Z",
+  "nextUpdateTime": "2025-09-03T03:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -24,14 +24,14 @@
       "rating": 1717,
       "rating_deviation": 27,
       "volatility": 0.059926930275359856,
-      "battles": 69,
-      "wins": 44,
+      "battles": 70,
+      "wins": 45,
       "ties": 7,
       "skips": 2,
-      "win_rate_percentage": 73.33,
-      "rating_realtime": 1717,
+      "win_rate_percentage": 73.77,
+      "rating_realtime": 1718,
       "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059926930275359856,
+      "volatility_realtime": 0.059925275512981865,
       "rank": 2
     },
     {
@@ -117,9 +117,9 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
-      "rating": 1625,
+      "rating": 1623,
       "rating_deviation": 25,
-      "volatility": 0.05982375770607862,
+      "volatility": 0.05982421083973831,
       "battles": 196,
       "wins": 90,
       "ties": 14,
@@ -127,7 +127,7 @@
       "win_rate_percentage": 52.02,
       "rating_realtime": 1623,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.059824135031485356,
+      "volatility_realtime": 0.05982421083973831,
       "rank": 8
     },
     {
@@ -163,27 +163,11 @@
       "rank": 10
     },
     {
-      "model_name": "DeepSeek V3.1 Thinking Volcengine",
-      "tier": "high",
-      "rating": 1609,
-      "rating_deviation": 22,
-      "volatility": 0.059845611740419996,
-      "battles": 263,
-      "wins": 123,
-      "ties": 16,
-      "skips": 10,
-      "win_rate_percentage": 51.9,
-      "rating_realtime": 1606,
-      "rating_deviation_realtime": 22,
-      "volatility_realtime": 0.05984580475698277,
-      "rank": 11
-    },
-    {
       "model_name": "DeepSeek V3.1 Volcengine",
       "tier": "high",
-      "rating": 1601,
+      "rating": 1607,
       "rating_deviation": 25,
-      "volatility": 0.05974914772452671,
+      "volatility": 0.059770362069671436,
       "battles": 202,
       "wins": 86,
       "ties": 23,
@@ -191,7 +175,23 @@
       "win_rate_percentage": 49.71,
       "rating_realtime": 1607,
       "rating_deviation_realtime": 25,
-      "volatility_realtime": 0.05974970935411301,
+      "volatility_realtime": 0.059770362069671436,
+      "rank": 11
+    },
+    {
+      "model_name": "DeepSeek V3.1 Thinking Volcengine",
+      "tier": "high",
+      "rating": 1606,
+      "rating_deviation": 22,
+      "volatility": 0.059852646339256105,
+      "battles": 263,
+      "wins": 123,
+      "ties": 16,
+      "skips": 10,
+      "win_rate_percentage": 51.9,
+      "rating_realtime": 1606,
+      "rating_deviation_realtime": 22,
+      "volatility_realtime": 0.059852646339256105,
       "rank": 12
     },
     {
@@ -312,14 +312,14 @@
       "rating": 1533,
       "rating_deviation": 35,
       "volatility": 0.05998853353806211,
-      "battles": 97,
+      "battles": 98,
       "wins": 44,
       "ties": 4,
       "skips": 4,
-      "win_rate_percentage": 49.44,
-      "rating_realtime": 1533,
+      "win_rate_percentage": 48.89,
+      "rating_realtime": 1531,
       "rating_deviation_realtime": 35,
-      "volatility_realtime": 0.05998853353806211,
+      "volatility_realtime": 0.05998686745947997,
       "rank": 20
     },
     {
