@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-03T13:54:09.965Z",
+  "updatedAt": "2025-09-03T13:58:25.811Z",
   "prompt_statistics": [
     {
       "prompt": "你是一名普通的女高中生，某天起床发现自己被传送到了未知的异世界。你发现你的头顶出现了HP（血量值）、MP（魔力值）等信息，还没等你反应过来，一只足球大小的史莱姆忽然从丛林中竄出……\n\n**情节目标：**迅速掌握现状，应对眼前出现的史莱姆\n\n**写作要求：**仿照日式轻小说文风格式。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
@@ -4552,11 +4552,11 @@
     {
       "prompt": "**世界观：**僵尸末日\n\n**人物：**林影（姐姐）与林云（妹妹），她们既是姐妹也是一对百合情侣。\n\n**背景故事：**\n在僵尸末日中相依为命五年后，两人以一栋别墅为据点度过了半年幸福时光。因物资耗尽，她们约定分头寻找资源，三日后在据点汇合。分开前，她们发誓无论如何都会回来见面。\n\n**情节大纲：**\n- **起：**约定之日的深夜，暴雨倾盆。妹妹林云已回到据点，但姐姐林影仍未归。一个不明生物（推测为僵尸）闯入据点，而林云只剩下三发子弹。\n- **承：**林云在黑暗中与格外难缠的僵尸斗智斗勇，弹尽粮绝之际，她用陷阱重创了对方，但自己也已筋疲力竭，只剩最后一颗子弹。\n- **转：**雨停天亮，林云终于看清了那只僵尸的真面目……\n\n**写作要求：**\n请根据以上大纲，自由发挥，为这个故事撰写结局。\n\n你的输出模板如下所示：\n\n# 标题\n\n正文",
       "prompt_theme": "科幻",
-      "total_battles": 12,
+      "total_battles": 13,
       "model_battle_counts": {
         "GLM 4.5 Air": 1,
         "Command A Reasoning 08 2025": 1,
-        "Claude Sonnet 4": 1,
+        "Claude Sonnet 4": 2,
         "Gemini 2.5 Flash": 3,
         "Doubao 1.6": 2,
         "Qwen 235B A22B Instruct 2507": 2,
@@ -4565,7 +4565,7 @@
         "Kimi K2": 1,
         "Gemini 2.5 Pro Max": 1,
         "Gemini 1.5 Pro": 2,
-        "DeepSeek V3.1 Thinking Volcengine": 3,
+        "DeepSeek V3.1 Thinking Volcengine": 4,
         "Doubao 1.6 Thinking": 1,
         "DeepSeek R1 0528": 1,
         "Gemini 2.5 Pro": 1
@@ -4582,7 +4582,7 @@
         "Kimi K2": 1,
         "Gemini 2.5 Pro Max": 0,
         "Gemini 1.5 Pro": 1,
-        "DeepSeek V3.1 Thinking Volcengine": 0.3333333333333333,
+        "DeepSeek V3.1 Thinking Volcengine": 0.25,
         "Doubao 1.6 Thinking": 0,
         "DeepSeek R1 0528": 0,
         "Gemini 2.5 Pro": 0
