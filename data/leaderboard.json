@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2025-09-03T20:59:04.635Z",
-  "nextUpdateTime": "2025-09-04T05:00:00",
+  "updatedAt": "2025-09-03T21:04:06.740Z",
+  "nextUpdateTime": "2025-09-04T06:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
       "tier": "high",
-      "rating": 1728,
+      "rating": 1731,
       "rating_deviation": 35,
-      "volatility": 0.059928519364661974,
+      "volatility": 0.05992724889662338,
       "battles": 113,
       "wins": 62,
       "ties": 13,
@@ -85,9 +85,9 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
-      "rating": 1638,
+      "rating": 1637,
       "rating_deviation": 24,
-      "volatility": 0.06009069177082689,
+      "volatility": 0.06008942483327391,
       "battles": 217,
       "wins": 104,
       "ties": 18,
@@ -133,9 +133,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1620,
+      "rating": 1618,
       "rating_deviation": 25,
-      "volatility": 0.05985794064764569,
+      "volatility": 0.05985869769121416,
       "battles": 195,
       "wins": 94,
       "ties": 12,
@@ -229,9 +229,9 @@
     {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1583,
+      "rating": 1585,
       "rating_deviation": 26,
-      "volatility": 0.05995832096132554,
+      "volatility": 0.059959079562902556,
       "battles": 182,
       "wins": 79,
       "ties": 14,
