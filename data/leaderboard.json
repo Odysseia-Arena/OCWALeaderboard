@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-02T23:59:06.823Z",
-  "nextUpdateTime": "2025-09-03T08:00:00",
+  "updatedAt": "2025-09-03T00:00:18.957Z",
+  "nextUpdateTime": "2025-09-03T09:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -21,9 +21,9 @@
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1718,
+      "rating": 1715,
       "rating_deviation": 27,
-      "volatility": 0.059925275512981865,
+      "volatility": 0.059927516110019674,
       "battles": 71,
       "wins": 45,
       "ties": 7,
@@ -117,9 +117,9 @@
     {
       "model_name": "Doubao 1.6 Thinking",
       "tier": "high",
-      "rating": 1623,
+      "rating": 1624,
       "rating_deviation": 25,
-      "volatility": 0.05982421083973831,
+      "volatility": 0.05982315779995634,
       "battles": 197,
       "wins": 91,
       "ties": 14,
@@ -133,9 +133,9 @@
     {
       "model_name": "Gemini 2.5 Flash",
       "tier": "high",
-      "rating": 1621,
+      "rating": 1624,
       "rating_deviation": 25,
-      "volatility": 0.05984887608386892,
+      "volatility": 0.059851110045273374,
       "battles": 191,
       "wins": 94,
       "ties": 12,
@@ -213,7 +213,7 @@
     {
       "model_name": "DeepSeek V3.1 DS",
       "tier": "high",
-      "rating": 1585,
+      "rating": 1587,
       "rating_deviation": 20,
       "volatility": 0.059830565692888575,
       "battles": 327,
@@ -229,7 +229,7 @@
     {
       "model_name": "GLM 4.5 Air",
       "tier": "high",
-      "rating": 1585,
+      "rating": 1583,
       "rating_deviation": 27,
       "volatility": 0.059970727108051194,
       "battles": 176,
@@ -293,9 +293,9 @@
     {
       "model_name": "Gemini 2.5 Flash Lite",
       "tier": "high",
-      "rating": 1553,
+      "rating": 1550,
       "rating_deviation": 33,
-      "volatility": 0.059925457280572365,
+      "volatility": 0.0599243887603809,
       "battles": 115,
       "wins": 43,
       "ties": 16,
