@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-03T00:59:05.899Z",
-  "nextUpdateTime": "2025-09-03T09:00:00",
+  "updatedAt": "2025-09-03T01:04:05.343Z",
+  "nextUpdateTime": "2025-09-03T10:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -85,17 +85,17 @@
     {
       "model_name": "Claude 3.7 Sonnet",
       "tier": "high",
-      "rating": 1631,
+      "rating": 1632,
       "rating_deviation": 24,
-      "volatility": 0.06006288595479188,
-      "battles": 211,
-      "wins": 99,
+      "volatility": 0.06006209230167133,
+      "battles": 212,
+      "wins": 100,
       "ties": 18,
       "skips": 8,
-      "win_rate_percentage": 53.51,
-      "rating_realtime": 1631,
+      "win_rate_percentage": 53.76,
+      "rating_realtime": 1632,
       "rating_deviation_realtime": 24,
-      "volatility_realtime": 0.06006288595479188,
+      "volatility_realtime": 0.06006209230167133,
       "rank": 6
     },
     {
@@ -227,22 +227,6 @@
       "rank": 14
     },
     {
-      "model_name": "GLM 4.5 Air",
-      "tier": "high",
-      "rating": 1583,
-      "rating_deviation": 27,
-      "volatility": 0.059970727108051194,
-      "battles": 176,
-      "wins": 77,
-      "ties": 12,
-      "skips": 12,
-      "win_rate_percentage": 50.66,
-      "rating_realtime": 1583,
-      "rating_deviation_realtime": 27,
-      "volatility_realtime": 0.059970727108051194,
-      "rank": 15
-    },
-    {
       "model_name": "Grok 3",
       "tier": "low",
       "rating": 1582,
@@ -256,6 +240,22 @@
       "rating_realtime": 1582,
       "rating_deviation_realtime": 29,
       "volatility_realtime": 0.05990889824627916,
+      "rank": 15
+    },
+    {
+      "model_name": "GLM 4.5 Air",
+      "tier": "high",
+      "rating": 1581,
+      "rating_deviation": 27,
+      "volatility": 0.05996993407320365,
+      "battles": 177,
+      "wins": 77,
+      "ties": 12,
+      "skips": 12,
+      "win_rate_percentage": 50.33,
+      "rating_realtime": 1581,
+      "rating_deviation_realtime": 27,
+      "volatility_realtime": 0.05996993407320365,
       "rank": 16
     },
     {
