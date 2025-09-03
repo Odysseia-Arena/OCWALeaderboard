@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-09-03T17:54:07.314Z",
+  "updatedAt": "2025-09-03T17:59:11.188Z",
   "win_rate_matrix": {
     "Claude 3.7 Sonnet": {
       "Claude Opus 4": 0.7142857142857143,
@@ -35,7 +35,7 @@
       "Qwen3 30B A3B Thinking 2507": null,
       "Step 3": null,
       "Anon": 0,
-      "Gemini 2.5 Pro Max": 0.25
+      "Gemini 2.5 Pro Max": 0.2
     },
     "Claude Opus 4": {
       "Claude 3.7 Sonnet": 0.2857142857142857,
@@ -560,7 +560,7 @@
       "Gemini 2.5 Pro": 0.42857142857142855,
       "Gemma 27B": null,
       "GLM 4.5": null,
-      "GLM 4.5 Air": 0.45454545454545453,
+      "GLM 4.5 Air": 0.4166666666666667,
       "GPT 4o Latest": 0.7,
       "GPT 5 Chat": null,
       "GPT 4.1": 0.5,
@@ -701,7 +701,7 @@
       "Ernie 4.5 Turbo 128k Preview": 1,
       "Gemini 1.5 Pro": 0.4,
       "Gemini 2.5 Flash Lite": 0.5,
-      "Gemini 2.5 Flash": 0.5454545454545454,
+      "Gemini 2.5 Flash": 0.5833333333333334,
       "Gemini 2.5 Pro": 0.4444444444444444,
       "Gemma 27B": 0.5,
       "GLM 4.5": 0.5,
@@ -1226,7 +1226,7 @@
       "Gemini 2.5 Pro Max": 0.5
     },
     "Gemini 2.5 Pro Max": {
-      "Claude 3.7 Sonnet": 0.75,
+      "Claude 3.7 Sonnet": 0.8,
       "Claude Opus 4": 1,
       "Claude Opus 4.1": 0.5,
       "Claude Sonnet 4": 1,
@@ -1518,7 +1518,7 @@
       "Gemini 2.5 Flash Lite": 2,
       "Gemini 2.5 Pro": 7,
       "Ernie 4.5 Turbo 128k Preview": 1,
-      "GLM 4.5 Air": 12,
+      "GLM 4.5 Air": 13,
       "Gemini 1.5 Pro": 6,
       "DeepSeek R1 0528": 5,
       "Claude Opus 4.1": 1,
@@ -1848,7 +1848,7 @@
       "Llama 4 Maverick": 2,
       "DeepSeek V3.1 Thinking Volcengine": 19,
       "Claude Opus 4.1": 8,
-      "Gemini 2.5 Pro Max": 6,
+      "Gemini 2.5 Pro Max": 7,
       "GLM 4.5 Air": 11,
       "Anon": 2,
       "DeepSeek V3": 1,
@@ -1882,7 +1882,7 @@
       "Doubao 1.6 Thinking": 5,
       "Qwen 235B A22B Instruct 2507": 8,
       "Claude 3.7 Sonnet": 11,
-      "Gemini 2.5 Flash": 12,
+      "Gemini 2.5 Flash": 13,
       "GPT 4o Latest": 4,
       "Gemini 2.5 Pro Max": 3,
       "Anon": 3,
@@ -2165,7 +2165,7 @@
       "GPT 5 Chat": 1,
       "Claude Opus 4.1": 6,
       "Gemini 2.5 Pro": 5,
-      "Claude 3.7 Sonnet": 6,
+      "Claude 3.7 Sonnet": 7,
       "DeepSeek V3.1 Volcengine": 3,
       "Gemini 2.5 Pro Deepthink": 1,
       "Gemini 1.5 Pro": 1,
