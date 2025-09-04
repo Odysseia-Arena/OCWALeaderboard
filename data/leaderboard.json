@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2025-09-04T00:59:07.279Z",
-  "nextUpdateTime": "2025-09-04T09:00:00",
+  "updatedAt": "2025-09-04T01:04:06.118Z",
+  "nextUpdateTime": "2025-09-04T10:00:00",
   "leaderboard": [
     {
       "model_name": "Gemini 2.5 Pro Max",
@@ -21,9 +21,9 @@
     {
       "model_name": "Anon",
       "tier": "high",
-      "rating": 1715,
-      "rating_deviation": 27,
-      "volatility": 0.059927516110019674,
+      "rating": 1712,
+      "rating_deviation": 26,
+      "volatility": 0.05993069862317458,
       "battles": 72,
       "wins": 45,
       "ties": 7,
@@ -211,6 +211,22 @@
       "rank": 13
     },
     {
+      "model_name": "GLM 4.5 Air",
+      "tier": "high",
+      "rating": 1588,
+      "rating_deviation": 26,
+      "volatility": 0.05996226731186144,
+      "battles": 183,
+      "wins": 80,
+      "ties": 14,
+      "skips": 12,
+      "win_rate_percentage": 50.96,
+      "rating_realtime": 1588,
+      "rating_deviation_realtime": 26,
+      "volatility_realtime": 0.05996226731186144,
+      "rank": 14
+    },
+    {
       "model_name": "Claude Sonnet 4",
       "tier": "high",
       "rating": 1587,
@@ -224,22 +240,6 @@
       "rating_realtime": 1587,
       "rating_deviation_realtime": 21,
       "volatility_realtime": 0.05989489677001259,
-      "rank": 14
-    },
-    {
-      "model_name": "GLM 4.5 Air",
-      "tier": "high",
-      "rating": 1585,
-      "rating_deviation": 26,
-      "volatility": 0.059959079562902556,
-      "battles": 183,
-      "wins": 80,
-      "ties": 14,
-      "skips": 12,
-      "win_rate_percentage": 50.96,
-      "rating_realtime": 1588,
-      "rating_deviation_realtime": 26,
-      "volatility_realtime": 0.05996226731186144,
       "rank": 15
     },
     {
